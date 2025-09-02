@@ -1,4 +1,4 @@
-# Website
+# [Website](https://www.source2.wiki/)
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
