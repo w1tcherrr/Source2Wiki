@@ -40,6 +40,35 @@ Annoyingly the [naming convention](https://en.wikipedia.org/wiki/Naming_conventi
 Would be nice to have info on which nodes exists in what vmap version, and possibly even game specific vmap nodes.
 :::
 
+### "$prefix_element$"
+
+The prefix element section is a DataModel feature allowing formats to store metadata, in vmaps it is used to store the map thumbnail and asset references.
+
+```json
+"$prefix_element$"
+{
+	"id" "elementid" "836b03ef-c2a5-41a2-a13e-308a114a46b7"
+	"asset_preview_thumbnail" "binary" 
+	"
+		FFD8FFE000104A46494600010101006000600000FFDB004300030202030202030303030403030405
+		0805050404050A070706080C0A0C0C0B0A0B0B0D...(shortened for example)
+	"
+	"asset_preview_thumbnail_format" "string" "jpg"
+	"map_asset_references" "string_array" 
+	[
+		"materials/dev/reflectivity_30.vmat"
+	]
+}
+
+- asset_preview_thumbnail \<`binary`\>\
+	A binary blow storing the map thumbnail image.
+
+- asset_preview_thumbnail_format \<`string`\>\
+	Stores the format of the asset_preview_thumbnail image. 
+
+- map_asset_references \<`string_array`\>\
+	An array of every asset used in this map.
+
 ### DMElement
 
 Not a vmap node, but the base DataModel element that every other node inherits from, All nodes have these properties.
@@ -339,13 +368,13 @@ Unknown. Prefabs have this option in order to prevent name collisions, why would
 		For 3D skyboxes.
 
 	- minigame\
-		Unknown.
+		Used in Dota 2 for Crownfall Act 4.
 
 	- sharedenvironment\
 		Unknown.
 
 - randomSeed \<`int`\>\
-	Unknown. Perhaps used for *something* that needs a random seed, but that, and why can you set it?
+	Unknown. Perhaps used for *something* that needs a random seed, but what, and why can you set it?
 
 ### CStoredCamera
 
@@ -625,19 +654,19 @@ Stores map variables.
 }
 ```
 
-- variableNames \<`string_array`\>\\
+- variableNames \<`string_array`\>\
 	The name of the map variable.
 
-- variableValues \<`string_array`\>\\
+- variableValues \<`string_array`\>\
 	The value of the map variable.
 
-- variableTypeNames \<`string_array`\>\\
+- variableTypeNames \<`string_array`\>\
 	The type of the map variable, like `string`.
 
-- variableTypeParameters \<`string_array`\>\\
+- variableTypeParameters \<`string_array`\>\
 	The type paremeter of the map variable, not sure what this is.
 
-- m_ChoiceGroups \<`element_array`\>\\
+- m_ChoiceGroups \<`element_array`\>\
 	Not sure what this does either, but takes a [CMapVariableChoiceGroup](#cmapvariablechoicegroup) object.
 
 ### CMapVariableChoiceGroup
@@ -655,7 +684,302 @@ A map variable choice group.
 }
 ```
 
-- name \<`string`\>\\
+- name \<`string`\>\
 	The name of the choice group.
 
 Honestly not even gonna try to pretend like I understand these, if you do, feel free to complete this list. 
+
+:::info
+The following mesh related nodes will only be explained in short as they are quite complex, an in-depth explanation can be found in the [Hammer meshes](#hammer-meshes) section of this page.
+:::
+
+### CMapMesh
+#### Inherits from [MapNode](#mapnode) 
+
+A Hammer mesh. 
+
+Inherited properties will be ommited below due to the large size of this node.
+```json
+"CMapMesh"
+{
+	"id" "elementid" "581ccd67-3a41-4d2a-b6b0-8cf6fbbe493e"
+	"meshData" "CDmePolygonMesh"
+	"disableShadows" "int" "0"
+	"bakelighting" "bool" "1"
+	"cubeMapName" "string" ""
+	"emissiveLightingEnabled" "bool" "1"
+	"emissiveLightingBoost" "float" "1"
+	"lightingDummy" "bool" "0"
+
+	"visexclude" "bool" "0"
+	"disablemerging" "bool" "0"
+	"renderwithdynamic" "bool" "0"
+	"renderToCubemaps" "bool" "1"
+	"keep_vertices" "bool" "0"
+	"fademindist" "float" "-1"
+	"fademaxdist" "float" "0"
+
+	"disableHeightDisplacement" "bool" "0"
+	"smoothingAngle" "float" "40"
+	"tintColor" "color" "255 255 255 255"
+	"renderAmt" "int" "255"
+	"physicsType" "string" "default"
+	"physicsCollisionProperty" "string" ""
+	"physicsGroup" "string" ""
+
+	"physicsInteractsAs" "string" ""
+	"physicsInteractsWith" "string" ""
+	"physicsInteractsExclude" "string" ""
+	"physicsSimplificationOverride" "bool" "0"
+	"physicsSimplificationError" "float" "0"
+}
+```
+
+- meshData \<`CDmePolygonMesh`\>\
+	A [CDmePolygonMesh](#cdmepolygonmesh) element storing all the polygon mesh information.
+
+- disableShadows \<`bool`\>\
+	When true causes this mesh to not cast any shadows.
+
+- bakelighting \<`bool`\>\
+	When true will stop lighting from being baked on this mesh.
+
+- cubeMapName \<`string`\>\
+	Used to manually assign a named env_cubemap, env_cubemap_box or env_combined_light_probe_volume to a mesh.
+	:::info
+	This forces the mesh into a slower rendering path and does not support the explicit assignment of lightprobes. Use with caution.
+	:::
+
+- emissiveLightingEnabled \<`bool`\>\
+	Allow this mesh to emit lighting. Note that this only works on materials with Self Illum parameters, and is only visible in the GPU Path Tracing Preview and in the final lightmap bake.
+
+- emissiveLightingBoost \<`float`\>\
+	Used to boost emissive lighting from a mesh. Note that boosting emissive on smaller meshes can create more lighting artifacts/noise.
+
+- lightingDummy \<`bool`\>\
+	Causes the mesh to contribute to lighting, but not render in the final map.
+
+- visexclude \<`bool`\>\
+	When true forces this mesh to not contribute to VIS.
+
+- disablemerging \<`bool`\>\
+	When true, disables compile time mesh merging, meaning this mesh wont merge with meshes sharing the same material.
+
+- renderwithdynamic \<`bool`\>\
+	When true causes this mesh to render in the dynamic pass, with other dynamic entities like players.
+
+- keep_vertices \<`bool`\>\
+	Unknown.
+
+- fademindist \<`float`\>\
+	The distance at which this mesh will start to fade.
+
+- fademaxdist \<`float`\>\
+	The distance at which this mesh is entirely invisible.
+
+- disableHeightDisplacement \<`bool`\>\
+	When true it disables displacement.
+
+- smoothingAngle \<`float`\>\
+	The minimum angle for an edge to automatically become smooth. 
+
+- tintColor \<`Color`\>\
+	Tints the mesh.
+
+- renderAmt \<`float`\>\
+	The alpha transparency of the mesh.
+
+- physicsType \<`string`\>\
+	The physics type of the mesh.
+
+	- none\
+		Not solid.
+
+	- default\
+		Seems to be `mesh` by default.
+
+	- convex_single\
+		A single convex hull
+
+	- convex_multi\
+		Multiple convex hulls (per piece?)
+
+	- mesh\
+		A triangle mesh.
+
+- physicsCollisionProperty \<`string`\>\
+	If specified, provides the name of an entry in scripts/collision_properties.txt that specifies the collision group and interaction layers to use, rather than those specified in the material. 
+
+- physicsGroup \<`string`\>\
+	Directly specifies the name of a collision group to assign to the mesh, replaces any group specified by the material or collision property.
+
+- physicsInteractsAs \<`string`\>\
+	Specifies additional interaction layers to append to the set of Interacts As layers assigned to the mesh.
+
+- physicsInteractsWith \<`string`\>\
+	Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
+
+- physicsInteractsExclude \<`string`\>\
+	Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
+
+- physicsSimplificationOverride \<`bool`\>\
+	Unknown. Possibly forces physics simplification on/off?
+
+- physicsSimplificationError \<`float`\>\
+	The error permitted when simplifying the geometry of this mesh into a physics mesh.
+
+### CDmePolygonMesh
+
+This element contains all of the half-edge polygon data of a hammer mesh.
+
+```json
+"meshData" "CDmePolygonMesh"
+{
+	"id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
+	"name" "string" "meshData"
+	"vertexEdgeIndices" "int_array" 
+	"vertexDataIndices" "int_array" 
+	"edgeVertexIndices" "int_array" 
+	"edgeOppositeIndices" "int_array" 
+	"edgeNextIndices" "int_array" 
+	"edgeFaceIndices" "int_array" 
+	"edgeDataIndices" "int_array" 
+	"edgeVertexDataIndices" "int_array" 
+	"faceEdgeIndices" "int_array" 
+	"faceDataIndices" "int_array" 
+	"materials" "string_array" 
+	"vertexData" "CDmePolygonMeshDataArray"
+	"faceVertexData" "CDmePolygonMeshDataArray"
+	"edgeData" "CDmePolygonMeshDataArray"
+	"faceData" "CDmePolygonMeshDataArray"
+	"subdivisionData" "CDmePolygonMeshSubdivisionData"
+}
+```
+
+- name \<`string`\>\
+	Seems to always be `meshData`.
+
+- vertexEdgeIndices \<`int_array`\>\
+	An index to one of the half-edges starting from this vertex.
+
+- vertexDataIndices \<`int_array`\>\
+	Index to the `VertexData` streams.
+
+- edgeVertexIndices \<`int_array`\>\
+	The destination vertex of this half-edge.
+
+- edgeOppositeIndices \<`int_array`\>\
+	Index to the twin of this half-edge.
+
+- edgeNextIndices \<`int_array`\>\
+	Index to the half-edge that this half-edge points to.
+
+- edgeFaceIndices \<`int_array`\>\
+	Index to the face this half-edge is part of, -1 if the half edge is next to the void (external half-edge).
+
+- edgeDataIndices \<`int_array`\>\
+	Per half-edge index to `EdgeData` streams.
+
+- edgeVertexDataIndices \<`int_array`\>\
+	Per half-edge index to `FaceVertexData` streams.
+
+- faceEdgeIndices \<`int_array`\>\
+	Per face index to one of the **inner** edges encapsulating this face. This effectively is what encodes faces in the mesh, one entry here is one face.
+
+- faceDataIndices \<`int_array`\>\
+	Per Face index to `FaceData` streams.
+
+- materials \<`string_array`\>\
+	A list of every material used in the mesh, without duplicates, this will be indexed into by `meshindex` in the `FaceData` stream.
+
+- vertexData \<`CDmePolygonMeshDataArray`\>\
+	Stores vertex positions.
+
+- faceVertexData \<`CDmePolygonMeshDataArray`\>\
+	Stores per half-edge information for face vertex uv, normal, tangent, etc.
+
+- edgeData \<`CDmePolygonMeshDataArray`\>\
+	Stores edge data such as soft or hard normals.
+
+- faceData \<`CDmePolygonMeshDataArray`\>\
+	Stores face data such as texture scale, UV offset, material, lightmap bias.
+
+- subdivisionData \<`CDmePolygonMeshSubdivisionData`\>\
+	Data representing the subdivided surface of the mesh.
+
+### CDmePolygonMeshDataArray
+
+An array of CDmePolygonMeshDataStream elements.
+
+```json
+"vertexData" "CDmePolygonMeshDataArray"
+{
+	"id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
+	"size" "int" "4"
+	"streams" "element_array" 
+}
+```
+
+- size \<`int`\>\
+	The amount of elements in the arrays.
+
+- streams \<`element_array`\>\
+	An array of `CDmePolygonMeshDataStream` elements.
+
+### CDmePolygonMeshDataStream
+
+A data stream.
+
+```json
+"CDmePolygonMeshDataStream"
+{
+	"id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
+	"name" "string" "position:0"
+	"standardAttributeName" "string" "position"
+	"semanticName" "string" "position"
+	"semanticIndex" "int" "0"
+	"vertexBufferLocation" "int" "0"
+	"dataStateFlags" "int" "3"
+	"subdivisionBinding" "element" ""
+	"data" "vector3_array" 
+}
+```
+
+## Hammer meshes
+
+Source2 Hammer is also a modeling tool allowing users to create complex 3D meshes, due to this the format for its meshes is quite complex.
+
+### Explanation of half-edge meshes
+
+Hammer meshes are stored in a format known as a [half-edge data structure](https://en.wikipedia.org/wiki/Doubly_connected_edge_list), 
+this format is widely used to represent polygonal meshes by many DCC apps such as Blender due to its efficient manipulation of topology and ability to handle polygons with an arbitrary amount of sides, making it easy to edit the mesh.
+
+Below is an example of how a simple quad is represented using half edges, the blue half edges are internal edges, and the green ones are external.
+![half-edge example](./half-edge-example.png "Half-Edge Example")
+
+:::info
+[This site](https://jerryyin.info/geometry-processing-algorithms/half-edge/) offers a great interactive playground showcasing how half-edge meshes work.\
+An implementation of how to write hammer meshes can be found in the map decompilation code of <Tool name="github" suffix="VRF (s2v)" link="https://github.com/ValveResourceFormat/ValveResourceFormat/blob/master/ValveResourceFormat/IO/HammerMeshBuilder.cs"/>
+
+From this point on it will be assumed that you have at least a basic understanding of half-edge meshes.
+:::
+
+
+### Topology limitations
+
+:::warning
+It is impossible to represent non-manifold meshes such as a [Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip) as a hammer mesh!
+
+Due to the nature of half-edge meshes, it can only represent [manifold](https://en.wikipedia.org/wiki/Manifold) geometry, arbitrary 3D [triangle meshes](https://en.wikipedia.org/wiki/Triangle_mesh) used in video game levels can and will often
+violate this, in which case converting from arbitrary triangle meshes to half-edge meshes needs careful sanitisation of the topology! When using the 
+"Convert Models To Hammer Mesh" option, Hammer usually simply *deletes* the offending faces. Due to this it is not recommended to be used for converting complex models to hammer meshes. 
+:::
+
+Below is a list of potential topology issues you might encounter while converting triangle meshes to half-edge meshes, taken out of Hammer's system for doing this.
+
+- Face specified an edge which already had two faces attached (this will fail because half-edge only supports two faces being linked by an edge, due to only ever being two twins forming one edge by definition.).
+- Face specified a vertex which had edges attached, but none that were open.
+- Face specified a vertex that had multiple open edges and did not connect to any existing edge.
+- Face specified two edges that are connected by a vertex but have one or more existing edges separating them.
+
+### Anatomy of a Hammer mesh
