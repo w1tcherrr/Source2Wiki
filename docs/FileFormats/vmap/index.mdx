@@ -1019,3 +1019,140 @@ Below is a list of potential topology issues you might encounter while convertin
 - Face specified two edges that are connected by a vertex but have one or more existing edges separating them.
 
 ### Anatomy of a Hammer mesh
+
+This section will go over how meshes are stored in the vmap, and how to read them.
+
+#### Explanation of [CDmePolygonMesh](#cdmepolygonmesh)
+
+This element stores all the half-edge information describing the mesh, below is an example of a mesh describing a simple quad.
+
+:::note
+The mesh below is missing all data streams apart from `vertexData` which contains vertex positions, this is the only stream strictly necessary to the explanation. 
+:::
+
+```json
+"meshData" "CDmePolygonMesh"
+{
+	"id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
+	"name" "string" "meshData"
+	"vertexEdgeIndices" "int_array" 
+	[
+		"7", "1", "5", "3"
+	]
+	"vertexDataIndices" "int_array" 
+	[
+		"0", "1", "2", "3"
+	]
+	"edgeVertexIndices" "int_array" 
+	[
+		"1", "0", "3", "1", "2", "3", "0", "2"
+	]
+	"edgeOppositeIndices" "int_array" 
+	[
+		"1", "0", "3", "2", "5", "4", "7", "6"
+	]
+	"edgeNextIndices" "int_array" 
+	[ 
+		"2", "7", "4", "1", "6", "3", "0", "5"
+	]
+	"edgeFaceIndices" "int_array" 
+	[
+		"0", "-1", "0", "-1", "0", "-1", "0", "-1"
+	]
+	"edgeDataIndices" "int_array" 
+	[
+		"0", "0", "1", "1", "2", "2", "3", "3"
+	]
+	"edgeVertexDataIndices" "int_array" 
+	[
+		"1", "0", "3", "2", "5", "4", "7", "6"
+	]
+	"faceEdgeIndices" "int_array" 
+	[
+		"6"
+	]
+	"faceDataIndices" "int_array" 
+	[
+		"0"
+	]
+	"materials" "string_array" 
+	[
+		"materials/dev/reflectivity_30.vmat"
+	]
+	"vertexData" "CDmePolygonMeshDataArray"
+	{
+		"id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
+		"size" "int" "4"
+		"streams" "element_array" 
+		[
+			"CDmePolygonMeshDataStream"
+			{
+				"id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
+				"name" "string" "position:0"
+				"standardAttributeName" "string" "position"
+				"semanticName" "string" "position"
+				"semanticIndex" "int" "0"
+				"vertexBufferLocation" "int" "0"
+				"dataStateFlags" "int" "3"
+				"subdivisionBinding" "element" ""
+				"data" "vector3_array" 
+				[
+					"-64 -64 0",
+					"64 -64 0",
+					"-64 64 0",
+					"64 64 0"
+				]
+			}
+		]
+	}
+}
+```
+
+At first glance this might seem intimidating, but its actually quite easy to read, we will show how to read the mesh manually 
+and sketch it "on paper" which is really helpful for debugging but this explanation should also be easily translatable to code.
+
+First, we need to look at the `vertexData` stream, and plot the vertex positions in the `data` field, and index them as we go.
+
+:::info
+An easy way to do this is by just pasting the positions into the origin field of a hammer entity.
+:::
+
+Heres the result:
+
+![Reading half edge mesh example 1](./halfedge-reading-1.png)
+
+Next, we want to draw out the half edges, for this we need to look at the `edgeVertexIndices` and `edgeFaceIndices` lists.
+
+In `edgeVertexIndices` the first index is `1`, this means that the first half-edge **points** at the second vertex, the vertex with index 1.
+
+Next, we want to determine if this in an internal or external half edge, for this we need to look at `edgeFaceIndices`, the first index is `0`, which means the half-edge is part of the first (and only) face meaning its internal.
+
+This might not seem like enough to determine which half edge is pointing to vertex index 1, but it is, due to the winding order of internal half-edges always being 
+**clockwise**, and external half edges always being in the opposite direction of internal ones, we only have two candidates.
+
+![Reading half edge mesh example 2](./halfedge-reading-2.png)
+
+As seen in the image above, since we already determined that our half-edge is internal, which means its on the inside of the face, this narrows it down to one half edge.
+
+Great! we have now read our first half-edge, we will also need to index these so write down a `0` next to this one, now on to the second one, we can repeat the steps from above.
+
+In `edgeVertexIndices` the second index is `0`, this means that the second half-edge points at the first vertex.
+In `edgeFaceIndices` the second index is `-1`, this means that the second half-edge is an external half edge.
+
+We can apply the same logic from above to arrive at this:
+
+![Reading half edge mesh example 3](./halfedge-reading-3.png)
+
+We can verify our work by checking the `edgeOppositeIndices` array, the first index is `1` and the second is `0`, this means that the first half-edge is opposing the second, and the second is opposing the first, which matches our image.
+
+We will now skip ahead to the next two half edges.
+
+![Reading half edge mesh example 4](./halfedge-reading-4.png)
+
+Now that we have half-edges on multiple sides of the face, we can further check our work by looking at the `edgeNextIndices` array.
+
+The first index is `2` meaning the first half-edge points to the half-edge with index 2, checking half-edge index 3 in that array we can see its meant to point to half-edge index 1, our image aligns with this which means it is correct! 
+
+We can now skip to the finished image.
+
+![Reading half edge mesh example 5](./halfedge-reading-5.png)
