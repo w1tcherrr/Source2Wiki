@@ -945,6 +945,42 @@ A data stream.
 }
 ```
 
+- name \<`string`\>\
+	Seems to be `semanticName`:`semanticIndex`, not sure why they store this separately here.
+
+- standardAttributeName \<`string`\>\
+	Seems to be the same as semanticName.
+
+- semanticName \<`string`\>\
+	The name of the stream.
+	
+	Known names:
+	- position
+	- normal
+	- tangent
+	- texcoord
+	- lightmapScaleBias
+	- flags
+	- materialindex
+	- textureAxisU
+	- textureAxisV
+	- textureScale
+
+- semanticIndex \<`int`\>\
+	Index of the stream.
+
+- vertexBufferLocation \<`int`\>\
+	Unknown.
+
+- dataStateFlags \<`int`\>\
+	Unknown.
+
+- subdivisionBinding \<`element`\>\
+	Seems related to how data on subdivided meshes is handled.
+
+- data \<`int | vector2_array | vector3_array | vector4_array`\>\
+	The data stored in this stream, can be an int, vector2, vector3, or vector4 array.
+
 ## Hammer meshes
 
 Source2 Hammer is also a modeling tool allowing users to create complex 3D meshes, due to this the format for its meshes is quite complex.
