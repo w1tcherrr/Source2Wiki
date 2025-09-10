@@ -47,27 +47,28 @@ The prefix element section is a DataModel feature allowing formats to store meta
 ```json
 "$prefix_element$"
 {
-	"id" "elementid" "836b03ef-c2a5-41a2-a13e-308a114a46b7"
-	"asset_preview_thumbnail" "binary" 
-	"
-		FFD8FFE000104A46494600010101006000600000FFDB004300030202030202030303030403030405
-		0805050404050A070706080C0A0C0C0B0A0B0B0D...(shortened for example)
-	"
-	"asset_preview_thumbnail_format" "string" "jpg"
-	"map_asset_references" "string_array" 
-	[
-		"materials/dev/reflectivity_30.vmat"
-	]
+    "id" "elementid" "836b03ef-c2a5-41a2-a13e-308a114a46b7"
+    "asset_preview_thumbnail" "binary" 
+    "
+        FFD8FFE000104A46494600010101006000600000FFDB004300030202030202030303030403030405
+        0805050404050A070706080C0A0C0C0B0A0B0B0D...(shortened for example)
+    "
+    "asset_preview_thumbnail_format" "string" "jpg"
+    "map_asset_references" "string_array" 
+    [
+        "materials/dev/reflectivity_30.vmat"
+    ]
 }
+```
 
 - asset_preview_thumbnail \<`binary`\>\
-	A binary blow storing the map thumbnail image.
+    A binary blow storing the map thumbnail image.
 
 - asset_preview_thumbnail_format \<`string`\>\
-	Stores the format of the asset_preview_thumbnail image. 
+    Stores the format of the asset_preview_thumbnail image. 
 
 - map_asset_references \<`string_array`\>\
-	An array of every asset used in this map.
+    An array of every asset used in this map.
 
 ### DMElement
 
@@ -86,31 +87,31 @@ This is the main element of the vmap, it contains a few map specific properties 
 ```json
 "CMapRootElement"
 {
-	"isprefab" "bool" "0"
-	"editorbuild" "int" "10533"
-	"editorversion" "int" "400"
-	"itemFile" "string" ""
+    "isprefab" "bool" "0"
+    "editorbuild" "int" "10533"
+    "editorversion" "int" "400"
+    "itemFile" "string" ""
 
-	"defaultcamera" "CStoredCamera"
-	"3dcameras" "CStoredCameras"
-	
-	"world" "CMapWorld" 
-	"visbility" "CVisibilityMgr"
-	
-	"mapVariables" "CMapVariableSet"
+    "defaultcamera" "CStoredCamera"
+    "3dcameras" "CStoredCameras"
+    
+    "world" "CMapWorld" 
+    "visbility" "CVisibilityMgr"
+    
+    "mapVariables" "CMapVariableSet"
 
-	"rootSelectionSet" "CMapSelectionSet"
-	
-	"m_ReferencedMeshSnapshots" "element_array" 
-	[
-	]
+    "rootSelectionSet" "CMapSelectionSet"
+    
+    "m_ReferencedMeshSnapshots" "element_array" 
+    [
+    ]
 
-	"m_bIsCordoning" "bool" "0"
-	"m_bCordonsVisible" "bool" "0"
+    "m_bIsCordoning" "bool" "0"
+    "m_bCordonsVisible" "bool" "0"
 
-	"nodeInstanceData" "element_array" 
-	[
-	]
+    "nodeInstanceData" "element_array" 
+    [
+    ]
 }
 ```
 
@@ -163,22 +164,22 @@ This is not a real vmap node, but most nodes have these properties so it seems l
 ```json
 "MapNode"
 {
-	"id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
-	"nodeID" "int" "1"
-	"referenceID" "uint64" "0x0"
-	"children" "element_array"
+    "id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
+    "nodeID" "int" "1"
+    "referenceID" "uint64" "0x0"
+    "children" "element_array"
 
-	"variableTargetKeys" "string_array" 
-	"variableNames" "string_array" 
+    "variableTargetKeys" "string_array" 
+    "variableNames" "string_array" 
 
-	"origin" "vector3" "0 0 0"
-	"angles" "qangle" "0 0 0"
-	"scales" "vector3" "1 1 1"
+    "origin" "vector3" "0 0 0"
+    "angles" "qangle" "0 0 0"
+    "scales" "vector3" "1 1 1"
 
-	"transformLocked" "bool" "0"
-	"force_hidden" "bool" "0"
-	"editorOnly" "bool" "0"
-	"customVisGroup" "string" ""
+    "transformLocked" "bool" "0"
+    "force_hidden" "bool" "0"
+    "editorOnly" "bool" "0"
+    "customVisGroup" "string" ""
 }
 ```
 - nodeID \<`int`\>\
@@ -231,7 +232,7 @@ Unknown.
 
 - connectionsData \<`element_array`\>\
 IO Outputs, contains [DmeConnectionData](#dmeconnectiondata) elements.
-	
+    
 - entity_properties \<[EditGameClassProps](#editgameclassprops)\>\
 A string -> string dictionary of entity keyvalues. 
 
@@ -242,19 +243,19 @@ Unknown.
 ```json
 "relayPlugData" "DmePlugList"
 {
-	"id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
-	"names" "string_array" 
-	[
-	]
-	"dataTypes" "int_array" 
-	[
-	]
-	"plugTypes" "int_array" 
-	[
-	]
-	"descriptions" "string_array" 
-	[
-	]
+    "id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
+    "names" "string_array" 
+    [
+    ]
+    "dataTypes" "int_array" 
+    [
+    ]
+    "plugTypes" "int_array" 
+    [
+    ]
+    "descriptions" "string_array" 
+    [
+    ]
 }
 ```
 
@@ -277,14 +278,14 @@ An entity Output.
 ```json
 "DmeConnectionData"
 {
-	"id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
-	"outputName" "string" "OnUser1"
-	"targetType" "int" "7"
-	"targetName" "string" "!self"
-	"inputName" "string" "FireUser1"
-	"overrideParam" "string" "overrideExample"
-	"delay" "float" "0"
-	"timesToFire" "int" "-1"
+    "id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
+    "outputName" "string" "OnUser1"
+    "targetType" "int" "7"
+    "targetName" "string" "!self"
+    "inputName" "string" "FireUser1"
+    "overrideParam" "string" "overrideExample"
+    "delay" "float" "0"
+    "timesToFire" "int" "-1"
 }
 ```
 
@@ -322,27 +323,27 @@ This is the main element that contains everything in the vmap, its also the enti
 ```json
 "world" "CMapWorld"
 {
-	"id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
+    "id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
 
-	"children" "element_array"
+    "children" "element_array"
 
-	"variableTargetKeys" "string_array" 
-	"variableNames" "string_array" 
-	"relayPlugData" "DmePlugList"
-	"connectionsData" "element_array" 
-	"nextDecalID" "int" "0"
-	"fixupEntityNames" "bool" "1"
-	"mapUsageType" "string" "standard"
-	"origin" "vector3" "0 0 0"
-	"angles" "qangle" "0 0 0"
-	"scales" "vector3" "1 1 1"
-	"transformLocked" "bool" "0"
-	"force_hidden" "bool" "0"
-	"editorOnly" "bool" "0"
-	"customVisGroup" "string" ""
-	"randomSeed" "int" "1641157616"
-	
-	"entity_properties" "EditGameClassProps"
+    "variableTargetKeys" "string_array" 
+    "variableNames" "string_array" 
+    "relayPlugData" "DmePlugList"
+    "connectionsData" "element_array" 
+    "nextDecalID" "int" "0"
+    "fixupEntityNames" "bool" "1"
+    "mapUsageType" "string" "standard"
+    "origin" "vector3" "0 0 0"
+    "angles" "qangle" "0 0 0"
+    "scales" "vector3" "1 1 1"
+    "transformLocked" "bool" "0"
+    "force_hidden" "bool" "0"
+    "editorOnly" "bool" "0"
+    "customVisGroup" "string" ""
+    "randomSeed" "int" "1641157616"
+    
+    "entity_properties" "EditGameClassProps"
 }
 ```
 
@@ -356,25 +357,25 @@ Unknown.
 Unknown. Prefabs have this option in order to prevent name collisions, why would the main VMAP need this tho?
 
 - mapUsageType \<`string`\>\
-	The type of the map.
+    The type of the map.
 
-	- standard\
-		For normal maps.
+    - standard\
+        For normal maps.
 
-	- background\
-		For CS2 background UI maps. 
+    - background\
+        For CS2 background UI maps. 
 
-	- skybox\
-		For 3D skyboxes.
+    - skybox\
+        For 3D skyboxes.
 
-	- minigame\
-		Used in Dota 2 for Crownfall Act 4.
+    - minigame\
+        Used in Dota 2 for Crownfall Act 4.
 
-	- sharedenvironment\
-		Unknown.
+    - sharedenvironment\
+        Unknown.
 
 - randomSeed \<`int`\>\
-	Unknown. Perhaps used for *something* that needs a random seed, but what, and why can you set it?
+    Unknown. Perhaps used for *something* that needs a random seed, but what, and why can you set it?
 
 ### CStoredCamera
 
@@ -383,16 +384,16 @@ An editor camera.
 ```json
 "defaultcamera" "CStoredCamera"
 {
-	"id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
-	"position" "vector3" "-291.7109680176 -261.1103210449 217.3533782959"
-	"lookat" "vector3" "-291.8317871094 -260.2921142578 216.7912902832"
+    "id" "elementid" "53f14a8f-0ac6-4fba-a836-7d85d70bf641"
+    "position" "vector3" "-291.7109680176 -261.1103210449 217.3533782959"
+    "lookat" "vector3" "-291.8317871094 -260.2921142578 216.7912902832"
 }
 ```
 - position \<`vector3`\>\
-	The position of the camera.
+    The position of the camera.
 
 - lookat \<`vector3`\>\
-	This is the origin offset by one unit along the look vector.
+    This is the origin offset by one unit along the look vector.
 
 ### CStoredCameras
 
@@ -405,17 +406,17 @@ When are multiple editor cameras stored in the vmap?
 ```json
 "3dcameras" "CStoredCameras"
 {
-	"id" "elementid" "21382dc1-34f4-4dc1-b017-0f431fddfdd5"
-	"activecamera" "int" "-1"
-	"cameras" "element_array" 
+    "id" "elementid" "21382dc1-34f4-4dc1-b017-0f431fddfdd5"
+    "activecamera" "int" "-1"
+    "cameras" "element_array" 
 }
 ```
 
 - activecamera \<`int`\>\
-	The current active camera index.
+    The current active camera index.
 
 - cameras \<`element_array`\>\
-	An array of [CStoredCamera](#cstoredcamera) elements.
+    An array of [CStoredCamera](#cstoredcamera) elements.
 
 ### CVisibilityMgr
 #### Inherits from [MapNode](#mapnode)
@@ -429,45 +430,45 @@ Why is this a node? can you select this in Hammer somehow? It seems to always be
 ```json
 "visbility" "CVisibilityMgr"
 {
-	"id" "elementid" "ce0026f6-da81-41e3-9267-3d2bdadba660"
-	"nodeID" "int" "0"
-	"referenceID" "uint64" "0x0"
-	"children" "element_array" 
-	"variableTargetKeys" "string_array" 
-	"variableNames" "string_array" 
-	"nodes" "element_array" 
-	"hiddenFlags" "int_array" `
-	"origin" "vector3" "0 0 0"
-	"angles" "qangle" "0 0 0"
-	"scales" "vector3" "1 1 1"
-	"transformLocked" "bool" "0"
-	"force_hidden" "bool" "0"
-	"editorOnly" "bool" "0"
-	"customVisGroup" "string" ""
-	"randomSeed" "int" "634985197"
+    "id" "elementid" "ce0026f6-da81-41e3-9267-3d2bdadba660"
+    "nodeID" "int" "0"
+    "referenceID" "uint64" "0x0"
+    "children" "element_array" 
+    "variableTargetKeys" "string_array" 
+    "variableNames" "string_array" 
+    "nodes" "element_array" 
+    "hiddenFlags" "int_array" `
+    "origin" "vector3" "0 0 0"
+    "angles" "qangle" "0 0 0"
+    "scales" "vector3" "1 1 1"
+    "transformLocked" "bool" "0"
+    "force_hidden" "bool" "0"
+    "editorOnly" "bool" "0"
+    "customVisGroup" "string" ""
+    "randomSeed" "int" "634985197"
 }
 ```
 
 - nodes \<`element_array`\>\
-	Every node in the map which can be hidden.
+    Every node in the map which can be hidden.
 
 - hiddenFlags \<`int_array`\>\
-	Per node hide flags, this array indexes into the `nodes` element array.
+    Per node hide flags, this array indexes into the `nodes` element array.
 
-	- 0\
-	Visible.
+    - 0\
+    Visible.
 
-	- 1\
-	Selection set.
+    - 1\
+    Selection set.
 
-	- 2\
-	Unknown.
+    - 2\
+    Unknown.
 
-	- 3\
-	Unknown.
+    - 3\
+    Unknown.
 
-	- 4\
-	Quick hide.
+    - 4\
+    Quick hide.
 
 ### CMapSelectionSet
 
@@ -476,58 +477,58 @@ A selection set.
 ```json
 "CMapSelectionSet"
 {
-	"id" "elementid" "2fa0034b-467f-4a4f-aa22-a432a2fee57c"
-	"children" "element_array" 
-	"selectionSetName" "string" "selectionset"
-	"selectionSetData" "CObjectSelectionSetDataElement"
+    "id" "elementid" "2fa0034b-467f-4a4f-aa22-a432a2fee57c"
+    "children" "element_array" 
+    "selectionSetName" "string" "selectionset"
+    "selectionSetData" "CObjectSelectionSetDataElement"
 },
 ```
 - children \<`element_array`\>\
-	Selection sets can contain other selection sets, this is not selected objects, those are stored in selectionSetData.
+    Selection sets can contain other selection sets, this is not selected objects, those are stored in selectionSetData.
 
 - selectionSetName \<`string`\>\
-	The name of the selection set.
+    The name of the selection set.
 
 - selectionSetData \<[DMElement](#dmelement)\>\
-	The data of the selection set, it seems to be an opaque element but it only takes `CObjectSelectionSetDataElement` and `CFaceSelectionSetDataElement`
+    The data of the selection set, it seems to be an opaque element but it only takes `CObjectSelectionSetDataElement` and `CFaceSelectionSetDataElement`
 
 ### CObjectSelectionSetDataElement
 
 ```json
 "selectionSetData" "CObjectSelectionSetDataElement"
 {
-	"id" "elementid" "ab42b08e-ab9b-4d9f-b2c7-299b165b1f2e"
-	"name" "string" "objectSelectionSetData"
-	"selectedObjects" "element_array" 
+    "id" "elementid" "ab42b08e-ab9b-4d9f-b2c7-299b165b1f2e"
+    "name" "string" "objectSelectionSetData"
+    "selectedObjects" "element_array" 
 }
 ```
 
 - name \<`string`\>\
-	The name of the selection set data element. doesn't seem like the user can set this, its always `objectSelectionSetData`, may be used to tell which data object selectionSetData contains in their DMX implementation?
+    The name of the selection set data element. doesn't seem like the user can set this, its always `objectSelectionSetData`, may be used to tell which data object selectionSetData contains in their DMX implementation?
 
 - selectedObjects \<`element_array`\>\
-	A list of the objects contained in this selection set.
+    A list of the objects contained in this selection set.
 
 ### CFaceSelectionSetDataElement
 
 ```json
 "selectionSetData" "CFaceSelectionSetDataElement"
 {
-	"id" "elementid" "fe928e85-ae50-4034-8016-7ff0cdf77a64"
-	"name" "string" "faceSelectionSetData"
-	"meshes" "element_array" 
-	"faces" "int_array" 
+    "id" "elementid" "fe928e85-ae50-4034-8016-7ff0cdf77a64"
+    "name" "string" "faceSelectionSetData"
+    "meshes" "element_array" 
+    "faces" "int_array" 
 }
 ```
 
 - name \<`string`\>\
-	The name of the selection set data element. doesn't seem like the user can set this, its always `faceSelectionSetData`, may be used to tell which data object selectionSetData contains in their DMX implementation?
+    The name of the selection set data element. doesn't seem like the user can set this, its always `faceSelectionSetData`, may be used to tell which data object selectionSetData contains in their DMX implementation?
 
 - meshes \<`element_array`\>\
-	A list of the meshes contained in this selection set.
+    A list of the meshes contained in this selection set.
 
 - faces \<`int_array`\>\
-	A list of mesh faces contained in this selection set.
+    A list of mesh faces contained in this selection set.
 
 ### CMapPrefab
 #### Inherits from [MapNode](#mapnode)
@@ -537,63 +538,63 @@ A prefab.
 ```json
 "CMapPrefab"
 {
-	"id" "elementid" "5e3176dd-3b19-4f28-8318-7ebaa88b9a90"
-	"nodeID" "int" "6"
-	"referenceID" "uint64" "0xdadc15530f843d58"
-	"children" "element_array" 
-	"variableTargetKeys" "string_array" 
-	"variableNames" "string_array" 
-	"relayPlugData" "DmePlugList"
-	"connectionsData" "element_array" 
-	"target" "element" ""
-	"variableOverrideNames" "string_array" 
-	"variableOverrideValues" "string_array" 
-	"origin" "vector3" "0 0 0"
-	"angles" "qangle" "0 0 0"
-	"scales" "vector3" "1 1 1"
-	"transformLocked" "bool" "0"
-	"force_hidden" "bool" "0"
-	"editorOnly" "bool" "0"
-	"customVisGroup" "string" ""
-	"randomSeed" "int" "1910343828"
-	"tintColor" "color" "255 255 255 255"
-	"visexclude" "bool" "0"
-	"targetMapPath" "string" "maps/prefabs/s2wikiprefab.vmap"
-	"targetName" "string" ""
-	"fixupEntityNames" "bool" "1"
-	"useTargetNameAsPrefix" "bool" "0"
-	"loadIfNested" "bool" "1"
-	"prefabRuntimeEntity" "bool" "0"
-	"loadAtRuntime" "bool" "0"
+    "id" "elementid" "5e3176dd-3b19-4f28-8318-7ebaa88b9a90"
+    "nodeID" "int" "6"
+    "referenceID" "uint64" "0xdadc15530f843d58"
+    "children" "element_array" 
+    "variableTargetKeys" "string_array" 
+    "variableNames" "string_array" 
+    "relayPlugData" "DmePlugList"
+    "connectionsData" "element_array" 
+    "target" "element" ""
+    "variableOverrideNames" "string_array" 
+    "variableOverrideValues" "string_array" 
+    "origin" "vector3" "0 0 0"
+    "angles" "qangle" "0 0 0"
+    "scales" "vector3" "1 1 1"
+    "transformLocked" "bool" "0"
+    "force_hidden" "bool" "0"
+    "editorOnly" "bool" "0"
+    "customVisGroup" "string" ""
+    "randomSeed" "int" "1910343828"
+    "tintColor" "color" "255 255 255 255"
+    "visexclude" "bool" "0"
+    "targetMapPath" "string" "maps/prefabs/s2wikiprefab.vmap"
+    "targetName" "string" ""
+    "fixupEntityNames" "bool" "1"
+    "useTargetNameAsPrefix" "bool" "0"
+    "loadIfNested" "bool" "1"
+    "prefabRuntimeEntity" "bool" "0"
+    "loadAtRuntime" "bool" "0"
 }
 ```
 
 - target \<`element`\>\
-	Unknown.
+    Unknown.
 
 - variableOverrideNames \<`string_array`\>\
-	Unknown.
+    Unknown.
 
 - variableOverrideValues \<`string_array`\>\
-	Unknown.
+    Unknown.
 
 - targetMapPath \<`string`\>\
-	The map to load.
+    The map to load.
 
 - fixupEntityNames \<`bool`\>\
-	If enabled, any entity target names within the prefab will have a prefix applied to ensure they are unique. This prevents any issues with entities in two different prefabs having name collisions.
+    If enabled, any entity target names within the prefab will have a prefix applied to ensure they are unique. This prevents any issues with entities in two different prefabs having name collisions.
 
 - useTargetNameAsPrefix \<`bool`\>\
-	If this is enabled and name fixup is enabled, the prefix used for name fixup will be the prefab target name instead of the unique id. If the target name is empty then the prefab the unique id will still be used as the prefix. Note that if two prefabs use the same target name for their prefix it will be possible to have entities inside the prefabs end up with name collisions.
+    If this is enabled and name fixup is enabled, the prefix used for name fixup will be the prefab target name instead of the unique id. If the target name is empty then the prefab the unique id will still be used as the prefix. Note that if two prefabs use the same target name for their prefix it will be possible to have entities inside the prefabs end up with name collisions.
 
 - loadIfNested \<`bool`\>\
-	If enabled the prefab will be loaded when it is the child of another prefab, if disabled, this prefab will not be loaded if it is the child of another prefab.
+    If enabled the prefab will be loaded when it is the child of another prefab, if disabled, this prefab will not be loaded if it is the child of another prefab.
 
 - prefabRuntimeEntity \<`bool`\>\
-	Unknown.
+    Unknown.
 
 - loadAtRuntime \<`bool`\>\
-	If enabled the prefab will not be baked into the parent map during map compile, but instead will be dynamically loaded in the game. This requires the target map to be compiled separately. Additionally this requires support for dynamic loading of maps by the game, which may not be supported by all games and game systems. Do not use without checking to see if this is fully supported by the game you are working on.
+    If enabled the prefab will not be baked into the parent map during map compile, but instead will be dynamically loaded in the game. This requires the target map to be compiled separately. Additionally this requires support for dynamic loading of maps by the game, which may not be supported by all games and game systems. Do not use without checking to see if this is fully supported by the game you are working on.
 
 ### CMapInstance
 #### Inherits from [MapNode](#mapnode)
@@ -603,35 +604,35 @@ An instance.
 ```json
 "CMapInstance"
 {
-	"id" "elementid" "b4c5ff57-756d-4fad-b2c4-7c3599acd5d1"
-	"nodeID" "int" "9"
-	"referenceID" "uint64" "0xa644a071fe2a1342"
-	"variableTargetKeys" "string_array" 
-	"variableNames" "string_array" 
-	"relayPlugData" "DmePlugList"
-	"connectionsData" "element_array" 
-	"target" "element" "d3c5aac9-c6b0-4ca0-a74f-1bad53097d65"
-	"origin" "vector3" "-328 -80 24"
-	"angles" "qangle" "0 0 0"
-	"scales" "vector3" "1 1 1"
-	"transformLocked" "bool" "0"
-	"force_hidden" "bool" "0"
-	"editorOnly" "bool" "0"
-	"customVisGroup" "string" ""
-	"randomSeed" "int" "1789577885"
-	"tintColor" "color" "255 255 255 255"
-	"visexclude" "bool" "0"
+    "id" "elementid" "b4c5ff57-756d-4fad-b2c4-7c3599acd5d1"
+    "nodeID" "int" "9"
+    "referenceID" "uint64" "0xa644a071fe2a1342"
+    "variableTargetKeys" "string_array" 
+    "variableNames" "string_array" 
+    "relayPlugData" "DmePlugList"
+    "connectionsData" "element_array" 
+    "target" "element" "d3c5aac9-c6b0-4ca0-a74f-1bad53097d65"
+    "origin" "vector3" "-328 -80 24"
+    "angles" "qangle" "0 0 0"
+    "scales" "vector3" "1 1 1"
+    "transformLocked" "bool" "0"
+    "force_hidden" "bool" "0"
+    "editorOnly" "bool" "0"
+    "customVisGroup" "string" ""
+    "randomSeed" "int" "1789577885"
+    "tintColor" "color" "255 255 255 255"
+    "visexclude" "bool" "0"
 }
 ```
 
 - target \<`element`\>\\
-	A [CMapGroup](#cmapgroup) element containing all the objects inside of this instance.
+    A [CMapGroup](#cmapgroup) element containing all the objects inside of this instance.
 
 - tintColor \<`color`\>\\
-	If this color is set, all objects inside of the instance will be tinted.
+    If this color is set, all objects inside of the instance will be tinted.
 
 - visexclude \<`bool`\>\\
-	If true, everything inside of the instance will be excluded from vis.
+    If true, everything inside of the instance will be excluded from vis.
 
 ### CMapGroup
 #### Inherits from [MapNode](#mapnode)
@@ -645,29 +646,29 @@ Stores map variables.
 ```json
 "mapVariables" "CMapVariableSet"
 {
-	"id" "elementid" "80fdfd0c-3ea4-4519-9e66-23fafdc20d60"
-	"variableNames" "string_array" 
-	"variableValues" "string_array" 
-	"variableTypeNames" "string_array" 
-	"variableTypeParameters" "string_array" 
-	"m_ChoiceGroups" "element_array" 
+    "id" "elementid" "80fdfd0c-3ea4-4519-9e66-23fafdc20d60"
+    "variableNames" "string_array" 
+    "variableValues" "string_array" 
+    "variableTypeNames" "string_array" 
+    "variableTypeParameters" "string_array" 
+    "m_ChoiceGroups" "element_array" 
 }
 ```
 
 - variableNames \<`string_array`\>\
-	The name of the map variable.
+    The name of the map variable.
 
 - variableValues \<`string_array`\>\
-	The value of the map variable.
+    The value of the map variable.
 
 - variableTypeNames \<`string_array`\>\
-	The type of the map variable, like `string`.
+    The type of the map variable, like `string`.
 
 - variableTypeParameters \<`string_array`\>\
-	The type paremeter of the map variable, not sure what this is.
+    The type paremeter of the map variable, not sure what this is.
 
 - m_ChoiceGroups \<`element_array`\>\
-	Not sure what this does either, but takes a [CMapVariableChoiceGroup](#cmapvariablechoicegroup) object.
+    Not sure what this does either, but takes a [CMapVariableChoiceGroup](#cmapvariablechoicegroup) object.
 
 ### CMapVariableChoiceGroup
 
@@ -676,16 +677,16 @@ A map variable choice group.
 ```json
 "CMapVariableChoiceGroup"
 {
-	"id" "elementid" "795f358a-afb8-4f98-993b-0fd940de5aae"
-	"name" "string" "newChoiceGroup"
-	"m_ChoiceVariables" "string_array" 
-	"m_Choices" "element_array" 
-	"m_ActiveValue" "string" ""
+    "id" "elementid" "795f358a-afb8-4f98-993b-0fd940de5aae"
+    "name" "string" "newChoiceGroup"
+    "m_ChoiceVariables" "string_array" 
+    "m_Choices" "element_array" 
+    "m_ActiveValue" "string" ""
 }
 ```
 
 - name \<`string`\>\
-	The name of the choice group.
+    The name of the choice group.
 
 Honestly not even gonna try to pretend like I understand these, if you do, feel free to complete this list. 
 
@@ -702,131 +703,131 @@ Inherited properties will be ommited below due to the large size of this node.
 ```json
 "CMapMesh"
 {
-	"id" "elementid" "581ccd67-3a41-4d2a-b6b0-8cf6fbbe493e"
-	"meshData" "CDmePolygonMesh"
-	"disableShadows" "int" "0"
-	"bakelighting" "bool" "1"
-	"cubeMapName" "string" ""
-	"emissiveLightingEnabled" "bool" "1"
-	"emissiveLightingBoost" "float" "1"
-	"lightingDummy" "bool" "0"
+    "id" "elementid" "581ccd67-3a41-4d2a-b6b0-8cf6fbbe493e"
+    "meshData" "CDmePolygonMesh"
+    "disableShadows" "int" "0"
+    "bakelighting" "bool" "1"
+    "cubeMapName" "string" ""
+    "emissiveLightingEnabled" "bool" "1"
+    "emissiveLightingBoost" "float" "1"
+    "lightingDummy" "bool" "0"
 
-	"visexclude" "bool" "0"
-	"disablemerging" "bool" "0"
-	"renderwithdynamic" "bool" "0"
-	"renderToCubemaps" "bool" "1"
-	"keep_vertices" "bool" "0"
-	"fademindist" "float" "-1"
-	"fademaxdist" "float" "0"
+    "visexclude" "bool" "0"
+    "disablemerging" "bool" "0"
+    "renderwithdynamic" "bool" "0"
+    "renderToCubemaps" "bool" "1"
+    "keep_vertices" "bool" "0"
+    "fademindist" "float" "-1"
+    "fademaxdist" "float" "0"
 
-	"disableHeightDisplacement" "bool" "0"
-	"smoothingAngle" "float" "40"
-	"tintColor" "color" "255 255 255 255"
-	"renderAmt" "int" "255"
-	"physicsType" "string" "default"
-	"physicsCollisionProperty" "string" ""
-	"physicsGroup" "string" ""
+    "disableHeightDisplacement" "bool" "0"
+    "smoothingAngle" "float" "40"
+    "tintColor" "color" "255 255 255 255"
+    "renderAmt" "int" "255"
+    "physicsType" "string" "default"
+    "physicsCollisionProperty" "string" ""
+    "physicsGroup" "string" ""
 
-	"physicsInteractsAs" "string" ""
-	"physicsInteractsWith" "string" ""
-	"physicsInteractsExclude" "string" ""
-	"physicsSimplificationOverride" "bool" "0"
-	"physicsSimplificationError" "float" "0"
+    "physicsInteractsAs" "string" ""
+    "physicsInteractsWith" "string" ""
+    "physicsInteractsExclude" "string" ""
+    "physicsSimplificationOverride" "bool" "0"
+    "physicsSimplificationError" "float" "0"
 }
 ```
 
 - meshData \<`CDmePolygonMesh`\>\
-	A [CDmePolygonMesh](#cdmepolygonmesh) element storing all the polygon mesh information.
+    A [CDmePolygonMesh](#cdmepolygonmesh) element storing all the polygon mesh information.
 
 - disableShadows \<`bool`\>\
-	When true causes this mesh to not cast any shadows.
+    When true causes this mesh to not cast any shadows.
 
 - bakelighting \<`bool`\>\
-	When true will stop lighting from being baked on this mesh.
+    When true will stop lighting from being baked on this mesh.
 
 - cubeMapName \<`string`\>\
-	Used to manually assign a named env_cubemap, env_cubemap_box or env_combined_light_probe_volume to a mesh.
-	:::info
-	This forces the mesh into a slower rendering path and does not support the explicit assignment of lightprobes. Use with caution.
-	:::
+    Used to manually assign a named env_cubemap, env_cubemap_box or env_combined_light_probe_volume to a mesh.
+    :::info
+    This forces the mesh into a slower rendering path and does not support the explicit assignment of lightprobes. Use with caution.
+    :::
 
 - emissiveLightingEnabled \<`bool`\>\
-	Allow this mesh to emit lighting. Note that this only works on materials with Self Illum parameters, and is only visible in the GPU Path Tracing Preview and in the final lightmap bake.
+    Allow this mesh to emit lighting. Note that this only works on materials with Self Illum parameters, and is only visible in the GPU Path Tracing Preview and in the final lightmap bake.
 
 - emissiveLightingBoost \<`float`\>\
-	Used to boost emissive lighting from a mesh. Note that boosting emissive on smaller meshes can create more lighting artifacts/noise.
+    Used to boost emissive lighting from a mesh. Note that boosting emissive on smaller meshes can create more lighting artifacts/noise.
 
 - lightingDummy \<`bool`\>\
-	Causes the mesh to contribute to lighting, but not render in the final map.
+    Causes the mesh to contribute to lighting, but not render in the final map.
 
 - visexclude \<`bool`\>\
-	When true forces this mesh to not contribute to VIS.
+    When true forces this mesh to not contribute to VIS.
 
 - disablemerging \<`bool`\>\
-	When true, disables compile time mesh merging, meaning this mesh wont merge with meshes sharing the same material.
+    When true, disables compile time mesh merging, meaning this mesh wont merge with meshes sharing the same material.
 
 - renderwithdynamic \<`bool`\>\
-	When true causes this mesh to render in the dynamic pass, with other dynamic entities like players.
+    When true causes this mesh to render in the dynamic pass, with other dynamic entities like players.
 
 - keep_vertices \<`bool`\>\
-	Unknown.
+    Unknown.
 
 - fademindist \<`float`\>\
-	The distance at which this mesh will start to fade.
+    The distance at which this mesh will start to fade.
 
 - fademaxdist \<`float`\>\
-	The distance at which this mesh is entirely invisible.
+    The distance at which this mesh is entirely invisible.
 
 - disableHeightDisplacement \<`bool`\>\
-	When true it disables displacement.
+    When true it disables displacement.
 
 - smoothingAngle \<`float`\>\
-	The minimum angle for an edge to automatically become smooth. 
+    The minimum angle for an edge to automatically become smooth. 
 
 - tintColor \<`Color`\>\
-	Tints the mesh.
+    Tints the mesh.
 
 - renderAmt \<`float`\>\
-	The alpha transparency of the mesh.
+    The alpha transparency of the mesh.
 
 - physicsType \<`string`\>\
-	The physics type of the mesh.
+    The physics type of the mesh.
 
-	- none\
-		Not solid.
+    - none\
+        Not solid.
 
-	- default\
-		Seems to be `mesh` by default.
+    - default\
+        Seems to be `mesh` by default.
 
-	- convex_single\
-		A single convex hull
+    - convex_single\
+        A single convex hull
 
-	- convex_multi\
-		Multiple convex hulls (per piece?)
+    - convex_multi\
+        Multiple convex hulls (per piece?)
 
-	- mesh\
-		A triangle mesh.
+    - mesh\
+        A triangle mesh.
 
 - physicsCollisionProperty \<`string`\>\
-	If specified, provides the name of an entry in scripts/collision_properties.txt that specifies the collision group and interaction layers to use, rather than those specified in the material. 
+    If specified, provides the name of an entry in scripts/collision_properties.txt that specifies the collision group and interaction layers to use, rather than those specified in the material. 
 
 - physicsGroup \<`string`\>\
-	Directly specifies the name of a collision group to assign to the mesh, replaces any group specified by the material or collision property.
+    Directly specifies the name of a collision group to assign to the mesh, replaces any group specified by the material or collision property.
 
 - physicsInteractsAs \<`string`\>\
-	Specifies additional interaction layers to append to the set of Interacts As layers assigned to the mesh.
+    Specifies additional interaction layers to append to the set of Interacts As layers assigned to the mesh.
 
 - physicsInteractsWith \<`string`\>\
-	Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
+    Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
 
 - physicsInteractsExclude \<`string`\>\
-	Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
+    Specifies additional interaction layers to append to the set of Interacts With layers assigned to the mesh.
 
 - physicsSimplificationOverride \<`bool`\>\
-	Unknown. Possibly forces physics simplification on/off?
+    Unknown. Possibly forces physics simplification on/off?
 
 - physicsSimplificationError \<`float`\>\
-	The error permitted when simplifying the geometry of this mesh into a physics mesh.
+    The error permitted when simplifying the geometry of this mesh into a physics mesh.
 
 ### CDmePolygonMesh
 
@@ -835,77 +836,77 @@ This element contains all of the half-edge polygon data of a hammer mesh.
 ```json
 "meshData" "CDmePolygonMesh"
 {
-	"id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
-	"name" "string" "meshData"
-	"vertexEdgeIndices" "int_array" 
-	"vertexDataIndices" "int_array" 
-	"edgeVertexIndices" "int_array" 
-	"edgeOppositeIndices" "int_array" 
-	"edgeNextIndices" "int_array" 
-	"edgeFaceIndices" "int_array" 
-	"edgeDataIndices" "int_array" 
-	"edgeVertexDataIndices" "int_array" 
-	"faceEdgeIndices" "int_array" 
-	"faceDataIndices" "int_array" 
-	"materials" "string_array" 
-	"vertexData" "CDmePolygonMeshDataArray"
-	"faceVertexData" "CDmePolygonMeshDataArray"
-	"edgeData" "CDmePolygonMeshDataArray"
-	"faceData" "CDmePolygonMeshDataArray"
-	"subdivisionData" "CDmePolygonMeshSubdivisionData"
+    "id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
+    "name" "string" "meshData"
+    "vertexEdgeIndices" "int_array" 
+    "vertexDataIndices" "int_array" 
+    "edgeVertexIndices" "int_array" 
+    "edgeOppositeIndices" "int_array" 
+    "edgeNextIndices" "int_array" 
+    "edgeFaceIndices" "int_array" 
+    "edgeDataIndices" "int_array" 
+    "edgeVertexDataIndices" "int_array" 
+    "faceEdgeIndices" "int_array" 
+    "faceDataIndices" "int_array" 
+    "materials" "string_array" 
+    "vertexData" "CDmePolygonMeshDataArray"
+    "faceVertexData" "CDmePolygonMeshDataArray"
+    "edgeData" "CDmePolygonMeshDataArray"
+    "faceData" "CDmePolygonMeshDataArray"
+    "subdivisionData" "CDmePolygonMeshSubdivisionData"
 }
 ```
 
 - name \<`string`\>\
-	Seems to always be `meshData`.
+    Seems to always be `meshData`.
 
 - vertexEdgeIndices \<`int_array`\>\
-	An index to one of the half-edges starting from this vertex.
+    An index to one of the half-edges starting from this vertex.
 
 - vertexDataIndices \<`int_array`\>\
-	Index to the `VertexData` streams.
+    Index to the `VertexData` streams.
 
 - edgeVertexIndices \<`int_array`\>\
-	The destination vertex of this half-edge.
+    The destination vertex of this half-edge.
 
 - edgeOppositeIndices \<`int_array`\>\
-	Index to the twin of this half-edge.
+    Index to the twin of this half-edge.
 
 - edgeNextIndices \<`int_array`\>\
-	Index to the half-edge that this half-edge points to.
+    Index to the half-edge that this half-edge points to.
 
 - edgeFaceIndices \<`int_array`\>\
-	Index to the face this half-edge is part of, -1 if the half edge is next to the void (external half-edge).
+    Index to the face this half-edge is part of, -1 if the half edge is next to the void (external half-edge).
 
 - edgeDataIndices \<`int_array`\>\
-	Per half-edge index to `EdgeData` streams.
+    Per half-edge index to `EdgeData` streams.
 
 - edgeVertexDataIndices \<`int_array`\>\
-	Per half-edge index to `FaceVertexData` streams.
+    Per half-edge index to `FaceVertexData` streams.
 
 - faceEdgeIndices \<`int_array`\>\
-	Per face index to one of the **inner** edges encapsulating this face. This effectively is what encodes faces in the mesh, one entry here is one face.
+    Per face index to one of the **inner** edges encapsulating this face. This effectively is what encodes faces in the mesh, one entry here is one face.
 
 - faceDataIndices \<`int_array`\>\
-	Per Face index to `FaceData` streams.
+    Per Face index to `FaceData` streams.
 
 - materials \<`string_array`\>\
-	A list of every material used in the mesh, without duplicates, this will be indexed into by `meshindex` in the `FaceData` stream.
+    A list of every material used in the mesh, without duplicates, this will be indexed into by `meshindex` in the `FaceData` stream.
 
 - vertexData \<`CDmePolygonMeshDataArray`\>\
-	Stores vertex positions.
+    Stores vertex positions.
 
 - faceVertexData \<`CDmePolygonMeshDataArray`\>\
-	Stores per half-edge information for face vertex uv, normal, tangent, etc.
+    Stores per half-edge information for face vertex uv, normal, tangent, etc.
 
 - edgeData \<`CDmePolygonMeshDataArray`\>\
-	Stores edge data such as soft or hard normals.
+    Stores edge data such as soft or hard normals.
 
 - faceData \<`CDmePolygonMeshDataArray`\>\
-	Stores face data such as texture scale, UV offset, material, lightmap bias.
+    Stores face data such as texture scale, UV offset, material, lightmap bias.
 
 - subdivisionData \<`CDmePolygonMeshSubdivisionData`\>\
-	Data representing the subdivided surface of the mesh.
+    Data representing the subdivided surface of the mesh.
 
 ### CDmePolygonMeshDataArray
 
@@ -914,17 +915,17 @@ An array of CDmePolygonMeshDataStream elements.
 ```json
 "vertexData" "CDmePolygonMeshDataArray"
 {
-	"id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
-	"size" "int" "4"
-	"streams" "element_array" 
+    "id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
+    "size" "int" "4"
+    "streams" "element_array" 
 }
 ```
 
 - size \<`int`\>\
-	The amount of elements in the arrays.
+    The amount of elements in the arrays.
 
 - streams \<`element_array`\>\
-	An array of `CDmePolygonMeshDataStream` elements.
+    An array of `CDmePolygonMeshDataStream` elements.
 
 ### CDmePolygonMeshDataStream
 
@@ -933,53 +934,53 @@ A data stream.
 ```json
 "CDmePolygonMeshDataStream"
 {
-	"id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
-	"name" "string" "position:0"
-	"standardAttributeName" "string" "position"
-	"semanticName" "string" "position"
-	"semanticIndex" "int" "0"
-	"vertexBufferLocation" "int" "0"
-	"dataStateFlags" "int" "3"
-	"subdivisionBinding" "element" ""
-	"data" "vector3_array" 
+    "id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
+    "name" "string" "position:0"
+    "standardAttributeName" "string" "position"
+    "semanticName" "string" "position"
+    "semanticIndex" "int" "0"
+    "vertexBufferLocation" "int" "0"
+    "dataStateFlags" "int" "3"
+    "subdivisionBinding" "element" ""
+    "data" "vector3_array" 
 }
 ```
 
 - name \<`string`\>\
-	Seems to be `semanticName`:`semanticIndex`, not sure why they store this separately here.
+    Seems to be `semanticName`:`semanticIndex`, not sure why they store this separately here.
 
 - standardAttributeName \<`string`\>\
-	Seems to be the same as semanticName.
+    Seems to be the same as semanticName.
 
 - semanticName \<`string`\>\
-	The name of the stream.
-	
-	Known names:
-	- position
-	- normal
-	- tangent
-	- texcoord
-	- lightmapScaleBias
-	- flags
-	- materialindex
-	- textureAxisU
-	- textureAxisV
-	- textureScale
+    The name of the stream.
+    
+    Known names:
+    - position
+    - normal
+    - tangent
+    - texcoord
+    - lightmapScaleBias
+    - flags
+    - materialindex
+    - textureAxisU
+    - textureAxisV
+    - textureScale
 
 - semanticIndex \<`int`\>\
-	Index of the stream.
+    Index of the stream.
 
 - vertexBufferLocation \<`int`\>\
-	Unknown.
+    Unknown.
 
 - dataStateFlags \<`int`\>\
-	Unknown.
+    Unknown.
 
 - subdivisionBinding \<`element`\>\
-	Seems related to how data on subdivided meshes is handled.
+    Seems related to how data on subdivided meshes is handled.
 
 - data \<`int | vector2_array | vector3_array | vector4_array`\>\
-	The data stored in this stream, can be an int, vector2, vector3, or vector4 array.
+    The data stored in this stream, can be an int, vector2, vector3, or vector4 array.
 
 ## Hammer meshes
 
@@ -1033,78 +1034,78 @@ The mesh below is missing all data streams apart from `vertexData` which contain
 ```json
 "meshData" "CDmePolygonMesh"
 {
-	"id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
-	"name" "string" "meshData"
-	"vertexEdgeIndices" "int_array" 
-	[
-		"7", "1", "5", "3"
-	]
-	"vertexDataIndices" "int_array" 
-	[
-		"0", "1", "2", "3"
-	]
-	"edgeVertexIndices" "int_array" 
-	[
-		"1", "0", "3", "1", "2", "3", "0", "2"
-	]
-	"edgeOppositeIndices" "int_array" 
-	[
-		"1", "0", "3", "2", "5", "4", "7", "6"
-	]
-	"edgeNextIndices" "int_array" 
-	[ 
-		"2", "7", "4", "1", "6", "3", "0", "5"
-	]
-	"edgeFaceIndices" "int_array" 
-	[
-		"0", "-1", "0", "-1", "0", "-1", "0", "-1"
-	]
-	"edgeDataIndices" "int_array" 
-	[
-		"0", "0", "1", "1", "2", "2", "3", "3"
-	]
-	"edgeVertexDataIndices" "int_array" 
-	[
-		"1", "0", "3", "2", "5", "4", "7", "6"
-	]
-	"faceEdgeIndices" "int_array" 
-	[
-		"6"
-	]
-	"faceDataIndices" "int_array" 
-	[
-		"0"
-	]
-	"materials" "string_array" 
-	[
-		"materials/dev/reflectivity_30.vmat"
-	]
-	"vertexData" "CDmePolygonMeshDataArray"
-	{
-		"id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
-		"size" "int" "4"
-		"streams" "element_array" 
-		[
-			"CDmePolygonMeshDataStream"
-			{
-				"id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
-				"name" "string" "position:0"
-				"standardAttributeName" "string" "position"
-				"semanticName" "string" "position"
-				"semanticIndex" "int" "0"
-				"vertexBufferLocation" "int" "0"
-				"dataStateFlags" "int" "3"
-				"subdivisionBinding" "element" ""
-				"data" "vector3_array" 
-				[
-					"-64 -64 0",
-					"64 -64 0",
-					"-64 64 0",
-					"64 64 0"
-				]
-			}
-		]
-	}
+    "id" "elementid" "d4460070-41c1-4483-a0b1-b850b32eccc4"
+    "name" "string" "meshData"
+    "vertexEdgeIndices" "int_array" 
+    [
+        "7", "1", "5", "3"
+    ]
+    "vertexDataIndices" "int_array" 
+    [
+        "0", "1", "2", "3"
+    ]
+    "edgeVertexIndices" "int_array" 
+    [
+        "1", "0", "3", "1", "2", "3", "0", "2"
+    ]
+    "edgeOppositeIndices" "int_array" 
+    [
+        "1", "0", "3", "2", "5", "4", "7", "6"
+    ]
+    "edgeNextIndices" "int_array" 
+    [ 
+        "2", "7", "4", "1", "6", "3", "0", "5"
+    ]
+    "edgeFaceIndices" "int_array" 
+    [
+        "0", "-1", "0", "-1", "0", "-1", "0", "-1"
+    ]
+    "edgeDataIndices" "int_array" 
+    [
+        "0", "0", "1", "1", "2", "2", "3", "3"
+    ]
+    "edgeVertexDataIndices" "int_array" 
+    [
+        "1", "0", "3", "2", "5", "4", "7", "6"
+    ]
+    "faceEdgeIndices" "int_array" 
+    [
+        "6"
+    ]
+    "faceDataIndices" "int_array" 
+    [
+        "0"
+    ]
+    "materials" "string_array" 
+    [
+        "materials/dev/reflectivity_30.vmat"
+    ]
+    "vertexData" "CDmePolygonMeshDataArray"
+    {
+        "id" "elementid" "fe15bacb-f08e-4500-a7dd-99144aca5567"
+        "size" "int" "4"
+        "streams" "element_array" 
+        [
+            "CDmePolygonMeshDataStream"
+            {
+                "id" "elementid" "0766ecc4-d5d4-45b6-bb90-b688e786bc5c"
+                "name" "string" "position:0"
+                "standardAttributeName" "string" "position"
+                "semanticName" "string" "position"
+                "semanticIndex" "int" "0"
+                "vertexBufferLocation" "int" "0"
+                "dataStateFlags" "int" "3"
+                "subdivisionBinding" "element" ""
+                "data" "vector3_array" 
+                [
+                    "-64 -64 0",
+                    "64 -64 0",
+                    "-64 64 0",
+                    "64 64 0"
+                ]
+            }
+        ]
+    }
 }
 ```
 
@@ -1117,7 +1118,7 @@ First, we need to look at the `vertexData` stream, and plot the vertex positions
 An easy way to do this is by just pasting the positions into the origin field of a hammer entity.
 :::
 
-Heres the result:
+Here's the result:
 
 ![Reading half edge mesh example 1](./halfedge-reading-1.png)
 
@@ -1156,3 +1157,45 @@ The first index is `2` meaning the first half-edge points to the half-edge with 
 We can now skip to the finished image.
 
 ![Reading half edge mesh example 5](./halfedge-reading-5.png)
+
+### Reading polygon data out of hammer meshes from code
+
+If you just want to read the polygon data, reading the meshes from code is quite easy, its similar to the process from above but much simpler.
+
+Vertices are simply contained in the `vertexData` stream, and to get indices we just need a simple do while loop.
+
+Example of reading the entire mesh, as explained above faceEdgeIndices stores one of the internal half edges of every face, so we want to loop this.
+
+```csharp
+// an array to store faces, which are arrays of vertex indices
+List<List<int>> faces = []
+
+// go trough all faceEdgeIndices
+for (int i = 0; i < faceEdgeIndices.Count; i++)
+{
+    // stores the indices of the current face
+    List<int> faceIndices = [];
+
+    // edgeNextIndices gives us the half edge that out current half edge is pointing do, here we simply start with the half edge from the current faceEdgeIndices index (faceEdge)
+    // and then keep looping, finding the next half edge and setting that as our next, until next == faceEdge, this means that we did a full loop around the face, and extraced all indices
+    
+    // as we loop we store edgeVertexIndices[nextFaceEdge] into faceIndices, this gives us our face indices because edgeVertexIndices is the index of the vertex that the edge starts from
+    
+    var faceEdge = faceEdgeIndices[i];
+    var nextFaceEdge = faceEdge;
+    do
+    {
+        faceIndices.Add(edgeVertexIndices[nextFaceEdge]);
+        nextFaceEdge = mesh.meshData.edgeNextIndices[nextFaceEdge];
+    }
+    while (nextFaceEdge != faceEdge);
+
+    faces.Add(faceIndices);
+}
+```
+
+Reading other data like normals and UVs is left as an exercise for the reader.
+
+:::info
+If you want to render these meshes, you will first need to convert the n-sided polygon faces to triangles. A good algorithm for this is [Ear Clipping](https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf)
+:::
