@@ -1,0 +1,67 @@
+---
+description: List of Animgraph Editor parameters.
+title: Animgraph Editor Parameters
+---
+
+## Core Parameter Data
+### Default Value
+The value the parameter will start with when it is loaded in game.
+### Preview Button
+If a gamepad or controller is connected, this lets you bind this parameter to a button when using the in-editor preview.  
+
+When the button is pressed the parameter is set to <b>Max Value</b>.  When its released its set to <b>Default Value</b>.
+### Force Latest Value
+Parameter will try force it's latest value.
+### Auto Reset
+When checked, the parameter will get set back to its <b>Default Value</b> at the end of each tick.
+### Network
+Controls whether or not the value of this parameter should get replicated across the network. 
+
+- <b>Auto:</b> The parameter will be networked if a node or component in the graph has requested it to be networked.
+- <b>Always Network:</b> Network the parameter, even if its not used by the graph
+- <b>Never Network:</b> Do NOT network this parameter, even if a node or component in the graph requests it.  
+### Internal
+To reduce bugs from parameters getting overwriten by multiple sources, parameters can be marked as Internal or External.
+
+External parameters can be changed by game code, but cannot be changed by the graph.
+
+Internal parameters can be changed by the graph, but not by game code.
+### Permissions
+#### Game Writable
+When enabled, allows code from outside the AnimGraph (ie: game code) to change the value of this parameter.
+#### Graph Writable
+When true, this parameter's value can be changed by the AnimGraph.
+
+## Bool Parameter
+A parameter that can be True or False.
+## Enum Parameter
+A parameter than can only be one of a small set of values.  These values are numbers, but for convenience they are associated with a name.  For example, a \"weapon\" enum parameter can be 0 (Knife), 1 (Pistol), or 2 (Rifle).
+### Values
+The list of values that this parameter can be, and the friendly names associated with them. 
+## Float Parameter
+A parameter than is a number that can have a decimal value.
+### Min Value
+The smallest value that this parameter is allowed to have.  If gameplay code tried to set it below this, it will be clamped to this value.
+### Max Value
+The largest value that this parameter is allowed to have.  If gameplay code tried to set it above this, it will be clamped to this value.
+### Interpolate
+If the <b>Network</b> option is set, this setting indicates that the value should be smoothly interpolated on the client.
+
+This is necessary because the server usually ticks much slower than the framerate of the client, which can result in stuttery looking motion if interpolation is not used.
+## Int Parameter
+A parameter with a non-decimal value.
+### Min Value
+The smallest value that this parameter is allowed to have.  If gameplay code tried to set it below this, it will be clamped to this value.
+### Max Value
+The largest value that this parameter is allowed to have.  If gameplay code tried to set it above this, it will be clamped to this value.
+## Quaternion Parameter
+A parameter with 4 non-decimal values.
+## Vector Parameter
+A parameter with 3 floating-point values.
+### Interpolate
+If the <b>Network</b> option is set, this setting indicates that the value should be smoothly interpolated on the client.
+## Symbol Parameter
+A parameter with symbol values from game code.
+## Virtual Parameter
+### Expression String
+### Parameter Type

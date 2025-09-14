@@ -2,3 +2,28 @@
 description: Solve an IK Chain.
 title: Solve IK Chain
 ---
+
+Solve an IK chain using either default settings or an override.
+
+![solve ik chain in editor](./solveikchain_node.png "Solve IK chain Node")
+
+![solve ik chain options](./solveikchain_options.png "Solve IK chain Options")
+
+## IK Chains
+IK Chains to solve.
+### IK Chain
+The chain of bones to perform the IK solve on. Defined in ModelDoc.
+### Solver Setting Source
+Use the default solver setting or override.
+#### Override Solver Settings
+##### Solver Type
+The IK solver to use to solve the IK chain defined.  Use Two Bone unless you have a good reason not to.
+### Target Setting Source
+Use the default target setting or override.
+#### Override Target Settings
+##### Target Source
+The IK target source defined. Can be either the bone, Animgraph Position Parameter or IKTARGETSOURCE_COUNT.
+### Debug
+#### Debug Setting
+#### Debug Normalized Length
+#### Debug Offset

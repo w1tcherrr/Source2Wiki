@@ -1,0 +1,240 @@
+---
+description: List of Animgraph Editor components.
+title: Animgraph Editor Components
+---
+
+List of all Animgraph Editor Components.
+
+### Network Mode
+Defines where the logic for this component is evaluated:
+
+
+- <b>Server Authoritative: </b> The logic for this component runs on the server, and the results are networked down to the client
+- <b>Client Simulate: </b> The logic for this component runs on the client, and its state is not networked
+
+## Action Component
+### Actions
+#### Emit Tag
+Emit one of the defined tags. Behavior:
+- While Current: Tag will be set while the current state is active.
+- On Enter: Tag will emit when we enter this state.
+- On Exit: Tag will emit when this state no longer becomes active.
+- On Enter and Exit: Tag will emit when we enter and exit this state.
+#### Set Parameter
+Emit one of the defined parameters. Behavior:
+- While Current: Parameter will be set while the current state is active.
+- On Enter: Parameter will emit when we enter this state.
+- On Exit: Parameter will emit when this state no longer becomes active.
+- On Enter and Exit: Parameter will emit when we enter and exit this state.
+#### Expression
+Expression will set a parameter and an expression will be run.
+
+![statemachine state expression](./statemachine_state_expression.png "State Machine State Expression")
+###### Parameter to Set
+Set a parameter.
+###### Expression
+An expression is defined here.
+###### Behavior:
+- While Current: Parameter will be set while the current state is active.
+- On Enter: Parameter will emit when we enter this state.
+- On Exit: Parameter will emit when this state no longer becomes active.
+- On Enter and Exit: Parameter will emit when we enter and exit this state.
+#### Toggle Component
+Toggle a component to be on/off.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+
+## Damped Value Component
+### Items
+#### Damped Value
+##### Value Type
+- Float
+- Vector
+##### Parameter In
+##### Parameter Out
+#### Damping
+##### Speed Function
+Controls how damped speed is adjusted based on how far the current value is from the target value. 
+- <b>No Damping:</b> Damping is not applied. <br/>
+- <b>Constant:</b> The damping speed does not change with distance from the target value. <br/>
+- <b>Spring:</b> A critically damped spring is used to accelerate the current value toward the target value.  The farther the current value is from the target, the more the acceleration.  However the spring will not overshoot the target value. <br/>
+- <b>Asymmetric Spring</b>
+##### Speed Scale
+Scales the speed of the damping, or in the case of the Spring <b>Speed Function</b> it controls the strength of the spring.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## LOD Component
+### Server LOD
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## Look Component
+### Network Look Target
+When enabled, the component will network the look target set on the server to the client.  When disabled, the node will not network the look target and will expect the game code on the client to provide it with the look target.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## Movement Component
+Calculates the values of movement-related parameters.  Graphs for characters that can move around the world should have one of these. 
+### Motors
+#### Sample Times
+#### Use Acceleration
+#### Anticipation Distance
+#### Anticipation Position Parameter
+#### Anticipation Heading Parameter
+#### Default
+### Movement Modes
+Defines the list of movement modes that this entity can have, and what the maximum speeds are for each.  eg: Run, Walk, Injured Walk, etc.  
+
+This replaces the Movement Settings node in ModelDoc.  For backwards compatibility, if this field does not have any entries then the graph will fill in the movement modes with the Movement Settings from the model.
+### 
+### Facing / Default Body Facing
+Defines the initial setting for how the entity's target body-facing direction is calculated.  These different modes are necessary because they allow the nodes to predict the body facing direction in the future when necessary.  
+
+
+- Manual: The Body Facing is the latest value set by game code.  In this mode, the nodes cannot predict what future facing directions will be.  
+- Path: The Body should turn to face down the current path.  In the absence of a path, the body should maintain its current heading
+- Look Target: The body should turn to face the look target.  
+#### Damping
+Controls for smoothly blending the body facing direction over time. 
+##### Speed Function
+Controls how damped speed is adjusted based on how far the current value is from the target value. 
+- <b>No Damping:</b> Damping is not applied. <br/>
+- <b>Constant:</b> The damping speed does not change with distance from the target value. <br/>
+- <b>Spring:</b> A critically damped spring is used to accelerate the current value toward the target value.  The farther the current value is from the target, the more the acceleration.  However the spring will not overshoot the target value. <br/>
+- <b>Asymmetric Spring</b>
+##### Speed Scale
+Scales the speed of the damping, or in the case of the Spring <b>Speed Function</b> it controls the strength of the spring.
+#### Network Facing
+Toggle whether this component should network the calculated facing direction, or to recalculate it on the client.
+
+## Ragdoll Component
+### Spring Frequency Min
+### Spring Frequency Max
+### Weight Lists
+A list of weights by a 'name' you can use in the animgraph to select which one is applied.
+#### Weights
+A number (-1 to 1) that indicates how much to derive motion from physics, and how much to take from animation.
+
+- 1 - (only valid when convar ragdoll_update_from_weights  is on) disables the ragdoll physics body entirely.
+
+- 0 - fully animation driven, ignores spring values and sets the physics body to keyframed.
+
+- 1 - fully physics driven, the animation joint is deactivated and physics is set to dynamic to interact with the environment.
+
+Any value inbetween will lerp the spring to between \"Spring Frequency Min\" and \"Spring Frequency Max\" as set in this UI.
+
+## Slope Component
+When present, the game code will calculate the normal of the ground under the entity and pass it to this component, which then uses it to set the values of several parameters.
+### Trace Distance
+The distance that the game should trace downwards when calculating the slope of the ground under the character.  The starting point for the trace is half this distance above the root of the character.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## State Machine Component
+State Machine as a Component. Does not include blend timing.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## VR Input Component
+Acts as a bridge between the engine's VR systems and the animgraph.  Provides parameters related to finger curl, etc.
+
+Requires the model to have a SkeletalInputSettings node in ModelDoc.
+### Start Enabled
+Toggle whether the component should be enabled when the graph is first run.
+### Priority
+Determines update order.  Components with higher priority update first.
+
+## Script Component
+### Script File
+
+## Scripts Component
+### Scripts
+
+## Demo Settings Component
+Add this component to graphs that should be included in Demo file recordings.  Also contains the settings for what animation data should get recorded and how it gets compressed.
+### Record Demo Data
+When enabled, will record each frame and add it to the demo data.  This must be turned back off before it can be previewed (so that the data can be run through keyframe-reduction compression).
+### Play Demo Data
+If demo data has been recorded, use it to pose the skeleton in the Preview window.
+### Bone Chain Length Error Scaling Range
+The max spline error is set according to the length of the bone chain that each bone influences. This range determines the minimum and maximum bone chain lengths when performing this conversion.
+### Max Rotation Error (Mapped Against Bone Chain Length)
+The range of maximum rotation errors when optimizing bone rotations. The actual value used is dependent on the length of the bone chain that each bone uses. The bone chain length range is mapped against this range to determine the actual value to use.
+### Max Translation Error
+The maximum amount of error allowed when calculating the translation curves for the compressed animation.  Units are in game units (inches) relative to the bone's parent.
+### Max Scale Error
+The maximum amount of error allowed when calculating the scale curves for the compressed animation.  Units are normalized percentage based (where 1 = 100% scale and 0.5 = 50% scale) relative to the bone's parent.
+### Max IK Rotation Error
+The maximum amount of error allowed when calculating the rotation curves for the IK target.  Units are in normalized quaternion values (ie: a range from -1 to 1).
+### Max IK Translation Error
+The maximum amount of error allowed when calculating the translation curves of the IK target.  Units are in game units (inches)
+### Max Rotation Error
+The maximum amount of error allowed when quantizing the rotation samples for the compressed animation.  Units are in normalized quaternion values (ie: a range from -1 to 1) relative to the bone's parent.
+### Max Translation Error
+The maximum amount of error allowed when quantizing the translation samples for the compressed animation.  Units are in game units (inches) relative to the bone's parent
+### Max Scale Error
+The maximum amount of error allowed when quantizing the scale samples for the compressed animation.  Units are normalized percentage based (where 1 = 100% scale and 0.5 = 50% scale) relative to the bone's parent
+### Max IK Rotation Error
+The maximum amount of error allowed when quantizing the rotation samples for the IK target.  Units are in normalized quaternion values (ie: a range from -1 to 1)
+### Max IK Translation Error
+The maximum amount of error allowed when quantizing the translation samples of the IK target.  Units are in game units (inches)
+### Base Sequence
+When reconstructing a pose from compressed Demo data, start by setting the pose to a frame from this animation clip.
+
+If this is not set, or the animation clip is missing, then the bind pose will be used.
+### Base Sequence Frame
+When reconstructing a pose from compressed Demo data, start by setting the pose to this frame from an animation clip.
+
+If this is not set, the animation clip is missing, or the frame is not within a valid range then the bind pose will be used.
+### Bone Selection Mode
+The method to use when determining which bones to record:
+
+
+- Capture All Bones: Record all the bones in the skeleton
+- Capture Selected Bones: Capture only the bones listed in Bones
+### Target Parent
+When set the IK target will be saved relative to this bone, rather than in the root coordinate system of the model.  Doing this will allow the IK target to more accurately follow the movement of another bone, even if the motion of that bone has compression artifacts.
+### Solver Mode
+The IK solver to use:
+
+- Two-Bone: Alter the rotations on two bones (a \"shoulder\" and an \"elbow\" bone) to place a 3rd bone (the \"hand\") at the target location
+- Two-Bone + Translation: Same as Two-Bone IK, but if the hand still cannot reach the IK target after the IK solve then translate the shoulder until the hand is on the target.  
+- One-Bone: Alter the rotation of one bone (the \"elbow\") so that its child (eg: \"hand\") is pointing in the direction of the IK target.
+- One-Bone + Translation: Same as One-Bone IK, but if the hand is too near or far from the IK target, translate the elbow bone to move the hand to the target
+### IK Chain
+The IK chain to use for the two-bone solve
+### Start Bone
+The \"Elbow\" bone in a one-bone IK rig
+### End Bone
+The \"hand\" bone in a one-bone IK rig.  Note that the <i>Start Bone</i> must be an ancestory of this bone, but it does not need to be the immediate parent.
+
+## Paired Sequence Component
+
+## Remap Value Component
+### Value Type
+- Float Parameter
+- Vector Parameter
+### Float Parameter Name In
+### Float Parameter Name Out
+### Vector Parameter Name In
+### Vector Parameter Name Out
+### Float Parameter In
+### Float Parameter Out
+### Vector Parameter In
+### Vector Parameter Out
+### Min Input Value
+### Max Input Value
+### Min Output Value
+### Max Output Value

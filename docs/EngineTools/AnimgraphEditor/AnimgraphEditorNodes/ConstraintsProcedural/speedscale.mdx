@@ -2,3 +2,13 @@
 description: Parameter controls the speed of an animation.
 title: Speed Scale
 ---
+Allows a parameter to directly control the playback speed of its child.  
+
+Note that playback speed is inherited: if a node tells its child to play at half speed, and that child node tells its child to play at half speed, then the last child will play at quarter speed.
+
+![speed scale in editor](./speedscale_node.png "Speed Scale Node")
+
+![speed scale options](./speedscale_options.png "Speed Scale Options")
+
+## Parameter
+The parameter used to control the speed.  Only Float Parameters are supported.
