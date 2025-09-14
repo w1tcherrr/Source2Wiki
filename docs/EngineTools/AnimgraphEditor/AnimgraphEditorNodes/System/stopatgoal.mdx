@@ -2,3 +2,36 @@
 description: Stop At Goal.
 title: Stop At Goal
 ---
+![stopatgoal in editor](./stopatgoal_node.png "Stop At Goal Node")
+
+![stopatgoal options](./stopatgoal_options.png "Stop At Goal Options")
+
+## Outer Stopping Radius
+The entity must be within this distance of the goal before Distance Scaling is activated.
+## Inner Stopping Radius
+If the entity's distance from the goal is less than this amount, the weight of the Distance Blending is 100%.
+Otherwise, if the distance is between the Inner and Outer stopping radius the the weight will increase the closer the entity gets to the Inner radius.
+## Maximum Speed Scale
+The maximum scale that can be applied to the root motion of the clip.
+## Minimum Speed Scale
+The minumum scale that can be applied to the root motion of the clip.
+## Damping
+
+Controls how the output of this node is blended over time.
+
+### Speed Function
+Controls how damped speed is adjusted based on how far the current value is from the target value. 
+- <b>No Damping:</b> Damping is not applied. <br/>
+- <b>Constant:</b> The damping speed does not change with distance from the target value. <br/>
+- <b>Spring:</b> A critically damped spring is used to accelerate the current value toward the target value.  The farther the current value is from the target, the more the acceleration.  However the spring will not overshoot the target value. <br/>
+- <b>Asymmetric Spring</b>
+### Speed Scale
+Scales the speed of the damping, or in the case of the Spring <b>Speed Function</b> it controls the strength of the spring.
+### Speed Scale (Falling)
+When using AsymmetricSpring for <b>Speed Function</b> it controls the strength of the spring, only when damping to a lower value.
+### Limit Speed
+Toggle whether or not to clamp the damping speed
+### Min Speed
+If <b>Limit Speed </b>is set, this is the slowest speed that the dampened value can change at.
+### Max Speed
+If <b>Limit Speed </b>is set, this is the fastest speed that the dampened value can change at.

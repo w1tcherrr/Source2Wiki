@@ -1,0 +1,127 @@
+---
+description: List of Animgraph Editor Tags.
+title: Animgraph Editor Tags
+---
+
+A list of tags used in the Animgraph Editor.
+
+## Name
+The name of this tag.
+
+## Audio Tag
+Triggers playback of an audio clip.
+### Soundevent/Audio Clip
+The path to the clip to play.
+### Attachment
+If set, the sound will be emitted from this location.
+### Volume
+Controls the base volume of the sound.
+### Stop on Tag End
+If the sound is long or looping, force the sound to stop playing when this tag is no longer active. 
+### Stop When Graph Destroyed
+With this option enabled, if this tag is active when the graph is destroyed it will stop the sound playing.  Otherwise, the sound will continue playing.
+### Play on Server
+Trigger this sound on the server.  The sound system will then transmit the sound to all clients so that all players hear it.  In the case of predicted entities, the local player will play this sound on its client, and the server will transmit the sound to all other players.
+### Play on Client
+When enabled, the sound will be played on the local client machine.  If this graph is not also actively running on remote players machines then they will not hear this sound.
+## Bodygroup Tag
+Tag that can set the active options on several body groups while active.  If multiple body group tags with conflicting settings are active at the same time, the settings from the tag with the highest priority for each body group are used.
+### Priority
+If multiple Body Group Tags that set the same body group to different values are active at the same time, the game will use the setting from the tag with the highest Priority value.  
+
+Priority can be positive or negative.
+### Body Group Settings
+List of the Body Groups to change when this tag is active, and the options to change them to.
+#### Body Group Name
+The Body Group to change.
+#### Body Group Option
+The value to set this Body Group to.
+
+## Cloth Settings Tag
+Tells the cloth system to change its settings. The Name of it is NOT normally used by gameplay code.
+### Stiffness
+### EaseIn
+### EaseOut
+### VertexSet
+
+## Footstep Landed Tag
+Tag that works with the Strider system to automatically emit footstep sounds when the feet hit the ground.
+### Footstep Type
+Which footstep type.
+- FOOTSOUND_Left
+- FOOTSOUND_Right
+- FOOTSOUND_UseOverrideSound
+### Override Sound
+### Debug Name
+### Bone Name
+
+## Internal/String Tag
+A tag for communication within the graph itself, rather than communicating with game code.
+
+## Material Attribute Tag
+A tag that sets material attributes.
+### Attribute Name
+### Attribute Type
+Either Value or Color.
+
+## Particle Tag
+Triggers a particle system.
+### Particle System
+The resource of the particle effect to play.
+### Configuration
+Define a particle config.
+### Detach from owner
+### Ending
+#### Stop on Tag End
+Enable this option to tell the particle effect to stop when the tag is no longer active.
+#### Tag End Stop is Instant
+If this option is enabled the particle effect will be forced to stop when the tag ends, rather than fading out naturally.
+### Attachment
+#### Attachment
+#### Attachment Type
+#### Attachment (Control Point 1)
+#### Attachment Type (Control Point 1)
+
+## Ragdoll Tag
+Triggers ragdoll physics with specific settings.
+### Pose Control
+- None
+- Absolute
+- Relative
+### Frequency
+### Damping Ratio
+### Decay Duration
+### Decay Bias
+### Destroy
+
+## Status Tag
+The primary tag type used to communicate with AI.  Use it to notify the AI when actions begin and end.
+
+## Sequence Finished Tag
+This tag is for backwards compatibility with the previous animation system. When it fires, it tells the gameplay code that a sequenece has 'finished'.  
+
+Try to avoid using this tag type except when porting old characters to use the animgraph.
+### Sequence Name
+
+## Post Graph IK Tag
+Tells the foot IK, which is applied to the skeleton after the graph update, when to turn on and off. 
+### Blend Amount
+What the blend weight between the animated position and the IK'd position should be.  
+
+- 0 = 100% Animated
+- 1 = 100% IK
+
+## Foot Fall Tag
+### Foot
+Foot. Defined in ModelDoc.
+
+## Movement Handshake Tag
+### Disables Handshake
+
+## Task Handshake Tag
+### Disables Handshake
+
+## Warp Section Tag
+### Warp Position
+### Warp Orientation
+
