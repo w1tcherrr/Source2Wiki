@@ -28,7 +28,7 @@
         {
           "FriendlyName": "Target Entity",
           "InternalName": "DamageTarget",
-          "VariableType": "String",
+          "VariableType": "TargetDestination",
           "Description": "If specified, only this entity will take damage. Otherwise, all entities within the Radius will take damage.",
           "Options": [],
           "Annotations": []

@@ -276,7 +276,7 @@
           "Type": "Output"
         },
         {
-          "Name": "OnDestructiblePartDestroyed",
+          "Name": "OnDestructiblePartDamageLevelChanged",
           "Description": "",
           "VariableType": "Cpp",
           "Type": "Output"

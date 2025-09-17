@@ -455,6 +455,14 @@
           "Annotations": []
         },
         {
+          "FriendlyName": "interactWith",
+          "InternalName": "interactWith",
+          "VariableType": "String",
+          "Description": "comma-separated list of interaction layers to interact with",
+          "Options": [],
+          "Annotations": []
+        },
+        {
           "FriendlyName": "interactExclude",
           "InternalName": "interactExclude",
           "VariableType": "String",

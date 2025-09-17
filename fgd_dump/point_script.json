@@ -1,0 +1,39 @@
+{
+  "Name": "point_script",
+  "Pages": [
+    {
+      "Game": "cs2",
+      "EntityType": "Point",
+      "Name": "point_script",
+      "Description": "",
+      "IconPath": "fgd_dump/img/cs2/point_script.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "cs_script",
+          "InternalName": "cs_script",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptInput",
+          "Description": "Run callback registered using OnScriptInput.",
+          "VariableType": "String",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}
