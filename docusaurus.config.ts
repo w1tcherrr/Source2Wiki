@@ -112,7 +112,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     zoom: {
-      selector: '.markdown :not(em) > img, .markdown img',
+      selector: '.markdown :not(em) > img:not(.no-zoom), .markdown img:not(.no-zoom)',
       background: {
         light: 'rgb(255, 255, 255)',
         dark: 'rgb(50, 50, 50)'
