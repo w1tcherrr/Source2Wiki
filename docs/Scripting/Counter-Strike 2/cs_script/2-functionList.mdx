@@ -8,6 +8,10 @@ Valve has released a <Tool name="ts"/> file defining the current API along side 
 
 ## Instance
 
+The top level API provided to scripts attached to a point_script entity.
+
+Access these functions by importing Instance from "cs_script/point_script".
+
 |Function|Signature|Description|
 |--------|---------|-----------|
 |Msg|Msg(text: string): void;|Log a message to the console. |
@@ -22,13 +26,13 @@ Valve has released a <Tool name="ts"/> file defining the current API along side 
 |SetNextThink|SetNextThink(time: number): void;|Set when the think callback should next be called |
 |EntFireAtName|EntFireAtName(name: string, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on all targets matching the specified name. |
 |EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on the specified target. |
-|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: EntIOValue, context: EntIOContext) =&gt; any): number | undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
+|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: EntIOValue, context: EntIOContext) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
 |DisconnectOutput|DisconnectOutput(connectionId: number): void;|Find entities by name. |
-|FindEntityByName|FindEntityByName(name: string): Entity | undefined;|Find the first entity matching the specified name. |
+|FindEntityByName|FindEntityByName(name: string): Entity \| undefined;|Find the first entity matching the specified name. |
 |FindEntitiesByName|FindEntitiesByName(name: string): Entity[];|Find entities matching the specified name. |
-|FindEntityByClass|FindEntityByClass(className: string): Entity | undefined;|Find the first entity of the specified class name. |
+|FindEntityByClass|FindEntityByClass(className: string): Entity \| undefined;|Find the first entity of the specified class name. |
 |FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
-|GetPlayerController|GetPlayerController(slot: number): CSPlayerController | undefined;|Get the player controller in the given slot. |
+|GetPlayerController|GetPlayerController(slot: number): CSPlayerController \| undefined;|Get the player controller in the given slot. |
 |GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: TraceConfig): TraceResult;|Trace along a line and detect collisions |
 |GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
 |IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
