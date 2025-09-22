@@ -1,10 +1,12 @@
-# cs_script
+# Intro
 
 cs_script is a JavaScript based scripting system for Counter-Strike maps.
 
+It is a virtual machine for scripting which exposes various Source2 engine functionality and Counter-Strike specific info such as listening to events, accessing player data, firing I/O events, getting data about gamemodes, etc.
+
 :::warning
 Despite the system being JavaScript based, this guide will use [TypeScript](https://www.typescriptlang.org/) due to the much better user experience and because
-Valve's documentation is also in TypeScript. 
+Valve's documentation is also in TypeScript.
 :::
 
 :::info
@@ -17,6 +19,10 @@ Valve's documentation is also in TypeScript.
 There are a few projects which provide a TypeScript wrapper over the cs_script JavaScript API, we will be using [Source2ZE cs_script_boilerplate](https://github.com/Source2ZE/cs_script_boilerplate).
 
 Follow the README of the project from above to setup TypeScript in your addon.
+
+To use a script in your map, add a [point_script](/Entities/point_script) entity, give it a reasonable name, and in the `cs_script` field select your generated .vjs script from the asset browser.
+
+![Script Setup Image](./point_script_example.png)
 
 ## Bugs
 
