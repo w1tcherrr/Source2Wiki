@@ -5,3 +5,36 @@ This page is a list of all classes, functions and utils offered by the cs_script
 :::info
 Valve has released a <Tool name="ts"/> file defining the current API along side the zoo map, it can be found at `Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\scripts\types\point_script.d.ts`
 :::
+
+## Instance
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|Msg|Msg(text: string): void;|Log a message to the console. |
+|DebugScreenText|DebugScreenText(text: string, x: number, y: number, duration: number, color: Color): void;|Print some text to the game window. |
+|DebugSphere|DebugSphere(center: Vector, radius: number, duration: number, color: Color): void;|Draw a wire spehere in the world. |
+|OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;|Called in Tools mode before the script is reloaded due to changes. A returned value will be passed to the OnReload callback. |
+|OnReload|OnReload(callback: (memory: any) =&gt; void): void;|Called in Tools mode after the script reloaded due to changes while. |
+|OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
+|OnGameEvent&lt;E extends keyof GameEventDefs&gt;|OnGameEvent&lt;E extends keyof GameEventDefs&gt;(eventName: E, callback: (args: GameEventDefs[E]) =&gt; void): void;|Called when known game events are fired. See GameEventDefs for list of known game events. |
+|OnScriptInput|OnScriptInput(name: string, callback: (context: EntIOContext) =&gt; void): void;|Called input RunScriptInput is triggered on the point_script entity with a value that matches. |
+|SetThink|SetThink(callback: () =&gt; void): void;|Called per-think |
+|SetNextThink|SetNextThink(time: number): void;|Set when the think callback should next be called |
+|EntFireAtName|EntFireAtName(name: string, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on all targets matching the specified name. |
+|EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on the specified target. |
+|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: EntIOValue, context: EntIOContext) =&gt; any): number | undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
+|DisconnectOutput|DisconnectOutput(connectionId: number): void;|Find entities by name. |
+|FindEntityByName|FindEntityByName(name: string): Entity | undefined;|Find the first entity matching the specified name. |
+|FindEntitiesByName|FindEntitiesByName(name: string): Entity[];|Find entities matching the specified name. |
+|FindEntityByClass|FindEntityByClass(className: string): Entity | undefined;|Find the first entity of the specified class name. |
+|FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
+|GetPlayerController|GetPlayerController(slot: number): CSPlayerController | undefined;|Get the player controller in the given slot. |
+|GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: TraceConfig): TraceResult;|Trace along a line and detect collisions |
+|GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
+|IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
+|GetGameType|GetGameType(): number;|Get the current Game Type. |
+|GetGameMode|GetGameMode(): number;|Get the current Game Mode. |
+|GetMapName|GetMapName(): string;|Get the name of the current map. |
+|GetRoundsPlayed|GetRoundsPlayed(): number;|Get the number of rounds played in the current game. |
+|ClientCommand|ClientCommand(slot: number, command: string): void;|Issue the specified command to the specified client. |
+|ServerCommand|ServerCommand(command: string): void;|Issue a command. |
