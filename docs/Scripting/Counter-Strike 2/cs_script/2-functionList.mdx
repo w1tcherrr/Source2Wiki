@@ -1,12 +1,14 @@
 # List of script functions
 
-This page is a list of all classes, functions and utils offered by the cs_script API in <Game name="cs2"/>
+This page is a list of all interfaces, functions, enums and types offered by the cs_script API in <Game name="cs2"/>
 
 :::info
 Valve has released a <Tool name="ts"/> file defining the current API along side the zoo map, it can be found at `Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\scripts\types\point_script.d.ts`
 :::
 
-## Instance
+## Functions
+
+### Instance
 
 The top level API provided to scripts attached to a point_script entity.
 
@@ -15,25 +17,25 @@ Access these functions by importing Instance from "cs_script/point_script".
 |Function|Signature|Description|
 |--------|---------|-----------|
 |Msg|Msg(text: string): void;|Log a message to the console. |
-|DebugScreenText|DebugScreenText(text: string, x: number, y: number, duration: number, color: Color): void;|Print some text to the game window. |
-|DebugSphere|DebugSphere(center: Vector, radius: number, duration: number, color: Color): void;|Draw a wire spehere in the world. |
+|DebugScreenText|DebugScreenText(text: string, x: number, y: number, duration: number, color: [Color](#color)): void;|Print some text to the game window. |
+|DebugSphere|DebugSphere(center: [Vector](#vector), radius: number, duration: number, color: [Color](#color)): void;|Draw a wire spehere in the world. |
 |OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;|Called in Tools mode before the script is reloaded due to changes. A returned value will be passed to the OnReload callback. |
 |OnReload|OnReload(callback: (memory: any) =&gt; void): void;|Called in Tools mode after the script reloaded due to changes while. |
 |OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
 |OnGameEvent&lt;E extends keyof GameEventDefs&gt;|OnGameEvent&lt;E extends keyof GameEventDefs&gt;(eventName: E, callback: (args: GameEventDefs[E]) =&gt; void): void;|Called when known game events are fired. See GameEventDefs for list of known game events. |
-|OnScriptInput|OnScriptInput(name: string, callback: (context: EntIOContext) =&gt; void): void;|Called input RunScriptInput is triggered on the point_script entity with a value that matches. |
+|OnScriptInput|OnScriptInput(name: string, callback: (context: [EntIOContext](#entiocontext)) =&gt; void): void;|Called input RunScriptInput is triggered on the point_script entity with a value that matches. |
 |SetThink|SetThink(callback: () =&gt; void): void;|Called per-think |
 |SetNextThink|SetNextThink(time: number): void;|Set when the think callback should next be called |
-|EntFireAtName|EntFireAtName(name: string, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on all targets matching the specified name. |
-|EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, value?: EntIOValue, delay?: number): void;|Fire the input on the specified target. |
-|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: EntIOValue, context: EntIOContext) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
+|EntFireAtName|EntFireAtName(name: string, input: string, value?: [EntIOValue](#entiovalue), delay?: number): void;|Fire the input on all targets matching the specified name. |
+|EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, value?: [EntIOValue](#entiovalue), delay?: number): void;|Fire the input on the specified target. |
+|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: [EntIOValue](#entiovalue), context: [EntIOContext](#entiocontext)) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
 |DisconnectOutput|DisconnectOutput(connectionId: number): void;|Find entities by name. |
 |FindEntityByName|FindEntityByName(name: string): Entity \| undefined;|Find the first entity matching the specified name. |
 |FindEntitiesByName|FindEntitiesByName(name: string): Entity[];|Find entities matching the specified name. |
 |FindEntityByClass|FindEntityByClass(className: string): Entity \| undefined;|Find the first entity of the specified class name. |
 |FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
 |GetPlayerController|GetPlayerController(slot: number): CSPlayerController \| undefined;|Get the player controller in the given slot. |
-|GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: TraceConfig): TraceResult;|Trace along a line and detect collisions |
+|GetTraceHit|GetTraceHit(start: [Vector](#vector), end: [Vector](#vector), config?: [TraceConfig](#traceconfig)): [TraceResult](traceresult);|Trace along a line and detect collisions |
 |GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
 |IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
 |GetGameType|GetGameType(): number;|Get the current Game Type. |
@@ -42,3 +44,220 @@ Access these functions by importing Instance from "cs_script/point_script".
 |GetRoundsPlayed|GetRoundsPlayed(): number;|Get the number of rounds played in the current game. |
 |ClientCommand|ClientCommand(slot: number, command: string): void;|Issue the specified command to the specified client. |
 |ServerCommand|ServerCommand(command: string): void;|Issue a command. |
+
+### Entity
+
+API for all entities.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|IsValid|IsValid(): boolean;||
+|GetAbsOrigin|GetAbsOrigin(): [Vector](#vector);||
+|GetLocalOrigin|GetLocalOrigin(): [Vector](#vector);||
+|GetAbsAngles|GetAbsAngles(): [QAngle](#qangle);||
+|GetLocalAngles|GetLocalAngles(): [QAngle](#qangle);||
+|GetAbsVelocity|GetAbsVelocity(): [Vector](#vector);||
+|GetLocalVelocity|GetLocalVelocity(): [Vector](#vector);||
+|GetEyeAngles|GetEyeAngles(): [QAngle](#qangle);||
+|GetEyePosition|GetEyePosition(): [Vector](#vector);||
+|Teleport|Teleport(newPosition: [Vector](#vector) \| null, newAngles: [QAngle](#qangle) \| null, newVelocity: [Vector](#vector) \| null): void;||
+|GetClassName|GetClassName(): string;||
+|GetEntityName|GetEntityName(): string;||
+|SetEntityName|SetEntityName(name: string): void;||
+|GetTeamNumber|GetTeamNumber(): number;||
+|GetHealth|GetHealth(): number;||
+|SetHealth|SetHealth(health: number): void;||
+|GetMaxHealth|GetMaxHealth(): number;||
+|SetMaxHealth|SetMaxHealth(health: number): void;||
+|Kill|Kill(): void;||
+|Remove|Remove(): void;||
+
+### BaseModelEntity 
+extends [Entity](#entity)
+
+API for all entities which have a model.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|SetModel|SetModel(modelName: string): void;||
+|SetModelScale|SetModelScale(scale: number): void;||
+|SetColor|SetColor(color: [Color](#color)): void;||
+|Glow|Glow(color?: [Color](#color)): void;||
+|Unglow|Unglow(): void;||
+
+### CSWeaponBase
+extends [BaseModelEntity](#basemodelentity)
+
+API for all Counter-Strike weapons.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|GetData|GetData(): CSWeaponData;||
+
+### CSWeaponData
+
+API for Counter-Strike weapon data.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|GetName|GetName(): string;||
+|GetType|GetType(): [CSWeaponType](csweapontype);||
+|GetPrice|GetPrice(): number;||
+
+### CSPlayerController
+extends [Entity](#entity)
+
+API for player controllers.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|GetPlayerSlot|GetPlayerSlot(): number;||
+|GetPlayerPawn|GetPlayerPawn(): CSPlayerPawn \| undefined;||
+|GetObserverPawn|GetObserverPawn(): CSObserverPawn \| undefined;||
+|GetScore|GetScore(): number;||
+|AddScore|AddScore(points: number): void;|Add to the player's score. Negative values are allowed but the score will not go below zero. |
+|GetWeaponDataForLoadoutSlot|GetWeaponDataForLoadoutSlot(slot: number, team?: number): CSWeaponData \| undefined;|Leave team as the default to use the player's current team. |
+|IsObserving|IsObserving(): boolean;||
+|IsBot|IsBot(): boolean;||
+|JoinTeam|JoinTeam(team: number): void;||
+
+### CSObserverPawn
+extends [BaseModelEntity](#basemodelentity)
+
+API for spectators.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;||
+|GetObserverMode|GetObserverMode(): number;||
+|SetObserverMode|SetObserverMode(nMode: number): void;||
+
+### CSPlayerPawn
+extends [BaseModelEntity](#basemodelentity)
+
+API for player pawns (the actual player in the world that the controller controls).
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;||
+|FindWeapon|FindWeapon(name: string): CSWeaponBase \| undefined;||
+|FindWeaponBySlot|FindWeaponBySlot(slot: [CSGearSlot](csgearslot)): CSWeaponBase \| undefined;||
+|GetActiveWeapon|GetActiveWeapon(): CSWeaponBase \| undefined;||
+|DestroyWeapon|DestroyWeapon(target: CSWeaponBase \| undefined): void;||
+|DestroyWeapons|DestroyWeapons(): void;||
+|SwitchToWeapon|SwitchToWeapon(target: CSWeaponBase \| undefined): void;||
+|GiveNamedItem|GiveNamedItem(name: string, autoDeploy?: boolean): void;||
+|GetArmor|GetArmor(): number;||
+|SetArmor|SetArmor(value: number): void;||
+
+### PointTemplate
+extends [Entity](#entity)
+
+API for [point_template](/Entities/point_template) entities.
+
+|Function|Signature|Description|
+|--------|---------|-----------|
+|ForceSpawn|ForceSpawn(origin?: [Vector](#vector), angle?: [QAngle](#qangle)): [Entity](#entity)[] \| undefined;||
+
+## Types
+
+### Vector
+```ts
+type Vector = { x: number, y: number, z: number };
+```
+
+### QAngle
+```ts
+type QAngle = { pitch: number, yaw: number, roll: number };
+```
+
+### Color
+```ts
+type Color = { r: number, g: number, b: number, a?: number };
+```
+
+### EntIOValue
+```ts
+type EntIOValue = boolean | number | string | Vector | Color | undefined;
+```
+
+### EntIOContext
+```ts
+type EntIOContext = { caller?: Entity, activator?: Entity  };
+```
+
+## Interfaces
+
+### TraceConfig
+
+The data required to perform a trace.
+
+|Property Name|Declaration|Description|
+|-------------|-----------|-----------|
+|ignoreEnt|ignoreEnt?: [Entity](#entity)|Set to ignore collisions with an entity, typically the source of a trace|
+|interacts|interacts?: [TraceInteracts](traceinteracts)| Defaults to trace against any solid|
+|sphereRadius|sphereRadius?: number|Set to trace a sphere with specified radius|
+
+### TraceResult
+
+The resulting data from a trace.
+
+|Property Name|Declaration|Description|
+|-------------|-----------|-----------|
+|fraction|fraction: number;||
+|end|end: Vector;||
+|didHit|didHit: boolean;||
+|hitEnt|hitEnt?: Entity | null;||
+
+### GameEventDefs
+
+Interface defining game events, this interface seems incomplete as using other events outside of this also works.
+
+|Property Name|Declaration|Description|
+|-------------|-----------|-----------|
+|player_activate|`player_activate: { userid: number };`||
+|player_connect|`player_connect: { userid: number, name: string, bot: boolean };`||
+|player_disconnect|`player_disconnect: { userid: number, reason: number };`||
+|player_death|`player_death: { userid: number, attacker: number };`||
+|round_start|`round_start: { round_number: number };`||
+|round_end|`round_end: { winner: number };`||
+|bomb_planted|`bomb_planted: { userid: number };`||
+|bomb_defused|`bomb_defused: { userid: number };`||
+
+## enums
+
+### CSWeaponType
+
+Counter-Strike weapon types.
+
+- KNIFE = 0
+- PISTOL = 1
+- SUBMACHINEGUN = 2
+- RIFLE = 3
+- SHOTGUN = 4
+- SNIPER_RIFLE = 5
+- MACHINEGUN = 6
+- C4 = 7
+- TASER = 8
+- GRENADE = 9
+- EQUIPMENT = 10
+- STACKABLEITEM = 11
+- UNKNOWN = 12
+
+### CSGearSlot 
+
+Counter-Strike gear types.
+
+- INVALID = -1
+- RIFLE = 0
+- PISTOL = 1
+- KNIFE = 2
+- GRENADES = 3
+- C4 = 4
+    
+### TraceInteracts
+
+What traces will interact with
+
+- SOLID = 0
+- WORLD = 1
