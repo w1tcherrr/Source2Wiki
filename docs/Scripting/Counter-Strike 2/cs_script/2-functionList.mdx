@@ -35,7 +35,7 @@ Access these functions by importing Instance from "cs_script/point_script".
 |FindEntityByClass|FindEntityByClass(className: string): Entity \| undefined;|Find the first entity of the specified class name. |
 |FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
 |GetPlayerController|GetPlayerController(slot: number): CSPlayerController \| undefined;|Get the player controller in the given slot. |
-|GetTraceHit|GetTraceHit(start: [Vector](#vector), end: [Vector](#vector), config?: [TraceConfig](#traceconfig)): [TraceResult](traceresult);|Trace along a line and detect collisions |
+|GetTraceHit|GetTraceHit(start: [Vector](#vector), end: [Vector](#vector), config?: [TraceConfig](#traceconfig)): [TraceResult](#traceresult);|Trace along a line and detect collisions |
 |GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
 |IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
 |GetGameType|GetGameType(): number;|Get the current Game Type. |
@@ -101,7 +101,7 @@ API for Counter-Strike weapon data.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |GetName|GetName(): string;||
-|GetType|GetType(): [CSWeaponType](csweapontype);||
+|GetType|GetType(): [CSWeaponType](#csweapontype);||
 |GetPrice|GetPrice(): number;||
 
 ### CSPlayerController
@@ -141,7 +141,7 @@ API for player pawns (the actual player in the world that the controller control
 |--------|---------|-----------|
 |GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;||
 |FindWeapon|FindWeapon(name: string): CSWeaponBase \| undefined;||
-|FindWeaponBySlot|FindWeaponBySlot(slot: [CSGearSlot](csgearslot)): CSWeaponBase \| undefined;||
+|FindWeaponBySlot|FindWeaponBySlot(slot: [CSGearSlot](#csgearslot)): CSWeaponBase \| undefined;||
 |GetActiveWeapon|GetActiveWeapon(): CSWeaponBase \| undefined;||
 |DestroyWeapon|DestroyWeapon(target: CSWeaponBase \| undefined): void;||
 |DestroyWeapons|DestroyWeapons(): void;||
@@ -195,7 +195,7 @@ The data required to perform a trace.
 |Property Name|Declaration|Description|
 |-------------|-----------|-----------|
 |ignoreEnt|ignoreEnt?: [Entity](#entity)|Set to ignore collisions with an entity, typically the source of a trace|
-|interacts|interacts?: [TraceInteracts](traceinteracts)| Defaults to trace against any solid|
+|interacts|interacts?: [TraceInteracts](#traceinteracts)| Defaults to trace against any solid|
 |sphereRadius|sphereRadius?: number|Set to trace a sphere with specified radius|
 
 ### TraceResult
