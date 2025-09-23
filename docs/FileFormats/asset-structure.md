@@ -1,7 +1,6 @@
 ---
 title: Asset Structure
-aliases:
-  - CSDK 12
+
 ---
 [^1]This list contains all the asset types used by the game.
 
