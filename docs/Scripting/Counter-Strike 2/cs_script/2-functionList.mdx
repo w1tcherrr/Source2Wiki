@@ -21,34 +21,52 @@ Access these functions by importing Instance from "cs_script/point_script".
 
 |Function|Signature|Description|
 |--------|---------|-----------|
-|Msg|Msg(text: string): void;|Log a message to the console. |
-|DebugScreenText|DebugScreenText(text: string, x: number, y: number, duration: number, color: [Color](#color)): void;|Print some text to the game window. |
-|DebugSphere|DebugSphere(center: [Vector](#vector), radius: number, duration: number, color: [Color](#color)): void;|Draw a wire spehere in the world. |
+|Msg|Msg(text: any): void;|Log a message to the console. |
+|DebugScreenText|DebugScreenText(text: any, x: number, y: number, duration: number, color: [Color](#color)): void;|Print some text to the game window. Only works in dev environments. |
+|DebugLine|DebugLine(start: Vector, end: Vector, duration: number, color: [Color](#color)): void;|Draw a line in the world. Only works in dev environments. |
+|DebugBox|DebugBox(mins: Vector, maxs: Vector, duraiton: number, color: [Color](#color)): void;|Draw an axis aligned box in the world. Only works in dev environments. |
+|DebugSphere|DebugSphere(center: Vector, radius: number, duration: number, color: [Color](#color)): void;|Draw a wire sphere in the world. Only works in dev environments. |
 |OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;|Called in Tools mode before the script is reloaded due to changes. A returned value will be passed to the OnReload callback. |
 |OnReload|OnReload(callback: (memory: any) =&gt; void): void;|Called in Tools mode after the script reloaded due to changes while. |
-|OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
-|OnGameEvent&lt;E extends keyof GameEventDefs&gt;|OnGameEvent&lt;E extends keyof GameEventDefs&gt;(eventName: E, callback: (args: GameEventDefs[E]) =&gt; void): void;|Called when known game events are fired. See GameEventDefs for list of known game events. |
-|OnScriptInput|OnScriptInput(name: string, callback: (context: [EntIOContext](#entiocontext)) =&gt; void): void;|Called input RunScriptInput is triggered on the point_script entity with a value that matches. |
-|SetThink|SetThink(callback: () =&gt; void): void;|Called per-think |
-|SetNextThink|SetNextThink(time: number): void;|Set when the think callback should next be called |
-|EntFireAtName|EntFireAtName(name: string, input: string, value?: [EntIOValue](#entiovalue), delay?: number): void;|Fire the input on all targets matching the specified name. |
-|EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, value?: [EntIOValue](#entiovalue), delay?: number): void;|Fire the input on the specified target. |
-|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (arg: [EntIOValue](#entiovalue), context: [EntIOContext](#entiocontext)) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
+|SetThink|SetThink(callback: () =&gt; void): void;|Called per-think. Control when this is run using SetNextThink. |
+|SetNextThink|SetNextThink(time: number): void;|Set when the OnThink callback should next be run. The exact time will be the tick nearest to the specified time. Will be within 1/128th of a second, before or after. |
+|EntFireAtName|EntFireAtName(name: string, input: string, value?: [InputValue](#inputvalue), delay?: number): void;|Fire the input on all targets matching the specified names. |
+|EntFireAtName|EntFireAtName(name: string, input: string, inputData?: [InputData](#inputdata), delay?: number): void;||
+|EntFireAtTarget|EntFireAtTarget(target: [Entity](#entity), input: string, value?: [InputValue](#inputvalue), delay?: number): void;|Fire the input on the specified target. |
+|EntFireAtTarget|EntFireAtTarget(target: [Entity](#entity), input: string, inputData?: [InputData](#inputdata), delay?: number): void;||
+|ConnectOutput|ConnectOutput(target: [Entity](#entity), output: string, callback: (inputData: [InputData](#inputdata)) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
 |DisconnectOutput|DisconnectOutput(connectionId: number): void;|Find entities by name. |
-|FindEntityByName|FindEntityByName(name: string): Entity \| undefined;|Find the first entity matching the specified name. |
-|FindEntitiesByName|FindEntitiesByName(name: string): Entity[];|Find entities matching the specified name. |
-|FindEntityByClass|FindEntityByClass(className: string): Entity \| undefined;|Find the first entity of the specified class name. |
-|FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
-|GetPlayerController|GetPlayerController(slot: number): CSPlayerController \| undefined;|Get the player controller in the given slot. |
-|GetTraceHit|GetTraceHit(start: [Vector](#vector), end: [Vector](#vector), config?: [TraceConfig](#traceconfig)): [TraceResult](#traceresult);|Trace along a line and detect collisions |
+|FindEntityByName|FindEntityByName(name: string): [Entity](#entity) \| undefined;|Find the first entity matching the specified name. |
+|FindEntitiesByName|FindEntitiesByName(name: string): [Entity](#entity)[];|Find entities matching the specified name. |
+|FindEntityByClass|FindEntityByClass(className: string): [Entity](#entity) \| undefined;|Find the first entity of the specified class name. |
+|FindEntitiesByClass|FindEntitiesByClass(className: string): [Entity](#entity)[];|Find entities of the specified class name. |
+|GetPlayerController|GetPlayerController(playerSlot: number): [CSPlayerController](#csplayercontroller) \| undefined;|Get the player controller in the given slot. |
+|GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: [TraceConfig](#traceconfig)): [TraceResult](#traceresult);|Trace along a line and detect collisions |
 |GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
 |IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
 |GetGameType|GetGameType(): number;|Get the current Game Type. |
 |GetGameMode|GetGameMode(): number;|Get the current Game Mode. |
 |GetMapName|GetMapName(): string;|Get the name of the current map. |
 |GetRoundsPlayed|GetRoundsPlayed(): number;|Get the number of rounds played in the current game. |
-|ClientCommand|ClientCommand(slot: number, command: string): void;|Issue the specified command to the specified client. |
+|ClientCommand|ClientCommand(playerSlot: number, command: string): void;|Issue the specified command to the specified client. |
 |ServerCommand|ServerCommand(command: string): void;|Issue a command. |
+
+#### Events
+|Function|Signature|Description|
+|--------|---------|-----------|
+|OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
+|OnScriptInput|OnScriptInput(name: string, callback: (inputData: \{ caller?: Entity, activator?: Entity \}) =&gt; void): void;|Called when input RunScriptInput is triggered on the point_script entity with a parameter value that matches name. |
+|OnPlayerConnect|OnPlayerConnect(callback: (player: [CSPlayerController](#csplayercontroller)) =&gt; void): void;||
+|OnPlayerActivate|OnPlayerActivate(callback: (player: [CSPlayerController](#csplayercontroller)) =&gt; void): void;||
+|OnPlayerDisconnect|OnPlayerDisconnect(callback: (playerSlot: number) =&gt; void): void;||
+|OnRoundStart|OnRoundStart(callback: () =&gt; void): void;||
+|OnRoundEnd|OnRoundEnd(callback: (winningTeam: number) =&gt; void): void;||
+|OnBombPlant|OnBombPlant(callback: (c4: Entity, planter: CSPlayerPawn) =&gt; void): void;||
+|OnBombDefuse|OnBombDefuse(callback: (c4: Entity, defuser: CSPlayerPawn) =&gt; void): void;||
+|OnPlayerKill|OnPlayerKill(callback: (victim: CSPlayerPawn, info: \{ weapon?: CSWeaponBase, attacker?: Entity, inflictor?: Entity \}) =&gt; void): void;||
+|OnPlayerChat|OnPlayerChat(callback: (speaker: [CSPlayerController](#csplayercontroller), team: number, text: string) =&gt; void): void;||
+|OnGunFire|OnGunFire(callback: (weapon: CSWeaponBase) =&gt; void): void;||
+|OnGrenadeThrow|OnGrenadeThrow(callback: (weapon: CSWeaponBase, projectile: Entity) =&gt; void): void;||
 
 ### Entity
 
@@ -98,6 +116,7 @@ API for all Counter-Strike weapons.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |GetData|GetData(): CSWeaponData;||
+|GetOwner|GetOwner(): CSPlayerPawn \| undefined;||
 
 ### CSWeaponData
 
@@ -134,6 +153,7 @@ API for spectators.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;||
+|GetOriginalPlayerController|GetOriginalPlayerController(): CSPlayerController;|Gets the controller that this player pawn was originally spawned for.|
 |GetObserverMode|GetObserverMode(): number;||
 |SetObserverMode|SetObserverMode(nMode: number): void;||
 
@@ -144,16 +164,20 @@ API for player pawns (the actual player in the world that the controller control
 
 |Function|Signature|Description|
 |--------|---------|-----------|
-|GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;||
+|GetPlayerController|GetPlayerController(): CSPlayerController \| undefined;|Gets the controller currently controlling this player pawn. |
+|GetOriginalPlayerController|GetOriginalPlayerController(): CSPlayerController;|Gets the controller that this player pawn was originally spawned for. |
 |FindWeapon|FindWeapon(name: string): CSWeaponBase \| undefined;||
-|FindWeaponBySlot|FindWeaponBySlot(slot: [CSGearSlot](#csgearslot)): CSWeaponBase \| undefined;||
+|FindWeaponBySlot|FindWeaponBySlot(slot: CSGearSlot): CSWeaponBase \| undefined;||
 |GetActiveWeapon|GetActiveWeapon(): CSWeaponBase \| undefined;||
-|DestroyWeapon|DestroyWeapon(target: CSWeaponBase \| undefined): void;||
+|DestroyWeapon|DestroyWeapon(target: CSWeaponBase): void;||
 |DestroyWeapons|DestroyWeapons(): void;||
-|SwitchToWeapon|SwitchToWeapon(target: CSWeaponBase \| undefined): void;||
+|SwitchToWeapon|SwitchToWeapon(target: CSWeaponBase): void;||
 |GiveNamedItem|GiveNamedItem(name: string, autoDeploy?: boolean): void;||
 |GetArmor|GetArmor(): number;||
 |SetArmor|SetArmor(value: number): void;||
+|IsCrouching|IsCrouching(): boolean;||
+|IsCrouched|IsCrouched(): boolean;||
+|IsNoclipping|IsNoclipping(): boolean;||
 
 ### PointTemplate
 extends [Entity](#entity)
@@ -181,14 +205,14 @@ type QAngle = { pitch: number, yaw: number, roll: number };
 type Color = { r: number, g: number, b: number, a?: number };
 ```
 
-### EntIOValue
+### InputValue
 ```ts
-type EntIOValue = boolean | number | string | Vector | Color | undefined;
+type InputValue = boolean | number | string | Vector | Color | undefined;
 ```
 
-### EntIOContext
+### InputData
 ```ts
-type EntIOContext = { caller?: Entity, activator?: Entity  };
+type InputData = { value?: InputValue, caller?: Entity, activator?: Entity };
 ```
 
 ## Interfaces
@@ -212,22 +236,8 @@ The resulting data from a trace.
 |fraction|fraction: number;||
 |end|end: Vector;||
 |didHit|didHit: boolean;||
+|normal|normal: Vector;||
 |hitEnt|hitEnt?: Entity | null;||
-
-### GameEventDefs
-
-Interface defining game events, this interface seems incomplete as using other events outside of this also works.
-
-|Property Name|Declaration|Description|
-|-------------|-----------|-----------|
-|player_activate|`player_activate: { userid: number };`||
-|player_connect|`player_connect: { userid: number, name: string, bot: boolean };`||
-|player_disconnect|`player_disconnect: { userid: number, reason: number };`||
-|player_death|`player_death: { userid: number, attacker: number };`||
-|round_start|`round_start: { round_number: number };`||
-|round_end|`round_end: { winner: number };`||
-|bomb_planted|`bomb_planted: { userid: number };`||
-|bomb_defused|`bomb_defused: { userid: number };`||
 
 ## enums
 
