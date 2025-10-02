@@ -22,28 +22,28 @@ Access these functions by importing Instance from "cs_script/point_script".
 |Function|Signature|Description|
 |--------|---------|-----------|
 |Msg|Msg(text: any): void;|Log a message to the console. |
-|DebugScreenText|DebugScreenText(text: any, x: number, y: number, duration: number, color: [Color](#color)): void;|Print some text to the game window. Only works in dev environments. |
-|DebugLine|DebugLine(start: Vector, end: Vector, duration: number, color: [Color](#color)): void;|Draw a line in the world. Only works in dev environments. |
-|DebugBox|DebugBox(mins: Vector, maxs: Vector, duraiton: number, color: [Color](#color)): void;|Draw an axis aligned box in the world. Only works in dev environments. |
-|DebugSphere|DebugSphere(center: Vector, radius: number, duration: number, color: [Color](#color)): void;|Draw a wire sphere in the world. Only works in dev environments. |
-|OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;|Called in Tools mode before the script is reloaded due to changes. A returned value will be passed to the OnReload callback. |
-|OnReload|OnReload(callback: (memory: any) =&gt; void): void;|Called in Tools mode after the script reloaded due to changes while. |
+|DebugScreenText|DebugScreenText(config: \{ text: any, x: number, y: number, duration?: number, color?: Color \}): void;|Print some text to the game window. Only works in dev environments. |
+|DebugLine|DebugLine(config: \{ start: Vector, end: Vector, duration?: number, color?: Color \}): void;|Draw a line in the world. Only works in dev environments. |
+|DebugSphere|DebugSphere(config: \{ center: Vector, radius: number, duration?: number, color?: Color \}): void;|Draw a wire sphere in the world. Only works in dev environments. |
+|DebugBox|DebugBox(config: \{ mins: Vector, maxs: Vector, duration?: number, color?: Color \}): void;|Draw an axis aligned box in the world. Only works in dev environments. |
 |SetThink|SetThink(callback: () =&gt; void): void;|Called per-think. Control when this is run using SetNextThink. |
-|SetNextThink|SetNextThink(time: number): void;|Set when the OnThink callback should next be run. The exact time will be the tick nearest to the specified time. Will be within 1/128th of a second, before or after. |
-|EntFireAtName|EntFireAtName(name: string, input: string, value?: [InputValue](#inputvalue), delay?: number): void;|Fire the input on all targets matching the specified names. |
-|EntFireAtName|EntFireAtName(name: string, input: string, inputData?: [InputData](#inputdata), delay?: number): void;||
-|EntFireAtTarget|EntFireAtTarget(target: [Entity](#entity), input: string, value?: [InputValue](#inputvalue), delay?: number): void;|Fire the input on the specified target. |
-|EntFireAtTarget|EntFireAtTarget(target: [Entity](#entity), input: string, inputData?: [InputData](#inputdata), delay?: number): void;||
-|ConnectOutput|ConnectOutput(target: [Entity](#entity), output: string, callback: (inputData: [InputData](#inputdata)) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
+|SetNextThink|SetNextThink(time: number): void;|Set when the OnThink callback should next be run. The exact time will be on the tick nearest to the specified time, which may be earlier or later. |
+|EntFireAtName|EntFireAtName(config: \{ name: string, input: string, value?: InputValue, caller?: Entity, activator?: Entity, delay?: number \}): void;|Fire the input on all targets matching the specified names. |
+|EntFireAtTarget|EntFireAtTarget(config: \{ target: Entity, input: string, value?: InputValue, caller?: Entity, activator?: Entity, delay?: number \}): void;|Fire the input on the specified target. |
+|ConnectOutput|ConnectOutput(target: Entity, output: string, callback: (inputData: \{ value?: InputValue, caller?: Entity, activator?: Entity \}) =&gt; any): number \| undefined;|Connect the output of an entity to a callback. The return value is a connection id that can be used in `DisconnectOutput` |
 |DisconnectOutput|DisconnectOutput(connectionId: number): void;|Find entities by name. |
-|FindEntityByName|FindEntityByName(name: string): [Entity](#entity) \| undefined;|Find the first entity matching the specified name. |
-|FindEntitiesByName|FindEntitiesByName(name: string): [Entity](#entity)[];|Find entities matching the specified name. |
-|FindEntityByClass|FindEntityByClass(className: string): [Entity](#entity) \| undefined;|Find the first entity of the specified class name. |
-|FindEntitiesByClass|FindEntitiesByClass(className: string): [Entity](#entity)[];|Find entities of the specified class name. |
-|GetPlayerController|GetPlayerController(playerSlot: number): [CSPlayerController](#csplayercontroller) \| undefined;|Get the player controller in the given slot. |
-|GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: [TraceConfig](#traceconfig)): [TraceResult](#traceresult);|Trace along a line and detect collisions |
+|FindEntityByName|FindEntityByName(name: string): Entity \| undefined;|Find the first entity matching the specified name. |
+|FindEntitiesByName|FindEntitiesByName(name: string): Entity[];|Find entities matching the specified name. |
+|FindEntityByClass|FindEntityByClass(className: string): Entity \| undefined;|Find the first entity of the specified class name. |
+|FindEntitiesByClass|FindEntitiesByClass(className: string): Entity[];|Find entities of the specified class name. |
+|GetPlayerController|GetPlayerController(playerSlot: number): CSPlayerController \| undefined;|Get the player controller in the given slot. |
+|TraceLine|TraceLine(trace: \{ start: Vector, end: Vector, ignoreEntity?: Entity, ignorePlayers?: boolean \}): TraceResult;|Trace a point along a line and detect collisions |
+|TraceSphere|TraceSphere(trace: \{ start: Vector, end: Vector, radius: number, ignoreEntity?: Entity, ignorePlayers?: boolean \}): TraceResult;|Trace a sphere along a line and detect collisions |
+|TraceBox|TraceBox(trace: \{ start: Vector, end: Vector, mins: Vector, maxs: Vector, ignoreEntity?: Entity, ignorePlayers?: boolean \}): TraceResult;|Trace an axis aligned bounding box along a line and detect collisions |
+|TraceBullet|TraceBullet(trace: BulletTrace): BulletTraceResult[];|Trace as a bullet and detect hits and damage |
 |GetGameTime|GetGameTime(): number;|Get the game time in seconds. |
 |IsWarmupPeriod|IsWarmupPeriod(): boolean;|Get if the game is currently in a Warmup period. |
+|IsFreezePeriod|IsFreezePeriod(): boolean;|Get if the game is currently in a Freeze period. |
 |GetGameType|GetGameType(): number;|Get the current Game Type. |
 |GetGameMode|GetGameMode(): number;|Get the current Game Mode. |
 |GetMapName|GetMapName(): string;|Get the name of the current map. |
@@ -51,22 +51,47 @@ Access these functions by importing Instance from "cs_script/point_script".
 |ClientCommand|ClientCommand(playerSlot: number, command: string): void;|Issue the specified command to the specified client. |
 |ServerCommand|ServerCommand(command: string): void;|Issue a command. |
 
+#### Deprecated
+|Function|Signature|Description|
+|--------|---------|-----------|
+|OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;||
+|OnReload|OnReload(callback: (memory: any) =&gt; void): void;||
+|DebugScreenText|DebugScreenText(text: any, x: number, y: number, duration: number, color: Color): void;||
+|DebugLine|DebugLine(start: Vector, end: Vector, duration: number, color: Color): void;||
+|DebugBox|DebugBox(mins: Vector, maxs: Vector, duration: number, color: Color): void;||
+|DebugSphere|DebugSphere(center: Vector, radius: number, duration: number, color: Color): void;||
+|GetTraceHit|GetTraceHit(start: Vector, end: Vector, config?: \{ ignoreEntity?: Entity, ignorePlayers?: boolean \}): TraceResult;||
+|EntFireAtName|EntFireAtName(name: string, input: string, inputData?: InputValue \| \{ value?: InputValue, caller?: Entity, activator?: Entity \}, delay?: number): void;||
+|EntFireAtTarget|EntFireAtTarget(target: Entity, input: string, inputData?: InputValue \| \{ value?: InputValue, caller?: Entity, activator?: Entity \}, delay?: number): void;||
+
+
 #### Events
 |Function|Signature|Description|
 |--------|---------|-----------|
+|OnScriptReload&lt;T&gt;|OnScriptReload&lt;T&gt;(config: \{ before?: () =&gt; T, after?: (memory: T) => void \}): void;||
 |OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
 |OnScriptInput|OnScriptInput(name: string, callback: (inputData: \{ caller?: Entity, activator?: Entity \}) =&gt; void): void;|Called when input RunScriptInput is triggered on the point_script entity with a parameter value that matches name. |
-|OnPlayerConnect|OnPlayerConnect(callback: (player: [CSPlayerController](#csplayercontroller)) =&gt; void): void;||
-|OnPlayerActivate|OnPlayerActivate(callback: (player: [CSPlayerController](#csplayercontroller)) =&gt; void): void;||
-|OnPlayerDisconnect|OnPlayerDisconnect(callback: (playerSlot: number) =&gt; void): void;||
+|OnPlayerConnect|OnPlayerConnect(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;||
+|OnPlayerActivate|OnPlayerActivate(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;||
+|OnPlayerDisconnect|OnPlayerDisconnect(callback: (event: \{ playerSlot: number \}) =&gt; void): void;||
+|OnPlayerReset|OnPlayerReset(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void||
 |OnRoundStart|OnRoundStart(callback: () =&gt; void): void;||
-|OnRoundEnd|OnRoundEnd(callback: (winningTeam: number) =&gt; void): void;||
-|OnBombPlant|OnBombPlant(callback: (c4: Entity, planter: CSPlayerPawn) =&gt; void): void;||
-|OnBombDefuse|OnBombDefuse(callback: (c4: Entity, defuser: CSPlayerPawn) =&gt; void): void;||
-|OnPlayerKill|OnPlayerKill(callback: (victim: CSPlayerPawn, info: \{ weapon?: CSWeaponBase, attacker?: Entity, inflictor?: Entity \}) =&gt; void): void;||
-|OnPlayerChat|OnPlayerChat(callback: (speaker: [CSPlayerController](#csplayercontroller), team: number, text: string) =&gt; void): void;||
-|OnGunFire|OnGunFire(callback: (weapon: CSWeaponBase) =&gt; void): void;||
-|OnGrenadeThrow|OnGrenadeThrow(callback: (weapon: CSWeaponBase, projectile: Entity) =&gt; void): void;||
+|OnRoundEnd|OnRoundEnd(callback: (event: \{ winningTeam: number \}) =&gt; void): void;||
+|OnBombPlant|OnBombPlant(callback: (event: \{ plantedC4: Entity, planter: CSPlayerPawn \}) =&gt; void): void;||
+|OnBombDefuse|OnBombDefuse(callback: (event: \{ plantedC4: Entity, defuser: CSPlayerPawn \}) =&gt; void): void;||
+|OnBeforePlayerDamage|OnBeforePlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; BeforeDamageResult): void;||
+|OnPlayerDamage|OnPlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;||
+|OnPlayerKill|OnPlayerKill(callback: (event: \{ player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;||
+|OnPlayerJump|OnPlayerJump(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;||
+|OnPlayerLand|OnPlayerLand(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;||
+|OnPlayerChat|OnPlayerChat(callback: (event: \{ player: CSPlayerController \| undefined, text: string, team: number \}) =&gt; void): void;||
+|OnPlayerPing|OnPlayerPing(callback: (event: \{ player: CSPlayerController, position: Vector \}) =&gt; void): void;||
+|OnGunReload|OnGunReload(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
+|OnGunFire|OnGunFire(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
+|OnBulletImpact|OnBulletImpact(callback: (event: \{ weapon: CSWeaponBase, position: Vector \}) =&gt; void): void;||
+|OnGrenadeThrow|OnGrenadeThrow(callback: (event: \{ weapon: CSWeaponBase, projectile: Entity \}) =&gt; void): void;||
+|OnGrenadeBounce|OnGrenadeBounce(callback: (event: \{ projectile: Entity, bounces: number \}) =&gt; void): void;||
+|OnKnifeAttack|OnKnifeAttack(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
 
 ### Entity
 
@@ -75,25 +100,35 @@ API for all entities.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |IsValid|IsValid(): boolean;||
-|GetAbsOrigin|GetAbsOrigin(): [Vector](#vector);||
-|GetLocalOrigin|GetLocalOrigin(): [Vector](#vector);||
-|GetAbsAngles|GetAbsAngles(): [QAngle](#qangle);||
-|GetLocalAngles|GetLocalAngles(): [QAngle](#qangle);||
-|GetAbsVelocity|GetAbsVelocity(): [Vector](#vector);||
-|GetLocalVelocity|GetLocalVelocity(): [Vector](#vector);||
-|GetEyeAngles|GetEyeAngles(): [QAngle](#qangle);||
-|GetEyePosition|GetEyePosition(): [Vector](#vector);||
-|Teleport|Teleport(newPosition: [Vector](#vector) \| null, newAngles: [QAngle](#qangle) \| null, newVelocity: [Vector](#vector) \| null): void;||
+|GetAbsOrigin|GetAbsOrigin(): Vector;||
+|GetLocalOrigin|GetLocalOrigin(): Vector;||
+|GetAbsAngles|GetAbsAngles(): QAngle;||
+|GetLocalAngles|GetLocalAngles(): QAngle;||
+|GetAbsVelocity|GetAbsVelocity(): Vector;||
+|GetLocalVelocity|GetLocalVelocity(): Vector;||
+|GetEyeAngles|GetEyeAngles(): QAngle;||
+|GetEyePosition|GetEyePosition(): Vector;||
+|Teleport|Teleport(newValues: \{ position?: Vector, angles?: QAngle, velocity?: Vector \}): void;||
 |GetClassName|GetClassName(): string;||
 |GetEntityName|GetEntityName(): string;||
 |SetEntityName|SetEntityName(name: string): void;||
+|GetOwner|GetOwner(): Entity \| undefined;||
+|SetOwner|SetOwner(owner: Entity \| undefined): void;||
+|GetParent|GetParent(): Entity \| undefined;||
+|SetParent|SetParent(parent: Entity \| undefined): void;||
 |GetTeamNumber|GetTeamNumber(): number;||
 |GetHealth|GetHealth(): number;||
 |SetHealth|SetHealth(health: number): void;||
 |GetMaxHealth|GetMaxHealth(): number;||
 |SetMaxHealth|SetMaxHealth(health: number): void;||
+|IsAlive|IsAlive(): boolean;||
+|IsWorld|IsWorld(): boolean;||
+|GetGroundEntity|GetGroundEntity(): Entity \| undefined;||
+|TakeDamage|TakeDamage(takeDamage: \{ damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}): number;||
 |Kill|Kill(): void;||
 |Remove|Remove(): void;||
+|Teleport|Teleport(newPosition: Vector \| null, newAngles: QAngle \| null, newVelocity: Vector \| null): void;|deprecated|
+
 
 ### BaseModelEntity 
 extends [Entity](#entity)
@@ -125,8 +160,12 @@ API for Counter-Strike weapon data.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |GetName|GetName(): string;||
-|GetType|GetType(): [CSWeaponType](#csweapontype);||
+|GetType|GetType(): CSWeaponType;||
 |GetPrice|GetPrice(): number;||
+|GetDamage|GetDamage(): number; // Starting damage as the bullet travels||
+|GetRange|GetRange(): number;||
+|GetRangeModifier|GetRangeModifier(): number; // Exponential damage drop off from traveling through air. nextDamage = currentDamage * rangeModifier ^ (distance / 500).||
+|GetPenetration|GetPenetration(): number; // Power to maintain damage during penetration||
 
 ### CSPlayerController
 extends [Entity](#entity)
@@ -136,6 +175,7 @@ API for player controllers.
 |Function|Signature|Description|
 |--------|---------|-----------|
 |GetPlayerSlot|GetPlayerSlot(): number;||
+|GetPlayerName|GetPlayerName(): string;||
 |GetPlayerPawn|GetPlayerPawn(): CSPlayerPawn \| undefined;||
 |GetObserverPawn|GetObserverPawn(): CSObserverPawn \| undefined;||
 |GetScore|GetScore(): number;||
@@ -143,6 +183,7 @@ API for player controllers.
 |GetWeaponDataForLoadoutSlot|GetWeaponDataForLoadoutSlot(slot: number, team?: number): CSWeaponData \| undefined;|Leave team as the default to use the player's current team. |
 |IsObserving|IsObserving(): boolean;||
 |IsBot|IsBot(): boolean;||
+|IsConnected|IsConnected(): boolean;||
 |JoinTeam|JoinTeam(team: number): void;||
 
 ### CSObserverPawn
@@ -171,6 +212,7 @@ API for player pawns (the actual player in the world that the controller control
 |GetActiveWeapon|GetActiveWeapon(): CSWeaponBase \| undefined;||
 |DestroyWeapon|DestroyWeapon(target: CSWeaponBase): void;||
 |DestroyWeapons|DestroyWeapons(): void;||
+|DropWeapon|DropWeapon(target: CSWeaponBase): void;||
 |SwitchToWeapon|SwitchToWeapon(target: CSWeaponBase): void;||
 |GiveNamedItem|GiveNamedItem(name: string, autoDeploy?: boolean): void;||
 |GetArmor|GetArmor(): number;||
@@ -210,34 +252,60 @@ type Color = { r: number, g: number, b: number, a?: number };
 type InputValue = boolean | number | string | Vector | Color | undefined;
 ```
 
-### InputData
+### BeforeDamageResult
 ```ts
-type InputData = { value?: InputValue, caller?: Entity, activator?: Entity };
+type BeforeDamageResult = { damage?: number, abort?: boolean } | void;
 ```
 
 ## Interfaces
-
-### TraceConfig
-
-The data required to perform a trace.
-
-|Property Name|Declaration|Description|
-|-------------|-----------|-----------|
-|ignoreEnt|ignoreEnt?: [Entity](#entity)|Set to ignore collisions with an entity, typically the source of a trace|
-|interacts|interacts?: [TraceInteracts](#traceinteracts)| Defaults to trace against any solid|
-|sphereRadius|sphereRadius?: number|Set to trace a sphere with specified radius|
 
 ### TraceResult
 
 The resulting data from a trace.
 
-|Property Name|Declaration|Description|
-|-------------|-----------|-----------|
-|fraction|fraction: number;||
-|end|end: Vector;||
-|didHit|didHit: boolean;||
-|normal|normal: Vector;||
-|hitEnt|hitEnt?: Entity | null;||
+```ts
+interface TraceResult {
+    fraction: number;
+    end: Vector;
+    didHit: boolean;
+    startedInSolid: boolean;
+    normal: Vector;
+    hitEntity?: Entity;
+}
+```
+
+### BulletTrace
+
+Traces a bullet.
+
+```ts
+/**
+ * @example {damage:30, rangeModifer:.85, penetration:1} // Glock
+ * @example {damage:30, rangeModifer:.45, penetration:1} // Mag-7
+ * @example {damage:36, rangeModifier:.98, penetration:2} // AK47
+ * @example {damage:115, rangeModifier:.99, penetration:2.5} // AWP
+ */
+interface BulletTrace {
+    start: Vector,
+    end: Vector,
+    shooter: CSPlayerPawn,
+    damage?: number, // Default = 100
+    rangeModifier?: number, // Default = .85
+    penetration?: number, // Default = 1
+}
+```
+
+### BulletTraceResult
+
+The resulting data calculated from the fired bullet.
+
+```ts
+interface BulletTraceResult {
+    hitEntity: Entity;
+    damage: number; // Damage value reduced by travel, before damage modification (body armor, headhshots, etc)
+    position: Vector;
+}
+```
 
 ## enums
 
