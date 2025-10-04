@@ -52,6 +52,7 @@ Access these functions by importing Instance from "cs_script/point_script".
 |ServerCommand|ServerCommand(command: string): void;|Issue a command. |
 
 #### Deprecated
+These overloads will be removed in a future update 
 |Function|Signature|Description|
 |--------|---------|-----------|
 |OnBeforeReload|OnBeforeReload(callback: () =&gt; any): void;||
@@ -68,30 +69,30 @@ Access these functions by importing Instance from "cs_script/point_script".
 #### Events
 |Function|Signature|Description|
 |--------|---------|-----------|
-|OnScriptReload&lt;T&gt;|OnScriptReload&lt;T&gt;(config: \{ before?: () =&gt; T, after?: (memory: T) => void \}): void;||
 |OnActivate|OnActivate(callback: () =&gt; void): void;|Called when the point_script entity is activated |
 |OnScriptInput|OnScriptInput(name: string, callback: (inputData: \{ caller?: Entity, activator?: Entity \}) =&gt; void): void;|Called when input RunScriptInput is triggered on the point_script entity with a parameter value that matches name. |
-|OnPlayerConnect|OnPlayerConnect(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;||
-|OnPlayerActivate|OnPlayerActivate(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;||
-|OnPlayerDisconnect|OnPlayerDisconnect(callback: (event: \{ playerSlot: number \}) =&gt; void): void;||
-|OnPlayerReset|OnPlayerReset(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void||
-|OnRoundStart|OnRoundStart(callback: () =&gt; void): void;||
-|OnRoundEnd|OnRoundEnd(callback: (event: \{ winningTeam: number \}) =&gt; void): void;||
-|OnBombPlant|OnBombPlant(callback: (event: \{ plantedC4: Entity, planter: CSPlayerPawn \}) =&gt; void): void;||
-|OnBombDefuse|OnBombDefuse(callback: (event: \{ plantedC4: Entity, defuser: CSPlayerPawn \}) =&gt; void): void;||
-|OnBeforePlayerDamage|OnBeforePlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; BeforeDamageResult): void;||
-|OnPlayerDamage|OnPlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;||
-|OnPlayerKill|OnPlayerKill(callback: (event: \{ player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;||
-|OnPlayerJump|OnPlayerJump(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;||
-|OnPlayerLand|OnPlayerLand(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;||
-|OnPlayerChat|OnPlayerChat(callback: (event: \{ player: CSPlayerController \| undefined, text: string, team: number \}) =&gt; void): void;||
-|OnPlayerPing|OnPlayerPing(callback: (event: \{ player: CSPlayerController, position: Vector \}) =&gt; void): void;||
-|OnGunReload|OnGunReload(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
-|OnGunFire|OnGunFire(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
-|OnBulletImpact|OnBulletImpact(callback: (event: \{ weapon: CSWeaponBase, position: Vector \}) =&gt; void): void;||
-|OnGrenadeThrow|OnGrenadeThrow(callback: (event: \{ weapon: CSWeaponBase, projectile: Entity \}) =&gt; void): void;||
-|OnGrenadeBounce|OnGrenadeBounce(callback: (event: \{ projectile: Entity, bounces: number \}) =&gt; void): void;||
-|OnKnifeAttack|OnKnifeAttack(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;||
+|OnPlayerConnect|OnPlayerConnect(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;|Called when a client finishes the initial connection handshake with the server. |
+|OnPlayerActivate|OnPlayerActivate(callback: (event: \{ player: CSPlayerController \}) =&gt; void): void;|Called when a client finishes loading and is ready to spawn. |
+|OnPlayerDisconnect|OnPlayerDisconnect(callback: (event: \{ playerSlot: number \}) =&gt; void): void;|Called when a client disconnects from the server. |
+|OnPlayerReset|OnPlayerReset(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void|Called when a player respawns, changes team, or is placed back at spawn due to a round restart |
+|OnRoundStart|OnRoundStart(callback: () =&gt; void): void;|Called when a new round begins |
+|OnRoundEnd|OnRoundEnd(callback: (event: \{ winningTeam: number \}) =&gt; void): void;|Called when a team wins a round |
+|OnBombPlant|OnBombPlant(callback: (event: \{ plantedC4: Entity, planter: CSPlayerPawn \}) =&gt; void): void;|Called when a player plants the c4 |
+|OnBombDefuse|OnBombDefuse(callback: (event: \{ plantedC4: Entity, defuser: CSPlayerPawn \}) =&gt; void): void;|Called when a player defuses the c4 |
+|OnBeforePlayerDamage|OnBeforePlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; BeforeDamageResult): void;|Called when a CSPlayerPawn is about to take damage <br/>@param callback <br/>Return `\{ damage: N \}` to modify the amount of damage. Armor and hitgroup modifications will be applied to this new value. <br/>Return `\{ aborted: true \}` to cancel the damage event.|
+|OnPlayerDamage|OnPlayerDamage(callback: (event: \{ player: CSPlayerPawn, damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;|Called when a player has taken damage. <br/>`player` is the victim that has taken damage. <br/>`damage` is the actual health lost after armor and hitgroup modifications. <br/>`inflictor` is the entity applying the damage. For bullets this is the owner of the gun. For grenades this is the exploding projectile. <br/>`attacker` is the entity credited with causing the damage. For bullets this is the shooter. For grenades this is the thrower. <br/>`weapon` is the weapon used. For grenades this will not be present because the weapon is often removed before the projectile explodes. |
+|OnPlayerKill|OnPlayerKill(callback: (event: \{ player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}) =&gt; void): void;|Called when a player dies. `inflictor`, `attacker` and `weapon` will match the damage event that caused the kill. |
+|OnPlayerJump|OnPlayerJump(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;|Called when a player jumps off the ground. |
+|OnPlayerLand|OnPlayerLand(callback: (event: \{ player: CSPlayerPawn \}) =&gt; void): void;|Called when a player lands on the ground. |
+|OnPlayerChat|OnPlayerChat(callback: (event: \{ player: CSPlayerController \| undefined, text: string, team: number \}) =&gt; void): void;|Called when a player sends a chat message. `team` will match they player's team if the message was sent to team chat. |
+|OnPlayerPing|OnPlayerPing(callback: (event: \{ player: CSPlayerController, position: Vector \}) =&gt; void): void;|Called when a player pings a location. |
+|OnGunReload|OnGunReload(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;|Called when a gun is reloaded. |
+|OnGunFire|OnGunFire(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;|Called when a gun emits bullets. A shotgun will only trigger this once when emitting multiple bullets at once. |
+|OnBulletImpact|OnBulletImpact(callback: (event: \{ weapon: CSWeaponBase, position: Vector \}) =&gt; void): void;|Called when a bullet hits a surface. This will trigger for each bullet and for each impact. Penetrations can cause a single bullet to trigger multiple impacts. |
+|OnGrenadeThrow|OnGrenadeThrow(callback: (event: \{ weapon: CSWeaponBase, projectile: Entity \}) =&gt; void): void;|Called when a grenade is thrown. `projectile` is the newly created grenade projectile. |
+|OnGrenadeBounce|OnGrenadeBounce(callback: (event: \{ projectile: Entity, bounces: number \}) =&gt; void): void;|Called when a grenade bounces off a surface. `bounces` is the number of bounces so far. |
+|OnKnifeAttack|OnKnifeAttack(callback: (event: \{ weapon: CSWeaponBase \}) =&gt; void): void;|Called when a knife attacks, even if it misses. |
+
 
 ### Entity
 
@@ -99,16 +100,16 @@ API for all entities.
 
 |Function|Signature|Description|
 |--------|---------|-----------|
-|IsValid|IsValid(): boolean;||
-|GetAbsOrigin|GetAbsOrigin(): Vector;||
-|GetLocalOrigin|GetLocalOrigin(): Vector;||
-|GetAbsAngles|GetAbsAngles(): QAngle;||
-|GetLocalAngles|GetLocalAngles(): QAngle;||
-|GetAbsVelocity|GetAbsVelocity(): Vector;||
-|GetLocalVelocity|GetLocalVelocity(): Vector;||
-|GetEyeAngles|GetEyeAngles(): QAngle;||
-|GetEyePosition|GetEyePosition(): Vector;||
-|Teleport|Teleport(newValues: \{ position?: Vector, angles?: QAngle, velocity?: Vector \}): void;||
+|IsValid|IsValid(): boolean;|Returns `false` if the entity has been deleted. |
+|GetAbsOrigin|GetAbsOrigin(): Vector;|The position of the origin of this entity relative to the world. |
+|GetLocalOrigin|GetLocalOrigin(): Vector;|The position of the origin of this entity relative to its parent. Will be relative to the world if no parent. |
+|GetAbsAngles|GetAbsAngles(): QAngle;|The angles [pitch, yaw, and roll] of this entity relative to the world. |
+|GetLocalAngles|GetLocalAngles(): QAngle;|The angles [pitch, yaw, and roll] of this entity relative to its parent. Will be relative to the world if no parent. |
+|GetAbsVelocity|GetAbsVelocity(): Vector;|The velocity of this entity relative to the world. |
+|GetLocalVelocity|GetLocalVelocity(): Vector;|The velocity of this entity relative to its parent. Will be relative to the world if no parent. |
+|GetEyeAngles|GetEyeAngles(): QAngle;|The angles of the eyes of this entity relative to the world. |
+|GetEyePosition|GetEyePosition(): Vector;|The position of the eyes of this entity relative to the world |
+|Teleport|Teleport(newValues: \{ position?: Vector, angles?: QAngle, velocity?: Vector \}): void;|Update the physics state of this entity. |
 |GetClassName|GetClassName(): string;||
 |GetEntityName|GetEntityName(): string;||
 |SetEntityName|SetEntityName(name: string): void;||
@@ -122,9 +123,9 @@ API for all entities.
 |GetMaxHealth|GetMaxHealth(): number;||
 |SetMaxHealth|SetMaxHealth(health: number): void;||
 |IsAlive|IsAlive(): boolean;||
-|IsWorld|IsWorld(): boolean;||
-|GetGroundEntity|GetGroundEntity(): Entity \| undefined;||
-|TakeDamage|TakeDamage(takeDamage: \{ damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}): number;||
+|IsWorld|IsWorld(): boolean;|Get if this is the world entity |
+|GetGroundEntity|GetGroundEntity(): Entity \| undefined;|Get the entity that this entity is resting on. Will be `undefined` if in the air. |
+|TakeDamage|TakeDamage(takeDamage: \{ damage: number, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase \}): number;|Apply damage to this entity. Damage value will be modified by armor and hitgroup. |
 |Kill|Kill(): void;||
 |Remove|Remove(): void;||
 |Teleport|Teleport(newPosition: Vector \| null, newAngles: QAngle \| null, newVelocity: Vector \| null): void;|deprecated|
@@ -280,6 +281,7 @@ Traces a bullet.
 
 ```ts
 /**
+ * Configuration object for `Instance.TraceBullet`
  * @example {damage:30, rangeModifer:.85, penetration:1} // Glock
  * @example {damage:30, rangeModifer:.45, penetration:1} // Mag-7
  * @example {damage:36, rangeModifier:.98, penetration:2} // AK47
@@ -288,10 +290,14 @@ Traces a bullet.
 interface BulletTrace {
     start: Vector,
     end: Vector,
+    /** The player shooting the bullet. Acts as `ignoreEnt` for traces. */
     shooter: CSPlayerPawn,
-    damage?: number, // Default = 100
-    rangeModifier?: number, // Default = .85
-    penetration?: number, // Default = 1
+    /** The starting damage value of the bullet. This will reduce as it travels through the air and penetrates solids. @default 100 */
+    damage?: number,
+    /** The exponential damage drop off constant from traveling through air. @default .85 */
+    rangeModifier?: number,
+    /** The power to maintain damage during penetration. Will default to 1 if left unspecified. @default 1 */
+    penetration?: number,
 }
 ```
 
@@ -300,9 +306,14 @@ interface BulletTrace {
 The resulting data calculated from the fired bullet.
 
 ```ts
+/**
+ * Result entry for `Instance.TraceBullet`
+ */
 interface BulletTraceResult {
+    /** The entity hit by the bullet. This is not limited to players. */
     hitEntity: Entity;
-    damage: number; // Damage value reduced by travel, before damage modification (body armor, headhshots, etc)
+    /** Damage value reduced by travel, before damage modification (body armor, headhshots, etc) */
+    damage: number;
     position: Vector;
 }
 ```

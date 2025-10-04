@@ -9,34 +9,47 @@ cs_script is a <Tool name="js"/> based scripting system for Counter-Strike maps.
 
 It is a virtual machine for scripting which exposes various Source2 engine functionality and Counter-Strike specific info such as listening to events, accessing player data, firing I/O events, getting data about gamemodes, etc.
 
-:::warning
-Despite the system being JavaScript based, this guide will use [<Tool name="ts"/>](https://www.typescriptlang.org/) due to the much better user experience and because
-Valve's documentation is also in TypeScript.
-:::
-
 :::info
 `script_zoo.vmap` is a Valve made map to demonstrate basic functionality of the system, it can be found in 
-`Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\script_zoo.vmap`
+`Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\script_zoo.vmap`
+
+A significant amount of documentation on this page is taken from `Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\point_script.d.ts`
 :::
 
-## TypeScript Setup
+`Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\point_script.d.ts` documents the JavaScript API for cs_script scripts attached to point_script entities.
+This file is a [TypeScript Declaration file.](https://www.typescriptlang.org/docs/handbook/2/type-declarations.html#dts-files)
 
-There are a few projects which provide a TypeScript wrapper over the cs_script JavaScript API, we will be using [Source2ZE cs_script_boilerplate](https://github.com/Source2ZE/cs_script_boilerplate).
+This file can be used by various editors to [provide tooling while editing JavaScript](https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html). Next to this file is a `tsconfig.json` file configured for editing JavaScript targetting the current version used by CS2.
 
-Follow the README of the project from above to setup TypeScript in your addon.
+Place copies of these two files, `point_script.d.ts` and `tsconfig.json`, next to your scripts and some editors will begin providing tooling without further configuration. These two files will be maintained as the cs_script API changes or the JavaScript version in CS2 is updated.
 
-To use a script in your map, add a [point_script](/Entities/point_script) entity, give it a reasonable name, and in the `cs_script` field select your generated .vjs script from the asset browser.
+`"cs_script/point_script"` is the module provided to scripts loaded for point_script entities.
 
-![Script Setup Image](./point_script_example.png)
-
-## Bugs
-
-:::danger
-Due to this system being very new it contains many bugs, this section is here to try to save your sanity.
+:::note
+The are projects offering full <Tool name="ts"/> wrappers over the current JavaScript API, such as [cs_script_boilerplate](https://github.com/Source2ZE/cs_script_boilerplate) however
+this page will not focus on that.
 :::
 
-- Sometimes the script will only run the first time you load into a map, disconnecting and reloading or typing `restart` in the console will stop the script from running unless you restart the game.
+## Setup
+- Create a JavaScript file (.js) that imports this module.
+     - See `hello.js` for an example.
+- Create a point_script entity in your map and set its cs_script field to reference your JavaScript file as a vjs asset.
+     - See `Counter-Strike Global Offensive\content\csgo\maps\editor\zoo\script_zoo.vmap`. There is a point_script entity in there named "hello_cs_script" that runs `hello.js`. There are a handful of other examples as well.
 
-- `RunScriptInput` input crashes if activator or caller are null, using a trigger_once (automatically kills itself) to fire the input with a delay will crash since the caller becomes null, same goes for if a player triggers an input then disconnects before the input runs! 
+## Execution
+- The compiled version of your script (.vjs_c) will be loaded during map load.
+- When the point_script entity is spawned it will execute all code at the top level scope of your script.
+- Register callbacks on `Instance` to setup code that executes at various times throughout the lifetime of the map.
+     - A function passed to `Instance.OnActivate` will be invoked when the point_script entity is activated.
+     - A function passed to `Instance.OnPlayerJump` will be invoked when any player in the map jumps.
 
-- Teleporting a player every frame breaks movement.
+## Tips
+- Entity variables are stable. Two variables referring to the same entity will be reference equals (===).
+- Extra values attached to an entity variable will still be there if the variable is fetched again.
+- A map can have multiple point_script entities. Each script will run with its own Instance, set of globals, and set of entity variables.
+
+## Tools Mode
+- In tools mode, saving changes to your script will recompile your file, clear all registered callbacks, and re-run the top level scope of your script.
+- Global variables and instances of entity variables will persist across reloads.
+     - Beware. This is an avenue for holding references to code from previous iterations of your script. This is only a concern in tools mode.
+- See `Instance.OnScriptReload` for a tool to handle edge cases around reloading.
