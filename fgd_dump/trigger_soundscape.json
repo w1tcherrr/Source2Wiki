@@ -157,7 +157,7 @@
         {
           "FriendlyName": "Soundscape",
           "InternalName": "soundscape",
-          "VariableType": "TargetSource",
+          "VariableType": "TargetDestination",
           "Description": "",
           "Options": [],
           "Annotations": []

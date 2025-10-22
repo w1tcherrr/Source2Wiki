@@ -106,6 +106,14 @@
           "Annotations": []
         },
         {
+          "FriendlyName": "Sequence",
+          "InternalName": "sequence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
           "FriendlyName": "Render Order",
           "InternalName": "RenderOrder",
           "VariableType": "Integer",

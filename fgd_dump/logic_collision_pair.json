@@ -50,6 +50,14 @@
           "Annotations": []
         },
         {
+          "FriendlyName": "Include Hierarchy",
+          "InternalName": "include_hierarchy",
+          "VariableType": "Bool",
+          "Description": "Disable collision between the entire hierarchies of the two entities, instead of just the individual entities themselves.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
           "FriendlyName": "Start with collisions disabled",
           "InternalName": "startdisabled",
           "VariableType": "Bool",

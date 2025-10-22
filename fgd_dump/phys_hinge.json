@@ -120,10 +120,6 @@
               "Description": ""
             },
             {
-              "Name": "Change mass to keep stable attachment to world",
-              "Description": ""
-            },
-            {
               "Name": "Do not connect entities until turned on",
               "Description": ""
             }
@@ -143,6 +139,22 @@
           "InternalName": "attach2",
           "VariableType": "TargetDestination",
           "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 1 Attachment Name",
+          "InternalName": "attachment1",
+          "VariableType": "String",
+          "Description": "If set, we\u0027ll attach to the body / location corresponding to this attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 2 Attachment Name",
+          "InternalName": "attachment2",
+          "VariableType": "String",
+          "Description": "If set, we\u0027ll attach to the body / location corresponding to this attachment.",
           "Options": [],
           "Annotations": []
         },
@@ -175,6 +187,14 @@
           "InternalName": "teleportfollowdistance",
           "VariableType": "Float",
           "Description": "If one object teleports more than this many units away it will cause the other constrained object to teleport to an appropriate relative position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Treat Entity 1 As Infinite Mass",
+          "InternalName": "treat_entity1_as_infinite_mass",
+          "VariableType": "Bool",
+          "Description": "If true, the joint will not affect the motion of Entity 1. Entity 2 will just follow Entity 1.",
           "Options": [],
           "Annotations": []
         },
@@ -406,6 +426,12 @@
           "Name": "SetMaxLimit",
           "Description": "Set the maximum hinge angle (degrees)",
           "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnMotorOff",
+          "Description": "Turn Motor Off, will turn all friction off",
+          "VariableType": "Void",
           "Type": "Input"
         },
         {

@@ -581,7 +581,7 @@
           "Type": "Output"
         },
         {
-          "Name": "OnDestructiblePartDamageLevelChanged",
+          "Name": "OnDestructibleHitGroupDamageLevelChanged",
           "Description": "",
           "VariableType": "Cpp",
           "Type": "Output"

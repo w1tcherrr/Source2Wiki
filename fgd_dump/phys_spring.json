@@ -215,6 +215,18 @@
           "Type": "Input"
         },
         {
+          "Name": "AddRestLength",
+          "Description": "Increase the spring rest length by the given amount.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "RemoveRestLength",
+          "Description": "Decrease the spring rest length by the given amount.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
           "Name": "SetFrequency",
           "Description": "Set the spring frequency (stiffness).",
           "VariableType": "Float",
