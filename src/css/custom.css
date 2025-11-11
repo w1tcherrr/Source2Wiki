@@ -42,9 +42,11 @@
   max-width: none !important;
 }
 
-/* separate entities docs from the rest, the class definition for this in in docs/entities/_category_.json*/ 
+/* separate entities docs from the rest, the class definition for this in in docs/entities/_category_.json */ 
+/* currently set to hide, as we have the new entity search page */
 .entities-category-separator {
-  border-top: 1px solid var(--ifm-color-emphasis-300);
+  /* border-top: 1px solid var(--ifm-color-emphasis-300); */
+  display:none !important;
 }
 
 admonition.compact {

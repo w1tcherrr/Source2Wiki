@@ -2,98 +2,11 @@
   "Name": "ai_goal_police",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "ai_goal_police",
-      "Description": "AI Goal Police",
-      "IconPath": "fgd_dump/img/hla/ai_goal_police.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "",
-          "InternalName": "spawnflags",
-          "VariableType": "Flags",
-          "Description": "",
-          "Options": [
-            {
-              "Name": "Knock-out target past crossing plane",
-              "Description": ""
-            },
-            {
-              "Name": "Do not leave post",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Radius",
-          "InternalName": "policeradius",
-          "VariableType": "Float",
-          "Description": "Radius to police",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Target",
-          "InternalName": "policetarget",
-          "VariableType": "String",
-          "Description": "Target to police",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": [
-        {
-          "Name": "EnableKnockOut",
-          "Description": "Tells the goal to make the active policing NPC knock out its target",
-          "VariableType": "Void",
-          "Type": "Input"
-        },
-        {
-          "Name": "DisableKnockOut",
-          "Description": "Stop the active policing NPC from trying to knock out its target",
-          "VariableType": "Void",
-          "Type": "Input"
-        },
-        {
-          "Name": "OnFirstWarning",
-          "Description": "Fires the first time a policing cop warns a target",
-          "VariableType": "Void",
-          "Type": "Output"
-        },
-        {
-          "Name": "OnSecondWarning",
-          "Description": "Fires the second time a policing cop warns a target",
-          "VariableType": "Void",
-          "Type": "Output"
-        },
-        {
-          "Name": "OnLastWarning",
-          "Description": "Fires when a policing cop warns a target for the last time",
-          "VariableType": "Void",
-          "Type": "Output"
-        },
-        {
-          "Name": "OnSupressingTarget",
-          "Description": "Fires when a policing cop starts to suppress (ie. beat) a target",
-          "VariableType": "Void",
-          "Type": "Output"
-        },
-        {
-          "Name": "OnKnockOut",
-          "Description": "Fires when a target has been knocked out",
-          "VariableType": "Void",
-          "Type": "Output"
-        }
-      ]
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_goal_police",
       "Description": "AI Goal Police",
-      "IconPath": "fgd_dump/img/steamvr/ai_goal_police.png",
+      "IconPath": "static/fgd_dump/img/steamvr/ai_goal_police.png",
       "PageAnnotation": null,
       "Properties": [
         {

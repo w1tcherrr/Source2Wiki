@@ -29,33 +29,6 @@
       "InputOutputs": []
     },
     {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "point_devshot_camera",
-      "Description": "An entity used by the -makedevshots system, which automatically takes screenshots at the position of every devshot camera in the level.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Camera Name",
-          "InternalName": "cameraname",
-          "VariableType": "String",
-          "Description": "Used as the name of the directory to store screenshots from this camera. Must be unique within the level.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Camera FOV",
-          "InternalName": "FOV",
-          "VariableType": "Integer",
-          "Description": "FOV of this camera.",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "point_devshot_camera",

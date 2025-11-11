@@ -6,7 +6,7 @@
       "EntityType": "Point",
       "Name": "shadow_control",
       "Description": "An entity to control the shadows in the map.",
-      "IconPath": "fgd_dump/img/steamvr/shadow_control.png",
+      "IconPath": "static/fgd_dump/img/steamvr/shadow_control.png",
       "PageAnnotation": null,
       "Properties": [
         {

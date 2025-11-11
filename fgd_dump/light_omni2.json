@@ -6,7 +6,7 @@
       "EntityType": "Point",
       "Name": "light_omni2",
       "Description": "A sphere or tube shaped light",
-      "IconPath": "fgd_dump/img/cs2/light_omni2.png",
+      "IconPath": "static/fgd_dump/img/cs2/light_omni2.png",
       "PageAnnotation": null,
       "Properties": [
         {

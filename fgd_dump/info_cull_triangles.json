@@ -6,119 +6,7 @@
       "EntityType": "Point",
       "Name": "info_cull_triangles",
       "Description": "A static (compile-time) volume that will delete geometry inside it as part of map compile.",
-      "IconPath": "fgd_dump/img/cs2/info_cull_triangles.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Box Size",
-          "InternalName": "box_size",
-          "VariableType": "Vector",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Limit to Prefab",
-          "InternalName": "limit_to_world",
-          "VariableType": "Bool",
-          "Description": "Limit the box to culling triangles objects in the prefab to which it belongs.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Target Objects",
-          "InternalName": "targets",
-          "VariableType": "NodeIdList",
-          "Description": "Limit the box to culling triangles from the specified target objects.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Apply To",
-          "InternalName": "geometry_type",
-          "VariableType": "Choices",
-          "Description": "Spcifies the type of geometry which can be culled by the box",
-          "Options": [
-            {
-              "Name": "Everything",
-              "Description": ""
-            },
-            {
-              "Name": "Only Static Props",
-              "Description": ""
-            },
-            {
-              "Name": "Only World Geometry",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "info_cull_triangles",
-      "Description": "A static (compile-time) volume that will delete geometry inside it as part of map compile.",
-      "IconPath": "fgd_dump/img/hla/info_cull_triangles.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Box Size",
-          "InternalName": "box_size",
-          "VariableType": "Vector",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Limit to Prefab",
-          "InternalName": "limit_to_world",
-          "VariableType": "Bool",
-          "Description": "Limit the box to culling triangles objects in the prefab to which it belongs.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Target Objects",
-          "InternalName": "targets",
-          "VariableType": "NodeIdList",
-          "Description": "Limit the box to culling triangles from the specified target objects.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Apply To",
-          "InternalName": "geometry_type",
-          "VariableType": "Choices",
-          "Description": "Spcifies the type of geometry which can be culled by the box",
-          "Options": [
-            {
-              "Name": "Everything",
-              "Description": ""
-            },
-            {
-              "Name": "Only Static Props",
-              "Description": ""
-            },
-            {
-              "Name": "Only World Geometry",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "info_cull_triangles",
-      "Description": "A static (compile-time) volume that will delete geometry inside it as part of map compile.",
-      "IconPath": "fgd_dump/img/dota2/info_cull_triangles.png",
+      "IconPath": "static/fgd_dump/img/cs2/info_cull_triangles.png",
       "PageAnnotation": null,
       "Properties": [
         {
@@ -174,7 +62,7 @@
       "EntityType": "Point",
       "Name": "info_cull_triangles",
       "Description": "",
-      "IconPath": "fgd_dump/img/steamvr/info_cull_triangles.png",
+      "IconPath": "static/fgd_dump/img/steamvr/info_cull_triangles.png",
       "PageAnnotation": null,
       "Properties": [
         {

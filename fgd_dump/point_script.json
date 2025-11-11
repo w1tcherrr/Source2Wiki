@@ -6,7 +6,7 @@
       "EntityType": "Point",
       "Name": "point_script",
       "Description": "",
-      "IconPath": "fgd_dump/img/cs2/point_script.png",
+      "IconPath": "static/fgd_dump/img/cs2/point_script.png",
       "PageAnnotation": null,
       "Properties": [
         {

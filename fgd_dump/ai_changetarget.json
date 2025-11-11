@@ -2,46 +2,6 @@
   "Name": "ai_changetarget",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "ai_changetarget",
-      "Description": "Change Target",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Target entity",
-          "InternalName": "target",
-          "VariableType": "TargetDestination",
-          "Description": "Name of entity whose target will be changed.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "New Target",
-          "InternalName": "m_iszNewTarget",
-          "VariableType": "String",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": [
-        {
-          "Name": "Kill",
-          "Description": "Removes this entity from the world",
-          "VariableType": "Void",
-          "Type": "Input"
-        },
-        {
-          "Name": "Activate",
-          "Description": "Changes the entities target",
-          "VariableType": "Void",
-          "Type": "Input"
-        }
-      ]
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_changetarget",

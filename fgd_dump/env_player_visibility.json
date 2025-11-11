@@ -6,7 +6,7 @@
       "EntityType": "Point",
       "Name": "env_player_visibility",
       "Description": "",
-      "IconPath": "fgd_dump/img/cs2/env_player_visibility.png",
+      "IconPath": "static/fgd_dump/img/cs2/env_player_visibility.png",
       "PageAnnotation": null,
       "Properties": [
         {

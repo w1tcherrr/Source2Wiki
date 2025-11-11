@@ -2,35 +2,6 @@
   "Name": "ai_npc_eventresponsesystem",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "ai_npc_eventresponsesystem",
-      "Description": "An entity that allows you to generate events for nearby friendly NPCs to respond to.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [],
-      "InputOutputs": [
-        {
-          "Name": "TriggerResponseEvent",
-          "Description": "Fire an NPC Response Event. The parameter should match the response rules concept that any nearby friendly NPCs will try to speak.",
-          "VariableType": "String",
-          "Type": "Input"
-        },
-        {
-          "Name": "ForceTriggerResponseEvent",
-          "Description": "Fire an NPC Response Event, and force the first available NPC to speak the response (breaking them out of any scene they\u0027re in). The parameter should match the response rules concept that any nearby friendly NPCs will try to speak.",
-          "VariableType": "String",
-          "Type": "Input"
-        },
-        {
-          "Name": "ForceTriggerResponseEventNoCancel",
-          "Description": "Fire an NPC Response Event, and force the first available NPC to speak the response (but don\u0027t break them out of any scene they\u0027re in). The parameter should match the response rules concept that any nearby friendly NPCs will try to speak.",
-          "VariableType": "String",
-          "Type": "Input"
-        }
-      ]
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_npc_eventresponsesystem",

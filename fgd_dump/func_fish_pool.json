@@ -2,41 +2,6 @@
   "Name": "func_fish_pool",
   "Pages": [
     {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "func_fish_pool",
-      "Description": "Creates a school of interactive fish that swim near this entity.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "World model",
-          "InternalName": "model",
-          "VariableType": "Studio",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Fish Count",
-          "InternalName": "fish_count",
-          "VariableType": "Integer",
-          "Description": "Number of Fish in this Pool",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Max Range",
-          "InternalName": "max_range",
-          "VariableType": "Float",
-          "Description": "How far away a Fish can wander (max 255)",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "func_fish_pool",

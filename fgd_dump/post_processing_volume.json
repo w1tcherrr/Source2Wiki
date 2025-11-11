@@ -6,7 +6,7 @@
       "EntityType": "Mesh",
       "Name": "post_processing_volume",
       "Description": "Set postprocessing params while a player is inside the volume.",
-      "IconPath": "fgd_dump/img/cs2/post_processing_volume.png",
+      "IconPath": "static/fgd_dump/img/cs2/post_processing_volume.png",
       "PageAnnotation": null,
       "Properties": [
         {
@@ -76,89 +76,6 @@
         {
           "FriendlyName": "Range between target exposure and current exposure where we switch to logarithmic approach",
           "InternalName": "exposuresmoothingrange",
-          "VariableType": "Float",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Master Volume",
-          "InternalName": "master",
-          "VariableType": "Bool",
-          "Description": "Is this volume active by default even when not touched by the player? (Master)",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
-      "Game": "hla",
-      "EntityType": "Mesh",
-      "Name": "post_processing_volume",
-      "Description": "Set postprocessing params while a player is inside the volume.",
-      "IconPath": "fgd_dump/img/hla/post_processing_volume.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Postprocessing Resource Name",
-          "InternalName": "postprocessing",
-          "VariableType": "Resource",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Fade Time",
-          "InternalName": "fadetime",
-          "VariableType": "Float",
-          "Description": "Time to fade to these postprocessing settings in seconds",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Exposure Control",
-          "InternalName": "enableexposure",
-          "VariableType": "Bool",
-          "Description": "Use exposure settings for this volume?",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Min Exposure Brightness",
-          "InternalName": "minexposure",
-          "VariableType": "Float",
-          "Description": "Minimum autoexposure scale",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Max Exposure Brightness",
-          "InternalName": "maxexposure",
-          "VariableType": "Float",
-          "Description": "Maximum autoexposure scale",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Exposure Compensation",
-          "InternalName": "exposurecompensation",
-          "VariableType": "Float",
-          "Description": "Number of stops to adjust auto-exposure by",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Exposure Adjustment Speed Up",
-          "InternalName": "exposurespeedup",
-          "VariableType": "Float",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Exposure Adjustment Speed Down",
-          "InternalName": "exposurespeeddown",
           "VariableType": "Float",
           "Description": "",
           "Options": [],

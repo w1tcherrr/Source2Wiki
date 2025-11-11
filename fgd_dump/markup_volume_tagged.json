@@ -19,33 +19,6 @@
         }
       ],
       "InputOutputs": []
-    },
-    {
-      "Game": "hla",
-      "EntityType": "Mesh",
-      "Name": "markup_volume_tagged",
-      "Description": "Tagged generic markup volume entity, can be queried in-game by tag/name/type/location",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Markup Groups",
-          "InternalName": "groupnames",
-          "VariableType": "TagListDynamic",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "\u0026lt;internal\u0026gt;",
-          "InternalName": "tagFieldNames",
-          "VariableType": "String",
-          "Description": "\u0026lt;internal\u0026gt;",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
     }
   ]
 }

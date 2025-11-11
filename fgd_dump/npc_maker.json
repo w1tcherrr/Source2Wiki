@@ -2,104 +2,11 @@
   "Name": "npc_maker",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "npc_maker",
-      "Description": "NPC Maker",
-      "IconPath": "fgd_dump/img/hla/npc_maker.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "",
-          "InternalName": "spawnflags",
-          "VariableType": "Flags",
-          "Description": "",
-          "Options": [
-            {
-              "Name": "Fade Corpse",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Class name of spawned NPC",
-          "InternalName": "NPCType",
-          "VariableType": "NPCClass",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Childrens\u0027 Name",
-          "InternalName": "NPCTargetname",
-          "VariableType": "String",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Childrens\u0027 Squad Name",
-          "InternalName": "NPCSquadname",
-          "VariableType": "String",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Childrens\u0027 Hint Group",
-          "InternalName": "NPCHintGroup",
-          "VariableType": "String",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Weapons",
-          "InternalName": "additionalequipment",
-          "VariableType": "Choices",
-          "Description": "",
-          "Options": [
-            {
-              "Name": "Pistol",
-              "Description": ""
-            },
-            {
-              "Name": "AR2",
-              "Description": ""
-            },
-            {
-              "Name": "Shotgun",
-              "Description": ""
-            },
-            {
-              "Name": "SMG1",
-              "Description": ""
-            },
-            {
-              "Name": "Stun Stick",
-              "Description": ""
-            },
-            {
-              "Name": "Grigori\u0027s Shotgun",
-              "Description": ""
-            },
-            {
-              "Name": "Nothing",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "npc_maker",
       "Description": "NPC Maker",
-      "IconPath": "fgd_dump/img/steamvr/npc_maker.png",
+      "IconPath": "static/fgd_dump/img/steamvr/npc_maker.png",
       "PageAnnotation": null,
       "Properties": [
         {

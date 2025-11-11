@@ -12,26 +12,6 @@
       "InputOutputs": []
     },
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "test_traceline",
-      "Description": "A debugging tool for testing tracelines.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [],
-      "InputOutputs": []
-    },
-    {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "test_traceline",
-      "Description": "A debugging tool for testing tracelines.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "test_traceline",

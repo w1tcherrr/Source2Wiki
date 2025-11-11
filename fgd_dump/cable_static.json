@@ -10,26 +10,6 @@
       "PageAnnotation": null,
       "Properties": [],
       "InputOutputs": []
-    },
-    {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "cable_static",
-      "Description": "",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [],
-      "InputOutputs": []
-    },
-    {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "cable_static",
-      "Description": "",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [],
-      "InputOutputs": []
     }
   ]
 }

@@ -21,25 +21,6 @@
       "InputOutputs": []
     },
     {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "info_intermission",
-      "Description": "An entity that defines an intermission spot where dead players will float until they respawn.",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Entity to look at",
-          "InternalName": "target",
-          "VariableType": "TargetDestination",
-          "Description": "Name of entity that dead players will face while in intermission at this spot.",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "info_intermission",

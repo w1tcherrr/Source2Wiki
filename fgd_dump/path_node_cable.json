@@ -27,33 +27,6 @@
         }
       ],
       "InputOutputs": []
-    },
-    {
-      "Game": "dota2",
-      "EntityType": "Point",
-      "Name": "path_node_cable",
-      "Description": "",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Radius Scale",
-          "InternalName": "radius_scale",
-          "VariableType": "Float",
-          "Description": "Radius multiplier value",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Color Tint",
-          "InternalName": "color_tint",
-          "VariableType": "Color255",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
     }
   ]
 }

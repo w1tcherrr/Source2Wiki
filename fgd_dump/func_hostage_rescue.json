@@ -6,7 +6,7 @@
       "EntityType": "Mesh",
       "Name": "func_hostage_rescue",
       "Description": "Hostage Rescue Zone. When a hostage is led into this zone, it is marked as rescued.",
-      "IconPath": "fgd_dump/img/cs2/func_hostage_rescue.png",
+      "IconPath": "static/fgd_dump/img/cs2/func_hostage_rescue.png",
       "PageAnnotation": null,
       "Properties": [
         {

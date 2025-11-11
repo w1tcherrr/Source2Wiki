@@ -2,100 +2,11 @@
   "Name": "npc_bullseye",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "npc_bullseye",
-      "Description": "Bullseye",
-      "IconPath": "fgd_dump/img/hla/npc_bullseye.png",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "Health",
-          "InternalName": "health",
-          "VariableType": "Integer",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Minimum Angle",
-          "InternalName": "minangle",
-          "VariableType": "String",
-          "Description": "Angle from the bullseye required for bullseye to be a valid enemy",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Minimum Distance",
-          "InternalName": "mindist",
-          "VariableType": "String",
-          "Description": "Distance from the bullseye required for bullseye to be a valid enemy",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "Autoaim Radius",
-          "InternalName": "autoaimradius",
-          "VariableType": "Float",
-          "Description": "Radius of autoaim influence. Use ent_autoaim  to visualize.",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "",
-          "InternalName": "spawnflags",
-          "VariableType": "Flags",
-          "Description": "",
-          "Options": [
-            {
-              "Name": "Not Solid",
-              "Description": ""
-            },
-            {
-              "Name": "Take No Damage",
-              "Description": ""
-            },
-            {
-              "Name": "Enemy Damage Only",
-              "Description": ""
-            },
-            {
-              "Name": "Bleed",
-              "Description": ""
-            },
-            {
-              "Name": "Perfect Accuracy",
-              "Description": ""
-            },
-            {
-              "Name": "Collide against physics objects (Creates VPhysics Shadow)",
-              "Description": ""
-            }
-          ],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": [
-        {
-          "Name": "OnTargeted",
-          "Description": "Fires when targeted",
-          "VariableType": "Void",
-          "Type": "Output"
-        },
-        {
-          "Name": "OnReleased",
-          "Description": "Fires when no longer targeted",
-          "VariableType": "Void",
-          "Type": "Output"
-        }
-      ]
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "npc_bullseye",
       "Description": "Bullseye",
-      "IconPath": "fgd_dump/img/steamvr/npc_bullseye.png",
+      "IconPath": "static/fgd_dump/img/steamvr/npc_bullseye.png",
       "PageAnnotation": null,
       "Properties": [
         {

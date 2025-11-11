@@ -1,0 +1,201 @@
+.entityTableContainer {
+  margin: 1rem 0;
+}
+
+.searchContainer {
+  margin-bottom: 1rem;
+  max-width: 500px;
+}
+
+.searchBox {
+  overflow: visible;
+  padding: 0.5rem;
+  padding-left: 0%;
+  transition: all 0.2s ease;
+}
+
+input:focus {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 0 0 2px var(--ifm-color-primary);
+    outline: none;
+    transition: none;
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--docsearch-muted-color, #969faf);
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+  transition: color 0.2s ease;
+  margin-right: 8px;
+}
+
+.resultsCount {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.noResults {
+  padding: 2rem;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1rem;
+}
+
+.gamesIcons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.code {
+  padding: 0.2rem 0.4rem;
+}
+
+.filterBar {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  background-color: var(--ifm-background-color);
+}
+
+.searchBox {
+  flex: 1;
+  min-width: 200px;
+}
+
+.filterBox {
+  position: relative;
+}
+
+.filterButtonContent {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filterButton {
+  padding: 8px 8px;
+  border-radius: 16px;
+  border: 2px solid var(--ifm-background-color);
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.filterButton.active {
+  border: 2px solid var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.filterIcon
+{
+  color: var(--ifm-background-color);
+  margin-right: 0.25rem;
+}
+
+.gamePopup {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--ifm-background-surface-color);
+  min-width: 250px;
+  max-width: 350px;
+  z-index: 1000;
+}
+
+.popupHeader {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popupTitle {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.popupActions {
+  display: flex;
+  gap: 8px;
+}
+
+.popupActionButton {
+  padding: 4px 8px;
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popupActionButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.gameList {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.gameCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.gameCheckbox:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.gameCheckbox input[type="checkbox"] {
+  cursor: pointer;
+  margin: 0;
+}
+
+.clickableRow:hover .entityLink {
+  color: var(--ifm-color-primary);
+}
+
+
+/* make checkboxes bearable */
+input[type="checkbox"] {
+  outline: none;
+  background: none;
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="checkbox"]:focus-visible {
+  outline: none;
+  box-shadow: none;
+}

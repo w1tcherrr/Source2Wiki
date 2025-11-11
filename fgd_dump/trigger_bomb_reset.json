@@ -6,7 +6,7 @@
       "EntityType": "Mesh",
       "Name": "trigger_bomb_reset",
       "Description": "A trigger volume that resets the bomb by teleporting it back into the playable area.",
-      "IconPath": "fgd_dump/img/cs2/trigger_bomb_reset.png",
+      "IconPath": "static/fgd_dump/img/cs2/trigger_bomb_reset.png",
       "PageAnnotation": null,
       "Properties": [
         {

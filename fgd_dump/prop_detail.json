@@ -2,33 +2,6 @@
   "Name": "prop_detail",
   "Pages": [
     {
-      "Game": "hla",
-      "EntityType": "Point",
-      "Name": "prop_detail",
-      "Description": "Detail Prop",
-      "IconPath": "",
-      "PageAnnotation": null,
-      "Properties": [
-        {
-          "FriendlyName": "World model",
-          "InternalName": "model",
-          "VariableType": "Studio",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        },
-        {
-          "FriendlyName": "World model",
-          "InternalName": "model",
-          "VariableType": "Studio",
-          "Description": "",
-          "Options": [],
-          "Annotations": []
-        }
-      ],
-      "InputOutputs": []
-    },
-    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "prop_detail",

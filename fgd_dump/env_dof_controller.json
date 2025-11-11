@@ -6,7 +6,7 @@
       "EntityType": "Point",
       "Name": "env_dof_controller",
       "Description": "An entity that controls the depth of field settings for the player. Depth of field simulates camera blur of out-of-focus regions of the scene.",
-      "IconPath": "fgd_dump/img/steamvr/env_dof_controller.png",
+      "IconPath": "static/fgd_dump/img/steamvr/env_dof_controller.png",
       "PageAnnotation": null,
       "Properties": [
         {
