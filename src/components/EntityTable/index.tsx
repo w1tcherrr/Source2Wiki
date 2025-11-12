@@ -27,7 +27,8 @@ const EntityTable: React.FC = () => {
   
     if (gameParam && Games[gameParam] && gameParam !== "any") {
       setSelectedGames([gameParam]);
-    } else if (!gameParam) {
+    }
+    else if (!gameParam || gameParam === "any") {
       setSelectedGames([]);
     }
   }, [location.search]);
