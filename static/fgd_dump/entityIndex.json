@@ -4,6 +4,7 @@
     "Description": "Issues a command to an NPC without taking the NPC out of its AI. This does not seize control of the NPC as a scripted_sequence does",
     "Icon": "/fgd_dump/img/steamvr/aiscripted_schedule.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -12,7 +13,16 @@
     "Description": "",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "ai_ally_manager",
+    "Description": "AI Ally Manager",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -20,6 +30,7 @@
     "Description": "AI Attached Item Manager - manages the items attached to one or more NPCs / ragdolls.",
     "Icon": "/fgd_dump/img/steamvr/ai_attached_item_manager.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -28,6 +39,7 @@
     "Description": "Battle line",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -36,6 +48,7 @@
     "Description": "Change Hint Group",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -44,6 +57,7 @@
     "Description": "Change Target",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -52,6 +66,7 @@
     "Description": "AI Goal Act Busy",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -60,6 +75,7 @@
     "Description": "AI Goal Act Busy Queue",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -68,6 +84,7 @@
     "Description": "AI Goal Assault",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -76,6 +93,7 @@
     "Description": "AI Fight from Cover",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_fightfromcover.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -84,6 +102,7 @@
     "Description": "AI Goal Follow",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_follow.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -92,6 +111,7 @@
     "Description": "AI Goal Injured Follow",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_injured_follow.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -100,7 +120,16 @@
     "Description": "AI Goal Lead",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_lead.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "ai_goal_lead_weapon",
+    "Description": "AI Goal Lead (Weapon). A version of the ai_goal_lead entity that requires the player to have the specified weapon before the Actor(s) will lead the player to their target.",
+    "Icon": "/fgd_dump/img/hla/ai_goal_lead_weapon.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -108,6 +137,7 @@
     "Description": "Indicates items in the world that some NPCs may operate upon",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -116,6 +146,7 @@
     "Description": "AI Goal Police",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_police.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -124,7 +155,16 @@
     "Description": "AI Goal Standoff",
     "Icon": "/fgd_dump/img/steamvr/ai_goal_standoff.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "ai_markup_hlvr",
+    "Description": "Tagged markup volume entity for HLVR AI use",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -132,6 +172,7 @@
     "Description": "An entity that allows you to generate events for nearby friendly NPCs to respond to.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -140,6 +181,7 @@
     "Description": "AI Relationship - Sets relationships between groups of NPCs in the AI.",
     "Icon": "/fgd_dump/img/steamvr/ai_relationship.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -148,6 +190,7 @@
     "Description": "AI Script Conditions",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -156,6 +199,7 @@
     "Description": "This entity makes sounds or smells that can be sensed by NPCs, but not by the player. This can be used to cause reactions in nearby NPCs.\u003Cbr/\u003E\u003Cbr/\u003E\u003Cb\u003ESound Types\u003C/b\u003E\u003Cbr/\u003E- Combat: Will cause most NPCs to become alert\u003Cbr/\u003E- World: Will cause most NPCs to become alert\u003Cbr/\u003E- Danger: Will cause most NPCs to move away from the position of the sound\u003Cbr/\u003E- Bullet Impact\u003Cbr/\u003E- Carcass\u003Cbr/\u003E- Meat\u003Cbr/\u003E- Garbage\u003Cbr/\u003E- Thumper: causes antlions to run away briefly\u003Cbr/\u003E- Readiness: (Low, Medium, High) Causes player companions that can hear this sound to change readiness",
     "Icon": "/fgd_dump/img/steamvr/ai_sound.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -164,7 +208,24 @@
     "Description": "An entity that can be used to control the idle speech patterns of a set of NPCs.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "ambient_creatures",
+    "Description": "Client-side dynamic prop.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ambient_creatures_zone",
+    "Description": "Client-side func_brush.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -173,6 +234,8 @@
     "Icon": "/fgd_dump/img/steamvr/ambient_generic.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -181,6 +244,7 @@
     "Description": "(Assault) assault point",
     "Icon": "/fgd_dump/img/steamvr/assault_assaultpoint.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -189,6 +253,7 @@
     "Description": "(Assault) rally point",
     "Icon": "/fgd_dump/img/steamvr/assault_rallypoint.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -197,6 +262,7 @@
     "Description": "An entity to draw a spotlight. Will draw a beam when the player views it side on, and a halo when it\u0027s facing towards the player. Unless the \u0027No Dynamic Light\u0027 spawnflag is checked, it will also create a dynamic light wherever the end of the spotlight rests.This spotlight is entirely client side, it is not sync\u0027d across clients.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -205,7 +271,9 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla",
+      "dota2"
     ]
   },
   {
@@ -213,7 +281,9 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla",
+      "dota2"
     ]
   },
   {
@@ -229,6 +299,8 @@
     "Description": "An entity to control the color correction in the map.",
     "Icon": "/fgd_dump/img/steamvr/color_correction.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -237,15 +309,34 @@
     "Description": "An entity to control the color correction in the map.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "combine_attached_armor_prop",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "combine_mine",
+    "Description": "Combine Land Mine",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
     "Classname": "commentary_auto",
     "Description": "Fires outputs when a map spawns in commentary mode.",
-    "Icon": "/fgd_dump/img/cs2/commentary_auto.png",
+    "Icon": "/fgd_dump/img/dota2/commentary_auto.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla",
+      "dota2"
     ]
   },
   {
@@ -270,6 +361,14 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "crownfall_shmup_enemy",
+    "Description": "Crownfall shmup enemy.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -301,6 +400,7 @@
     "Description": "An entity used to display a model for testing purposes. Shooting it with cycle through the model\u0027s animations.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -310,6 +410,134 @@
     "Icon": "",
     "Games": [
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "dota_color_correction",
+    "Description": "An entity to control the color correction in the map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_custom_game_events",
+    "Description": "Used to change settings on the game mode for custom games.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_displacement_visibility",
+    "Description": "Entity that can hide a displacement",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_guild_banner_dynamic",
+    "Description": "guild banner, ultimately spawns different vmdls based on guild config.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_item_rune_spawner",
+    "Description": "A marker for where runes spawn, pre 7.0 behavior.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_item_rune_spawner_bounty",
+    "Description": "A marker for where bounty runes spawn.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_item_rune_spawner_powerup",
+    "Description": "A marker for where powerup runes spawn.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_item_rune_spawner_xp",
+    "Description": "A marker for where xp runes spawn.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_item_spawner",
+    "Description": "Spawn items.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_minimap_boundary",
+    "Description": "Used by the console command dota_minimap_create to define the min/max coordinates for taking minimap images. Two are required per map in opposite corners. The z difference between the two defines the image depth.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_movespeed_modifier_path",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_movespeed_path_node",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_particle_relay",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_prop_customtexture",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] Custom texture prop.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_reflection_skybox",
+    "Description": "Skybox entity for reflections",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "dota_world_particle_system",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] Dota world particle system.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -329,10 +557,100 @@
     ]
   },
   {
+    "Classname": "ent_dota_fountain",
+    "Description": "The Fountain",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_game_events",
+    "Description": "An entity that fires outputs based on game events.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_halloffame",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] The Hall of Fame.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_lightinfo",
+    "Description": "Localized lighting settings to control lighting parameters in a radius.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_neutral_item_stash",
+    "Description": "Creates a Dota neutral item stash.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_promo",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] Promo Entity.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_shop",
+    "Description": "Creates a Dota item shop.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_dota_tree",
+    "Description": "Creates a Dota tree.  Trees have collision, block fog of war visibility, and can be destroyed.  Note: it\u0027s far faster to place trees via the Tile Editor tool.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_fow_blocker_node",
+    "Description": "Blocks fog of war along a line to its target.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_fow_revealer",
+    "Description": "Reveals fog of war in a radius.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "ent_sugar_rush",
+    "Description": "Sugar Rush spot for Roshan.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
     "Classname": "env_beam",
     "Description": "An entity that creates a visible beam between two points. The points can be attached to entities to make the beam move around.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -341,6 +659,7 @@
     "Description": "HL1 Legacy: Beverage Dispenser.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -350,6 +669,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -375,6 +695,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
     ]
   },
@@ -384,6 +705,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -400,6 +722,7 @@
     "Description": "Cubemap for sampling indirect specular reflection.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -409,6 +732,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
     ]
   },
@@ -418,6 +742,7 @@
     "Icon": "/fgd_dump/img/steamvr/env_cubemap_fog.png",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
     ]
   },
@@ -426,7 +751,40 @@
     "Description": "Simple projected decal entity",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "env_deferred_light",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] Deferred light entity.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "env_deferred_light_client_only",
+    "Description": "Deferred light entity whose state is not networked.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "env_deferred_spot_light",
+    "Description": "[TOOLTIP NEEDS IMPROVEMENT] Deferred spot light.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "env_deferred_spot_light_client_only",
+    "Description": "Deferred spot light entity whose state is not networked.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -459,6 +817,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -468,6 +828,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -477,6 +839,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_explosion.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -486,6 +850,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_fade.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -495,6 +861,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_fire.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -504,6 +872,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -513,6 +882,7 @@
     "Icon": "/fgd_dump/img/steamvr/env_firesource.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -522,6 +892,7 @@
     "Icon": "/fgd_dump/img/steamvr/env_fog_controller.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -534,12 +905,45 @@
     ]
   },
   {
+    "Classname": "env_global",
+    "Description": "An entity to control a game-specific global states.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "env_global_light",
+    "Description": "Control the global light that casts shadows in a Dota map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
     "Classname": "env_gradient_fog",
     "Description": "",
     "Icon": "/fgd_dump/img/steamvr/env_gradient_fog.png",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "env_gunfire",
+    "Description": "Gunfire Effect",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "env_headcrabcanister",
+    "Description": "Headcrab canister",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -557,6 +961,7 @@
     "Icon": "/fgd_dump/img/steamvr/env_instructor_hint.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -565,6 +970,8 @@
     "Description": "An entity that allows for creation and control of VR Based instructor lessons by map logic",
     "Icon": "/fgd_dump/img/steamvr/env_instructor_vr_hint.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -573,6 +980,8 @@
     "Description": "An entity that creates a laser beam between itself and a given target.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -590,7 +999,16 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "env_line_occluder",
+    "Description": "A test entity for line occluding for the fog of war system.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -599,6 +1017,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -607,7 +1027,16 @@
     "Description": "An entity that acts as a microphone. It works in one of two modes. If it has a \u0027Speaker\u0027 set, it picks up all sounds within the specified sound range, and rebroadcasts them through the Speaker entity. In this Speaker mode, it ignores the Hears X spawnflags and does not fire the SoundLevel output. If it has no Speaker set, it measures the sound level at a point, and outputs the sound level as a value between 0 and 1. In Measuring mode, it only hears sounds that match the Hear X spawnflags.",
     "Icon": "/fgd_dump/img/steamvr/env_microphone.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "env_occluder",
+    "Description": "A test entity for radius occluding for the fog of war system.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -624,6 +1053,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -649,6 +1079,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_physexplosion.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -658,6 +1090,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_physimpact.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -690,6 +1124,7 @@
     "Description": "An entity that creates gibs when it\u0027s within the influence of a helicopter\u0027s rotor wash.",
     "Icon": "/fgd_dump/img/steamvr/env_rotorshooter.png",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -698,6 +1133,7 @@
     "Description": "Creates rotorwash.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -706,6 +1142,7 @@
     "Description": "Allows screenspace effects to be played on the player\u0027s view.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -723,6 +1160,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_shake.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -732,6 +1171,7 @@
     "Icon": "/fgd_dump/img/steamvr/env_shooter.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -741,6 +1181,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_sky.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -749,6 +1191,7 @@
     "Description": "An entity that spits out a constant stream of smoke. See particlezoo.vmf for sample usage. You can place up to two env_particlelight entities near the smoke stack to add ambient light to its particles.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -757,6 +1200,7 @@
     "Description": "An entity that creates a smoke trail.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -766,6 +1210,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_soundscape.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -775,6 +1221,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_soundscape_proxy.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -784,6 +1232,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_soundscape_triggerable.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -793,7 +1243,17 @@
     "Icon": "/fgd_dump/img/steamvr/env_spark.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "env_spherical_vignette",
+    "Description": "",
+    "Icon": "/fgd_dump/img/hla/env_spherical_vignette.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -801,6 +1261,7 @@
     "Description": "An entity that creates a splash effect at its origin. If the \u0027find water surface\u0027 spawnflag is set, it will instead trace down below itself to find the water surface on which to create splashes.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -809,6 +1270,8 @@
     "Description": "An entity that controls the drawing of a sprite in the world.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -817,6 +1280,7 @@
     "Description": "A env_sprite that allows orientation.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -833,6 +1297,7 @@
     "Description": "An entity that allows you to change the textures on other brush-built entities.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -842,6 +1307,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -858,7 +1324,17 @@
     "Description": "An entity that controls the HDR tonemapping for the player. Think of it as a method of controlling the exposure of the player\u0027s eyes.",
     "Icon": "/fgd_dump/img/steamvr/env_tonemap_controller.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "env_viewer",
+    "Description": "A test entity for viewing for the fog of war system.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -867,6 +1343,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -875,6 +1352,8 @@
     "Description": "Controller for volumetric fogging - bounds are extents of fog irradiance volume (for indirect)",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -883,6 +1362,8 @@
     "Description": "Sets a user bounding volume for volumetric fog - if one of these are in the map then all fog will get clamped to it. More than one then fog gets rendered if it\u0027s inside any of them.",
     "Icon": "/fgd_dump/img/steamvr/env_volumetric_fog_volume.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -892,6 +1373,8 @@
     "Icon": "/fgd_dump/img/steamvr/env_wind.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -914,9 +1397,10 @@
   {
     "Classname": "filter_activator_attribute_int",
     "Description": "A filter that filters by the mass of the activator.",
-    "Icon": "/fgd_dump/img/cs2/filter_activator_attribute_int.png",
+    "Icon": "/fgd_dump/img/dota2/filter_activator_attribute_int.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -925,6 +1409,8 @@
     "Icon": "/fgd_dump/img/steamvr/filter_activator_class.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -934,6 +1420,7 @@
     "Icon": "/fgd_dump/img/steamvr/filter_activator_context.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -943,6 +1430,7 @@
     "Icon": "/fgd_dump/img/steamvr/filter_activator_mass_greater.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -952,6 +1440,8 @@
     "Icon": "/fgd_dump/img/steamvr/filter_activator_model.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -961,6 +1451,8 @@
     "Icon": "/fgd_dump/img/steamvr/filter_activator_name.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -970,7 +1462,17 @@
     "Icon": "/fgd_dump/img/steamvr/filter_damage_type.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "filter_dota",
+    "Description": "Dota-specific Filter.",
+    "Icon": "/fgd_dump/img/dota2/filter_dota.png",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -979,6 +1481,8 @@
     "Icon": "/fgd_dump/img/steamvr/filter_enemy.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -988,15 +1492,17 @@
     "Icon": "/fgd_dump/img/steamvr/filter_los.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "filter_modifier",
     "Description": "A filter that filters entities by active modifiers applied to them",
-    "Icon": "/fgd_dump/img/cs2/filter_modifier.png",
+    "Icon": "/fgd_dump/img/dota2/filter_modifier.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -1005,6 +1511,8 @@
     "Icon": "/fgd_dump/img/steamvr/filter_multi.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1014,7 +1522,16 @@
     "Icon": "/fgd_dump/img/steamvr/filter_proximity.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "filter_vr_grenade",
+    "Description": "A filter that filters for VR Grenades",
+    "Icon": "/fgd_dump/img/hla/filter_vr_grenade.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1038,6 +1555,7 @@
     "Description": "An entity to control the fog in the map.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1071,6 +1589,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1080,6 +1600,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1089,6 +1611,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1106,6 +1630,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1115,6 +1641,14 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "func_combine_barrier",
+    "Description": "Combine barrier that reacts to interactions.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1131,6 +1665,7 @@
     "Description": "A Hammer-only brush entity that prevents detail sprites from being placed inside its volume.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1139,6 +1674,7 @@
     "Description": "An entity that acts as an occluder together with some impostor geometry.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1148,6 +1684,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1157,7 +1695,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "func_dry_erase_board",
+    "Description": "Dry erase board panel",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1177,10 +1725,19 @@
     ]
   },
   {
+    "Classname": "func_electrified_volume",
+    "Description": "Combine barrier that reacts to interactions.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "func_fish_pool",
     "Description": "Creates a school of interactive fish that swim near this entity.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1190,7 +1747,16 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "func_hlvr_nav_markup",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1206,6 +1772,7 @@
     "Description": "Legacy support. Use func_brush instead.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1214,6 +1781,7 @@
     "Description": "An entity for placing an instance of a prefab map file.  You may translate and rotate this entity. You can use the replace keys to do parameter changes on the instance contents.  In a $ at the beginning of a variable name.  Then just use the $variable name inside of the instance contents on any value portion of a key/value pair.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1234,20 +1802,31 @@
     ]
   },
   {
+    "Classname": "func_monitor",
+    "Description": "A monitor that renders the view from a given point_camera entity.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "func_movelinear",
     "Description": "A brush entity that moves linearly along a given distance, in a given direction.",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "func_nav_blocker",
     "Description": "A brush entity that can block nav areas touching its AABB.",
-    "Icon": "/fgd_dump/img/cs2/func_nav_blocker.png",
+    "Icon": "/fgd_dump/img/hla/func_nav_blocker.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -1261,9 +1840,10 @@
   {
     "Classname": "func_nav_markup",
     "Description": "Tagged NAV markup volume entity, used during export and can be queried in-game by tag/name/type/location",
-    "Icon": "/fgd_dump/img/cs2/func_nav_markup.png",
+    "Icon": "/fgd_dump/img/hla/func_nav_markup.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -1279,6 +1859,7 @@
     "Description": "A very simple model entity that has animations and response rules.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1288,6 +1869,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1297,6 +1880,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1306,14 +1891,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "func_precipitation",
     "Description": "A brush entity that creates rain and snow inside its volume.",
-    "Icon": "",
+    "Icon": "/fgd_dump/img/dota2/func_precipitation.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1322,6 +1910,7 @@
     "Description": "A brush entity that prevents rain and snow inside its volume.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1330,6 +1919,7 @@
     "Description": "Used to produce perfectly reflective glass that renders world \u002B entities. Typically, you want your glass brush to have nodraw on all non-reflective surfaces and you want to use a shader like lightmappedreflective in your material applied to the non-nodraw surfaces. See hl2/materials/glass/reflectiveglass001.vmat for an example. NOTE: currently, you cannot use reflective glass in scenes with water, and you can only have 1 reflective glass in your view frustum ( \u002B pvs ) at a time.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1339,6 +1929,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1348,6 +1940,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1356,6 +1950,8 @@
     "Description": "A procedurally-shattering glass panel.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1376,12 +1972,29 @@
     ]
   },
   {
+    "Classname": "func_tank",
+    "Description": "Brush Gun Turret",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "func_tanktrain",
     "Description": "A moving train that follows a path of path_track entities, shoots at the player, and can be killed.\u003Cbr/\u003ENOTE: Build your train so that the front of the train is facing down the X axis. When it spawns it will automatically rotate to face the next path_track on the path.",
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "func_tank_gatling",
+    "Description": "Brush Gatling Gun",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1390,6 +2003,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1399,6 +2013,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1408,6 +2023,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1417,6 +2033,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1426,6 +2044,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1435,6 +2054,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1451,6 +2072,8 @@
     "Description": "Legacy support. Use func_brush instead.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1459,6 +2082,8 @@
     "Description": "A brush entity that can be toggled on/off. When off, the brush will be non-solid and invisible. Does not cast lightmap shadows.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1475,7 +2100,16 @@
     "Description": "A water brush entity that moves linearly along a given distance, in a given direction",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "func_xen_membrane_barrier",
+    "Description": "Xen Membrane Barrier",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1493,6 +2127,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1510,6 +2145,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1527,6 +2163,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1544,6 +2182,8 @@
     "Icon": "/fgd_dump/img/steamvr/game_text.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1552,6 +2192,7 @@
     "Description": "An entity used to override player input when the player is looking at it.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1561,6 +2202,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1570,6 +2213,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1578,7 +2222,24 @@
     "Description": "Generic Actor NPC",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "ghost_actor",
+    "Description": "A meshless model you can parent other enties to",
+    "Icon": "/fgd_dump/img/hla/ghost_actor.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "ghost_speaker",
+    "Description": "A meshless model you can use as a speaker location for vcd\u0027s",
+    "Icon": "/fgd_dump/img/hla/ghost_speaker.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1587,6 +2248,7 @@
     "Icon": "/fgd_dump/img/steamvr/gibshooter.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1596,6 +2258,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1604,7 +2267,81 @@
     "Description": "Takes Eventoutput and translates them to a Haptic Event (VR / Controller Target)",
     "Icon": "/fgd_dump/img/steamvr/haptic_relay.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "hlvr_grenadepin_proxy",
+    "Description": "Grenade Pin",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hlvr_piano",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hlvr_vault_tractor_beam_console",
+    "Description": "HLVR Vault Tractor Beam Console",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hlvr_weapon_crowbar",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hlvr_weapon_energygun",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hl_vr_accessibility",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hl_vr_environmental_interaction",
+    "Description": "HLVR hl_vr_environmental_interaction",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hl_vr_environmental_interaction_volume",
+    "Description": "Entity that designates a volume within which NPC/Explosion existence should be mapped into the interactive foliage texture.",
+    "Icon": "/fgd_dump/img/hla/hl_vr_environmental_interaction_volume.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "hl_vr_texture_based_animatable",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1653,7 +2390,33 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_courier_spawn",
+    "Description": "Spawns a team courier.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "info_courier_spawn_dire",
+    "Description": "Spawns a Dire team courier.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "info_courier_spawn_radiant",
+    "Description": "Spawns a Radiant team courier.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -1662,6 +2425,8 @@
     "Icon": "/fgd_dump/img/steamvr/info_cull_triangles.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1671,6 +2436,22 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "info_dynamic_shadow_hint",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_dynamic_shadow_hint_box",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1686,7 +2467,72 @@
     "Description": "A hint that is not used for navigation. They don\u0027t go into the nodegraph, nor do they fall to the ground. Use these to provide some spatial context for NPCs, such as \u0027look here if you can\u0027t find the player\u0027 or \u0027throw rocks at this spot\u0027.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_equip_player",
+    "Description": "Equip HLVR Player",
+    "Icon": "/fgd_dump/img/hla/info_hlvr_equip_player.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_holo_hacking_plug",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_holo_hacking_spawn_target",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_offscreen_particle_texture",
+    "Description": "Offscreen Particle Texture",
+    "Icon": "/fgd_dump/img/hla/info_hlvr_offscreen_particle_texture.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_toner_junction",
+    "Description": "Toner junction",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_toner_path",
+    "Description": "Toner Path",
+    "Icon": "/fgd_dump/img/hla/info_hlvr_toner_path.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_toner_path_node",
+    "Description": "Node for the toner path",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_hlvr_toner_port",
+    "Description": "Toner Port",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1703,6 +2549,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1711,6 +2558,8 @@
     "Description": "An entity to handle endpoints for multiple ladders that are too close to each other.",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1719,6 +2568,8 @@
     "Description": "An entity that acts as a local coordinate frame for transitions to another level. There should be a corresponding info_landmark entity in the next map. Entities will transition to the next level at the same relative offset from the info_landmark entity.\u003Cbr/\u003E\u003Cbr/\u003ENote that only entities in same the PVS as the info_landmark are considered for transitioning, so it should generally be placed inside the transition space.",
     "Icon": "/fgd_dump/img/steamvr/info_landmark.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1727,6 +2578,7 @@
     "Description": "An entity that can be used to change the lighting origin of a prop_static. Set the prop_static\u0027s Lighting Origin to point at this entity to make the prop_static light as if it was at the info_lighting\u0027s origin. Good for prop_static entities that are embedded in world geometry (like rocks/windows/etc).",
     "Icon": "/fgd_dump/img/steamvr/info_lighting.png",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -1759,6 +2611,7 @@
     "Description": "A navigation node for ground moving NPCs. Navigation nodes are baked into the nodegraph so that NPCs can move to them. Ground nodes fall to the ground when they spawn.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1767,6 +2620,7 @@
     "Description": "A navigation node for flying NPCs. Air navigation nodes are baked into the nodegraph so that NPCs can move to them. Air nodes do not fall to the ground when they spawn.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1775,6 +2629,7 @@
     "Description": "A navigation node for flying NPCs that includes some context information for NPCs that are interested in it. The hint might indicate a window that could be looked into, or an item of interest that could be commented on. Many hint nodes are NPC-specific, so it\u0027s helpful to use naming conventions like \u0027Crow: Fly to point\u0027 in the hint choices list. The angles of a hint node indicate what direction the NPC should face to perform the hint behavior.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1783,6 +2638,7 @@
     "Description": "A climb-node for AI navigation. Only usable by NPCs that can climb.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1791,6 +2647,7 @@
     "Description": "A navigation node for ground moving NPCs that includes some context information for NPCs that are interested in it. The hint might indicate a window that could be looked out of, or an item of interest that could be commented on. Many hint nodes are NPC-specific, so it\u0027s helpful to use naming conventions like \u0027Crow: Fly to point\u0027 in the hint choices list. The angles of a hint node indicate what direction the NPC should face to perform the hint behavior.\u003Cbr/\u003E\u003Cbr/\u003EIt\u0027s important to understand the distinction between scripts, such as scripted_sequence and scripted_schedule, and info_hint entities. Scripts summon NPCs to specific cue points to play their parts, while hints provide context information to the AI that they use to perform their behaviors. Hints require code support in the NPC, while scripts are generic and may require only animations to play. Use a hint if the behavior is driven by the AI, use a script if the behavior is driven by the map.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1799,6 +2656,7 @@
     "Description": "A dynamic connection between two navigation nodes. You specify the node IDs of the start and end nodes, and then you can use entity I/O to turn on and off the connection. This could be used to create or destroy a connection in the nodegraph because of some event in your map (a bridge being created/destroyed, etc).",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1807,7 +2665,16 @@
     "Description": "An entity that controls all connections between nodes that intersect the controller\u0027s volume. This allows for mass enabling/disabling of all node connections through a volume.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_notepad",
+    "Description": "A place to leave notes",
+    "Icon": "/fgd_dump/img/hla/info_notepad.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1823,6 +2690,7 @@
     "Description": "NPC Spawn Destination. (Consult npc_template_maker help for more info)",
     "Icon": "/fgd_dump/img/steamvr/info_npc_spawn_destination.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1832,7 +2700,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_offscreen_movie_texture",
+    "Description": "Offscreen Movie Texture",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1840,7 +2718,16 @@
     "Description": "Offscreen Panorama Texture",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_ofrenda_statue_spawn",
+    "Description": "Spawns a Ofrenda Statue.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -1848,6 +2735,7 @@
     "Description": "An entity that places an overlay on the world.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -1873,6 +2761,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1882,6 +2772,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1899,7 +2791,33 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_player_start_badguys",
+    "Description": "Spawn point for Dire heroes.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "info_player_start_dota",
+    "Description": "Spawn point for heroes of any team.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "info_player_start_goodguys",
+    "Description": "Spawn point for Radiant heroes.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -1927,11 +2845,29 @@
     ]
   },
   {
+    "Classname": "info_roquelaire_perch",
+    "Description": "(used in Dota2 PvP tutorial) A perch point for Roquelaire to sit on.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "info_snipertarget",
+    "Description": "Sniper Target",
+    "Icon": "/fgd_dump/img/hla/info_snipertarget.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "info_spawngroup_landmark",
     "Description": "Used by info_spawngroup_load to specify a landmark between two spawngroups to load",
     "Icon": "/fgd_dump/img/steamvr/info_spawngroup_landmark.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1941,6 +2877,8 @@
     "Icon": "/fgd_dump/img/steamvr/info_spawngroup_load_unload.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1950,7 +2888,25 @@
     "Icon": "/fgd_dump/img/steamvr/info_target.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_target_gunshipcrash",
+    "Description": "Gunship Crash Target",
+    "Icon": "/fgd_dump/img/hla/info_target_gunshipcrash.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "info_target_helicopter_crash",
+    "Description": "Helicopter Crash Target",
+    "Icon": "/fgd_dump/img/hla/info_target_helicopter_crash.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1959,7 +2915,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_target_portrait_root",
+    "Description": "An entity that does nothing, however it previews a model in hammer only. Useful for root nodes of portraits. Parent entities in this map to this.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -1967,7 +2933,8 @@
     "Description": "An entity that does nothing. Not networked.",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -1976,7 +2943,16 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "info_teleport_magnet",
+    "Description": "Teleport Magnet",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -1985,6 +2961,8 @@
     "Icon": "/fgd_dump/img/steamvr/info_visibility_box.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -1993,7 +2971,137 @@
     "Description": "",
     "Icon": "/fgd_dump/img/steamvr/info_world_layer.png",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "item_ammo_357",
+    "Description": "Box of 357 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_357_large",
+    "Description": "Large Box of 357 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_ar2",
+    "Description": "Box of AR2 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_ar2_altfire",
+    "Description": "AR2 Alt-fire Round",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_ar2_large",
+    "Description": "Large Box of AR2 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_crate",
+    "Description": "Ammo Crate",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_crossbow",
+    "Description": "Box of Crossbow ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_pistol",
+    "Description": "Box of Pistol ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_pistol_large",
+    "Description": "Large Box of Pistol ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_smg1",
+    "Description": "Box of SMG1 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_smg1_grenade",
+    "Description": "SMG1 Grenade",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_ammo_smg1_large",
+    "Description": "Large Box of SMG1 ammo",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_battery",
+    "Description": "HEV battery",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_box_buckshot",
+    "Description": "Box Buckshot",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_combine_console",
+    "Description": "Combine Console",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_combine_tank_locker",
+    "Description": "Combine Tank Locker",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2005,11 +3113,373 @@
     ]
   },
   {
+    "Classname": "item_healthcharger",
+    "Description": "Health Station",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_healthcharger_DEPRECATED",
+    "Description": "Health Charger",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_healthkit",
+    "Description": "Small Health Kit",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_healthvial",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_healthvial_DEPRECATED",
+    "Description": "Personal Health Kit",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_energygun",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_energygun_multiple",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_generic_pistol",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_generic_pistol_multiple",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_rapidfire",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_shotgun_multiple",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_clip_shotgun_single",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_combine_console_tank",
+    "Description": "Combine Console Tank",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_crafting_currency_large",
+    "Description": "Crafting Currency (Large)",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_crafting_currency_small",
+    "Description": "Crafting Currency (Small)",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_grenade_bomb",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_grenade_frag",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_grenade_remote_sticky",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_grenade_xen",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_headcrab_gland",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_health_station_vial",
+    "Description": "Health Vial",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_multitool",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_prop_ammobag",
+    "Description": "Ammobag",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_prop_battery",
+    "Description": "Battery",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_prop_discovery",
+    "Description": "Discovery Object",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_prop_flashlight",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_guidedmissle",
+    "Description": "WeaponModule GuidedMissle",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_guidedmissle_cluster",
+    "Description": "WeaponModule GuidedMissleCluster",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_physcannon",
+    "Description": "WeaponModule PhysCannon",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_rapidfire",
+    "Description": "WeaponModule Rapidfire",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_ricochet",
+    "Description": "WeaponModule Ricochet",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_snark",
+    "Description": "WeaponModule Snark",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weaponmodule_zapper",
+    "Description": "WeaponModule Zapper",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_energygun",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_generic_pistol",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_grabbity_glove",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_grabbity_slingshot",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_radio",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_rapidfire",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_shotgun",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_hlvr_weapon_tripmine",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_item_crate",
+    "Description": "Item Crate",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_rpg_round",
+    "Description": "RPG Round",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_suit",
+    "Description": "HEV Suit",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "item_suitcharger",
+    "Description": "Battery recharger",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "keyframe_rope",
     "Description": "A node entity that marks a point in a rope. The first node in the rope should be a move_rope, followed by 1 or more keyframe_ropes.",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2019,6 +3489,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2035,6 +3506,7 @@
     "Description": "An invisible lightsource that changes in some way over time.",
     "Icon": "/fgd_dump/img/steamvr/light_dynamic.png",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
@@ -2044,6 +3516,7 @@
     "Icon": "/fgd_dump/img/cs2/light_environment.png",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
     ]
   },
@@ -2052,6 +3525,7 @@
     "Description": "",
     "Icon": "/fgd_dump/img/steamvr/light_importance_volume.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2068,6 +3542,7 @@
     "Description": "A point light source.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2084,6 +3559,7 @@
     "Description": "An orthographic spot light source.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2100,7 +3576,16 @@
     "Description": "A spot light source.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "logic_achievement",
+    "Description": "Sends an achievement system related event from the map to the achievement system.",
+    "Icon": "/fgd_dump/img/hla/logic_achievement.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2109,6 +3594,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2118,6 +3604,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_auto.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2127,6 +3615,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_autosave.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2136,6 +3626,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_branch.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2145,6 +3637,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2154,6 +3648,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_case.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2162,6 +3658,7 @@
     "Description": "Manages a choreographed scene of one or more actors.",
     "Icon": "/fgd_dump/img/steamvr/logic_choreographed_scene.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2171,6 +3668,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2180,7 +3679,25 @@
     "Icon": "/fgd_dump/img/steamvr/logic_compare.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "logic_distance_autosave",
+    "Description": "An autosave entity that saves the game once the player is far enough away from the given entity.",
+    "Icon": "/fgd_dump/img/hla/logic_distance_autosave.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "logic_door_barricade",
+    "Description": "An entity that manages the state of a door barricade consisting of a door, an anim-interactable, and a lynchpin",
+    "Icon": "/fgd_dump/img/hla/logic_door_barricade.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2192,11 +3709,28 @@
     ]
   },
   {
+    "Classname": "logic_gameevent_listener",
+    "Description": "An entity that listens to game events and fires off an output when the named event it fired",
+    "Icon": "/fgd_dump/img/hla/logic_gameevent_listener.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "logic_handsup_listener",
+    "Description": "An entity that checks if the players hands are above their head",
+    "Icon": "/fgd_dump/img/hla/logic_handsup_listener.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "logic_lineto",
     "Description": "An entity that calculates and outputs a vector from one entity to another.",
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2206,6 +3740,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2215,7 +3750,17 @@
     "Icon": "/fgd_dump/img/steamvr/logic_multicompare.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "logic_multilight_proxy",
+    "Description": "An entity that allows you to control the display of a set of light entities with a single input.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2224,6 +3769,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2233,6 +3780,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_npc_counter_aabb.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2242,6 +3791,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_npc_counter_obb.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2251,6 +3802,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_npc_counter_radius.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2260,6 +3813,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2276,6 +3831,7 @@
     "Description": "A message forwarder. Fires up to eight separate outputs, each with a different chance of firing.",
     "Icon": "/fgd_dump/img/steamvr/logic_random_outputs.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2285,6 +3841,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_relay.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2302,6 +3860,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_script.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2311,6 +3871,8 @@
     "Icon": "/fgd_dump/img/steamvr/logic_timer.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2335,7 +3897,8 @@
     "Description": "Markup group entity; add the group\u0027s targetname to the \u0027Markup Groups\u0027 field of a markup entity to add that entity to this group",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -2343,7 +3906,8 @@
     "Description": "Generic markup volume entity, can be queried in-game by name/type/location",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -2351,7 +3915,8 @@
     "Description": "Tagged generic markup volume entity, can be queried in-game by tag/name/type/location",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -2359,7 +3924,8 @@
     "Description": "Tagged markup volume entity with a target reference point.  Points are only in volume if behind the reference point relative to a given query position.",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
     ]
   },
   {
@@ -2376,6 +3942,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2385,6 +3953,8 @@
     "Icon": "/fgd_dump/img/steamvr/math_counter.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2394,6 +3964,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2403,6 +3975,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2420,6 +3994,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2429,6 +4004,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2438,7 +4015,88 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_advisor",
+    "Description": "An adorable sluglike alien with benevolent psychic powers.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_alyx",
+    "Description": "Alyx",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_antlion",
+    "Description": "Antlions will run away from ai_sound, type: Thumper.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_antlionguard",
+    "Description": "Antlion Guard",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_antlion_grub",
+    "Description": "Antlion grub",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_antlion_template_maker",
+    "Description": "Antlion Template Maker",
+    "Icon": "/fgd_dump/img/hla/npc_antlion_template_maker.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_apcdriver",
+    "Description": "NPC used to drive an APC vehicle.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_barnacle",
+    "Description": "Barnacle",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_barney",
+    "Description": "Barney",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_breen",
+    "Description": "Dr Breen",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2446,7 +4104,72 @@
     "Description": "Bullseye",
     "Icon": "/fgd_dump/img/steamvr/npc_bullseye.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_citizen",
+    "Description": "Citizen",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_clawscanner",
+    "Description": "Claw Scanner",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combinedropship",
+    "Description": "Combine Dropship",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combinegunship",
+    "Description": "Combine Gunship",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combine_advisor_roaming",
+    "Description": "Combine Advisor Roaming",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combine_camera",
+    "Description": "Combine security camera",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combine_cannon",
+    "Description": "Combine Cannon",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_combine_s",
+    "Description": "Combine Soldier",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2454,7 +4177,272 @@
     "Description": "Crow",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_cscanner",
+    "Description": "City Scanner",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_dog",
+    "Description": "d0g",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_dota_barracks",
+    "Description": "Creates a barracks, which spawns creeps at regular intervals and can be destroyed by enemy teams.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_base",
+    "Description": "Used to place a dota NPC.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_base_blocker",
+    "Description": "A blocker which only one team can go past.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_building",
+    "Description": "Creates a simple building.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_creature_spawner",
+    "Description": "Spawns creatures.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_fort",
+    "Description": "Creates an ancient. In standard Dota2 PvP, the win condition is to destroy the enemy team\u0027s ancient.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_holdout_tower_heavyslow",
+    "Description": "(used in Frostivus event) Creates a heavily-damaging, slowly-attacking tower.  This can also be edited in the npc_units.txt file.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_holdout_tower_lightfast",
+    "Description": "(used in Frostivus event) Creates a lightly-damaging, fast-attacking tower.  This can also be edited in the npc_units.txt file.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_holdout_tower_reducespeed",
+    "Description": "(used in Frostivus event) Creates a tower that reduces enemy movespeed.  This can also be edited in the npc_units.txt file.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_lantern",
+    "Description": "A lantern that can be lit by either team.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_launchpad",
+    "Description": "Launches the hero to the paired landing pad.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_lotus_pool",
+    "Description": "Creates a lotus pool that creates lotuses every now and then.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_miniboss_spawner",
+    "Description": "Spawns Tormentor, the small side lane boss in the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_neutral_spawner",
+    "Description": "Spawns neutral units.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_roshan_spawner",
+    "Description": "Spawns Roshan, the big boss in the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_scripted_spawner",
+    "Description": "[DEPRECATED ENTITY?] Spawns NPCs based on scripts for tutorials / single player / co-op.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner",
+    "Description": "Spawns NPCs based on scripts.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_bad_bot",
+    "Description": "Spawns Dire creeps in the bottom lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_bad_mid",
+    "Description": "Spawns Dire creeps in the middle lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_bad_top",
+    "Description": "Spawns Dire creeps in the top lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_good_bot",
+    "Description": "Spawns Radiant creeps in the bottom lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_good_mid",
+    "Description": "Spawns Radiant creeps in the middle lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_spawner_good_top",
+    "Description": "Spawns Radiant creeps in the top lane of the standard Dota2 PvP map.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_tower",
+    "Description": "Creates a Dota tower that attacks enemy units, provides vision of invisible enemies, and allows allies to teleport to it.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_trap_ward",
+    "Description": "Used to place a dota trap ward.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_unit_templar_gate",
+    "Description": "Creates one portal out of a pair that you can traverse through.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_unit_twin_gate",
+    "Description": "Creates one portal out of a pair that you can traverse through.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_unit_underlord_portal",
+    "Description": "Creates one portal out of a pair that you can traverse through.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_watch_tower",
+    "Description": "Creates a watch tower building which either team can capture.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_dota_xp_fountain",
+    "Description": "An XP fountain that grants experience to a unit that stands near it for long enough.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "npc_eli",
+    "Description": "Eli Vance",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2462,7 +4450,16 @@
     "Description": "EnemyFinder",
     "Icon": "/fgd_dump/img/steamvr/npc_enemyfinder.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_fastzombie",
+    "Description": "Fast Zombie",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2470,7 +4467,80 @@
     "Description": "An entity used for non-NPCs that need to synchronise their animation with an NPC in a scripted_sequence. Usually a pieceof furniture or door that an NPC needs to manipulate within a scripted_sequence.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_gman",
+    "Description": "The G-Man",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_grenade_frag",
+    "Description": "Hand Grenade",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_headcrab",
+    "Description": "Headcrab",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_headcrab_armored",
+    "Description": "Armored headcrab",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_headcrab_black",
+    "Description": "Black Headcrab",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_headcrab_fast",
+    "Description": "Fast Headcrab",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_headcrab_runner",
+    "Description": "Runner Headcrab",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_helicopter",
+    "Description": "Helicopter",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_hunter",
+    "Description": "A smaller, faster, strider that can pursue the player into buildings.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2478,7 +4548,24 @@
     "Description": "NPC Maker",
     "Icon": "/fgd_dump/img/steamvr/npc_maker.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_manhack",
+    "Description": "Manhack",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_metropolice",
+    "Description": "MetroPolice",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2486,7 +4573,16 @@
     "Description": "Pigeon",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_poisonzombie",
+    "Description": "A bloated, disgusting, fluid-spurting zombie created by a poison headcrab.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2506,11 +4602,52 @@
     ]
   },
   {
+    "Classname": "npc_sniper",
+    "Description": "Sniper",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_strider",
+    "Description": "Strider",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "npc_template_maker",
     "Description": "An entity that creates NPCs. The NPCs it creates are clones of a template NPC. NPCs are spawned around this maker\u0027s origin, or at specified destination points.",
     "Icon": "/fgd_dump/img/steamvr/npc_template_maker.png",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_turret_ceiling",
+    "Description": "Combine Ceiling Turret",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_turret_citizen",
+    "Description": "Citizen Turret",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_turret_floor",
+    "Description": "Combine Floor Turret",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2518,7 +4655,64 @@
     "Description": "NPC used to drive a target vehicle.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "npc_vortigaunt",
+    "Description": "Vortigaunt",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_vr_citizen_female",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_vr_citizen_male",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_zombie",
+    "Description": "Zombie",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_zombie_blind",
+    "Description": "Blind Zombie",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_zombie_torso",
+    "Description": "Zombie Torso",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "npc_zombine",
+    "Description": "Combine Soldier Zombie",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2527,6 +4721,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2535,7 +4731,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2543,7 +4740,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2551,7 +4749,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2559,7 +4758,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2567,6 +4767,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2575,7 +4777,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2583,7 +4786,8 @@
     "Description": "Specifies a path that will be exported to game and can be referenced by other entities",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2592,6 +4796,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2609,6 +4815,8 @@
     "Icon": "/fgd_dump/img/steamvr/phys_ballsocket.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2618,6 +4826,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2626,6 +4836,7 @@
     "Description": "Turns an arbitrary entity into a physically simulated entity. i.e. brush entities will behave like func_physbox, model entities behave like prop_physics.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2635,6 +4846,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2644,6 +4857,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2653,6 +4868,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2662,6 +4879,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2671,6 +4890,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2680,6 +4901,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2689,6 +4912,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2698,6 +4923,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2707,6 +4934,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2716,6 +4945,8 @@
     "Icon": "/fgd_dump/img/steamvr/phys_ragdollmagnet.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2725,6 +4956,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2733,7 +4966,8 @@
     "Description": "Constrain an entity to a spline.",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2742,6 +4976,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2751,6 +4987,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2760,7 +4998,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_aimat",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2769,6 +5017,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2778,6 +5028,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2795,7 +5047,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_bugbait",
+    "Description": "Bugbait sensor point",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2804,6 +5066,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2812,7 +5076,8 @@
     "Description": "Camera Vertical FOV",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2821,6 +5086,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2830,6 +5097,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2842,11 +5110,21 @@
     ]
   },
   {
+    "Classname": "point_clientui_world_movie_panel",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "point_clientui_world_panel",
     "Description": "",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2856,6 +5134,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2864,7 +5144,9 @@
     "Description": "Defines the position and data of a commentary node.",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla",
+      "dota2"
     ]
   },
   {
@@ -2873,6 +5155,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2906,7 +5189,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_entity_fader",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2915,6 +5208,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2923,6 +5218,7 @@
     "Description": "An entity that allows fires simple game events from map logic",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -2932,7 +5228,32 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_grabbable",
+    "Description": "",
+    "Icon": "/fgd_dump/img/hla/point_grabbable.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "point_hlvr_player_input_modifier",
+    "Description": "An entity that can suppres player teleport and/or input",
+    "Icon": "/fgd_dump/img/hla/point_hlvr_player_input_modifier.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "point_hlvr_strip_player",
+    "Description": "Strip HLVR Player",
+    "Icon": "/fgd_dump/img/hla/point_hlvr_strip_player.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2941,6 +5262,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -2950,7 +5273,17 @@
     "Icon": "/fgd_dump/img/steamvr/point_instructor_event.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_lightmodifier",
+    "Description": "A point entity that allows you adjust the brightness of a set of lights when an activator enters and leaves the radius.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2959,15 +5292,18 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "point_nav_walkable",
     "Description": "Causes nav mesh to be generated here and at all points that are reachable via ground movement from here.",
-    "Icon": "/fgd_dump/img/cs2/point_nav_walkable.png",
+    "Icon": "/fgd_dump/img/dota2/point_nav_walkable.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2975,7 +5311,8 @@
     "Description": "Orient Towards",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -2983,7 +5320,16 @@
     "Description": "An entity that constrains players to a radius around itself, slowing them down the closer they get to the edge of the radius.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_player_speak",
+    "Description": "Used to force the HLVR player to speak",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -2991,6 +5337,7 @@
     "Description": "An entity that controls a pose parameter of a prop and cycles the pose clientside.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -3000,7 +5347,25 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_push",
+    "Description": "Point Push",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "point_render_attr_curve",
+    "Description": "Drive a global render attribute (on the player view) by a curve over time when activated. Can optionally enable a dynamic combo while it\u0027s active.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3025,7 +5390,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_simple_obstruction",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3034,6 +5409,8 @@
     "Icon": "/fgd_dump/img/steamvr/point_soundevent.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3051,6 +5428,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3060,6 +5439,8 @@
     "Icon": "/fgd_dump/img/steamvr/point_template.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3072,11 +5453,21 @@
     ]
   },
   {
+    "Classname": "point_training_gravity_gloves",
+    "Description": "An entity that helps with the gravity glove training",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "point_value_remapper",
     "Description": "",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3086,6 +5477,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3094,7 +5487,16 @@
     "Description": "A camera entity that controls the player\u0027s view. While it\u0027s active, the player will see out of the camera.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_vort_energy",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3103,6 +5505,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3112,7 +5516,25 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "point_zombie_noise_generator",
+    "Description": "A point entity that generates a sound for blind zombies to go after",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "portrait_world_unit",
+    "Description": "Can only be used in background maps. Creates a portrait unit based on a unit name.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3120,15 +5542,41 @@
     "Description": "An entity that controls the postprocess settings in the map.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "post_processing_volume",
     "Description": "Set postprocessing params while a player is inside the volume.",
-    "Icon": "/fgd_dump/img/cs2/post_processing_volume.png",
+    "Icon": "/fgd_dump/img/hla/post_processing_volume.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_animating_breakable",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_animinteractable",
+    "Description": "Animating Interactable",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_combine_ball",
+    "Description": "A prop that physically simulates as a single rigid body. It can be constrained to other physics objects using hinges or other constraints. It can also be configured to break when it takes enough damage.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3160,6 +5608,7 @@
     "Description": "Detail Prop",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -3169,7 +5618,24 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_door_rotating_physics",
+    "Description": "An entity used to place a physics-based door in the world, controlled by player hands (VR) or physical forces.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_dry_erase_marker",
+    "Description": "Marker that can write on a dry erase board",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3178,7 +5644,25 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_dynamic_clientside",
+    "Description": "Client-side dynamic prop.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "prop_dynamic_client_fadeout",
+    "Description": "Client-side prop which fades out when it begins to obstruct the view.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3187,6 +5671,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3196,6 +5682,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3216,11 +5704,28 @@
     ]
   },
   {
+    "Classname": "prop_handpose",
+    "Description": "A pose region for the VR hand",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_hlvr_crafting_station",
+    "Description": "Crafting Station",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "prop_magic_carpet",
     "Description": "",
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3230,7 +5735,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_physics_interactive",
+    "Description": "A physics prop that has a visual \u0027handle\u0027 in the model, and a hand pose attached to that handle.",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3239,6 +5754,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3248,7 +5764,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_player_cosmetic",
+    "Description": "Cosmetic player prop.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3257,7 +5783,25 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_reviver_heart",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_russell_headset",
+    "Description": "Russell\u0027s headset that you pick up and put on",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3266,7 +5810,49 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "prop_vehicle_apc",
+    "Description": "APC with mounted guns, can only be driven by a vehicle driver or a npc_apcdriver.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_welded_physics",
+    "Description": "Prop Welded Physics",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_welded_physics_target",
+    "Description": "A target entity that provides a position for a prop_welded_physics_to_target to weld itself to.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "prop_welded_physics_to_target",
+    "Description": "A Prop Welded Physics that is welded not to its starting position, but to the position of a prop_welded_physics_target.",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "save_photogrammetry_anchor",
+    "Description": "Anchor for creating Photogrammetry objects for Loading in to Compositor for game loads",
+    "Icon": "/fgd_dump/img/hla/save_photogrammetry_anchor.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3274,6 +5860,7 @@
     "Description": "Scripted Sentence",
     "Icon": "/fgd_dump/img/steamvr/scripted_sentence.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -3282,6 +5869,7 @@
     "Description": "Grabs an NPC and makes them play a specified set of animations. The NPC can be told to move to the scripted sequence position or can be told to play the script wherever they currently are. Multiple scripted sequences of the same name (or sync group, if specified) will frame-synchronize in the action animation once all the actors have moved to position. This allows tight interaction between actors (one actor grabbing another, hitting them, etc.) The flow is as follows:\u003Cbr/\u003E\u003Cbr/\u003E1) Move to position using the specified movement animation. If \u0027Move to Position\u0027 is set to NONE, skip to step 2.\u003Cbr/\u003E2) If forced to wait for another actor to move to position, play the pre-action idle animation, otherwise skip to step 3. If there is no pre-action idle specified, ACT_IDLE is used.\u003Cbr/\u003E3) Fire the OnBeginSequence output.\u003Cbr/\u003E4) Play the action animation. If no action animation is specified, skip to step 5.\u003Cbr/\u003E5) Play the post-action idle animation. If none is specified, skip to step 6. If the \u0027Loop in Post Idle\u0027 spawnflag is set, keep playing the post-action idle until the script is cancelled. If no post-action idle animation is specified, ACT_IDLE is used.\u003Cbr/\u003E6) Fire the OnEndSequence output.\u003Cbr/\u003E7) If a next script to play is specified, hand the NPC to the next script and repeat this process for that script.\u003Cbr/\u003E\u003Cbr/\u003EThe MoveToPosition input runs steps 1 and 2, then waits while playing the pre-action idle animation until the BeginSequence input is received.\u003Cbr/\u003E\u003Cbr/\u003EIf the sequence has motion extraction in it, set the \u0027Don\u0027t Teleport NPC On End\u0027 spawnflag.",
     "Icon": "",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -3290,6 +5878,7 @@
     "Description": "Scripted Target",
     "Icon": "/fgd_dump/img/steamvr/scripted_target.png",
     "Games": [
+      "hla",
       "steamvr"
     ]
   },
@@ -3307,6 +5896,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
       "steamvr"
     ]
   },
@@ -3316,6 +5906,8 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3325,15 +5917,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_event_alignedbox.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_event_orientedbox",
     "Description": "Plays a sound event from a point closest to the player on the box.",
-    "Icon": "/fgd_dump/img/cs2/snd_event_orientedbox.png",
+    "Icon": "/fgd_dump/img/dota2/snd_event_orientedbox.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3342,15 +5937,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_event_param.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_event_path_corner",
     "Description": "Plays some number of soundevents (up to max) along segments of a path corner network",
-    "Icon": "/fgd_dump/img/cs2/snd_event_path_corner.png",
+    "Icon": "/fgd_dump/img/dota2/snd_event_path_corner.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3359,15 +5957,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_event_point.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_event_sphere",
     "Description": "Plays a sound event from the closest point on a sphere to the player. The origin can be this entity or a specified entity\u0027s position.",
-    "Icon": "/fgd_dump/img/cs2/snd_event_sphere.png",
+    "Icon": "/fgd_dump/img/dota2/snd_event_sphere.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3376,6 +5977,8 @@
     "Icon": "/fgd_dump/img/steamvr/snd_opvar_set.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3385,15 +5988,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_opvar_set_aabb.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_opvar_set_auto_room",
     "Description": "Analyzes a mostly enclosed space and defines walls and doorways within that space. Sets an opvar value on a library stack based on distance from the doorways",
-    "Icon": "/fgd_dump/img/cs2/snd_opvar_set_auto_room.png",
+    "Icon": "/fgd_dump/img/dota2/snd_opvar_set_auto_room.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3402,15 +6008,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_opvar_set_obb.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_opvar_set_path_corner",
     "Description": "",
-    "Icon": "/fgd_dump/img/cs2/snd_opvar_set_path_corner.png",
+    "Icon": "/fgd_dump/img/dota2/snd_opvar_set_path_corner.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3419,15 +6028,18 @@
     "Icon": "/fgd_dump/img/steamvr/snd_opvar_set_point.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_opvar_set_wind_obb",
     "Description": "",
-    "Icon": "/fgd_dump/img/cs2/snd_opvar_set_wind_obb.png",
+    "Icon": "/fgd_dump/img/dota2/snd_opvar_set_wind_obb.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3436,6 +6048,8 @@
     "Icon": "/fgd_dump/img/steamvr/snd_soundscape.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3445,6 +6059,8 @@
     "Icon": "/fgd_dump/img/steamvr/snd_soundscape_proxy.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3454,23 +6070,27 @@
     "Icon": "/fgd_dump/img/steamvr/snd_soundscape_triggerable.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "snd_sound_area_obb",
     "Description": "Creates a box Sound Area",
-    "Icon": "/fgd_dump/img/cs2/snd_sound_area_obb.png",
+    "Icon": "/fgd_dump/img/dota2/snd_sound_area_obb.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
     "Classname": "snd_sound_area_sphere",
     "Description": "Creates a spherical Sound Area",
-    "Icon": "/fgd_dump/img/cs2/snd_sound_area_sphere.png",
+    "Icon": "/fgd_dump/img/dota2/snd_sound_area_sphere.png",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3479,6 +6099,8 @@
     "Icon": "/fgd_dump/img/steamvr/snd_stack_save.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3488,6 +6110,8 @@
     "Icon": "/fgd_dump/img/steamvr/tanktrain_ai.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3497,6 +6121,8 @@
     "Icon": "/fgd_dump/img/steamvr/tanktrain_aitarget.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3533,11 +6159,21 @@
     ]
   },
   {
+    "Classname": "test_sidelist",
+    "Description": "Test entity for Ken!",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "test_traceline",
     "Description": "A debugging tool for testing tracelines.",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3546,7 +6182,8 @@
     "Description": "",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3555,7 +6192,33 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_autosave.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_blind_zombie_crash",
+    "Description": "Blind Zombie Crash Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_blind_zombie_crash.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_blind_zombie_sound_area",
+    "Description": "Blind Zombie Sound Area",
+    "Icon": "/fgd_dump/img/hla/trigger_blind_zombie_sound_area.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_blind_zombie_wander_area",
+    "Description": "Trigger Blind Zombie Wander",
+    "Icon": "/fgd_dump/img/hla/trigger_blind_zombie_wander_area.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3567,12 +6230,62 @@
     ]
   },
   {
+    "Classname": "trigger_boss_attackable",
+    "Description": "Boss (Roshan) is attackable from here.",
+    "Icon": "/fgd_dump/img/dota2/trigger_boss_attackable.png",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
     "Classname": "trigger_changelevel",
     "Description": "An entity that triggers a level change.\u003Cbr/\u003E\u003Cbr/\u003EPlace an info_landmark in both maps in the PVS of the transition region that marks the \u0027same\u0027 location in each map.\u003Cbr/\u003E\u003Cbr/\u003E\u003Cb\u003ETIPS \u0026 TRICKS:\u003C/b\u003E\u003Cbr/\u003ETo fire events in the next level, use the OnLevelChange output to turn on an env_global in the current level.  Create a logic_auto in the next level that checks for the state set by the env_global.\u003Cbr/\u003E\u003Cbr/\u003ETo control which entities go through the level transition, create one or more trigger_transitions and give them the same name as the landmark. Any entities within the trigger_transition(s) will go to the next map.",
     "Icon": "/fgd_dump/img/steamvr/trigger_changelevel.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_crafting_station_object_placement",
+    "Description": "Crafting Station Object Placement Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_crafting_station_object_placement.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_detect_bullet_fire",
+    "Description": "Detect Bullet Fire Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_detect_bullet_fire.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_detect_explosion",
+    "Description": "Detect Explosion Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_detect_explosion.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_dota",
+    "Description": "Dota-specific Trigger.",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "trigger_foliage_interaction",
+    "Description": "",
+    "Icon": "/fgd_dump/img/hla/trigger_foliage_interaction.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3581,7 +6294,17 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_gravity.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_hero",
+    "Description": "A trigger that\u0027s fired when a hero touches it.",
+    "Icon": "/fgd_dump/img/dota2/trigger_hero.png",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3598,6 +6321,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_hurt.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3607,7 +6332,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_lerp_object",
+    "Description": "Object Lerp Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_lerp_object.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3616,6 +6351,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_look.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3625,7 +6362,17 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_multiple.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_no_wards",
+    "Description": "Wards disallowed here.",
+    "Icon": "/fgd_dump/img/dota2/trigger_no_wards.png",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3634,7 +6381,17 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_once.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_physics",
+    "Description": "A volumetric trigger that affects the motion of vphysics objects that touch it.",
+    "Icon": "/fgd_dump/img/hla/trigger_physics.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3646,11 +6403,29 @@
     ]
   },
   {
+    "Classname": "trigger_player_out_of_ammo",
+    "Description": "Player Out of Ammo Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_player_out_of_ammo.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_player_peephole",
+    "Description": "Player peephole (hands/head can enter but only legally exit from where they came in)",
+    "Icon": "/fgd_dump/img/hla/trigger_player_peephole.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "trigger_proximity",
     "Description": "Measures the distance of the player within the trigger volume from a given point (and within a given radius). The NearestPlayerDistance output will be 0 when the player is at the center point, and 1 when the player is at the radius.",
     "Icon": "/fgd_dump/img/steamvr/trigger_proximity.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3660,6 +6435,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_push.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3669,7 +6446,17 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_remove.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_resource_analyzer",
+    "Description": "Resource Analyzer Player Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_resource_analyzer.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3678,7 +6465,17 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_shop",
+    "Description": "Region that defines the shop radius.",
+    "Icon": "/fgd_dump/img/dota2/trigger_shop.png",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3687,6 +6484,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_snd_sos_opvar.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3696,6 +6495,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_soundscape.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3713,6 +6514,8 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_teleport.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3721,16 +6524,67 @@
     "Description": "Changes tonemap controllers for players touching the trigger.",
     "Icon": "",
     "Games": [
+      "dota2",
       "steamvr"
     ]
   },
   {
     "Classname": "trigger_transition",
     "Description": "A volume that\u0027s used to control which entities go through the level transition. Create one or more trigger_transitions and give them the same name as the changelevel landmark. Any entities within the trigger_transition(s) will go to the next map.See trigger_changelevel for more info.",
-    "Icon": "/fgd_dump/img/cs2/trigger_transition.png",
+    "Icon": "/fgd_dump/img/dota2/trigger_transition.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_traversal_invalid_spot",
+    "Description": "A trigger that will keep players from ending there teleport inside or on top of this trigger, but will allow them to move past it.",
+    "Icon": "/fgd_dump/img/hla/trigger_traversal_invalid_spot.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_traversal_modifier",
+    "Description": "A trigger that modifies where the player should be teleported when their teleport attempt touches this trigger.",
+    "Icon": "/fgd_dump/img/hla/trigger_traversal_modifier.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_traversal_modifier_to_line",
+    "Description": "A trigger that modifies where the player should be teleported when their teleport attempt touches this trigger. It moves the teleport point to the nearest point on the line between points A \u0026 B.",
+    "Icon": "/fgd_dump/img/hla/trigger_traversal_modifier_to_line.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_traversal_no_teleport",
+    "Description": "A trigger that will clip the teleport trace. You must texture this entity with the toolsteleportclip material to enable functionality.",
+    "Icon": "/fgd_dump/img/hla/trigger_traversal_no_teleport.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_traversal_tp_interrupt",
+    "Description": "",
+    "Icon": "/fgd_dump/img/hla/trigger_traversal_tp_interrupt.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_turret_citizen_battery",
+    "Description": "Turret Battery Placement Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_turret_citizen_battery.png",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3739,7 +6593,40 @@
     "Icon": "/fgd_dump/img/steamvr/trigger_wind.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "trigger_xen_foliage_interaction",
+    "Description": "",
+    "Icon": "/fgd_dump/img/hla/trigger_xen_foliage_interaction.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_xen_membrane_door",
+    "Description": "Trigger Xen Membrane Door",
+    "Icon": "/fgd_dump/img/hla/trigger_xen_membrane_door.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "trigger_zap_module",
+    "Description": "Zap Module Trigger",
+    "Icon": "/fgd_dump/img/hla/trigger_zap_module.png",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "tutorial_npc_blocker",
+    "Description": "The start or endpoint of an NPC blocking line.",
+    "Icon": "",
+    "Games": [
+      "dota2"
     ]
   },
   {
@@ -3747,7 +6634,8 @@
     "Description": "Vehicle which does nothing but fire outputs based on IN_BUTTONS, typically used for prototyping.",
     "Icon": "",
     "Games": [
-      "cs2"
+      "cs2",
+      "dota2"
     ]
   },
   {
@@ -3756,6 +6644,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3773,6 +6662,7 @@
     "Icon": "",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3782,6 +6672,8 @@
     "Icon": "/fgd_dump/img/steamvr/visibility_hint.png",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
     ]
   },
@@ -3807,7 +6699,16 @@
     "Icon": "/fgd_dump/img/steamvr/water_lod_control.png",
     "Games": [
       "cs2",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "weapon_357",
+    "Description": "357",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3816,6 +6717,14 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "weapon_ar2",
+    "Description": "Assault Rifle 2",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3843,11 +6752,35 @@
     ]
   },
   {
+    "Classname": "weapon_bugbait",
+    "Description": "Bug bait",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "weapon_c4",
     "Description": "C4 Bomb",
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "weapon_crossbow",
+    "Description": "Crossbow",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "weapon_crowbar",
+    "Description": "Crowbar",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -3904,6 +6837,14 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "weapon_frag",
+    "Description": "Frag Grenade",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -4075,11 +7016,35 @@
     ]
   },
   {
+    "Classname": "weapon_physcannon",
+    "Description": "Physics Cannon",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "weapon_pistol",
+    "Description": "Pistol",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "weapon_revolver",
     "Description": "Revolver ",
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "weapon_rpg",
+    "Description": "Missile Launcher",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -4104,6 +7069,22 @@
     "Icon": "",
     "Games": [
       "cs2"
+    ]
+  },
+  {
+    "Classname": "weapon_shotgun",
+    "Description": "Shotgun",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "weapon_smg1",
+    "Description": "SMG1",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
@@ -4171,12 +7152,78 @@
     ]
   },
   {
+    "Classname": "weapon_zipline",
+    "Description": "Zipline",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
     "Classname": "worldspawn",
     "Description": "This is the world entity. Each map can only contain one, and it\u0027s automatically created for you.",
     "Icon": "",
     "Games": [
       "cs2",
+      "hla",
+      "dota2",
       "steamvr"
+    ]
+  },
+  {
+    "Classname": "world_bounds",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "dota2"
+    ]
+  },
+  {
+    "Classname": "xen_flora_animatedmover",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "xen_foliage",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "xen_foliage_bloater",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "xen_foliage_grenade_spawner",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "xen_foliage_turret",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
+    ]
+  },
+  {
+    "Classname": "xen_hearing_flower",
+    "Description": "",
+    "Icon": "",
+    "Games": [
+      "hla"
     ]
   },
   {
