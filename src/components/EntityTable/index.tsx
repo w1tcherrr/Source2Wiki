@@ -25,7 +25,7 @@ const EntityTable: React.FC = () => {
     const params = new URLSearchParams(location.search);
     const gameParam = params.get("game");
   
-    if (gameParam && Games[gameParam]) {
+    if (gameParam && Games[gameParam] && gameParam !== "any") {
       setSelectedGames([gameParam]);
     } else if (!gameParam) {
       setSelectedGames([]);
@@ -45,7 +45,7 @@ const EntityTable: React.FC = () => {
     }
     
     // Filter by selected games
-    if (selectedGames.length > 0 && !selectedGames.includes("any")) {
+    if (selectedGames.length > 0) {
       filtered = filtered.filter(entity => 
         entity.Games.some(game => selectedGames.includes(game))
       );
@@ -56,10 +56,10 @@ const EntityTable: React.FC = () => {
 
   // Get visible games for each entity (filtered by selected games)
   const getVisibleGames = (entityGames: string[]) => {
-    if (selectedGames.length === 0 || selectedGames.includes("any")) {
-      return entityGames;
+    if (selectedGames.length === 0) {
+      return entityGames.filter(game => game !== "any");
     }
-    return entityGames.filter(game => selectedGames.includes(game));
+    return entityGames.filter(game => selectedGames.includes(game) && game !== "any");
   };
 
   React.useEffect(() => {
@@ -102,7 +102,7 @@ const EntityTable: React.FC = () => {
   };
 
   const selectAllGames = () => {
-    setSelectedGames(Object.keys(Games));
+    setSelectedGames(Object.keys(Games).filter(key => key !== "any"));
   };
 
   return (
@@ -158,20 +158,20 @@ const EntityTable: React.FC = () => {
                 </div>
               </div>
               <div className={styles.gameList}>
-                {Object.entries(Games).map(([key, game]) => (
+                {Object.entries(Games)
+                  .filter(([key]) => key !== "any")
+                  .map(([key, game]) => (
                   <label key={key} className={styles.gameCheckbox}>
                     <input
                       type="checkbox"
                       checked={selectedGames.includes(key)}
                       onChange={() => toggleGame(key)}
                     />
-                    {key !== "any" && (
-                      <img
-                        src={game.IconPath}
-                        alt={game.PrettyName}
-                        className={styles.gameIcon}
-                      />
-                    )}
+                    <img
+                      src={game.IconPath}
+                      alt={game.PrettyName}
+                      className={styles.gameIcon}
+                    />
                     <span>{game.PrettyName}</span>
                   </label>
                 ))}
