@@ -2,6 +2,75 @@
   "Name": "ai_battle_line",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_battle_line",
+      "Description": "Battle line",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Use parent\u0027s orientation",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Actor(s) or squad to affect",
+          "InternalName": "actor",
+          "VariableType": "TargetNameOrClass",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Match by actor name only",
+          "InternalName": "MatchByNameOnly",
+          "VariableType": "Bool",
+          "Description": "If false, match by squad name as well as actor name.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Active",
+          "InternalName": "Active",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Strict",
+          "InternalName": "Strict",
+          "VariableType": "Bool",
+          "Description": "Player orders can override, applies to allies only",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Activate",
+          "Description": "",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Deactivate",
+          "Description": "",
+          "VariableType": "Void",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_battle_line",

@@ -2,6 +2,289 @@
   "Name": "game_ui",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "game_ui",
+      "Description": "An entity used to override player input when the player is looking at it.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Freeze Player",
+              "Description": ""
+            },
+            {
+              "Name": "Hide Weapon",
+              "Description": ""
+            },
+            {
+              "Name": "\u002BUse Deactivates",
+              "Description": ""
+            },
+            {
+              "Name": "Jump Deactivates",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FieldOfView",
+          "InternalName": "FieldOfView",
+          "VariableType": "Float",
+          "Description": "The amount of tolerance in the view checking when determining whether the player\u0027s input is still under control. 1.0 = straight ahead, 0.0 = \u002B/- 90 degrees, -1.0 = all directions. If the player isn\u0027t within the tolerance, the player regains control.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Deactivate",
+          "Description": "Return Player Control.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Activate",
+          "Description": "Take Player Control.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerOn",
+          "Description": "Fired whenever this entity starts controlling the player\u0027s input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerOff",
+          "Description": "Fired whenever this entity stops controlling the player\u0027s input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedMoveLeft",
+          "Description": "Fired whenever the player presses the moveleft key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedMoveRight",
+          "Description": "Fired whenever the player presses the moveright key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedForward",
+          "Description": "Fired whenever the player presses the forward key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedBack",
+          "Description": "Fired whenever the player presses the backward key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedAttack",
+          "Description": "Fired whenever the player presses the attack key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PressedAttack2",
+          "Description": "Fired whenever the player presses the secondary attack key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedMoveLeft",
+          "Description": "Fired whenever the player releases the moveleft key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedMoveRight",
+          "Description": "Fired whenever the player releases the moveright key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedForward",
+          "Description": "Fired whenever the player releases the forward key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedBack",
+          "Description": "Fired whenever the player releases the backward key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedAttack",
+          "Description": "Fired whenever the player releases the attack key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "UnpressedAttack2",
+          "Description": "Fired whenever the player releases the secondary attack key.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "XAxis",
+          "Description": "An output that fires whenever the X axis of the player\u0027s input changes. i.e. -1 when the player has moveleft key down, 1 when the player has moveright key down, and 0 if neither.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "YAxis",
+          "Description": "An output that fires whenever the Y axis of the player\u0027s input changes. i.e. -1 when the player has backward key down, 1 when the player has forward key down, and 0 if neither.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "AttackAxis",
+          "Description": "An output that fires whenever the state of the player\u0027s attack key changes. i.e. 1 when the player has the attack key down, 0 otherwise.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "Attack2Axis",
+          "Description": "An output that fires whenever the state of the player\u0027s secondary attack key changes. i.e. 1 when the player has the secondary attack key down, 0 otherwise.",
+          "VariableType": "String",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "game_ui",

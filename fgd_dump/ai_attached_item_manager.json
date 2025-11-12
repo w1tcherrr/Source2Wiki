@@ -2,6 +2,242 @@
   "Name": "ai_attached_item_manager",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_attached_item_manager",
+      "Description": "AI Attached Item Manager - manages the items attached to one or more NPCs / ragdolls.",
+      "IconPath": "static/fgd_dump/img/hla/ai_attached_item_manager.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Target(s)",
+          "InternalName": "target",
+          "VariableType": "TargetNameOrClass",
+          "Description": "This is the NPC(s) who\u0027s items this manager should be managing. May be a targetname or a classname.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Number of Attached Items",
+          "InternalName": "num_attached_items",
+          "VariableType": "Integer",
+          "Description": "The number of items attached to our target NPC(s). The NPC(s) will also need a matching number of attachment points on their model.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Listen to Entity Spawns",
+          "InternalName": "listen_entityspawns",
+          "VariableType": "Bool",
+          "Description": "If you want this manager to affect valid targets that are spawned after the manager, you need to set this. Most likely only needed if you want to target NPCs via a classname to catch all future spawns on that NPC type. It has a perf cost, so don\u0027t turn it on if you don\u0027t need it.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item Removal Allowed for Ammo Balancing",
+          "InternalName": "mark_as_removable",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item 1",
+          "InternalName": "item_1",
+          "VariableType": "Choices",
+          "Description": "Class name of item to attach in slot 1. If set to Default, the NPC\u0027s code will decide what it should be, if anything.",
+          "Options": [
+            {
+              "Name": "Default (Code decides)",
+              "Description": ""
+            },
+            {
+              "Name": "Energy Gun Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Rapidfire Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shell (Single)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Two)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Box)",
+              "Description": ""
+            },
+            {
+              "Name": "Health Vial",
+              "Description": ""
+            },
+            {
+              "Name": "Frag Grenade",
+              "Description": ""
+            },
+            {
+              "Name": "Small Crafting Currency",
+              "Description": ""
+            },
+            {
+              "Name": "Manhack (ONLY USE ON COMBINE OFFICERS)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item 2",
+          "InternalName": "item_2",
+          "VariableType": "Choices",
+          "Description": "Class name of item to attach in slot 2. If set to Default, the NPC\u0027s code will decide what it should be, if anything.",
+          "Options": [
+            {
+              "Name": "Default (Code decides)",
+              "Description": ""
+            },
+            {
+              "Name": "Energy Gun Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Rapidfire Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shell (Single)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Two)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Box)",
+              "Description": ""
+            },
+            {
+              "Name": "Health Vial",
+              "Description": ""
+            },
+            {
+              "Name": "Frag Grenade",
+              "Description": ""
+            },
+            {
+              "Name": "Small Crafting Currency",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item 3",
+          "InternalName": "item_3",
+          "VariableType": "Choices",
+          "Description": "Class name of item to attach in slot 3. If set to Default, the NPC\u0027s code will decide what it should be, if anything.",
+          "Options": [
+            {
+              "Name": "Default (Code decides)",
+              "Description": ""
+            },
+            {
+              "Name": "Energy Gun Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Rapidfire Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shell (Single)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Two)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Box)",
+              "Description": ""
+            },
+            {
+              "Name": "Health Vial",
+              "Description": ""
+            },
+            {
+              "Name": "Frag Grenade",
+              "Description": ""
+            },
+            {
+              "Name": "Small Crafting Currency",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item 4",
+          "InternalName": "item_4",
+          "VariableType": "Choices",
+          "Description": "Class name of item to attach in slot 4. If set to Default, the NPC\u0027s code will decide what it should be, if anything.",
+          "Options": [
+            {
+              "Name": "Default (Code decides)",
+              "Description": ""
+            },
+            {
+              "Name": "Energy Gun Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Rapidfire Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shell (Single)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Two)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Box)",
+              "Description": ""
+            },
+            {
+              "Name": "Health Vial",
+              "Description": ""
+            },
+            {
+              "Name": "Frag Grenade",
+              "Description": ""
+            },
+            {
+              "Name": "Small Crafting Currency",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_attached_item_manager",

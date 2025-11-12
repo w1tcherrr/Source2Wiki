@@ -2,6 +2,525 @@
   "Name": "light_omni",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "light_omni",
+      "Description": "A point light source.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Linear Attenuation",
+          "InternalName": "attenuation1",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Quadratic Attenuation",
+          "InternalName": "attenuation2",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Source Radius",
+          "InternalName": "lightsourceradius",
+          "VariableType": "Float",
+          "Description": "The radius of the light source in game units",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Indirect Light Multiplier",
+          "InternalName": "bouncescale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Diffuse",
+          "InternalName": "renderdiffuse",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Specular",
+          "InternalName": "renderspecular",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Off",
+              "Description": ""
+            },
+            {
+              "Name": "On",
+              "Description": ""
+            },
+            {
+              "Name": "Bake into cubemaps",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Transmissive",
+          "InternalName": "rendertransmissive",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Off",
+              "Description": ""
+            },
+            {
+              "Name": "On",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Indirect Lighting",
+          "InternalName": "indirectlight",
+          "VariableType": "Choices",
+          "Description": "How indirect lighting should be represented",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Baked",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Enabled",
+          "InternalName": "enabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color",
+          "InternalName": "color",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness",
+          "InternalName": "brightness",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Range",
+          "InternalName": "range",
+          "VariableType": "Float",
+          "Description": "Distance range for light. 0=infinite",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Near Clip Plane",
+          "InternalName": "nearclipplane",
+          "VariableType": "Float",
+          "Description": "Distance for near clip plane for shadow map",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Appearance",
+          "InternalName": "style",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Fluorescent flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Slow, strong pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow pulse, noblack",
+              "Description": ""
+            },
+            {
+              "Name": "Gentle pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Flicker A",
+              "Description": ""
+            },
+            {
+              "Name": "Flicker B",
+              "Description": ""
+            },
+            {
+              "Name": "Candle A",
+              "Description": ""
+            },
+            {
+              "Name": "Candle B",
+              "Description": ""
+            },
+            {
+              "Name": "Candle C",
+              "Description": ""
+            },
+            {
+              "Name": "Fast strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Slow strobe",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Custom Appearance",
+          "InternalName": "pattern",
+          "VariableType": "String",
+          "Description": "Set a custom pattern of light brightness for this light. Pattern format is a string of characters, where \u0027a\u0027 is total darkness, \u0027z\u0027 fully bright. i.e. \u0027aaggnnttzz\u0027 would be a steppy fade in from dark to light.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the light starts to fade (\u0026lt;0 = use fademaxdist).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the light is visible (0 = don\u0027t fade out).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render to Cubemaps",
+          "InternalName": "rendertocubemaps",
+          "VariableType": "Bool",
+          "Description": "If true, this geometry renders into baked cube maps",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Priority",
+          "InternalName": "priority",
+          "VariableType": "Integer",
+          "Description": "When the number of visible lights exceeds the rendering budget, higher priority lights are chosen for rendering first.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Group",
+          "InternalName": "lightgroup",
+          "VariableType": "String",
+          "Description": "Semicolon-delimited list of light groups to affect",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Cast Shadows",
+          "InternalName": "castshadows",
+          "VariableType": "Choices",
+          "Description": "Whether this light casts shadow",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Baked Only",
+              "Description": ""
+            },
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Baked Only",
+              "Description": ""
+            },
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Baked Only",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Direct Lighting",
+          "InternalName": "directlight",
+          "VariableType": "Choices",
+          "Description": "How direct lighting should be represented",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Baked",
+              "Description": ""
+            },
+            {
+              "Name": "Per-Pixel",
+              "Description": ""
+            },
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Baked",
+              "Description": ""
+            },
+            {
+              "Name": "Per-Pixel",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog contribution strength",
+          "InternalName": "fogcontributionstrength",
+          "VariableType": "Float",
+          "Description": "Overrides how much the light affects the fog (if enabled)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Volumetric Fogging",
+          "InternalName": "fog_lighting",
+          "VariableType": "Choices",
+          "Description": "How should light interact with volumetric fogging",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Baked",
+              "Description": ""
+            },
+            {
+              "Name": "Dynamic",
+              "Description": ""
+            },
+            {
+              "Name": "Baked - no shadows",
+              "Description": ""
+            },
+            {
+              "Name": "Dynamic - no shadows",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Baked Light Indexing",
+          "InternalName": "baked_light_indexing",
+          "VariableType": "Bool",
+          "Description": "Allows direct light to be indexed if baked. Indexed lights have per-pixel quality specular lighting and normal map response",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetLightEnabled",
+          "Description": "Sets whether the light is enabled (takes parameter of 0 or 1)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Turn the light on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Turn the light off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggle the light on/off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetLightColor",
+          "Description": "Set light color",
+          "VariableType": "Vector",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetLightBrightness",
+          "Description": "Set light brightness",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAppearance",
+          "Description": "Set appearance 0=Normal 1=Flicker A, 2=Slow, strong pulse 3=Candle A ...",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetCustomAppearance",
+          "Description": "Set a custom pattern of light brightness for this light. Pattern format is a string of characters, where \u0027a\u0027 is total darkness, \u0027z\u0027 fully bright. i.e. \u0027aaggnnttzz\u0027 would be a steppy fade in from dark to light.",
+          "VariableType": "String",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "light_omni",

@@ -1,0 +1,49 @@
+{
+  "Name": "hl_vr_environmental_interaction",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "hl_vr_environmental_interaction",
+      "Description": "HLVR hl_vr_environmental_interaction",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "World Model",
+          "InternalName": "model",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "TestType",
+          "InternalName": "test_type",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Cilia",
+              "Description": ""
+            },
+            {
+              "Name": "Skin",
+              "Description": ""
+            },
+            {
+              "Name": "Depression",
+              "Description": ""
+            },
+            {
+              "Name": "Flashlight",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

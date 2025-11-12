@@ -2,6 +2,333 @@
   "Name": "ai_goal_actbusy_queue",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_goal_actbusy_queue",
+      "Description": "AI Goal Act Busy Queue",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Actor(s) to affect",
+          "InternalName": "actor",
+          "VariableType": "TargetNameOrClass",
+          "Description": "NPC\u0027s that should act busy",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Active",
+          "InternalName": "StartActive",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Type",
+          "InternalName": "SearchType",
+          "VariableType": "Choices",
+          "Description": "How to search for the entities using the targetname.",
+          "Options": [
+            {
+              "Name": "Entity Name",
+              "Description": ""
+            },
+            {
+              "Name": "Classname",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Range for Busy Hints",
+          "InternalName": "busysearchrange",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Visible Busy Hints Only",
+          "InternalName": "visibleonly",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Exit Node",
+          "InternalName": "node_exit",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the node the first NPC in the queue should move to when he leaves the head of the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 1",
+          "InternalName": "node01",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the first actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 2",
+          "InternalName": "node02",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the second actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 3",
+          "InternalName": "node03",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the third actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 4",
+          "InternalName": "node04",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the fourth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 5",
+          "InternalName": "node05",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the fifth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 6",
+          "InternalName": "node06",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the sixth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 7",
+          "InternalName": "node07",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the seventh actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 8",
+          "InternalName": "node08",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the eighth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 9",
+          "InternalName": "node09",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the ninth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 10",
+          "InternalName": "node10",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the tenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 11",
+          "InternalName": "node11",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the eleventh actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 12",
+          "InternalName": "node12",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the twelfth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 13",
+          "InternalName": "node13",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the thirteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 14",
+          "InternalName": "node14",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the fourteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 15",
+          "InternalName": "node15",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the fifteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 16",
+          "InternalName": "node16",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the sixteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 17",
+          "InternalName": "node17",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the seventeenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 18",
+          "InternalName": "node18",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the eighteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 19",
+          "InternalName": "node19",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the nineteenth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node 20",
+          "InternalName": "node20",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the twentieth actbusy hint node in the queue.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Must Reach Front",
+          "InternalName": "mustreachfront",
+          "VariableType": "Bool",
+          "Description": "If true, NPCs much reach the front node in the queue before they\u0027re allowed to leave the queue.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Activate",
+          "Description": "Begin acting busy",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Deactivate",
+          "Description": "Cease acting busy",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetBusySearchRange",
+          "Description": "Update the busy search range for all actors.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "ForceNPCToActBusy",
+          "Description": "Force an NPC to act busy. Takes parameters, separated by spaces: \u0026lt;Targetname\u0026gt; \u0026lt;hint node targetname\u0026gt; \u0026lt;optional:teleport\u0026gt; \u0026lt;optional:$customactivityorsequence\u0026gt; \u0026lt;maximum time to actbusy\u0026gt;. If no hint node targetname is specified, it\u0027ll search for a random one. If no max time is specified, it\u0027ll use the default. Specifying 0 as the max time will make the NPC act busy until disturbed. If the optional teleport parameter is specified, the NPC will teleport to the act busy point. A custom move animation can be specified by prepending $ to the name of it. i.e. $ACT_RUN will make the NPC Run. Sequence names can be used instead of activities.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ForceThisNPCToActBusy",
+          "Description": "Force an NPC outputted from another entity to act busy. (only usable from an output that specifies an entity)",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ForceThisNPCToLeave",
+          "Description": "Force an NPC outputted from another entity to find a HINT_NPC_EXIT_POINT hintnode and vanish.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnNPCStartedBusy",
+          "Description": "Fired when an NPC targeted by this goal starts an ActBusy animation.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNPCFinishedBusy",
+          "Description": "Fired when an NPC targeted by this goal finishes an ActBusy.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNPCLeft",
+          "Description": "Fired when an NPC target by this goal finishes a forced Leave.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerStartedBlocking",
+          "Description": "Tell the queue manager that the player has started blocking a spot in the queue.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerStoppedBlocking",
+          "Description": "Tell the queue manager that the player has stopped blocking a spot in the queue.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "MoveQueueUp",
+          "Description": "Force the queue to move up, sending the front-most NPC out of the queue.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnQueueMoved",
+          "Description": "Fired when the queue moves. Outputs the number of NPCs left in the queue.",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNPCStartedLeavingQueue",
+          "Description": "Fired when the NPC at the head of the queue starts to leave. The activator is the NPC, and the string is the name of the NPC.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNPCLeftQueue",
+          "Description": "Fired when the NPC at the head of the queue leaves. The activator is the NPC, and the string is the name of the NPC.",
+          "VariableType": "String",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_goal_actbusy_queue",

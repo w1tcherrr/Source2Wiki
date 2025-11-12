@@ -1,0 +1,1197 @@
+{
+  "Name": "ent_dota_lightinfo",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "ent_dota_lightinfo",
+      "Description": "Localized lighting settings to control lighting parameters in a radius.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color - Day",
+          "InternalName": "color_day",
+          "VariableType": "Color255",
+          "Description": "Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color - Night",
+          "InternalName": "color_night",
+          "VariableType": "Color255",
+          "Description": "Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Scale - Day",
+          "InternalName": "light_scale_day",
+          "VariableType": "Float",
+          "Description": "Daytime light scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Scale - Night",
+          "InternalName": "light_scale_night",
+          "VariableType": "Float",
+          "Description": "Daytime light scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Color - Day",
+          "InternalName": "ambient_color_day",
+          "VariableType": "Color255",
+          "Description": "Ambient Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Color - Night",
+          "InternalName": "ambient_color_night",
+          "VariableType": "Color255",
+          "Description": "Ambient Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Scale - Day",
+          "InternalName": "ambient_scale_day",
+          "VariableType": "Float",
+          "Description": "Ambient Daytime scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Scale - Night",
+          "InternalName": "ambient_scale_night",
+          "VariableType": "Float",
+          "Description": "Ambient Nighttime scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Color - Day",
+          "InternalName": "shadow_color_day",
+          "VariableType": "Color255",
+          "Description": "Shadow Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Color - Night",
+          "InternalName": "shadow_color_night",
+          "VariableType": "Color255",
+          "Description": "Shadow Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Secondary Color - Day",
+          "InternalName": "shadow_secondary_color_day",
+          "VariableType": "Color255",
+          "Description": "Shadow Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Secondary Color - Night",
+          "InternalName": "shadow_secondary_color_night",
+          "VariableType": "Color255",
+          "Description": "Shadow Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Scale - Day",
+          "InternalName": "shadow_scale_day",
+          "VariableType": "Float",
+          "Description": "Shadow Daytime scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Scale - Night",
+          "InternalName": "shadow_scale_night",
+          "VariableType": "Float",
+          "Description": "Shadow Nighttime scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Ground Scale - Day",
+          "InternalName": "shadow_ground_scale_day",
+          "VariableType": "Float",
+          "Description": "Shadow Daytime ground scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Ground Scale - Night",
+          "InternalName": "shadow_ground_scale_night",
+          "VariableType": "Float",
+          "Description": "Shadow Nighttime ground scale.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Color - Day",
+          "InternalName": "specular_color_day",
+          "VariableType": "Color255",
+          "Description": "Specular Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Color - Night",
+          "InternalName": "specular_color_night",
+          "VariableType": "Color255",
+          "Description": "Specular Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Power - Day",
+          "InternalName": "specular_power_day",
+          "VariableType": "Float",
+          "Description": "Daytime Specular Power.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Power - Night",
+          "InternalName": "specular_power_night",
+          "VariableType": "Float",
+          "Description": "Night Specular Power.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Independence - Day",
+          "InternalName": "specular_independence_day",
+          "VariableType": "Float",
+          "Description": "Daytime specular light independence from diffuse.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Independence - Night",
+          "InternalName": "specular_independence_night",
+          "VariableType": "Float",
+          "Description": "Night specular light independence from diffuse.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Direction - Day",
+          "InternalName": "specular_direction_day",
+          "VariableType": "Angle",
+          "Description": "Daytime specular light direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Direction - Night",
+          "InternalName": "specular_direction_night",
+          "VariableType": "Angle",
+          "Description": "Nighttime specular light direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inspector View Specular Direction - Day",
+          "InternalName": "inspector_specular_direction_day",
+          "VariableType": "Angle",
+          "Description": "Inspector View daytime specular light direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inspector View Specular Direction - Night",
+          "InternalName": "inspector_specular_direction_night",
+          "VariableType": "Angle",
+          "Description": "Inspector View nighttime specular light direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Direction - Day",
+          "InternalName": "light_direction_day",
+          "VariableType": "Angle",
+          "Description": "Light Daytime direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Direction - Night",
+          "InternalName": "light_direction_night",
+          "VariableType": "Angle",
+          "Description": "Light Nighttime direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Direction - Day",
+          "InternalName": "ambient_direction_day",
+          "VariableType": "Angle",
+          "Description": "Ambient Daytime direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Direction - Night",
+          "InternalName": "ambient_direction_night",
+          "VariableType": "Angle",
+          "Description": "Ambient Nighttime direction.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Shadow Amount",
+          "InternalName": "ambient_shadow_amount",
+          "VariableType": "Float",
+          "Description": "Ambient Shadow Amount",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Color - Day",
+          "InternalName": "fog_color_day",
+          "VariableType": "Color255",
+          "Description": "Fog Daytime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Color - Night",
+          "InternalName": "fog_color_night",
+          "VariableType": "Color255",
+          "Description": "Fog Nighttime color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inspector View Fog Color - Day",
+          "InternalName": "inspector_view_fog_color_day",
+          "VariableType": "Color255",
+          "Description": "Fog color for inspector view - day",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inspector View Fog Color - Night",
+          "InternalName": "inspector_view_fog_color_night",
+          "VariableType": "Color255",
+          "Description": "Fog color for inspector view - night",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Start - Day",
+          "InternalName": "fog_start_day",
+          "VariableType": "Float",
+          "Description": "Daytime Fog Start distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Start - Night",
+          "InternalName": "fog_start_night",
+          "VariableType": "Float",
+          "Description": "Night Fog Start distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog End - Day",
+          "InternalName": "fog_end_day",
+          "VariableType": "Float",
+          "Description": "Daytime Fog Start distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog End - Night",
+          "InternalName": "fog_end_night",
+          "VariableType": "Float",
+          "Description": "Night Fog End distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog - Day",
+          "InternalName": "fog_height_day",
+          "VariableType": "Float",
+          "Description": "Daytime Fog Height.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog - Night",
+          "InternalName": "fog_height_night",
+          "VariableType": "Float",
+          "Description": "Night Fog Height.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Color - Day",
+          "InternalName": "fog_hight_color_day",
+          "VariableType": "Color255",
+          "Description": "Daytime Height Fog Color",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Color - Night",
+          "InternalName": "fog_hight_color_night",
+          "VariableType": "Color255",
+          "Description": "Night Height Fog Color",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Darkness - Day",
+          "InternalName": "fow_darkess_day",
+          "VariableType": "Float",
+          "Description": "Daytime FoW Darkness.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Darkness - Night",
+          "InternalName": "fow_darkess_night",
+          "VariableType": "Float",
+          "Description": "Night FoW Darkness.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color R - Day",
+          "InternalName": "fow_color_r_day",
+          "VariableType": "Float",
+          "Description": "Daytime FoW Color R",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color G - Day",
+          "InternalName": "fow_color_g_day",
+          "VariableType": "Float",
+          "Description": "Daytime FoW Color G",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color B - Day",
+          "InternalName": "fow_color_b_day",
+          "VariableType": "Float",
+          "Description": "Daytime FoW Color B",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color R - Night",
+          "InternalName": "fow_color_r_night",
+          "VariableType": "Float",
+          "Description": "Night FoW Color R",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color G - Night",
+          "InternalName": "fow_color_g_night",
+          "VariableType": "Float",
+          "Description": "Night FoW Color G",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Color B - Night",
+          "InternalName": "fow_color_b_night",
+          "VariableType": "Float",
+          "Description": "Night FoW Color B",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FarZ Override",
+          "InternalName": "farz_override",
+          "VariableType": "Float",
+          "Description": "FarZ Override",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inner Radius",
+          "InternalName": "inner_radius",
+          "VariableType": "Float",
+          "Description": "Radius inside which the global light is exactly the specified color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Outer Radius",
+          "InternalName": "outer_radius",
+          "VariableType": "Float",
+          "Description": "Radius inside which the global light is partially the specified color.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Client Weather Type",
+          "InternalName": "weather_type",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Dynamic Weather - On",
+              "Description": ""
+            },
+            {
+              "Name": "All - Always On",
+              "Description": ""
+            },
+            {
+              "Name": "Default Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Snow Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Rain Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Magical Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Pestilence Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Harvest Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Sirocco Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Spring Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Fire Weather Only",
+              "Description": ""
+            },
+            {
+              "Name": "Northern Lights Weather Only",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Specular Power Scale Minimum",
+          "InternalName": "lightning_spec_pow_scale_min",
+          "VariableType": "Float",
+          "Description": "The minimum amount to scale the specular power for lightning events.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Specular Power Scale Maximum",
+          "InternalName": "lightning_spec_pow_scale_max",
+          "VariableType": "Float",
+          "Description": "The maximum amount to scale the specular power for lightning events.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Period Minimum",
+          "InternalName": "lightning_period_min",
+          "VariableType": "Float",
+          "Description": "The minimum amount between lightning events.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Period Maximum",
+          "InternalName": "lightning_period_max",
+          "VariableType": "Float",
+          "Description": "The maximum amount between lightning events.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Duration Minimum",
+          "InternalName": "lightning_duration_min",
+          "VariableType": "Float",
+          "Description": "The minimum duration of a single lightning event.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Duration Maximum",
+          "InternalName": "lightning_duration_max",
+          "VariableType": "Float",
+          "Description": "The maximum duration of a single lightning event.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Fluctuation Minimum",
+          "InternalName": "lightning_fluctuation_min",
+          "VariableType": "Float",
+          "Description": "The minimum number of fluctuations in a single lightning event.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Fluctuation Maximum",
+          "InternalName": "lightning_fluctuation_max",
+          "VariableType": "Float",
+          "Description": "The maximum number of fluctuations in a single lightning event.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Thunder Sound Effect",
+          "InternalName": "lightning_sound",
+          "VariableType": "Sound",
+          "Description": "During lightning events, this sound will be played.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Color",
+          "InternalName": "lightning_color",
+          "VariableType": "Color255",
+          "Description": "Lightning Color",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Color Intensity Minimum",
+          "InternalName": "lightning_intensity_min",
+          "VariableType": "Float",
+          "Description": "Minimum lightning color intensity",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Color Intensity Maximum",
+          "InternalName": "lightning_intensity_max",
+          "VariableType": "Float",
+          "Description": "Maximum lightning color intensity",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Elevation (Pitch)",
+          "InternalName": "lightning_elevation",
+          "VariableType": "Float",
+          "Description": "Elevation",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightning Specular Intensity",
+          "InternalName": "lightning_specular_intensity",
+          "VariableType": "Float",
+          "Description": "Specular Intensity",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wind Angle",
+          "InternalName": "wind_angle",
+          "VariableType": "Angle",
+          "Description": "Wind Angles",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wind Amount - Day",
+          "InternalName": "wind_amount_day",
+          "VariableType": "Float",
+          "Description": "Wind Amount - day",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wind Amount - Night",
+          "InternalName": "wind_amount_night",
+          "VariableType": "Float",
+          "Description": "Wind Amount - night",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Min Wind",
+          "InternalName": "min_wind",
+          "VariableType": "Float",
+          "Description": "Min normal wind speed",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Max Wind",
+          "InternalName": "max_wind",
+          "VariableType": "Float",
+          "Description": "Max normal wind speed",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Min Gust",
+          "InternalName": "min_gust",
+          "VariableType": "Float",
+          "Description": "Min gust speed",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Min Gust",
+          "InternalName": "max_gust",
+          "VariableType": "Float",
+          "Description": "Max gust speed",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Min Gust Delay",
+          "InternalName": "min_gust_delay",
+          "VariableType": "Float",
+          "Description": "Min gust delay",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Max Gust Delay",
+          "InternalName": "max_gust_delay",
+          "VariableType": "Float",
+          "Description": "Max gust delay",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Gust Duration",
+          "InternalName": "gust_duration",
+          "VariableType": "Float",
+          "Description": "Gust duration",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Gust Direction Change",
+          "InternalName": "gust_dir_change",
+          "VariableType": "Float",
+          "Description": "Gust direction change degrees",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angles - Day",
+          "InternalName": "skybox_angle_day",
+          "VariableType": "Angle",
+          "Description": "Skybox angles - day",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angles - Night",
+          "InternalName": "skybox_angle_night",
+          "VariableType": "Angle",
+          "Description": "Skybox angles - night",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Material - Day",
+          "InternalName": "skybox_material_day",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Material - Night",
+          "InternalName": "skybox_material_night",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Tint - Day",
+          "InternalName": "skybox_tint_color_day",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Tint - Night",
+          "InternalName": "skybox_tint_color_night",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Type",
+          "InternalName": "skybox_fog_type",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Distance Based",
+              "Description": ""
+            },
+            {
+              "Name": "Angular",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angular Fog Max End",
+          "InternalName": "skybox_angular_fog_max_end",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angular Fog Max Start",
+          "InternalName": "skybox_angular_fog_max_start",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angular Fog Min Start",
+          "InternalName": "skybox_angular_fog_min_start",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skybox Angular Fog Min End",
+          "InternalName": "skybox_angular_fog_min_end",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Color - Day",
+          "InternalName": "height_fog_color_day",
+          "VariableType": "Color255",
+          "Description": "Height Fog Color - Day",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Color - Night",
+          "InternalName": "height_fog_color_night",
+          "VariableType": "Color255",
+          "Description": "Height Fog Color - Night",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Max Z",
+          "InternalName": "height_fog_max_z",
+          "VariableType": "Float",
+          "Description": "Z value where height fog stops",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Density - Day",
+          "InternalName": "height_fog_density_day",
+          "VariableType": "Float",
+          "Description": "Height Fog Density - Day",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Density - Night",
+          "InternalName": "height_fog_density_night",
+          "VariableType": "Float",
+          "Description": "Height Fog Density - Night",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Falloff",
+          "InternalName": "height_fog_falloff",
+          "VariableType": "Float",
+          "Description": "Height fog falloff param. Higher values = sharper falloff.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Texture Layer 0",
+          "InternalName": "height_fog_texture0",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Texture Layer 1",
+          "InternalName": "height_fog_texture1",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Rotation Layer 0",
+          "InternalName": "height_fog_rotation0",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scale Layer 0",
+          "InternalName": "height_fog_scale0",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 0 - Day",
+          "InternalName": "height_fog_scroll0U_day",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 0 - Day",
+          "InternalName": "height_fog_scroll0V_day",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 0 - Night",
+          "InternalName": "height_fog_scroll0U_night",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 0 - Night",
+          "InternalName": "height_fog_scroll0V_night",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Rotation Layer 1",
+          "InternalName": "height_fog_rotation1",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scale Layer 1",
+          "InternalName": "height_fog_scale1",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 1 - Day",
+          "InternalName": "height_fog_scroll1U_day",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 1 - Day",
+          "InternalName": "height_fog_scroll1V_day",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 1 - Night",
+          "InternalName": "height_fog_scroll1U_night",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 1 - Night",
+          "InternalName": "height_fog_scroll1V_night",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Inner Exclusion Radius",
+          "InternalName": "height_fog_exclusion_inner_radius",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Exclusion Height Bias",
+          "InternalName": "height_fog_exclusion_height_bias",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Type",
+          "InternalName": "height_fog_type",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Height Fog",
+              "Description": ""
+            },
+            {
+              "Name": "Caustics",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Caustics Speed Scale",
+          "InternalName": "height_fog_caustic_speed_scale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Caustics Amplitude Scale",
+          "InternalName": "height_fog_caustic_amplitude_scale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weather Effect",
+          "InternalName": "weather_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "Weather effect override for this lightinfo",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color Warp",
+          "InternalName": "color_warp_texture",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color Warp Blend To Full",
+          "InternalName": "color_warp_blend_to_full",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Preview",
+          "InternalName": "preview_day_or_night",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Day",
+              "Description": ""
+            },
+            {
+              "Name": "Night",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inspector View",
+          "InternalName": "preview_inspector_view",
+          "VariableType": "Bool",
+          "Description": "Inspector View Preview",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "SkyboxSlot",
+          "InternalName": "SkyboxSlot",
+          "VariableType": "String",
+          "Description": "Name of the skybox this camera belongs to. Leave blank for non-skybox lights.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

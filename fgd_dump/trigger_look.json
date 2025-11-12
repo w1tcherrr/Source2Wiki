@@ -436,6 +436,854 @@
       ]
     },
     {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "trigger_look",
+      "Description": "An entity used to trigger something when the player looks at something. It fires \u0027OnTrigger\u0027 when the player looks at a target entity for the given amount of time, while within the trigger volume. If the player leaves the trigger or looks away from the target entity the clock resets. If the \u0027Use Velocity instead of facing\u0027 spawnflag is checked, the trigger uses the player\u0027s velocity instead of the player\u0027s view, so it determines whenever the player is moving toward the target entity. Useful for triggering when players are driving a vehicle at something.NOTE: Only designed for single-player game. ",
+      "IconPath": "static/fgd_dump/img/hla/trigger_look.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Clients",
+              "Description": ""
+            },
+            {
+              "Name": "NPCs",
+              "Description": ""
+            },
+            {
+              "Name": "Pushables",
+              "Description": ""
+            },
+            {
+              "Name": "Physics Objects",
+              "Description": ""
+            },
+            {
+              "Name": "Only player ally NPCs",
+              "Description": ""
+            },
+            {
+              "Name": "Only clients in vehicles",
+              "Description": ""
+            },
+            {
+              "Name": "Everything (not including physics debris)",
+              "Description": ""
+            },
+            {
+              "Name": "Only clients *not* in vehicles",
+              "Description": ""
+            },
+            {
+              "Name": "Physics debris",
+              "Description": ""
+            },
+            {
+              "Name": "Only NPCs in vehicles (respects player ally flag)",
+              "Description": ""
+            },
+            {
+              "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
+              "Description": ""
+            },
+            {
+              "Name": "Ignore client\u0027s hands",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Filter Name",
+          "InternalName": "filtername",
+          "VariableType": "FilterClass",
+          "Description": "Filter to use to see if activator triggers me. See filter_activator_name for more explanation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Fire Once",
+              "Description": ""
+            },
+            {
+              "Name": "Use Velocity instead of facing",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Look Target",
+          "InternalName": "target",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the entity to be looked at.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Look Time",
+          "InternalName": "LookTime",
+          "VariableType": "String",
+          "Description": "The time, in seconds, that the player must look the target before firing the output. Resets if player leaves trigger, or looks outside the Field of View threshold.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Field Of View",
+          "InternalName": "FieldOfView",
+          "VariableType": "String",
+          "Description": "How close the player has to be looking at the target.\n\n 1.0 = straight ahead\n 0.0 = \u002B/- 90 degrees\n -1.0 = all directions",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use 2D Field Of View",
+          "InternalName": "FOV2D",
+          "VariableType": "Bool",
+          "Description": "In 2D mode the look angle FOV is only checked along the x and y axes, not the z.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Timeout",
+          "InternalName": "Timeout",
+          "VariableType": "Float",
+          "Description": "The time, in seconds, to wait after player enters the trigger before firing the OnTimeout output, 0 = never. NOTE: When the timeout expires, the OnTrigger output does NOT fire!",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Test occlusion",
+          "InternalName": "test_occlusion",
+          "VariableType": "Bool",
+          "Description": "If set, player must have clear LOS to the target (ignoring dynamic entities).",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Toggle",
+          "Description": "Toggles this trigger between enabled and disabled states.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnStartTouch",
+          "Description": "Fired when an entity starts touching this trigger. The touching entity must pass this trigger\u0027s filters to cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartTouchAll",
+          "Description": "Fired when an entity starts touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouch",
+          "Description": "Fired when an entity stops touching this trigger. Only entities that passed this trigger\u0027s filters will cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouchAll",
+          "Description": "Fires when an entity stops touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger",
+          "Description": "Fired when the trigger is activated. Does NOT fire if the timeout expires.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTimeout",
+          "Description": "Fired after the timeout interval expires if the player never looked at the target. OnTrigger does NOT fire in this case.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartLook",
+          "Description": "Fired once when the player looks until they have unlooked/untouched.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndLook",
+          "Description": "Fired when the player was looking and unlooked while still touching.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Mesh",
+      "Name": "trigger_look",
+      "Description": "An entity used to trigger something when the player looks at something. It fires \u0027OnTrigger\u0027 when the player looks at a target entity for the given amount of time, while within the trigger volume. If the player leaves the trigger or looks away from the target entity the clock resets. If the \u0027Use Velocity instead of facing\u0027 spawnflag is checked, the trigger uses the player\u0027s velocity instead of the player\u0027s view, so it determines whenever the player is moving toward the target entity. Useful for triggering when players are driving a vehicle at something.NOTE: Only designed for single-player game. ",
+      "IconPath": "static/fgd_dump/img/dota2/trigger_look.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Clients",
+              "Description": ""
+            },
+            {
+              "Name": "NPCs",
+              "Description": ""
+            },
+            {
+              "Name": "Projectiles",
+              "Description": ""
+            },
+            {
+              "Name": "Physics Objects",
+              "Description": ""
+            },
+            {
+              "Name": "Only player ally NPCs",
+              "Description": ""
+            },
+            {
+              "Name": "Only clients in vehicles",
+              "Description": ""
+            },
+            {
+              "Name": "Everything (not including physics debris)",
+              "Description": ""
+            },
+            {
+              "Name": "Only clients *not* in vehicles",
+              "Description": ""
+            },
+            {
+              "Name": "Physics debris",
+              "Description": ""
+            },
+            {
+              "Name": "Only NPCs in vehicles (respects player ally flag)",
+              "Description": ""
+            },
+            {
+              "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
+              "Description": ""
+            },
+            {
+              "Name": "Touch objects in the trigger\u0027s hierarchy",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Filter Name",
+          "InternalName": "filtername",
+          "VariableType": "FilterClass",
+          "Description": "Filter to use to see if activator triggers me. See filter_activator_name for more explanation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment. NOTE: If this is specified the Hammer transform will be disregarded, even if \u0027Use Local Transform\u0027 is NOT specified (in that case local transform will be identity)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Local Transform",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Origin",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Angles",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Fire Once",
+              "Description": ""
+            },
+            {
+              "Name": "Use Velocity instead of facing",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Look Target",
+          "InternalName": "target",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the entity to be looked at.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Look Time",
+          "InternalName": "LookTime",
+          "VariableType": "String",
+          "Description": "The time, in seconds, that the player must look the target before firing the output. Resets if player leaves trigger, or looks outside the Field of View threshold.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Field Of View",
+          "InternalName": "FieldOfView",
+          "VariableType": "String",
+          "Description": "How close the player has to be looking at the target.\n\n 1.0 = straight ahead\n 0.0 = \u002B/- 90 degrees\n -1.0 = all directions",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use 2D Field Of View",
+          "InternalName": "FOV2D",
+          "VariableType": "Bool",
+          "Description": "In 2D mode the look angle FOV is only checked along the x and y axes, not the z.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Timeout",
+          "InternalName": "Timeout",
+          "VariableType": "Float",
+          "Description": "The time, in seconds, to wait after player enters the trigger before firing the OnTimeout output, 0 = never. NOTE: When the timeout expires, the OnTrigger output does NOT fire!",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Test occlusion",
+          "InternalName": "test_occlusion",
+          "VariableType": "Bool",
+          "Description": "If set, player must have clear LOS to the target (ignoring dynamic entities).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Test All Visible Occlusion",
+          "InternalName": "test_visible_occlusion",
+          "VariableType": "Bool",
+          "Description": "If set, player must have clear LOS to the target (all visible collision).",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Toggle",
+          "Description": "Toggles this trigger between enabled and disabled states.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnStartTouch",
+          "Description": "Fired when an entity starts touching this trigger. The touching entity must pass this trigger\u0027s filters to cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FollowEntity",
+          "Description": "Bone merges this entity to a parent entity. Call again passing nothing to end the bone merge.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartTouchAll",
+          "Description": "Fired when an entity starts touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouch",
+          "Description": "Fired when an entity stops touching this trigger. Only entities that passed this trigger\u0027s filters will cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouchAll",
+          "Description": "Fires when an entity stops touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger",
+          "Description": "Fired when the trigger is activated. Does NOT fire if the timeout expires.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTimeout",
+          "Description": "Fired after the timeout interval expires if the player never looked at the target. OnTrigger does NOT fire in this case.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartLook",
+          "Description": "Fired once when the player looks until they have unlooked/untouched.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndLook",
+          "Description": "Fired when the player was looking and unlooked while still touching.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Mesh",
       "Name": "trigger_look",

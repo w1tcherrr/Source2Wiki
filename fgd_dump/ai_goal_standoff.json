@@ -2,6 +2,143 @@
   "Name": "ai_goal_standoff",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_goal_standoff",
+      "Description": "AI Goal Standoff",
+      "IconPath": "static/fgd_dump/img/hla/ai_goal_standoff.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Actor(s) to affect",
+          "InternalName": "actor",
+          "VariableType": "TargetNameOrClass",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Type",
+          "InternalName": "SearchType",
+          "VariableType": "Choices",
+          "Description": "How to search for the entities using the targetname.",
+          "Options": [
+            {
+              "Name": "Entity Name",
+              "Description": ""
+            },
+            {
+              "Name": "Classname",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Active",
+          "InternalName": "StartActive",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Reaction to tactical change",
+          "InternalName": "HintGroupChangeReaction",
+          "VariableType": "Choices",
+          "Description": "What to do if leader moves, threat is neutralized, hint group changes, etc",
+          "Options": [
+            {
+              "Name": "Move when ready (default AI)",
+              "Description": ""
+            },
+            {
+              "Name": "Move when seek cover",
+              "Description": ""
+            },
+            {
+              "Name": "Move immediately",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Aggressiveness",
+          "InternalName": "Aggressiveness",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Very low",
+              "Description": ""
+            },
+            {
+              "Name": "Low",
+              "Description": ""
+            },
+            {
+              "Name": "Medium",
+              "Description": ""
+            },
+            {
+              "Name": "High",
+              "Description": ""
+            },
+            {
+              "Name": "Very High",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Player battleline",
+          "InternalName": "PlayerBattleline",
+          "VariableType": "Bool",
+          "Description": "Player defines a battle line, applies to allies only",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stay at cover location",
+          "InternalName": "StayAtCover",
+          "VariableType": "Bool",
+          "Description": "When have suitable cover, don\u0027t change it (disables advancing to battle line)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Abandon if enemies hide",
+          "InternalName": "AbandonIfEnemyHides",
+          "VariableType": "Bool",
+          "Description": "If no enemy detected recently, stop the standoff",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Activate",
+          "Description": "Begin contesting position",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Deactivate",
+          "Description": "Cease contesting position",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAggressiveness",
+          "Description": "Set aggressiveness",
+          "VariableType": "Integer",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_goal_standoff",

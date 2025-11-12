@@ -1,0 +1,383 @@
+{
+  "Name": "npc_alyx",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "npc_alyx",
+      "Description": "Alyx",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Always transition",
+          "InternalName": "AlwaysTransition",
+          "VariableType": "Bool",
+          "Description": "If yes, this NPC will always teleport to a Player Squad Transition Point if they\u0027re not within the trigger_transition volume.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Prevent picking up weapons?",
+          "InternalName": "DontPickupWeapons",
+          "VariableType": "Bool",
+          "Description": "If yes, this NPC will NOT be allowed to pick up weapons they find on the ground.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Is this a vital ally?",
+          "InternalName": "GameEndAlly",
+          "VariableType": "Bool",
+          "Description": "If yes, this NPC will cause the game to end if killed.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Sentence",
+          "InternalName": "UseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Un-Use Sentence",
+          "InternalName": "UnUseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Don\u0027t Use Speech Semaphore",
+          "InternalName": "DontUseSpeechSemaphore",
+          "VariableType": "Choices",
+          "Description": "Friendly NPCs are not allowed to speak if another friendly NPC is speaking. In some cases we don\u0027t want speaking NPCs to prevent other NPCs from speaking (for instance, if there is a friendly NPC speaking for a long time on a monitor). To make this NPC not prevent other NPCs from talking, make it not grab the semaphore when it speaks.",
+          "Options": [
+            {
+              "Name": "No (Use speech semaphore)",
+              "Description": ""
+            },
+            {
+              "Name": "Yes (Don\u0027t use speech semaphore)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "World model",
+          "InternalName": "model",
+          "VariableType": "Studio",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapons",
+          "InternalName": "additionalequipment",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Alyx Gun",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun",
+              "Description": ""
+            },
+            {
+              "Name": "Nothing",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Prevent picking up weapons?",
+          "InternalName": "DontPickupWeapons",
+          "VariableType": "Bool",
+          "Description": "If yes, this NPC will NOT be allowed to pick up weapons they find on the ground.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Should alyx have her EMP?",
+          "InternalName": "ShouldHaveEMP",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "OutsideTransition",
+          "Description": "Use this input to teleport the NPC to a hintnode with the Player Squad Transition Point hint type.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableAlwaysTransition",
+          "Description": "Enable the \u0027always transition\u0027 behavior",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableAlwaysTransition",
+          "Description": "Disable the \u0027always transition\u0027 behavior",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableSpeakWhileScripting",
+          "Description": "Allow this NPC to speak responses while in a scripted sequence or while StartScripting is active.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableSpeakWhileScripting",
+          "Description": "Cancels this NPC\u0027s ability to speak responses while in a scripted sequence or while StartScripting is active if it was previously enabled by EnableSpeakWhileScripting.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "MakeGameEndAlly",
+          "Description": "Make this NPC a game end ally.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "MakeRegularAlly",
+          "Description": "Make this NPC a regular ally.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableWeaponPickup",
+          "Description": "Enable Weapon Pickup",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableWeaponPickup",
+          "Description": "Disable Weapon Pickup",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "GiveWeapon",
+          "Description": "Gives the NPC a weapon of the specified entity name.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetReadinessPanic",
+          "Description": "Set readiness to panic state (Special)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetReadinessLow",
+          "Description": "Set readiness to calmest state (Bored)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetReadinessMedium",
+          "Description": "Set readiness to moderate (Alert)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetReadinessHigh",
+          "Description": "Set readiness to highest. (Combat imminent)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "LockReadiness",
+          "Description": "Lock readiness at current setting for x seconds -1 = forever, 0 = unlock now",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearAllOutputs",
+          "Description": "Obliterate every output that this NPC has.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnWeaponPickup",
+          "Description": "Fires when this NPC picks a weapon off the ground or a gun rack.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpeakResponseConcept",
+          "Description": "Speak the specified response concept.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelSpeech",
+          "Description": "Cancel any speech that the NPC is currently speaking.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AllowInteraction",
+          "Description": "Allow Alyx\u0027s \u0027hacking\u0027 AI to run.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisallowInteraction",
+          "Description": "Disallow Alyx\u0027s \u0027hacking\u0027 AI.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AllowDarknessSpeech",
+          "Description": "Enables or disables Alyx\u0027s darkness speech (\u0027where are you\u0027, etc).",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAnimLockedEntity",
+          "Description": "Sets Alyx to take her animation and cycle position from another entity.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearAnimLockedEntity",
+          "Description": "Stops Alyx from taking her animation locking from another character.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "GiveEMP",
+          "Description": "Gives or removes the EMP tool.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnFinishInteractWithObject",
+          "Description": "Fires when Alyx finishes interacting with an object (usually hacking it).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerUse",
+          "Description": "Fires when a player \u002BUSEs Alyx.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "EnterVehicle",
+          "Description": "Make Alyx enter the vehicle specified by name.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnterVehicleImmediately",
+          "Description": "Make Alyx enter the vehicle specified by name immediately via teleportation.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ExitVehicle",
+          "Description": "Make Alyx exit the vehicle she\u0027s in.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelEnterVehicle",
+          "Description": "Stops Alyx from trying to enter the vehicle if she\u0027s outside of it.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnPlayerUse",
+          "Description": "Fires when a player \u002BUSEs Alyx",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

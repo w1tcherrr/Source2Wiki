@@ -43,6 +43,49 @@
         }
       ],
       "InputOutputs": []
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "path_node_particle_rope",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Node Name",
+          "InternalName": "node_name",
+          "VariableType": "String",
+          "Description": "A name to assign to the node that can be used to refer to the node on the path to toggle pinning on specific path nodes via entity I/O.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Radius Scale",
+          "InternalName": "radius_scale",
+          "VariableType": "Float",
+          "Description": "Radius multiplier value",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color Tint",
+          "InternalName": "color_tint",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pin Enabled",
+          "InternalName": "pin_enabled",
+          "VariableType": "Bool",
+          "Description": "If enabled, the rope simulation treats this node a locaiton to which the rope is attached.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
     }
   ]
 }

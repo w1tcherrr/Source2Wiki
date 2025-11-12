@@ -1,0 +1,541 @@
+{
+  "Name": "item_hlvr_weapon_generic_pistol",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "item_hlvr_weapon_generic_pistol",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Disable shadows",
+          "InternalName": "disableshadows",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist/Pixels",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the prop starts to fade (\u0026lt;0 = use fademaxdist). If \u0027Screen Space Fade\u0027 is selected, this represents the number of pixels wide covered by the prop when it starts to fade.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist/Pixels",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the prop is visible (0 = don\u0027t fade out). If \u0027Screen Space Fade\u0027 is selected, this represents the *minimum* number of pixels wide covered by the prop when it fades.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fade Scale",
+          "InternalName": "fadescale",
+          "VariableType": "Float",
+          "Description": "If you specify a fade in the worldspawn, or if the engine is running under dx7, then the engine will forcibly fade out props even if fademindist/fademaxdist isn\u0027t specified. This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Asleep",
+          "InternalName": "phys_start_asleep",
+          "VariableType": "Bool",
+          "Description": "Should the physics of the item be initialized as sleeping on spawn",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Start Constrained",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inventory name (should be unique)",
+          "InternalName": "inventory_name",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inventory model",
+          "InternalName": "inventory_model",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Inventory position",
+          "InternalName": "inventory_position",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Top",
+              "Description": ""
+            },
+            {
+              "Name": "Bottom",
+              "Description": ""
+            },
+            {
+              "Name": "Right",
+              "Description": ""
+            },
+            {
+              "Name": "Left",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Number of bullets in the clip (Default is no clip)",
+          "InternalName": "set_spawn_ammo",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ammo per clip",
+          "InternalName": "ammo_per_clip",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Damage",
+          "InternalName": "damage",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Attack interval (seconds)",
+          "InternalName": "attack_interval",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip grab distance (inches)",
+          "InternalName": "clip_grab_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bullet count anim rate",
+          "InternalName": "bullet_count_anim_rate",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide interaction min distance (inches)",
+          "InternalName": "slide_interact_min_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide interaction max distance (inches)",
+          "InternalName": "slide_interact_max_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bottom grip min distance (inches)",
+          "InternalName": "bottom_grip_min_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bottom grip max distance (inches)",
+          "InternalName": "bottom_grip_max_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bottom grip disengage distance (inches)",
+          "InternalName": "bottom_grip_disengage_dist",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model right handed",
+          "InternalName": "model_right_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model left handed",
+          "InternalName": "model_left_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide model right handed",
+          "InternalName": "slide_model_right_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide model left handed",
+          "InternalName": "slide_model_left_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip model right handed",
+          "InternalName": "clip_model_right_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip model left handed",
+          "InternalName": "clip_model_left_handed",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Single bullet model",
+          "InternalName": "single_bullet_model",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Eject shell model",
+          "InternalName": "eject_shell_model",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shoot sound",
+          "InternalName": "shoot_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "No ammo sound",
+          "InternalName": "no_ammo_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Last shot chambered sound",
+          "InternalName": "last_shot_chambered",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide lock sound",
+          "InternalName": "slide_lock_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide back sound",
+          "InternalName": "slide_back_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slide close sound",
+          "InternalName": "slide_close_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip insert sound",
+          "InternalName": "clip_insert_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip release sound",
+          "InternalName": "clip_release_sound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Muzzle flash effect",
+          "InternalName": "muzzle_flash_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Tracer effect",
+          "InternalName": "tracer_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Eject shell smoke effect",
+          "InternalName": "eject_shell_smoke_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Glow effect",
+          "InternalName": "glow_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Barrel smoke effect",
+          "InternalName": "barrel_smoke_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip glow effect",
+          "InternalName": "clip_glow_effect",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "OnAttachedToHand",
+          "Description": "Fired when the item is attached to the player\u0027s hand (i.e. pickup)",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnDetachedFromHand",
+          "Description": "Fired when the item is attached to the player\u0027s hand (i.e. drop)",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "DisableShadow",
+          "Description": "Turn shadow off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableShadow",
+          "Description": "Turn shadow on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerTouch",
+          "Description": "Fires when the player touches this object",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerPickup",
+          "Description": "Fires when the player picks up this object",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnGlovePulled",
+          "Description": "Pulled by the gravity gloves",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCacheInteraction",
+          "Description": "This output fires when the player proves they have \u0027found\u0027 this item. Fires on: Player Touch (whether or not player actually acquires the item), Picked up by \u002BUSE, Picked up by Physcannon, Punted by Physcannon.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

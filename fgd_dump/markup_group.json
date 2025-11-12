@@ -35,6 +35,49 @@
         }
       ],
       "InputOutputs": []
+    },
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "markup_group",
+      "Description": "Markup group entity; add the group\u0027s targetname to the \u0027Markup Groups\u0027 field of a markup entity to add that entity to this group",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Markup Groups",
+          "InternalName": "groupnames",
+          "VariableType": "TagListDynamic",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Auto Group By Volume",
+          "InternalName": "groupbyvolume",
+          "VariableType": "Bool",
+          "Description": "Automatically add any markup entities to this group that overlap this volume",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Auto Group Other Groups",
+          "InternalName": "groupothergroups",
+          "VariableType": "Bool",
+          "Description": "When auto-grouping (by prefab or by volume), include other markup_group entities in this group. By default this does not happen.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
     }
   ]
 }

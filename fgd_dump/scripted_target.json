@@ -2,6 +2,98 @@
   "Name": "scripted_target",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "scripted_target",
+      "Description": "Scripted Target",
+      "IconPath": "static/fgd_dump/img/hla/scripted_target.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target NPC",
+          "InternalName": "m_iszEntity",
+          "VariableType": "NPCClass",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Radius (0=everywhere)",
+          "InternalName": "m_flRadius",
+          "VariableType": "Integer",
+          "Description": "Radius to search within for an NPC to use. 0 searches everywhere.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move Speed",
+          "InternalName": "MoveSpeed",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pause Duration",
+          "InternalName": "PauseDuration",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Effect Duration",
+          "InternalName": "EffectDuration",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Next Target",
+          "InternalName": "target",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AtTarget",
+          "Description": "Fires when NPC reaches this target",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "LeaveTarget",
+          "Description": "Fires when NPC leaves this target",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "scripted_target",

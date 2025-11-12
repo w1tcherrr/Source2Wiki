@@ -2,6 +2,162 @@
   "Name": "info_overlay",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "info_overlay",
+      "Description": "An entity that places an overlay on the world.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Material",
+          "InternalName": "material",
+          "VariableType": "Material",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Order",
+          "InternalName": "RenderOrder",
+          "VariableType": "Integer",
+          "Description": "Higher values render after lower values. This value can be 0-3.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sequence Index",
+          "InternalName": "sequence",
+          "VariableType": "Integer",
+          "Description": "Sequence override index",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Overlay Width",
+          "InternalName": "width",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Overlay Height",
+          "InternalName": "height",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Overlay Depth",
+          "InternalName": "depth",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "U Start",
+          "InternalName": "startu",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "U End",
+          "InternalName": "endu",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "V Start",
+          "InternalName": "startv",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "V End",
+          "InternalName": "endv",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Center U",
+          "InternalName": "centeru",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Center V",
+          "InternalName": "centerv",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the overlay starts to fade (\u0026lt;0 = use fademaxdist).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the overlay is visible (0 = don\u0027t fade out).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Turn Off in Low-Violence",
+          "InternalName": "disablelowviolence",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "info_overlay",

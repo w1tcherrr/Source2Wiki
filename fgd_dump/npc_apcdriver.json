@@ -1,0 +1,125 @@
+{
+  "Name": "npc_apcdriver",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "npc_apcdriver",
+      "Description": "NPC used to drive an APC vehicle.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Vehicle to drive",
+          "InternalName": "vehicle",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Start Inactive",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No Rocket Attacks",
+              "Description": ""
+            },
+            {
+              "Name": "No Gun Attacks",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maxspeed (percentage of vehicle\u0027s maxspeed).",
+          "InternalName": "drivermaxspeed",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "MinSpeed (percentage of vehicle\u0027s maxspeed).",
+          "InternalName": "driverminspeed",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "StartFiring",
+          "Description": "Tell the driver to attack nearby enemies with the vehicle\u0027s weaponry (if any)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "StopFiring",
+          "Description": "Tell the driver to stop attacking nearby enemies with the vehicle\u0027s weaponry.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "GotoPathCorner",
+          "Description": "Tell the driver to go to a specific path corner and continue from there.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDriversMaxSpeed",
+          "Description": "Set the Maxspeed (percentage of vehicle\u0027s maxspeed).",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDriversMinSpeed",
+          "Description": "Set the Minspeed (percentage of vehicle\u0027s maxspeed).",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "StartForward",
+          "Description": "Tell the driver to start driving.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Stop",
+          "Description": "Tell the driver to stop driving.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableFiring",
+          "Description": "Disables firing from happening",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableFiring",
+          "Description": "Enables firing to start. Firing is enabled by default",
+          "VariableType": "Float",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

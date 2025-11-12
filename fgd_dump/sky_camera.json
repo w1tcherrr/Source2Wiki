@@ -21,6 +21,252 @@
       "InputOutputs": []
     },
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "sky_camera",
+      "Description": "An entity used to control the 3D Skybox. Its origin is used to determine the 3D Skybox\u0027s position relative to the map. Place this entity, in the 3D Skybox, at the point where the origin of the map should be.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "3D Skybox scale",
+          "InternalName": "scale",
+          "VariableType": "Integer",
+          "Description": "Scale of the skybox.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Enable",
+          "InternalName": "fogenable",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Blend",
+          "InternalName": "fogblend",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Angles for Fog Dir",
+          "InternalName": "use_angles",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip 3D sky near plane to world far plane",
+          "InternalName": "clip_3D_skybox_near_to_world_far",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "3D sky near plane offset",
+          "InternalName": "clip_3D_skybox_near_to_world_far_offset",
+          "VariableType": "String",
+          "Description": "Offset for the near clip plane for the 3D sky in world units.  This is only used if the above field is true.  Negative values to pull closer, etc.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Primary Fog Color",
+          "InternalName": "fogcolor",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Secondary Fog Color",
+          "InternalName": "fogcolor2",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Primary Fog Direction",
+          "InternalName": "fogdir",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Start",
+          "InternalName": "fogstart",
+          "VariableType": "String",
+          "Description": "Distance at which the skybox fog should start.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog End",
+          "InternalName": "fogend",
+          "VariableType": "String",
+          "Description": "Distance at which the skybox fog should be fully opaque.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Max Density [0..1]",
+          "InternalName": "fogmaxdensity",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "HDR color scale.",
+          "InternalName": "HDRColorScale",
+          "VariableType": "Float",
+          "Description": "float value to multiply fog color by when running in HDR mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "SkyboxSlot",
+          "InternalName": "SkyboxSlot",
+          "VariableType": "String",
+          "Description": "Name of the skybox this camera belongs to.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "sky_camera",
+      "Description": "An entity used to control the 3D Skybox. Its origin is used to determine the 3D Skybox\u0027s position relative to the map. Place this entity, in the 3D Skybox, at the point where the origin of the map should be.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "3D Skybox scale",
+          "InternalName": "scale",
+          "VariableType": "Integer",
+          "Description": "Scale of the skybox.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clip 3D sky near plane to world far plane",
+          "InternalName": "clip_3D_skybox_near_to_world_far",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "3D sky near plane offset",
+          "InternalName": "clip_3D_skybox_near_to_world_far_offset",
+          "VariableType": "String",
+          "Description": "Offset for the near clip plane for the 3D sky in world units.  This is only used if the above field is true.  Negative values to pull closer, etc.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "SkyboxSlot",
+          "InternalName": "SkyboxSlot",
+          "VariableType": "String",
+          "Description": "Name of the skybox this camera belongs to.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Enable",
+          "InternalName": "fogenable",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Blend",
+          "InternalName": "fogblend",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Angles for Fog Dir",
+          "InternalName": "use_angles",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Primary Fog Color",
+          "InternalName": "fogcolor",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Secondary Fog Color",
+          "InternalName": "fogcolor2",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Primary Fog Direction",
+          "InternalName": "fogdir",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Start",
+          "InternalName": "fogstart",
+          "VariableType": "String",
+          "Description": "Distance at which the skybox fog should start.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog End",
+          "InternalName": "fogend",
+          "VariableType": "String",
+          "Description": "Distance at which the skybox fog should be fully opaque.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fog Max Density [0..1]",
+          "InternalName": "fogmaxdensity",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "HDR color scale.",
+          "InternalName": "HDRColorScale",
+          "VariableType": "Float",
+          "Description": "float value to multiply fog color by when running in HDR mode.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "sky_camera",

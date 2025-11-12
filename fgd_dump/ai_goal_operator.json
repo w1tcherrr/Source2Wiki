@@ -2,6 +2,122 @@
   "Name": "ai_goal_operator",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_goal_operator",
+      "Description": "Indicates items in the world that some NPCs may operate upon",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Actor to affect",
+          "InternalName": "actor",
+          "VariableType": "TargetNameOrClass",
+          "Description": "NPC that should perform this operation",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Position entity",
+          "InternalName": "target",
+          "VariableType": "TargetDestination",
+          "Description": "Name of the entity that the NPC should move to in order to perform the operation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Context target",
+          "InternalName": "contexttarget",
+          "VariableType": "TargetDestination",
+          "Description": "(Optional) Name of an entity that the operator will use within context.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial State",
+          "InternalName": "state",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Not ready (closed, locked, etc)",
+              "Description": ""
+            },
+            {
+              "Name": "Ready (open and accessible)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "How should NPC approach?",
+          "InternalName": "moveto",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "DO NOT USE THIS SETTING",
+              "Description": ""
+            },
+            {
+              "Name": "Walk",
+              "Description": ""
+            },
+            {
+              "Name": "Run",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Activate",
+          "Description": "Begin operating on the object",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetStateReady",
+          "Description": "Set the object\u0027s state to READY. Fire this input when the object has been unlocked/opened or otherwise made ready for interaction.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetStateFinished",
+          "Description": "Fire this input when the NPC has completed the interaction with this object.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBeginApproach",
+          "Description": "Fired when the NPC begins to approach the position",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnMakeReady",
+          "Description": "Make the item ready to operate",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnBeginOperating",
+          "Description": "Fired when the NPC is ready to operate",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFinished",
+          "Description": "The item is done",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_goal_operator",

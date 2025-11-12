@@ -1,0 +1,74 @@
+{
+  "Name": "func_hlvr_nav_markup",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "func_hlvr_nav_markup",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Markup Groups",
+          "InternalName": "groupnames",
+          "VariableType": "TagListDynamic",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Nav Generation Markup",
+          "InternalName": "navProperty_NavGen",
+          "VariableType": "TagList",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Walkable Seed",
+              "Description": ""
+            },
+            {
+              "Name": "No Nav",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Nav Attributes",
+          "InternalName": "navProperty_NavAttributes",
+          "VariableType": "TagList",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Avoid",
+              "Description": ""
+            },
+            {
+              "Name": "Split",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

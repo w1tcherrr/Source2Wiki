@@ -1,0 +1,142 @@
+{
+  "Name": "npc_eli",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "npc_eli",
+      "Description": "Eli Vance",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Sentence",
+          "InternalName": "UseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Un-Use Sentence",
+          "InternalName": "UnUseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Don\u0027t Use Speech Semaphore",
+          "InternalName": "DontUseSpeechSemaphore",
+          "VariableType": "Choices",
+          "Description": "Friendly NPCs are not allowed to speak if another friendly NPC is speaking. In some cases we don\u0027t want speaking NPCs to prevent other NPCs from speaking (for instance, if there is a friendly NPC speaking for a long time on a monitor). To make this NPC not prevent other NPCs from talking, make it not grab the semaphore when it speaks.",
+          "Options": [
+            {
+              "Name": "No (Use speech semaphore)",
+              "Description": ""
+            },
+            {
+              "Name": "Yes (Don\u0027t use speech semaphore)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "World model",
+          "InternalName": "model",
+          "VariableType": "Studio",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpeakResponseConcept",
+          "Description": "Speak the specified response concept.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelSpeech",
+          "Description": "Cancel any speech that the NPC is currently speaking.",
+          "VariableType": "Void",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

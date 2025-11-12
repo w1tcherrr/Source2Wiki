@@ -823,6 +823,1823 @@
       ]
     },
     {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "func_door",
+      "Description": "A brush entity for use as a player-useable door.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Disable shadows",
+          "InternalName": "disableshadows",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum CPU Level",
+          "InternalName": "mincpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (low)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum CPU Level",
+          "InternalName": "maxcpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum GPU Level",
+          "InternalName": "mingpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (very low)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum GPU Level",
+          "InternalName": "maxgpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable X360",
+          "InternalName": "disableX360",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Mode",
+          "InternalName": "rendermode",
+          "VariableType": "Choices",
+          "Description": "Used to set a non-standard rendering mode on this entity. See also \u0027FX Amount\u0027 and \u0027FX Color\u0027.",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Color",
+              "Description": ""
+            },
+            {
+              "Name": "Texture",
+              "Description": ""
+            },
+            {
+              "Name": "Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Additive",
+              "Description": ""
+            },
+            {
+              "Name": "Additive Fractional Frame",
+              "Description": ""
+            },
+            {
+              "Name": "World Space Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Dont Render",
+              "Description": ""
+            },
+            {
+              "Name": "Dev Visualizer",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render FX",
+          "InternalName": "renderfx",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Faster Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Constant Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Distort",
+              "Description": ""
+            },
+            {
+              "Name": "Hologram (Distort \u002B fade)",
+              "Description": ""
+            },
+            {
+              "Name": "Cull By Distance (TEST)",
+              "Description": ""
+            },
+            {
+              "Name": "Spotlight FX",
+              "Description": ""
+            },
+            {
+              "Name": "Fade Near",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Amount (0 - 255)",
+          "InternalName": "renderamt",
+          "VariableType": "Integer",
+          "Description": "The FX amount is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "The FX color is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Receiving Shadows",
+          "InternalName": "disablereceiveshadows",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Group",
+          "InternalName": "lightgroup",
+          "VariableType": "String",
+          "Description": "Will only be lit by lights affecting this group.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the overlay starts to fade (\u0026lt;0 = subtract from fademaxdist).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the overlay is visible (0 = don\u0027t fade out).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fade Scale",
+          "InternalName": "fadescale",
+          "VariableType": "Float",
+          "Description": "If you specify a fade in the worldspawn, or if the engine is running under low end/medium end/XBox360, then the engine will forcibly fade out props even if fademindist/fademaxdist isn\u0027t specified. This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades. Numbers smaller than 1 cause the prop to fade out at further distances, and greater than 1 cause it to fade out at closer distances.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render to Cubemaps",
+          "InternalName": "rendertocubemaps",
+          "VariableType": "Bool",
+          "Description": "If true, this geometry renders into baked cube maps",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightmap Static",
+          "InternalName": "lightmapstatic",
+          "VariableType": "Choices",
+          "Description": "How this geometry influences baked lighting.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Bounce Only",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Speed",
+          "InternalName": "speed",
+          "VariableType": "Integer",
+          "Description": "The speed at which the door moves.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Master (Obsolete)",
+          "InternalName": "master",
+          "VariableType": "String",
+          "Description": "Legacy support: The name of a master entity. If the master hasn\u0027t been activated, this button cannot be used.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Sound",
+          "InternalName": "noise1",
+          "VariableType": "Sound",
+          "Description": "Sound to play when the door starts moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stop Sound",
+          "InternalName": "noise2",
+          "VariableType": "Sound",
+          "Description": "Sound to play when the door stops moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Close Sound",
+          "InternalName": "startclosesound",
+          "VariableType": "Sound",
+          "Description": "(Optional) Sound to play when the door starts closing.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stop Close Sound",
+          "InternalName": "closesound",
+          "VariableType": "Sound",
+          "Description": "(Optional) Sound to play when the door stops closing.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Delay Before Reset (-1 stay)",
+          "InternalName": "wait",
+          "VariableType": "Integer",
+          "Description": "Amount of time, in seconds, after the door has opened before it closes. Once it has closed, it can be used again. If the value is set to -1, the door never closes itself.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lip",
+          "InternalName": "lip",
+          "VariableType": "Integer",
+          "Description": "The amount, in inches, of the button to leave sticking out of the wall it recedes into when pressed. Negative values make the button recede even further into the wall.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Blocking Damage",
+          "InternalName": "dmg",
+          "VariableType": "Integer",
+          "Description": "Amount of damage done to entities that block the movement of this door, per frame.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force Closed",
+          "InternalName": "forceclosed",
+          "VariableType": "Bool",
+          "Description": "If set, this door will close no matter what. Useful for doors that have to close even if the player tries to block them with objects.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Debris",
+          "InternalName": "ignoredebris",
+          "VariableType": "Bool",
+          "Description": "If set this will change the door\u0027s collision group to one that ignore collisions with debris objects (note that this is not compatible with the non-solid-to-player spawnflag).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Message If Triggered",
+          "InternalName": "message",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Health (shoot open)",
+          "InternalName": "health",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Locked Sound",
+          "InternalName": "locked_sound",
+          "VariableType": "Sound",
+          "Description": "Sound played when the player tries to use the door, and fails because it\u0027s locked.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unlocked Sound",
+          "InternalName": "unlocked_sound",
+          "VariableType": "Sound",
+          "Description": "Sound played when the door is unlocked.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spawn Position",
+          "InternalName": "spawnpos",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Closed",
+              "Description": ""
+            },
+            {
+              "Name": "Open",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Starts Open - OBSOLETE, use \u0027Spawn Position\u0027 key instead",
+              "Description": ""
+            },
+            {
+              "Name": "Non-solid to Player",
+              "Description": ""
+            },
+            {
+              "Name": "Passable",
+              "Description": ""
+            },
+            {
+              "Name": "Toggle",
+              "Description": ""
+            },
+            {
+              "Name": "Use Opens",
+              "Description": ""
+            },
+            {
+              "Name": "NPCs Can\u0027t",
+              "Description": ""
+            },
+            {
+              "Name": "Touch Opens",
+              "Description": ""
+            },
+            {
+              "Name": "Starts locked",
+              "Description": ""
+            },
+            {
+              "Name": "Door Silent",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Locked Sentence",
+          "InternalName": "locked_sentence",
+          "VariableType": "Choices",
+          "Description": "A sentence played when the player tries to use the door, and fails because it\u0027s locked.",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Gen. Access Denied",
+              "Description": ""
+            },
+            {
+              "Name": "Security Lockout",
+              "Description": ""
+            },
+            {
+              "Name": "Blast Door",
+              "Description": ""
+            },
+            {
+              "Name": "Fire Door",
+              "Description": ""
+            },
+            {
+              "Name": "Chemical Door",
+              "Description": ""
+            },
+            {
+              "Name": "Radiation Door",
+              "Description": ""
+            },
+            {
+              "Name": "Gen. Containment",
+              "Description": ""
+            },
+            {
+              "Name": "Maintenance Door",
+              "Description": ""
+            },
+            {
+              "Name": "Broken Shut Door",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unlocked Sentence",
+          "InternalName": "unlocked_sentence",
+          "VariableType": "Choices",
+          "Description": "A sentence played when the door is unlocked.",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "Gen. Access Granted",
+              "Description": ""
+            },
+            {
+              "Name": "Security Disengaged",
+              "Description": ""
+            },
+            {
+              "Name": "Blast Door",
+              "Description": ""
+            },
+            {
+              "Name": "Fire Door",
+              "Description": ""
+            },
+            {
+              "Name": "Chemical Door",
+              "Description": ""
+            },
+            {
+              "Name": "Radiation Door",
+              "Description": ""
+            },
+            {
+              "Name": "Gen. Containment",
+              "Description": ""
+            },
+            {
+              "Name": "Maintenance area",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum Light Level",
+          "InternalName": "_minlight",
+          "VariableType": "String",
+          "Description": "The minimum level of ambient light that hits this brush.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Loop Moving Sound?",
+          "InternalName": "loopmovesound",
+          "VariableType": "Bool",
+          "Description": "If set to true, the door\u0027s \u0027Start Sound\u0027 will be continually looped until the door finishes moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move Direction (Pitch Yaw Roll)",
+          "InternalName": "movedir",
+          "VariableType": "Angle",
+          "Description": "The direction the door will move, when it opens.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move Direction is Expressed in Local Space",
+          "InternalName": "movedir_islocal",
+          "VariableType": "Bool",
+          "Description": "If checked, the movement direction angle is in local space and should be rotated by the entity\u0027s angles after spawning.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Block Filter Name",
+          "InternalName": "filtername",
+          "VariableType": "FilterClass",
+          "Description": "Filter to use to determine entities that block the door. ( Half-Life: Source port only )",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "DisableShadow",
+          "Description": "Turn shadow off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableShadow",
+          "Description": "Turn shadow on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Alpha",
+          "Description": "Set the sprite\u0027s alpha (0 - 255).",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Color",
+          "Description": "Set the sprite\u0027s color (R G B).",
+          "VariableType": "Color255",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnClose",
+          "Description": "Fired when the door starts closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnOpen",
+          "Description": "Fired when the door starts opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFullyOpen",
+          "Description": "Fired when the door reaches the fully open position. Reversed if \u0027Start Open\u0027 flag is set.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFullyClosed",
+          "Description": "Fired when the door reaches the fully closed position. Reversed if \u0027Start Open\u0027 flag is set.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnBlockedClosing",
+          "Description": "Fired when the door is blocked while closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnBlockedOpening",
+          "Description": "Fired when the door is blocked while opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUnblockedClosing",
+          "Description": "Fired when the door is unblocked while closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUnblockedOpening",
+          "Description": "Fired when the door is unblocked while opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnLockedUse",
+          "Description": "Fired when the player uses the door, but it is locked.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Open",
+          "Description": "Open the door, if it is not fully open.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Close",
+          "Description": "Close the door, if it is not fully closed.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggle the door between open and closed.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Lock",
+          "Description": "Lock the door.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Unlock",
+          "Description": "Unlock the door.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetSpeed",
+          "Description": "Set the door speed.",
+          "VariableType": "Float",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Mesh",
+      "Name": "func_door",
+      "Description": "A brush entity for use as a player-useable door.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Cast Shadows",
+          "InternalName": "disableshadows",
+          "VariableType": "Choices",
+          "Description": "Used to disable shadow casting from this entity.",
+          "Options": [
+            {
+              "Name": "Enabled",
+              "Description": ""
+            },
+            {
+              "Name": "No Shadows",
+              "Description": ""
+            },
+            {
+              "Name": "Only Realtime Shadows",
+              "Description": ""
+            },
+            {
+              "Name": "Only Baked Shadows",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Mode",
+          "InternalName": "rendermode",
+          "VariableType": "Choices",
+          "Description": "Used to set a non-standard rendering mode on this entity. See also \u0027FX Amount\u0027 and \u0027FX Color\u0027.",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Color",
+              "Description": ""
+            },
+            {
+              "Name": "Texture",
+              "Description": ""
+            },
+            {
+              "Name": "Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Additive",
+              "Description": ""
+            },
+            {
+              "Name": "Additive Fractional Frame",
+              "Description": ""
+            },
+            {
+              "Name": "World Space Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Dont Render",
+              "Description": ""
+            },
+            {
+              "Name": "Dev Visualizer",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render FX",
+          "InternalName": "renderfx",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Faster Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Constant Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Distort",
+              "Description": ""
+            },
+            {
+              "Name": "Hologram (Distort \u002B fade)",
+              "Description": ""
+            },
+            {
+              "Name": "Cull By Distance (TEST)",
+              "Description": ""
+            },
+            {
+              "Name": "Spotlight FX",
+              "Description": ""
+            },
+            {
+              "Name": "Fade Near",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Amount (0 - 255)",
+          "InternalName": "renderamt",
+          "VariableType": "Integer",
+          "Description": "The FX amount is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "The FX color is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Receiving Shadows",
+          "InternalName": "disablereceiveshadows",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the overlay starts to fade (-1 = subtract from fademaxdist).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the overlay is visible (0 = don\u0027t fade out).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Culling Behaviour",
+          "InternalName": "object_culling",
+          "VariableType": "Choices",
+          "Description": "Modifies culling behaviour when the object is small / distant",
+          "Options": [
+            {
+              "Name": "Default",
+              "Description": ""
+            },
+            {
+              "Name": "Smaller than default",
+              "Description": ""
+            },
+            {
+              "Name": "Much smaller than default",
+              "Description": ""
+            },
+            {
+              "Name": "When extremely small",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render to Cubemaps",
+          "InternalName": "rendertocubemaps",
+          "VariableType": "Bool",
+          "Description": "If true, this geometry renders into baked cube maps",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightmap Static",
+          "InternalName": "lightmapstatic",
+          "VariableType": "Choices",
+          "Description": "Determines if this geometry be considered static \u0026 cast shadows/bounce light when baking lightmaps?",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Bounce Only",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment. NOTE: If this is specified the Hammer transform will be disregarded, even if \u0027Use Local Transform\u0027 is NOT specified (in that case local transform will be identity)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Local Transform",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Origin",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Angles",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Speed",
+          "InternalName": "speed",
+          "VariableType": "Float",
+          "Description": "The speed at which the door moves.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Master (Obsolete)",
+          "InternalName": "master",
+          "VariableType": "String",
+          "Description": "Legacy support: The name of a master entity. If the master hasn\u0027t been activated, this button cannot be used.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Sound",
+          "InternalName": "noise1",
+          "VariableType": "Sound",
+          "Description": "Sound to play when the door starts moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stop Sound",
+          "InternalName": "noise2",
+          "VariableType": "Sound",
+          "Description": "Sound to play when the door stops moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Close Sound",
+          "InternalName": "startclosesound",
+          "VariableType": "Sound",
+          "Description": "(Optional) Sound to play when the door starts closing.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stop Close Sound",
+          "InternalName": "closesound",
+          "VariableType": "Sound",
+          "Description": "(Optional) Sound to play when the door stops closing.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Delay Before Reset (-1 stay)",
+          "InternalName": "wait",
+          "VariableType": "Integer",
+          "Description": "Amount of time, in seconds, after the door has opened before it closes. Once it has closed, it can be used again. If the value is set to -1, the door never closes itself.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lip",
+          "InternalName": "lip",
+          "VariableType": "Integer",
+          "Description": "The amount, in inches, of the button to leave sticking out of the wall it recedes into when pressed. Negative values make the button recede even further into the wall.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Blocking Damage",
+          "InternalName": "dmg",
+          "VariableType": "Integer",
+          "Description": "Amount of damage done to entities that block the movement of this door, per frame.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force Closed",
+          "InternalName": "forceclosed",
+          "VariableType": "Bool",
+          "Description": "If set, this door will close no matter what. Useful for doors that have to close even if the player tries to block them with objects.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Debris",
+          "InternalName": "ignoredebris",
+          "VariableType": "Bool",
+          "Description": "If set this will change the door\u0027s collision group to one that ignore collisions with debris objects (note that this is not compatible with the non-solid-to-player spawnflag).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Message If Triggered",
+          "InternalName": "message",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Health (shoot open)",
+          "InternalName": "health",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Locked Sound",
+          "InternalName": "locked_sound",
+          "VariableType": "Sound",
+          "Description": "Sound played when the player tries to use the door, and fails because it\u0027s locked.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unlocked Sound",
+          "InternalName": "unlocked_sound",
+          "VariableType": "Sound",
+          "Description": "Sound played when the door is unlocked.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spawn Position",
+          "InternalName": "spawnpos",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Closed",
+              "Description": ""
+            },
+            {
+              "Name": "Open",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Starts Open - OBSOLETE, use \u0027Spawn Position\u0027 key instead",
+              "Description": ""
+            },
+            {
+              "Name": "Non-solid to Player",
+              "Description": ""
+            },
+            {
+              "Name": "Passable",
+              "Description": ""
+            },
+            {
+              "Name": "Toggle",
+              "Description": ""
+            },
+            {
+              "Name": "Use Opens",
+              "Description": ""
+            },
+            {
+              "Name": "NPCs Can\u0027t Use",
+              "Description": ""
+            },
+            {
+              "Name": "Touch Opens",
+              "Description": ""
+            },
+            {
+              "Name": "Starts locked",
+              "Description": ""
+            },
+            {
+              "Name": "Door Silent",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum Light Level",
+          "InternalName": "_minlight",
+          "VariableType": "String",
+          "Description": "The minimum level of ambient light that hits this brush.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Loop Moving Sound?",
+          "InternalName": "loopmovesound",
+          "VariableType": "Bool",
+          "Description": "If set to true, the door\u0027s \u0027Start Sound\u0027 will be continually looped until the door finishes moving.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move Direction (Pitch Yaw Roll)",
+          "InternalName": "movedir",
+          "VariableType": "Angle",
+          "Description": "The direction the door will move, when it opens.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Create Nav Obstacle",
+          "InternalName": "CreateNavObstacle",
+          "VariableType": "Bool",
+          "Description": "Create a navigation obstacle to assist NPC pathfinding",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Block Filter Name",
+          "InternalName": "filtername",
+          "VariableType": "FilterClass",
+          "Description": "Filter to use to determine entities that block the door. ( Half-Life: Source port only )",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "DisableShadow",
+          "Description": "Turn shadow off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableShadow",
+          "Description": "Turn shadow on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Alpha",
+          "Description": "Set the sprite\u0027s alpha (0 - 255).",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Color",
+          "Description": "Set the sprite\u0027s color (R G B).",
+          "VariableType": "Color255",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FollowEntity",
+          "Description": "Bone merges this entity to a parent entity. Call again passing nothing to end the bone merge.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnClose",
+          "Description": "Fired when the door starts closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnOpen",
+          "Description": "Fired when the door starts opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFullyOpen",
+          "Description": "Fired when the door reaches the fully open position. Reversed if \u0027Start Open\u0027 flag is set.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFullyClosed",
+          "Description": "Fired when the door reaches the fully closed position. Reversed if \u0027Start Open\u0027 flag is set.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnBlockedClosing",
+          "Description": "Fired when the door is blocked while closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnBlockedOpening",
+          "Description": "Fired when the door is blocked while opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUnblockedClosing",
+          "Description": "Fired when the door is unblocked while closing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUnblockedOpening",
+          "Description": "Fired when the door is unblocked while opening.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnLockedUse",
+          "Description": "Fired when the player uses the door, but it is locked.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Open",
+          "Description": "Open the door, if it is not fully open.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Close",
+          "Description": "Close the door, if it is not fully closed.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggle the door between open and closed.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Lock",
+          "Description": "Lock the door.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Unlock",
+          "Description": "Unlock the door.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetSpeed",
+          "Description": "Set the door speed.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetNoNPCs",
+          "Description": "Set whether NPCs can use this door or not.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Mesh",
       "Name": "func_door",

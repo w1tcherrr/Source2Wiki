@@ -2,6 +2,105 @@
   "Name": "info_node",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "info_node",
+      "Description": "A navigation node for ground moving NPCs. Navigation nodes are baked into the nodegraph so that NPCs can move to them. Ground nodes fall to the ground when they spawn.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Force human AI Hull",
+          "InternalName": "aihull_human",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force small_centered AI Hull",
+          "InternalName": "aihull_small_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force wide_human AI Hull",
+          "InternalName": "aihull_wide_human",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force tiny AI Hull",
+          "InternalName": "aihull_tiny",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force medium AI Hull",
+          "InternalName": "aihull_medium",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force tiny_centered AI Hull",
+          "InternalName": "aihull_tiny_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force large AI Hull",
+          "InternalName": "aihull_large",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force large_centered AI Hull",
+          "InternalName": "aihull_large_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force medium_tall AI Hull",
+          "InternalName": "aihull_medium_tall",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node ID",
+          "InternalName": "nodeid",
+          "VariableType": "NodeId",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Keep editor position",
+          "InternalName": "ai_node_dont_drop",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "info_node",

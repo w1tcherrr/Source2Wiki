@@ -1,0 +1,534 @@
+{
+  "Name": "env_global_light",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "env_global_light",
+      "Description": "Control the global light that casts shadows in a Dota map.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pitch Yaw Roll (Y Z X)",
+          "InternalName": "angles",
+          "VariableType": "String",
+          "Description": "This is the light cast direction. Pitch is rotation around the Y axis, yaw is the rotation around the Z axis, and roll is the rotation around the X axis.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Angle ( Y Z X )",
+          "InternalName": "ambientangles",
+          "VariableType": "Angle",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color",
+          "InternalName": "color",
+          "VariableType": "Color255",
+          "Description": "This is the color of the global light.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Scale",
+          "InternalName": "lightscale",
+          "VariableType": "Float",
+          "Description": "This controls the overall intensity of the light.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Color",
+          "InternalName": "ambientcolor1",
+          "VariableType": "Color255",
+          "Description": "This is the ambient color of the world.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ambient Scale",
+          "InternalName": "ambientscale1",
+          "VariableType": "Float",
+          "Description": "This controls how much ambient there is.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Color",
+          "InternalName": "ambientcolor2",
+          "VariableType": "Color255",
+          "Description": "This is the shadow color of the world.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Scale",
+          "InternalName": "ambientscale2",
+          "VariableType": "Float",
+          "Description": "This controls how much shadow on entities there are.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Secondary Color",
+          "InternalName": "ambientcolor3",
+          "VariableType": "Color255",
+          "Description": "This is the shadow color for downward facing surfaces.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Ground Scale",
+          "InternalName": "groundscale",
+          "VariableType": "Float",
+          "Description": "This controls how much shadow on the ground there is.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Angle ( Y Z X )",
+          "InternalName": "specularangles",
+          "VariableType": "Angle",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Power",
+          "InternalName": "specularpower",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Independence",
+          "InternalName": "specularindependence",
+          "VariableType": "Float",
+          "Description": "Specular independence from diffuse light. 0 specular is multiplied by diffuse, 1 specular is independent of diffuse.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specular Color",
+          "InternalName": "specularcolor",
+          "VariableType": "Color255",
+          "Description": "This is the color of the specular.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FOV",
+          "InternalName": "fov",
+          "VariableType": "Float",
+          "Description": "This is the field of view that the sunlight casts in. Use lower values for more distant sun and sharper shadows.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "NearZ Distance",
+          "InternalName": "nearz",
+          "VariableType": "Float",
+          "Description": "This controls the near clipping plane\u0027s distance from the player.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Enable Shadows",
+          "InternalName": "enableshadows",
+          "VariableType": "Bool",
+          "Description": "Enables/disables shadows from this projected texture.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FoW Darkness",
+          "InternalName": "fow_darkness",
+          "VariableType": "Float",
+          "Description": "Controls how dark the fog of war is, 0 is black, larger values are lighter",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Clear Not Required",
+          "InternalName": "background_clear_not_required",
+          "VariableType": "Bool",
+          "Description": "Specifies that a clear of the background is not required, set this to true if the edge map can never be seen to improve performance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable clouds",
+          "InternalName": "dota_no_clouds",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "SkyboxSlot",
+          "InternalName": "SkyboxSlot",
+          "VariableType": "String",
+          "Description": "Name of the skybox this camera belongs to. Leave blank for non-skybox lights.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Enable Separate Skybox Fog",
+          "InternalName": "enable_separate_skybox_fog",
+          "VariableType": "Bool",
+          "Description": "Allows the skybox to use its own fog parameters.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Color",
+          "InternalName": "height_fog_color",
+          "VariableType": "Color255",
+          "Description": "Height Fog Colory",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Max Z",
+          "InternalName": "height_fog_max_z",
+          "VariableType": "Float",
+          "Description": "Z value where height fog stops",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Density",
+          "InternalName": "height_fog_density",
+          "VariableType": "Float",
+          "Description": "Height Fog Density",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Falloff",
+          "InternalName": "height_fog_falloff",
+          "VariableType": "Float",
+          "Description": "Height fog falloff param. Higher values = sharper falloff.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Texture Layer 0",
+          "InternalName": "height_fog_texture0",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Texture Layer 1",
+          "InternalName": "height_fog_texture1",
+          "VariableType": "Resource",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Rotation Layer 0",
+          "InternalName": "height_fog_rotation0",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scale Layer 0",
+          "InternalName": "height_fog_scale0",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 0",
+          "InternalName": "height_fog_scroll0U",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 0",
+          "InternalName": "height_fog_scroll0V",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Rotation Layer 1",
+          "InternalName": "height_fog_rotation1",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scale Layer 1",
+          "InternalName": "height_fog_scale1",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll U Layer 1",
+          "InternalName": "height_fog_scroll1U",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Scroll V Layer 1",
+          "InternalName": "height_fog_scroll1V",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Inner Exclusion Radius",
+          "InternalName": "height_fog_exclusion_inner_radius",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Exclusion Height Bias",
+          "InternalName": "height_fog_exclusion_height_bias",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Fog Type",
+          "InternalName": "height_fog_type",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Height Fog",
+              "Description": ""
+            },
+            {
+              "Name": "Caustics",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Caustics Speed Scale",
+          "InternalName": "height_fog_caustic_speed_scale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Caustics Amplitude Scale",
+          "InternalName": "height_fog_caustic_amplitude_scale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "LightColor",
+          "Description": "Set the light color.",
+          "VariableType": "Color255",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAngles",
+          "Description": "Set the global light direction.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFOV",
+          "Description": "Set the field of view the global light casts.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetNearZDistance",
+          "Description": "Set the near z distance.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetTexture",
+          "Description": "Set the texture cookie of the global light.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableShadows",
+          "Description": "Set the if shadows are enabled",
+          "VariableType": "Bool",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

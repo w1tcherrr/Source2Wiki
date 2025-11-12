@@ -1,0 +1,24 @@
+{
+  "Name": "test_sidelist",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "test_sidelist",
+      "Description": "Test entity for Ken!",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Sides",
+          "InternalName": "sides",
+          "VariableType": "SideList",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

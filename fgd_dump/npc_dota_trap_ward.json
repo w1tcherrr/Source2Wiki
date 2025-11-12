@@ -1,0 +1,323 @@
+{
+  "Name": "npc_dota_trap_ward",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "npc_dota_trap_ward",
+      "Description": "Used to place a dota trap ward.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "Color tint to apply to the model",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unit Name",
+          "InternalName": "MapUnitName",
+          "VariableType": "GameUnitClass",
+          "Description": "The specific unit type to spawn.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Team Number",
+          "InternalName": "m_iTeamNum",
+          "VariableType": "Choices",
+          "Description": "The team this unit is a member of.",
+          "Options": [
+            {
+              "Name": "Unassigned",
+              "Description": ""
+            },
+            {
+              "Name": "Spectators",
+              "Description": ""
+            },
+            {
+              "Name": "Good Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Bad Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Neutrals",
+              "Description": ""
+            },
+            {
+              "Name": "No Team",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 1",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 2",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 3",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 4",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 5",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 6",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 7",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 8",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "EnableAutoStyles",
+          "InternalName": "EnableAutoStyles",
+          "VariableType": "Bool",
+          "Description": "Enable autostyles on this entity.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial Waypoint",
+          "InternalName": "initial_waypoint",
+          "VariableType": "TargetDestination",
+          "Description": "The first waypoint to path to.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Neutral Creep Behavior",
+          "InternalName": "UseNeutralCreepBehavior",
+          "VariableType": "Bool",
+          "Description": "Should we use creep camp leashing behavior.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skin",
+          "InternalName": "skin",
+          "VariableType": "Choices",
+          "Description": "Some models have multiple versions of their textures, called skins. This is programmatically populated from the model. The FGD data is unused!",
+          "Options": [
+            {
+              "Name": "Ignored by the modelhelper code",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Trap Target",
+          "InternalName": "trap_target",
+          "VariableType": "LocalPoint",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Default Animation",
+          "InternalName": "DefaultAnim",
+          "VariableType": "Sequence",
+          "Description": "The name of the idle animation that this prop will revert to whenever it finishes a random or forced animation.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetStyleOverride",
+          "Description": "Force a particular style on this NPC.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "InputSetAutoStyleCriteria",
+          "Description": "Sets an autostyle criteria. String is of format \u0026lt;autostyle name\u0026gt; \u0026lt;value\u0026gt;.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "MoveTo",
+          "Description": "Move to a target.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "MoveToAttack",
+          "Description": "Move to attack a target.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "MoveToPositionAggressive",
+          "Description": "Attack-move a location.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpeechBubble",
+          "Description": "Say something in a speech bubble.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "DestroyAllSpeechBubbles",
+          "Description": "Remove all current active (and queued) speech bubbles.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFOWRevealRadius",
+          "Description": "Adjust the radius at which this NPC reveals fog of war.",
+          "VariableType": "Float",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Name": "ai_markup_hlvr",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "ai_markup_hlvr",
+      "Description": "Tagged markup volume entity for HLVR AI use",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Markup Groups",
+          "InternalName": "groupnames",
+          "VariableType": "TagListDynamic",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ref Pos",
+          "InternalName": "ref_position",
+          "VariableType": "LocalPoint",
+          "Description": "Reference position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Reference Position",
+          "InternalName": "use_ref_position",
+          "VariableType": "Bool",
+          "Description": "Use the reference position when calculating validity of query positions.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "AI Properties",
+          "InternalName": "aiProperty",
+          "VariableType": "TagList",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "cover_strong",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

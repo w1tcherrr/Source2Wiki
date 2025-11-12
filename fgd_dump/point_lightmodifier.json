@@ -1,0 +1,327 @@
+{
+  "Name": "point_lightmodifier",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "point_lightmodifier",
+      "Description": "A point entity that allows you adjust the brightness of a set of lights when an activator enters and leaves the radius.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Names",
+          "InternalName": "light_names",
+          "VariableType": "TargetDestination",
+          "Description": "The names of the lights to be affected by this point entity and radius.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Filter Name",
+          "InternalName": "filter_name",
+          "VariableType": "FilterClass",
+          "Description": "The entity filter for the light brightness modification effect.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Filter Radius",
+          "InternalName": "filter_radius",
+          "VariableType": "Float",
+          "Description": "The range at which to look for filtered entities.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Level",
+          "InternalName": "light_level",
+          "VariableType": "Float",
+          "Description": "The brightness level the lights will tend toward.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Change Time In",
+          "InternalName": "light_time_in",
+          "VariableType": "Float",
+          "Description": "The time it will take to get to the desired brightness level.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Change Time out",
+          "InternalName": "light_time_out",
+          "VariableType": "Float",
+          "Description": "The time it will take to get to the original brightness level.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Noise Interval",
+          "InternalName": "light_noise_interval",
+          "VariableType": "Float",
+          "Description": "The interval at which noise will be applied be applied to the brightness value tending towards the desired level.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Noise Minimum",
+          "InternalName": "light_noise_min",
+          "VariableType": "Float",
+          "Description": "The minimum value in the random noise generated for the brightness value.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Brightness Noise Maximum",
+          "InternalName": "light_noise_max",
+          "VariableType": "Float",
+          "Description": "The maximum value in the random noise generated for the brightness value.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Event effect",
+          "InternalName": "effect_name",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sound Event Name",
+          "InternalName": "effect_sound_name",
+          "VariableType": "Sound",
+          "Description": "Name of the sound event to play",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Optional Target",
+          "InternalName": "effect_target_name",
+          "VariableType": "TargetDestination",
+          "Description": "The Name of an optional target that you want the destination of the effect to be. If nothing is selected it will default to the Light Name",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Enable",
+          "Description": "Activate this point entity.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Deactivate this point entity.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnActivatorEnter",
+          "Description": "Fires when the activator enters the defined radius",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnActivatorLeave",
+          "Description": "Fires when the activator leaves the defined radius",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

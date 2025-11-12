@@ -208,6 +208,214 @@
           "Type": "Output"
         }
       ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "path_particle_rope_clientside",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Particle System Name",
+          "InternalName": "effect_name",
+          "VariableType": "ParticleSystem",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Active",
+          "InternalName": "start_active",
+          "VariableType": "Bool",
+          "Description": "Will the particle system be visible on spawn",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Max Time To Simulate",
+          "InternalName": "max_simulation_time",
+          "VariableType": "Float",
+          "Description": "Max number of seconds to run the particle simulation for. A value of 0 means run the simulation indefinitely.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spacing",
+          "InternalName": "particle_spacing",
+          "VariableType": "Float",
+          "Description": "Units between the individual partcles in the rope simulation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Slack",
+          "InternalName": "slack",
+          "VariableType": "Float",
+          "Description": "Controls the amount the rope will drop between path nodes. Generally between 0.0 and 1.0, the value is a multiplier on the distance that particles on path can seperate relative to their initial distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Radius",
+          "InternalName": "radius",
+          "VariableType": "Float",
+          "Description": "Radius of the rope.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Create Static Collision",
+          "InternalName": "static_collision",
+          "VariableType": "Bool",
+          "Description": "Create a static physics representation of the path. Note the collision is generated based on the path, movement applied by the particle system will not be included.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Surface Properties",
+          "InternalName": "surface_properties",
+          "VariableType": "SurfaceProperties",
+          "Description": "Surface properties to apply to the static collision if generated",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color Tint",
+          "InternalName": "color_tint",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
     }
   ]
 }

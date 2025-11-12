@@ -1,0 +1,556 @@
+{
+  "Name": "portrait_world_unit",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "portrait_world_unit",
+      "Description": "Can only be used in background maps. Creates a portrait unit based on a unit name.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment. NOTE: If this is specified the Hammer transform will be disregarded, even if \u0027Use Local Transform\u0027 is NOT specified (in that case local transform will be identity)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Local Transform",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Origin",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Angles",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "Color tint to apply to the model",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unit Name",
+          "InternalName": "MapUnitName",
+          "VariableType": "GameUnitClass",
+          "Description": "The specific unit type to spawn.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Team Number",
+          "InternalName": "m_iTeamNum",
+          "VariableType": "Choices",
+          "Description": "The team this unit is a member of.",
+          "Options": [
+            {
+              "Name": "Unassigned",
+              "Description": ""
+            },
+            {
+              "Name": "Spectators",
+              "Description": ""
+            },
+            {
+              "Name": "Good Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Bad Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Neutrals",
+              "Description": ""
+            },
+            {
+              "Name": "No Team",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 1",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 2",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 3",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 4",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 5",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 6",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 7",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 8",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "EnableAutoStyles",
+          "InternalName": "EnableAutoStyles",
+          "VariableType": "Bool",
+          "Description": "Enable autostyles on this entity.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Scale",
+          "InternalName": "ModelScale",
+          "VariableType": "Float",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Suppress Intro Effects",
+          "InternalName": "suppress_intro_effects",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spawn Background Models",
+          "InternalName": "spawn_background_models",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spawn unit only",
+          "InternalName": "skip_background_entities",
+          "VariableType": "Bool",
+          "Description": "Don\u0027t spawn any background entities (camera, lights, pets, particles, models, etc)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Rare Loadout Animation Chance",
+          "InternalName": "rare_loadout_anim_chance",
+          "VariableType": "Float",
+          "Description": "Use range 0 - 1 to set the likelihood that the rare loadout animation will be played after a loadout animation completes. Negative numbers means use default.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Suppress Anim Event Sounds",
+          "InternalName": "suppress_anim_event_sounds",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skip Pet Spawn",
+          "InternalName": "skip_pet_spawn",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Flying Courier",
+          "InternalName": "flying_courier",
+          "VariableType": "Bool",
+          "Description": "Indicates if you want the courier to appear flying. Only used if your unit type is npc_dota_courier.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spawn wearable items on the unit",
+          "InternalName": "spawn_wearable_item_defs",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Activity Name",
+          "InternalName": "activity",
+          "VariableType": "String",
+          "Description": "The activity to play after the ACT_DOTA_SPAWN activity.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Activity Modifier",
+          "InternalName": "activity_modifier",
+          "VariableType": "String",
+          "Description": "An activity modifier to add to the unit to change its animations",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 0",
+          "InternalName": "item_def0",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 0",
+          "InternalName": "style_index0",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 0.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 1",
+          "InternalName": "item_def1",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 1",
+          "InternalName": "style_index1",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 1.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 2",
+          "InternalName": "item_def2",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 2",
+          "InternalName": "style_index2",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 2.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 3",
+          "InternalName": "item_def3",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 3",
+          "InternalName": "style_index3",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 3.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 4",
+          "InternalName": "item_def4",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 4",
+          "InternalName": "style_index4",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 4.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 5",
+          "InternalName": "item_def5",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 5",
+          "InternalName": "style_index5",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 5.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 6",
+          "InternalName": "item_def6",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 6",
+          "InternalName": "style_index6",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 6.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wearable Item Def 7",
+          "InternalName": "item_def7",
+          "VariableType": "Integer",
+          "Description": "If set, specifies an item def to wear on the unit.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Style Index 7",
+          "InternalName": "style_index7",
+          "VariableType": "Integer",
+          "Description": "If set, specifies the style index for Wearable Item Def 7.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FollowEntity",
+          "Description": "Bone merges this entity to a parent entity. Call again passing nothing to end the bone merge.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetStyleOverride",
+          "Description": "Force a particular style on this NPC.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "InputSetAutoStyleCriteria",
+          "Description": "Sets an autostyle criteria. String is of format \u0026lt;autostyle name\u0026gt; \u0026lt;value\u0026gt;.",
+          "VariableType": "String",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

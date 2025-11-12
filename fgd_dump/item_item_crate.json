@@ -1,0 +1,1167 @@
+{
+  "Name": "item_item_crate",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "item_item_crate",
+      "Description": "Item Crate",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Glow State",
+          "InternalName": "glowstate",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "OFF",
+              "Description": ""
+            },
+            {
+              "Name": "\u002Buse",
+              "Description": ""
+            },
+            {
+              "Name": "look-at",
+              "Description": ""
+            },
+            {
+              "Name": "ON",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Glow Range",
+          "InternalName": "glowrange",
+          "VariableType": "Integer",
+          "Description": "Range at which the glow becomes visible. (0 = always visible)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Glow Range Min",
+          "InternalName": "glowrangemin",
+          "VariableType": "Integer",
+          "Description": "Range at which the glow stops being visible. (0 = always visible)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Glow Color Override (R G B)",
+          "InternalName": "glowcolor",
+          "VariableType": "Color255",
+          "Description": "Change the render color of the glow.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum CPU Level",
+          "InternalName": "mincpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (low)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum CPU Level",
+          "InternalName": "maxcpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum GPU Level",
+          "InternalName": "mingpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (very low)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum GPU Level",
+          "InternalName": "maxgpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable X360",
+          "InternalName": "disableX360",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Damage Filter",
+          "InternalName": "damagefilter",
+          "VariableType": "TargetDestination",
+          "Description": "Name of the filter entity that controls which entities can damage us.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Explosion Damage",
+          "InternalName": "ExplodeDamage",
+          "VariableType": "Float",
+          "Description": "If non-zero, when this entity breaks it will create an explosion that causes the specified amount of damage. See also \u0027Explosion Radius\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Explosion Radius",
+          "InternalName": "ExplodeRadius",
+          "VariableType": "Float",
+          "Description": "If non-zero, when this entity breaks it will create an explosion with a radius of the specified amount. See also \u0027Explosion Damage\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Performance Mode",
+          "InternalName": "PerformanceMode",
+          "VariableType": "Choices",
+          "Description": "Used to limit the amount of gibs produced when this entity breaks, for performance reasons.",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "No Gibs",
+              "Description": ""
+            },
+            {
+              "Name": "Full Gibs on All Platforms",
+              "Description": ""
+            },
+            {
+              "Name": "Reduced gibs",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Break on Touch",
+              "Description": ""
+            },
+            {
+              "Name": "Break on Pressure",
+              "Description": ""
+            },
+            {
+              "Name": "Use Hitboxes for Renderbox",
+              "Description": ""
+            },
+            {
+              "Name": "Start with collision disabled",
+              "Description": ""
+            },
+            {
+              "Name": "Set to NAVIgnore",
+              "Description": ""
+            },
+            {
+              "Name": "Start Asleep",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t take physics damage",
+              "Description": ""
+            },
+            {
+              "Name": "Debris - Don\u0027t collide with the player or other debris",
+              "Description": ""
+            },
+            {
+              "Name": "Motion Disabled",
+              "Description": ""
+            },
+            {
+              "Name": "Enable motion on Physcannon grab (This also applies to the HLVR hand interaction)",
+              "Description": ""
+            },
+            {
+              "Name": "Not affected by rotor wash",
+              "Description": ""
+            },
+            {
+              "Name": "Generate output on \u002BUSE ",
+              "Description": ""
+            },
+            {
+              "Name": "Prevent pickup",
+              "Description": ""
+            },
+            {
+              "Name": "Prevent motion enable on player bump",
+              "Description": ""
+            },
+            {
+              "Name": "Debris with trigger interaction",
+              "Description": ""
+            },
+            {
+              "Name": "Force non-solid to players",
+              "Description": ""
+            },
+            {
+              "Name": "Enable \u002Buse glow effect",
+              "Description": ""
+            },
+            {
+              "Name": "Physgun can ALWAYS pick up. No matter what.",
+              "Description": ""
+            },
+            {
+              "Name": "Important Grabbity Glove target.",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pressure Delay",
+          "InternalName": "pressuredelay",
+          "VariableType": "Float",
+          "Description": "Delay, in seconds, after \u0027broken\u0027 by pressure before breaking apart (allows for sound to play before breaking apart).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "World Model",
+          "InternalName": "model",
+          "VariableType": "Studio",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Skin",
+          "InternalName": "skin",
+          "VariableType": "MaterialGroup",
+          "Description": "Some models have multiple versions of their textures, called skins.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Body Groups",
+          "InternalName": "bodygroups",
+          "VariableType": "BodyGroupChoices",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Shadows",
+          "InternalName": "disableshadows",
+          "VariableType": "Bool",
+          "Description": "Used to disable dynamic shadows on this entity.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Create Client-Only Entity",
+          "InternalName": "clientSideEntity",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Min Damage to Hurt",
+          "InternalName": "minhealthdmg",
+          "VariableType": "Integer",
+          "Description": "The prop will ignore any damage events if the damage is less than this amount.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Shadow Cast Distance",
+          "InternalName": "shadowcastdist",
+          "VariableType": "Integer",
+          "Description": "Use this to override how far this object casts shadows. 0 = default distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Physics Impact Damage Scale",
+          "InternalName": "physdamagescale",
+          "VariableType": "Float",
+          "Description": "Scales damage energy when this object is hit by a physics object. NOTE: 0 means this feature is disabled for backwards compatibility.\nSet to 1.0 for materials as strong as flesh, smaller numbers indicate stronger materials.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Impact damage type",
+          "InternalName": "Damagetype",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Blunt",
+              "Description": ""
+            },
+            {
+              "Name": "Sharp",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Damaging it Doesn\u0027t Push It",
+          "InternalName": "nodamageforces",
+          "VariableType": "Choices",
+          "Description": "Used to determine whether or not damage should cause the brush to move.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Accept damage from player held objects",
+          "InternalName": "acceptdamagefromheldobjects",
+          "VariableType": "Bool",
+          "Description": "Set to true so the player can bash this with held props.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Scale Factor For Inertia",
+          "InternalName": "inertiaScale",
+          "VariableType": "Float",
+          "Description": "Scales the angular mass of an object. Used to hack angular damage and collision response.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Mass Scale",
+          "InternalName": "massScale",
+          "VariableType": "Float",
+          "Description": "A scale multiplier for the object\u0027s mass.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Health Level to Override Motion",
+          "InternalName": "damagetoenablemotion",
+          "VariableType": "Integer",
+          "Description": "If specified, this object will start motion disabled. Once its health has dropped below this specified amount, it will enable motion.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Physics Impact Force to Override Motion",
+          "InternalName": "forcetoenablemotion",
+          "VariableType": "Float",
+          "Description": "If specified, this object will start motion disabled. Any impact that imparts a force greater than this value on the physbox will enable motion.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sound to make when punted",
+          "InternalName": "puntsound",
+          "VariableType": "Sound",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "AI AddOn",
+          "InternalName": "addon",
+          "VariableType": "String",
+          "Description": "If specified this object will use this addon behavior when installed in a composite AI",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "interactAs",
+          "InternalName": "interactAs",
+          "VariableType": "String",
+          "Description": "comma-separated list of interaction layers",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force Nav Ignore",
+          "InternalName": "forcenavignore",
+          "VariableType": "Bool",
+          "Description": "If set, NPCs will ignore this prop when navigating.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force NPC Exclude",
+          "InternalName": "forcenpcexclude",
+          "VariableType": "Bool",
+          "Description": "If set, NPC movement will ignore this prop",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Auto Convert back from Debris",
+          "InternalName": "auto_convert_back_from_debris",
+          "VariableType": "Bool",
+          "Description": "If set, this prop will automatically convert back to interactive debris after coming to rest as Debris.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item Type",
+          "InternalName": "ItemClass",
+          "VariableType": "Choices",
+          "Description": "Class name of the entity to spawn when the crate is broken",
+          "Options": [
+            {
+              "Name": "Energy Gun Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Energy Gun Clip x 4",
+              "Description": ""
+            },
+            {
+              "Name": "Rapid Fire Clip",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shell (Single)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Two)",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun Shells (Box)",
+              "Description": ""
+            },
+            {
+              "Name": "Health Pen",
+              "Description": ""
+            },
+            {
+              "Name": "Frag Grenade",
+              "Description": ""
+            },
+            {
+              "Name": "Health Station Vial",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Crate Appearance",
+          "InternalName": "CrateAppearance",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Default Appearance",
+              "Description": ""
+            },
+            {
+              "Name": "Radar Beacon Crate",
+              "Description": ""
+            },
+            {
+              "Name": "HLVR Small Crate",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Item Count",
+          "InternalName": "ItemCount",
+          "VariableType": "Integer",
+          "Description": "Number of items to emit upon breakage",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Specific resupply",
+          "InternalName": "SpecificResupply",
+          "VariableType": "TargetDestination",
+          "Description": "If item type is item_dynamic_resupply, specify a specific one to use instead of the master",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Removal Allowed for Ammo Balancing",
+          "InternalName": "ammobalancing_removable",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "StartGlowing",
+          "Description": "Turn on a permanent glow effect for this prop.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "StopGlowing",
+          "Description": "Turn off this prop\u0027s glow effect.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDamageFilter",
+          "Description": "Sets the entity to use as damage filter. Pass in an empty string to clear the damage filter.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Break",
+          "Description": "Breaks the breakable.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetHealth",
+          "Description": "Sets a new value for the breakable\u0027s health. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddHealth",
+          "Description": "Adds health to the breakable. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "RemoveHealth",
+          "Description": "Removes health from the breakable. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMass",
+          "Description": "Set mass of this object.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBreak",
+          "Description": "Fired when this breakable breaks.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnHealthChanged",
+          "Description": "Fired when the health of this breakable changes, passing the new value of health as a percentage of max health, from [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "EnablePhyscannonPickup",
+          "Description": "Makes the breakable able to picked up by the physcannon.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisablePhyscannonPickup",
+          "Description": "Makes the breakable not able to picked up by the physcannon.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnTakeDamage",
+          "Description": "Fired each time this breakable takes any damage.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysCannonDetach",
+          "Description": "Fired when the physcannon has ripped this breakable off of the wall. Only fired if ACT_PHYSCANNON_DETACH is defined in the model this breakable is using.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysCannonAnimatePreStarted",
+          "Description": "Fired when this prop starts playing the Pre physcannon-pull activity, caused by the player trying to grab this prop with the physcannon. Only fired if the ACT_PHYSCANNON_ANIMATE_PRE activity is defined in the model this breakable is using.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysCannonAnimatePullStarted",
+          "Description": "Fired when this prop starts playing the physcannon-pull activity, caused by the player trying to grab this prop with the physcannon. Only fired if the ACT_PHYSCANNON_ANIMATE activity is defined in the model this breakable is using. If the prop has Pre pull anim, this will be fired after the Pre anim has finished playing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysCannonPullAnimFinished",
+          "Description": "Fired when this prop has finished playing the physcannon-pull activity, caused by the player trying to grab this prop with the physcannon. Only fired if the ACT_PHYSCANNON_ANIMATE activity is defined in the model this breakable is using. If the prop has Pre \u0026 Post pull anims, this will be fired after the Post anim has finished playing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysCannonAnimatePostStarted",
+          "Description": "Fired when this prop starts playing the Post physcannon-pull activity. Only fired if the ACT_PHYSCANNON_ANIMATE_POST activity is defined in the model this breakable is using.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Skin",
+          "Description": "Changes the model skin to the specified number.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableShadow",
+          "Description": "Turn shadow off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableShadow",
+          "Description": "Turn shadow on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AlternativeSorting",
+          "Description": "Used to attempt to fix sorting problems when rendering. True activates, false deactivates",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetRenderAttribute",
+          "Description": "Set the value of a render attribute used in material dynamic expressions. Examples: $myfloat=0.25 $myfloat4=1.0,0.0,1.0,1.0",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnIgnite",
+          "Description": "Fired when this object catches fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Wake",
+          "Description": "Wake up this physics object, if it is sleeping.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Sleep",
+          "Description": "Put this physics object to sleep. It will wake if given the Wake input, or if force is applied to it. Note that physics objects go to sleep automatically after coming to rest for a while, so you don\u0027t really need to use this.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableMotion",
+          "Description": "Enable physics motion/collision response.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableMotion",
+          "Description": "Disable physics motion/collision response.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnablePickup",
+          "Description": "Enable player pickup of this prop.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisablePickup",
+          "Description": "Disable player pickup of this prop.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableFloating",
+          "Description": "Disable fluid/floating simulation to reduce cost.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetBodyGroup",
+          "Description": "Sets bodygroup. Format is \u0026lt;BodygroupName,index\u0026gt; ",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "physdamagescale",
+          "Description": "Set the Physics Impact Damage Scale for this character. NOTE: 0 means this feature is disabled for backwards compatibility.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableDamageForces",
+          "Description": "Damaging the entity applies physics forces to it.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableDamageForces",
+          "Description": "Damaging the entity does *not* apply physics forces to it.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnablePuntSound",
+          "Description": "Allow this prop to play its own sound when punted",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisablePuntSound",
+          "Description": "Prevent this prop from playing its own sound when punted",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAutoConvertBackFromDebris",
+          "Description": "Set whether or not this prop should automatically convert back to interactive debris after it comes to rest as debris.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddAttribute",
+          "Description": "Add an attribute with a value of 1.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RemoveAttribute",
+          "Description": "Remove an attribute.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnMotionEnabled",
+          "Description": "Fired when motion is enabled on this prop, either via \u0027Health Level to Override Motion\u0027 or from the EnableMotion input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnAwakened",
+          "Description": "Fired when this entity becomes awake (collision/force is applied to it while it\u0027s asleep).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysGunPickup",
+          "Description": "Fired when the player picks up the prop with the physcannon or \u002BUSE.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysGunPunt",
+          "Description": "Fired when a player punts this object with the physgun.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysGunOnlyPickup",
+          "Description": "Fired when a player picks this object up WITH THE PHYSGUN. \u002BUSE pickups do not fire this output.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPhysGunDrop",
+          "Description": "Fired when the player drops the prop with the physcannon or USE.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerUse",
+          "Description": "Fired when the player tries to \u002BUSE the prop. This output will fire only if the Generate output on \u002BUSE spawnflag is set.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerPickup",
+          "Description": "Fired whenever the player picks up this prop (with the physcannon or with \u002BUSE).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnOutOfWorld",
+          "Description": "Fired whenever the prop is out of the allowed world bounds.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Remove the item crate",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Break",
+          "Description": "Breaks the breakable.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetHealth",
+          "Description": "Sets a new value for health. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddHealth",
+          "Description": "Adds health to the breakable. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "RemoveHealth",
+          "Description": "Removes health from the breakable. If the breakable\u0027s health reaches zero it will break.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBreak",
+          "Description": "Fires when broken.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnHealthChanged",
+          "Description": "Fires when the health of this breakable changes, passing the new value of health as a percentage of max health, from [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCacheInteraction",
+          "Description": "This output fires when the player proves they have \u0027found\u0027 this crate. Fires on: Picked up by \u002BUSE, Picked up by Physcannon, Punted by Physcannon, Broken.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

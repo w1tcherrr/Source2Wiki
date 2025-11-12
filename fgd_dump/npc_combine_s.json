@@ -1,0 +1,444 @@
+{
+  "Name": "npc_combine_s",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "npc_combine_s",
+      "Description": "Combine Soldier",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Waiting to Rappel?",
+          "InternalName": "waitingtorappel",
+          "VariableType": "Bool",
+          "Description": "If yes, this NPC spawns suspended in air and awaits a BeginRappel input. It will then spawn a zipline and slide down. When it hits the ground, NPC will cut away the line and try to move forward a few feet to make room for the next NPC. The NPC will not attempt to clear its landing space if it cannot do so by taking a few steps forward",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Sentence",
+          "InternalName": "UseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Un-Use Sentence",
+          "InternalName": "UnUseSentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Don\u0027t Use Speech Semaphore",
+          "InternalName": "DontUseSpeechSemaphore",
+          "VariableType": "Choices",
+          "Description": "Friendly NPCs are not allowed to speak if another friendly NPC is speaking. In some cases we don\u0027t want speaking NPCs to prevent other NPCs from speaking (for instance, if there is a friendly NPC speaking for a long time on a monitor). To make this NPC not prevent other NPCs from talking, make it not grab the semaphore when it speaks.",
+          "Options": [
+            {
+              "Name": "No (Use speech semaphore)",
+              "Description": ""
+            },
+            {
+              "Name": "Yes (Don\u0027t use speech semaphore)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapons",
+          "InternalName": "additionalequipment",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Default",
+              "Description": ""
+            },
+            {
+              "Name": "AR2",
+              "Description": ""
+            },
+            {
+              "Name": "Shotgun",
+              "Description": ""
+            },
+            {
+              "Name": "SMG1",
+              "Description": ""
+            },
+            {
+              "Name": "Stun Stick",
+              "Description": ""
+            },
+            {
+              "Name": "Nothing",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Override Advance Range",
+          "InternalName": "min_advance_range_override",
+          "VariableType": "Float",
+          "Description": "Minimum range to the player the combine is allowed to be when advancing for a LOS. 0 sets to default.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Start LookOff",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t drop grenades",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t drop ar2 alt fire (elite only) ",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Teleportation",
+          "InternalName": "TeleportGrenades",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Disabled",
+              "Description": ""
+            },
+            {
+              "Name": "Teleport Grenades",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model State",
+          "InternalName": "model_state",
+          "VariableType": "ModelStateChoices",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model",
+          "InternalName": "model",
+          "VariableType": "ResourceChoices",
+          "Description": "Grunt",
+          "Options": [
+            {
+              "Name": "Grunt",
+              "Description": ""
+            },
+            {
+              "Name": "Officer",
+              "Description": ""
+            },
+            {
+              "Name": "Charger",
+              "Description": ""
+            },
+            {
+              "Name": "Suppressor",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Tactical Variant",
+          "InternalName": "tacticalvariant",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal Tactics",
+              "Description": ""
+            },
+            {
+              "Name": "OBSOLETE - Pressure the enemy (Keep advancing)",
+              "Description": ""
+            },
+            {
+              "Name": "OBSOLETE - Pressure until within 30ft, then normal",
+              "Description": ""
+            },
+            {
+              "Name": "Defensive Stance towards Last Seen Position",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Walk Easy",
+          "InternalName": "usemarch",
+          "VariableType": "Choices",
+          "Description": "When true, will use a variety of more casual walking animations instead of the standard walk. For use in crowds. WARNING: this animation only has a north component. For use under very special circumstances only.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Is a Medic",
+          "InternalName": "is_medic",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes (carries 4 health vials)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Prevent Grenade Removal On Explosive Damage",
+          "InternalName": "prevent_grenade_explosive_removal",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes (Grenades wont be removed)",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Officer Reinforcements",
+          "InternalName": "officer_reinforcements",
+          "VariableType": "Integer",
+          "Description": "If this soldier is an Officer, it can call for reinforcements this many times.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use VR Stealth Outside Combat",
+          "InternalName": "use_VRstealth_outside_combat",
+          "VariableType": "Bool",
+          "Description": "Support VR player peeking before I\u0027ve ever been in combat.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Grenade Proclivity",
+          "InternalName": "grenade_proclivity",
+          "VariableType": "Float",
+          "Description": "Multiplier on the chance to throw grenades, and delay between grenade throws. Set to 1 to leave as default. 0.5 would mean you have twice the chance to throw grenades, and you wait half as long as normal between throws (assuming you have a valid throw)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Manhack Proclivity",
+          "InternalName": "manhack_proclivity",
+          "VariableType": "Float",
+          "Description": "Multiplier on the chance to deploy manhacks, and delay between manhack deployments. Set to 1 to leave as default. 0.5 would mean you have twice the chance to deploy manhacks, and you wait half as long as normal between deployments (assuming you have a valid deployment)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial Manhack Delay",
+          "InternalName": "initial_manhack_delay",
+          "VariableType": "Float",
+          "Description": "Delay before releasing manhacks after initial contact with an enemy.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sentry Position Name",
+          "InternalName": "sentry_position_name",
+          "VariableType": "TargetDestination",
+          "Description": "Name of info_target entities used by Suppressors to position themselves, and all Soldiers in Defensive Tactical Variant.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "BeginRappel",
+          "Description": "BeginRappel",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnRappelTouchdown",
+          "Description": "Fires when done rappeling",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SpeakResponseConcept",
+          "Description": "Speak the specified response concept.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelSpeech",
+          "Description": "Cancel any speech that the NPC is currently speaking.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "LookOn",
+          "Description": "Look normally",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "LookOff",
+          "Description": "Don\u0027t look for myself, use other squad member\u0027s eyes",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "StartPatrolling",
+          "Description": "Patrol whenever I\u0027m idle or alert.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "StopPatrolling",
+          "Description": "Stop patrolling when I\u0027m idle or alert.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "ThrowGrenadeAtTarget",
+          "Description": "Throw a grenade at the specified target.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "ThrowSmokeGrenadeAtTarget",
+          "Description": "Throw a smoke grenade at the specified target.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "ThrowSmokeGrenadeBetweenTarget",
+          "Description": "Throw a smoke grenade partway to the specified target.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMinAdvanceRange",
+          "Description": "Set the minimum range to the player the combine is allowed to be when advancing for a LOS. 0 sets to default.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMaxWeaponRange",
+          "Description": "Set the maximum range for this soldier\u0027s weapon.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetForceWalkRun",
+          "Description": "Force this combine to walk or run. Parameter: 0 - Return to AI, 1 - Force Walk, 2 - Force Run.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetForceAim",
+          "Description": "Force this combine to aim or not aim. Parameter: 0 - Return to AI, 1 - Force Aiming, 2 - Force Not Aiming.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetForceShield",
+          "Description": "Force this combine to deploy their shield, or not. Only works on Chargers. Parameter: 0 - Return to AI, 1 - Force Shield Up, 2 - Force Shield Down.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Assault",
+          "Description": "Start an assault. Parameter passed in should be the name of the rally point.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetPatrolBlind",
+          "Description": "Set Blind Patrolling on/off. Blindly patrolling NPCs won\u0027t see the player, but they\u0027ll automatically stop blind patrolling if combat begins some other way.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetTacticalVariant",
+          "Description": "Set Tactical Variant to the specified index. See the \u0027Tactical Variant\u0027 key for information on them.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetSentryPositionName",
+          "Description": "Set Sentry Position Name for suppressors.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAllowedToDeployManhacks",
+          "Description": "Set whether or not an Officer is allowed to deploy manhacks. Deployment still requires a manhack to be attached to the Officer.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetAllowedToThrowGrenades",
+          "Description": "Set whether or not a soldier is allowed to throw grenades. Throwing grenades still requires a grenade to be attached to the soldier.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnCallForReinforcements",
+          "Description": "Fired when this Officer calls for reinforcements. Parameter will be the reinforcement index (i.e. 1 for the first call, 2 for the second)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPatrolBlindBroken",
+          "Description": "Fired when Blind Patrolling is aborted due to an AI event. Will NOT be fired when you turn it off via the SetPatrolBlind input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnDeployedManhack",
+          "Description": "Fired when the Officer finishes deploying a manhack.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

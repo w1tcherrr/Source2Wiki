@@ -2,6 +2,80 @@
   "Name": "ai_addon_builder",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_addon_builder",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "NPC name",
+          "InternalName": "NPCName",
+          "VariableType": "String",
+          "Description": "Name to give built NPCs",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Add on name",
+          "InternalName": "AddOnName",
+          "VariableType": "String",
+          "Description": "Name to give built addons",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "NPC Points",
+          "InternalName": "NpcPoints",
+          "VariableType": "Integer",
+          "Description": "Points available to spend for NPCs",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Addon Points",
+          "InternalName": "AddonPoints",
+          "VariableType": "Integer",
+          "Description": "Points available to spend for addons",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Execute",
+          "Description": "",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnCreateNpc",
+          "Description": "Fires when an NPC is created.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFailedToCreateNpc",
+          "Description": "Fires when an NPC fails to be created.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCreateAddon",
+          "Description": "Fires when an Addon is created.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFailedToCreateAddon",
+          "Description": "Fires when an Addon fails to be created.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_addon_builder",

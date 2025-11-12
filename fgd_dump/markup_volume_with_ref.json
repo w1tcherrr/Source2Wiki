@@ -35,6 +35,49 @@
         }
       ],
       "InputOutputs": []
+    },
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "markup_volume_with_ref",
+      "Description": "Tagged markup volume entity with a target reference point.  Points are only in volume if behind the reference point relative to a given query position.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Markup Groups",
+          "InternalName": "groupnames",
+          "VariableType": "TagListDynamic",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "\u0026lt;internal\u0026gt;",
+          "InternalName": "tagFieldNames",
+          "VariableType": "String",
+          "Description": "\u0026lt;internal\u0026gt;",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ref Pos",
+          "InternalName": "ref_position",
+          "VariableType": "LocalPoint",
+          "Description": "Reference position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Reference Position",
+          "InternalName": "use_ref_position",
+          "VariableType": "Bool",
+          "Description": "Use the reference position when calculating validity of query positions.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
     }
   ]
 }

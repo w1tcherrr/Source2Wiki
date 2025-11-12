@@ -78,6 +78,130 @@
       "InputOutputs": []
     },
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "visibility_hint",
+      "Description": "",
+      "IconPath": "static/fgd_dump/img/hla/visibility_hint.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Box Mins",
+          "InternalName": "box_mins",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Box Maxs",
+          "InternalName": "box_maxs",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint Type",
+          "InternalName": "hintType",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Use High Resolution",
+              "Description": ""
+            },
+            {
+              "Name": "Use Low Resolution (64 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Z-axis split",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "visibility_hint",
+      "Description": "",
+      "IconPath": "static/fgd_dump/img/dota2/visibility_hint.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Box Mins",
+          "InternalName": "box_mins",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Box Maxs",
+          "InternalName": "box_maxs",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint Type",
+          "InternalName": "hintType",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Use High Resolution (8 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Normal Resolution (8 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Reduced Resolution (16 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Medium Resolution (32 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Low Resolution (64 unit grid)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Lower Resolution (64 unit grid, fewer intial clusters)",
+              "Description": ""
+            },
+            {
+              "Name": "Use Lowest Resolution (256 unit grid, fewest initial clusters)",
+              "Description": ""
+            },
+            {
+              "Name": "X-axis split",
+              "Description": ""
+            },
+            {
+              "Name": "Y-axis split",
+              "Description": ""
+            },
+            {
+              "Name": "Z-axis split",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "visibility_hint",

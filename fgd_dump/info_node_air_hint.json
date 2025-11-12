@@ -2,6 +2,490 @@
   "Name": "info_node_air_hint",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "info_node_air_hint",
+      "Description": "A navigation node for flying NPCs that includes some context information for NPCs that are interested in it. The hint might indicate a window that could be looked into, or an item of interest that could be commented on. Many hint nodes are NPC-specific, so it\u0027s helpful to use naming conventions like \u0027Crow: Fly to point\u0027 in the hint choices list. The angles of a hint node indicate what direction the NPC should face to perform the hint behavior.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Node ID",
+          "InternalName": "nodeid",
+          "VariableType": "NodeId",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Allow jump up",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint",
+          "InternalName": "hinttype",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "None",
+              "Description": ""
+            },
+            {
+              "Name": "World: Window",
+              "Description": ""
+            },
+            {
+              "Name": "World: Act Busy Hint",
+              "Description": ""
+            },
+            {
+              "Name": "World: Visually Interesting",
+              "Description": ""
+            },
+            {
+              "Name": "World: Visually Interesting (Don\u0027t aim at)",
+              "Description": ""
+            },
+            {
+              "Name": "World: Inhibit Combine Mines within 15 feet",
+              "Description": ""
+            },
+            {
+              "Name": "World: Visually Interesting (Stealth mode)",
+              "Description": ""
+            },
+            {
+              "Name": "Generic",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Crouch Cover Medium",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Crouch Cover Low",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Entrance / Exit Pinch",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Enemy Disadvantage Point",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: High Ground",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Wall Cover Left",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Wall Cover Right",
+              "Description": ""
+            },
+            {
+              "Name": "Tactical: Wall Cover Both",
+              "Description": ""
+            },
+            {
+              "Name": "Antlion: Burrow Point",
+              "Description": ""
+            },
+            {
+              "Name": "Antlion: Thumper Flee Point",
+              "Description": ""
+            },
+            {
+              "Name": "Headcrab: Burrow Point",
+              "Description": ""
+            },
+            {
+              "Name": "Headcrab: Exit Pod Point",
+              "Description": ""
+            },
+            {
+              "Name": "Roller: Patrol Point",
+              "Description": ""
+            },
+            {
+              "Name": "Roller: Cleanup Spot",
+              "Description": ""
+            },
+            {
+              "Name": "Crow: Fly to point",
+              "Description": ""
+            },
+            {
+              "Name": "Crow: Perch point",
+              "Description": ""
+            },
+            {
+              "Name": "Follower: Wait point",
+              "Description": ""
+            },
+            {
+              "Name": "Override jump permission",
+              "Description": ""
+            },
+            {
+              "Name": "Player squad transition point",
+              "Description": ""
+            },
+            {
+              "Name": "NPC exit point",
+              "Description": ""
+            },
+            {
+              "Name": "Strider node",
+              "Description": ""
+            },
+            {
+              "Name": "Player Ally: Push away destination",
+              "Description": ""
+            },
+            {
+              "Name": "PLayer Ally: Fear withdrawal destination",
+              "Description": ""
+            },
+            {
+              "Name": "HL1 World: Machinery",
+              "Description": ""
+            },
+            {
+              "Name": "HL1 World: Blinking Light",
+              "Description": ""
+            },
+            {
+              "Name": "HL1 World: Human Blood",
+              "Description": ""
+            },
+            {
+              "Name": "HL1 World: Alien Blood",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Shake Position",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Fire Cover Position",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Brain Cover Position",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Brain Regenerate Position",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Spit Position",
+              "Description": ""
+            },
+            {
+              "Name": "Ep3 Blob Spawn Regenerator Position",
+              "Description": ""
+            },
+            {
+              "Name": "Aperture: Nest",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Generic Hint",
+          "InternalName": "generictype",
+          "VariableType": "String",
+          "Description": "String identifying what the hint type is, if generic.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint Activity",
+          "InternalName": "hintactivity",
+          "VariableType": "String",
+          "Description": "Activity associated with this hint node. Various parts of the NPC AI play this activity at times. i.e. Actbusy nodes will play this activity when an NPC acts busy on the node.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Node FOV",
+          "InternalName": "nodeFOV",
+          "VariableType": "Choices",
+          "Description": "Imagine this node requires that an NPC be in the node\u0027s field of view in order to use this hint.",
+          "Options": [
+            {
+              "Name": "45 Degrees",
+              "Description": ""
+            },
+            {
+              "Name": "90 Degrees",
+              "Description": ""
+            },
+            {
+              "Name": "180 Degrees",
+              "Description": ""
+            },
+            {
+              "Name": "360 Degrees",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Hint Disabled",
+          "InternalName": "StartHintDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint Group",
+          "InternalName": "Group",
+          "VariableType": "String",
+          "Description": "If specified, gives the hint a specific group name.  Useful for hint nodes that need to be logically grouped together. NPCs may also refuse to use hint nodes that don\u0027t match their hint group.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target node",
+          "InternalName": "TargetNode",
+          "VariableType": "NodeDest",
+          "Description": "The node ID of an associated target node, if any.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Radius",
+          "InternalName": "radius",
+          "VariableType": "Integer",
+          "Description": "How close an NPC must be to consider this hint. 0 means infinite.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Facing",
+          "InternalName": "IgnoreFacing",
+          "VariableType": "Choices",
+          "Description": "Don\u0027t pay attention to the facing of the node. May not apply to a given hint type.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Default",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum State",
+          "InternalName": "MinimumState",
+          "VariableType": "Choices",
+          "Description": "Require an NPC have a minimum state to use the hint.",
+          "Options": [
+            {
+              "Name": "Idle",
+              "Description": ""
+            },
+            {
+              "Name": "Alert",
+              "Description": ""
+            },
+            {
+              "Name": "Combat",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum State",
+          "InternalName": "MaximumState",
+          "VariableType": "Choices",
+          "Description": "Require an NPC have a maximum state to use the hint.",
+          "Options": [
+            {
+              "Name": "Idle",
+              "Description": ""
+            },
+            {
+              "Name": "Alert",
+              "Description": ""
+            },
+            {
+              "Name": "Combat",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "NodeHeight",
+          "InternalName": "nodeheight",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "EnableHint",
+          "Description": "Enable hint.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableHint",
+          "Description": "Disable hint.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "info_node_air_hint",

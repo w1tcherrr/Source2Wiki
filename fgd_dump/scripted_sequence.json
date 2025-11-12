@@ -2,6 +2,436 @@
   "Name": "scripted_sequence",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "scripted_sequence",
+      "Description": "Grabs an NPC and makes them play a specified set of animations. The NPC can be told to move to the scripted sequence position or can be told to play the script wherever they currently are. Multiple scripted sequences of the same name (or sync group, if specified) will frame-synchronize in the action animation once all the actors have moved to position. This allows tight interaction between actors (one actor grabbing another, hitting them, etc.) The flow is as follows:\u003Cbr\u003E\u003Cbr\u003E1) Move to position using the specified movement animation. If \u0027Move to Position\u0027 is set to NONE, skip to step 2.\u003Cbr\u003E2) If forced to wait for another actor to move to position, play the pre-action idle animation, otherwise skip to step 3. If there is no pre-action idle specified, ACT_IDLE is used.\u003Cbr\u003E3) Fire the OnBeginSequence output.\u003Cbr\u003E4) Play the action animation. If no action animation is specified, skip to step 5.\u003Cbr\u003E5) Play the post-action idle animation. If none is specified, skip to step 6. If the \u0027Loop in Post Idle\u0027 spawnflag is set, keep playing the post-action idle until the script is cancelled. If no post-action idle animation is specified, ACT_IDLE is used.\u003Cbr\u003E6) Fire the OnEndSequence output.\u003Cbr\u003E7) If a next script to play is specified, hand the NPC to the next script and repeat this process for that script.\u003Cbr\u003E\u003Cbr\u003EThe MoveToPosition input runs steps 1 and 2, then waits while playing the pre-action idle animation until the BeginSequence input is received.\u003Cbr\u003E\u003Cbr\u003EIf the sequence has motion extraction in it, set the \u0027Don\u0027t Teleport NPC On End\u0027 spawnflag.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Target NPC",
+          "InternalName": "m_iszEntity",
+          "VariableType": "TargetDestination",
+          "Description": "The name or class name (such as \u0027npc_zombie\u0027) of an NPC to use for this script.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pre Action Idle Animation",
+          "InternalName": "m_iszIdle",
+          "VariableType": "Sequence",
+          "Description": "The name of the sequence (such as \u0027idle01\u0027) or activity (such as \u0027ACT_IDLE\u0027) to play before the action animation if the NPC must wait for the script to be triggered. Use \u0027Start on Spawn\u0027 flag or MoveToPosition input to play this idle animation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entry Animation",
+          "InternalName": "m_iszEntry",
+          "VariableType": "Sequence",
+          "Description": "The name of the sequence (such as \u0027reload02\u0027) or activity (such as \u0027ACT_RELOAD\u0027) to play when the sequence starts, before transitioning to play the main action sequence.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Action Animation",
+          "InternalName": "m_iszPlay",
+          "VariableType": "Sequence",
+          "Description": "The name of the main sequence (such as \u0027reload02\u0027) or activity (such as \u0027ACT_RELOAD\u0027) to play.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Post Action Idle Animation",
+          "InternalName": "m_iszPostIdle",
+          "VariableType": "Sequence",
+          "Description": "The name of the sequence (such as \u0027idle01\u0027) or activity (such as \u0027ACT_IDLE\u0027) to play after the action animation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Custom Move Animation",
+          "InternalName": "m_iszCustomMove",
+          "VariableType": "Sequence",
+          "Description": "Used in conjunction with the \u0027Custom movement\u0027 setting for the \u0027Move to Position\u0027 property, specifies the sequence (such as \u0027crouch_run01\u0027) or activity (such as \u0027ACT_RUN\u0027) to use while moving to the scripted position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Synchronization Group",
+          "InternalName": "sync_group",
+          "VariableType": "String",
+          "Description": "If set, identifier used to match other scripted sequences to synchronze with (alternative to name-based sync)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Loop Action Animation?",
+          "InternalName": "m_bLoopActionSequence",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Synch Post Idles?",
+          "InternalName": "m_bSynchPostIdles",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Allow custom interrupt conditions to be set.",
+          "InternalName": "m_bAllowCustomInterruptConditions",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Script Conflict Response",
+          "InternalName": "conflict_response",
+          "VariableType": "Choices",
+          "Description": "What to do if this scripted sequence begins and the actor is already executing a scripted sequence.",
+          "Options": [
+            {
+              "Name": "Enqueue",
+              "Description": ""
+            },
+            {
+              "Name": "Interrupt",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ground IK Preference",
+          "InternalName": "m_nGroundIKPreference",
+          "VariableType": "Choices",
+          "Description": "If this NPC has ground IK; whether we disable it for the playthrough of the sequence or not.",
+          "Options": [
+            {
+              "Name": "No change",
+              "Description": ""
+            },
+            {
+              "Name": "Disable for this sequence",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Radius (0=everywhere)",
+          "InternalName": "m_flRadius",
+          "VariableType": "Integer",
+          "Description": "Radius to search within for an NPC to use. 0 searches everywhere.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Repeat Rate ms",
+          "InternalName": "m_flRepeat",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move to Position",
+          "InternalName": "m_fMoveTo",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Walk",
+              "Description": ""
+            },
+            {
+              "Name": "Run",
+              "Description": ""
+            },
+            {
+              "Name": "Custom movement",
+              "Description": ""
+            },
+            {
+              "Name": "Instantaneous",
+              "Description": ""
+            },
+            {
+              "Name": "No - Turn to Face",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Next Script",
+          "InternalName": "m_iszNextScript",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the script to run immediately after this script completes. The NPC will not return to AI between the two scripts.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Gravity on NPC during script",
+          "InternalName": "m_bIgnoreGravity",
+          "VariableType": "Bool",
+          "Description": "If this is set to \u0027Yes\u0027, the NPC will not be subject to gravity while playing this script.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable NPC collisions during script",
+          "InternalName": "m_bDisableNPCCollisions",
+          "VariableType": "Bool",
+          "Description": "Useful for when NPCs playing scripts must interpenetrate while riding on trains, elevators, etc. This only disables collisions between the NPCs in the script and must be enabled on BOTH scripted_sequences.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Keep Animgraph Locked after script",
+          "InternalName": "m_bKeepAnimgraphLockedPost",
+          "VariableType": "Bool",
+          "Description": "If set, the animgraph will remain locked in the Direct Playback node after this sequence finishes. This is only useful if you have a \u0027Next Script\u0027 set, and you don\u0027t want the animgraph to return to Idle during the transition. Note that the \u0027Next Script\u0027 cannot require the NPC to animate/move to it, because the NPC will be unable to move while in the Direct Playback node. In that case, or if you have no \u0027Next Script\u0027 set, selecting this will simply cause the NPC to freeze after it finishes the sequence.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Repeatable",
+              "Description": ""
+            },
+            {
+              "Name": "Leave Corpse (if not, fade)",
+              "Description": ""
+            },
+            {
+              "Name": "Start on Spawn",
+              "Description": ""
+            },
+            {
+              "Name": "No Interruptions",
+              "Description": ""
+            },
+            {
+              "Name": "Override AI",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t Teleport NPC On End",
+              "Description": ""
+            },
+            {
+              "Name": "Loop in Post Idle",
+              "Description": ""
+            },
+            {
+              "Name": "Priority Script",
+              "Description": ""
+            },
+            {
+              "Name": "Hide Debug Complaints",
+              "Description": ""
+            },
+            {
+              "Name": "Allow other NPC actors to continue after this NPC actor\u0027s death",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "On player death",
+          "InternalName": "onplayerdeath",
+          "VariableType": "Choices",
+          "Description": "What this entity should do if the player dies.",
+          "Options": [
+            {
+              "Name": "Do Nothing",
+              "Description": ""
+            },
+            {
+              "Name": "Cancel Script and return to AI",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "On NPC actor death",
+          "InternalName": "onnpcdeath",
+          "VariableType": "Choices",
+          "Description": "What the NPC performing this script should do if it dies.",
+          "Options": [
+            {
+              "Name": "LEGACY - Use old settings",
+              "Description": ""
+            },
+            {
+              "Name": "Ragdoll immediately",
+              "Description": ""
+            },
+            {
+              "Name": "Perform a death animation",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Prevent Yaw Update on Finish",
+          "InternalName": "prevent_update_yaw_on_finish",
+          "VariableType": "Choices",
+          "Description": "By default, when finishing the sequence, the NPC has its ideal yaw updated to maintain the current forward facing. This allows you to prevent that if you want to return to the facing prior to starting the sequence.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ensure on Nav Mesh on Finish",
+          "InternalName": "ensure_on_navmesh_on_finish",
+          "VariableType": "Choices",
+          "Description": "When finishing the sequence, if the NPC uses the navmesh, ensure the NPC is on a valid location on the navmesh.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "BeginSequence",
+          "Description": "Summons an NPC to act out the scripted sequence.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "MoveToPosition",
+          "Description": "Summons an NPC to the script location. They will play their scripted idle (or ACT_IDLE if none is specified) until BeginSequence is triggered.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelSequence",
+          "Description": "Stops the scripted sequence. If fired after a sequence starts, this input will not take effect until the NPC finishes playing the scripted action animation.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetActionSequence",
+          "Description": "Sets the name of the action sequence that will play when the action sequence plays. Can be used for branching sequences.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBeginSequence",
+          "Description": "Fires when the scripted sequence begins playing.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnActionStartOrLoop",
+          "Description": "Fires when the action animation begins playing and each time it loops.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndSequence",
+          "Description": "Fires when the action animation completes.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCancelSequence",
+          "Description": "Fires when the sequence is cancelled.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCancelFailedSequence",
+          "Description": "Fires when the sequence is cancelled without ever playing (OnCancelSequence will also fire).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent01",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent02",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent03",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent04",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent05",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent06",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent07",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnScriptEvent08",
+          "Description": "Fires when an AE_SCRIPT_EVENT_FIREEVENT anim event occurs while playing the script.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "scripted_sequence",

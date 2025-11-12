@@ -1,0 +1,486 @@
+{
+  "Name": "trigger_dota",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Mesh",
+      "Name": "trigger_dota",
+      "Description": "Dota-specific Trigger.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Team Number",
+          "InternalName": "teamnumber",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Unassigned",
+              "Description": ""
+            },
+            {
+              "Name": "Spectators",
+              "Description": ""
+            },
+            {
+              "Name": "Good Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Bad Guys",
+              "Description": ""
+            },
+            {
+              "Name": "Neutrals",
+              "Description": ""
+            },
+            {
+              "Name": "No Team",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 1",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 2",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 3",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 4",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 5",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 6",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 7",
+              "Description": ""
+            },
+            {
+              "Name": "Custom 8",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Invert Filter",
+          "InternalName": "invert_filter_check",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Every Unit",
+          "InternalName": "every_unit",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Unit Name",
+          "InternalName": "UnitName",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsAncient",
+          "InternalName": "IsAncient",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsNeutralUnitType",
+          "InternalName": "IsNeutralUnitType",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsSummoned",
+          "InternalName": "IsSummoned",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsHero",
+          "InternalName": "IsHero",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsRealHero",
+          "InternalName": "IsRealHero",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsTower",
+          "InternalName": "IsTower",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsMechanical",
+          "InternalName": "IsMechanical",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsPhantom",
+          "InternalName": "IsPhantom",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsIllusion",
+          "InternalName": "IsIllusion",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsCreep",
+          "InternalName": "IsCreep",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "IsLaneCreep",
+          "InternalName": "IsLaneCreep",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment. NOTE: If this is specified the Hammer transform will be disregarded, even if \u0027Use Local Transform\u0027 is NOT specified (in that case local transform will be identity)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Local Transform",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Origin",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Angles",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Delay Before Reset",
+          "InternalName": "wait",
+          "VariableType": "Integer",
+          "Description": "Amount of time, in seconds, after the trigger_multiple has triggered before it can be triggered again. If set to -1, it will never trigger again.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Filter Name",
+          "InternalName": "filtername",
+          "VariableType": "FilterClass",
+          "Description": "Filter to use to see if activator triggers me. See filter_activator_name for more explanation.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Enable",
+          "Description": "Enable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable this entity.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FollowEntity",
+          "Description": "Bone merges this entity to a parent entity. Call again passing nothing to end the bone merge.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggles this trigger between enabled and disabled states.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TouchTest",
+          "Description": "Tests if the trigger is being touched and fires an output based on whether the value is true or false.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnStartTouch",
+          "Description": "Fired when an entity starts touching this trigger. The touching entity must pass this trigger\u0027s filters to cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartTouchAll",
+          "Description": "Fired when an entity starts touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouch",
+          "Description": "Fired when an entity stops touching this trigger. Only entities that passed this trigger\u0027s filters will cause this output to fire.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndTouchAll",
+          "Description": "Fires when an entity stops touching this trigger, and no other entities are touching it. Only entities that passed this trigger\u0027s filters are considered.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger",
+          "Description": "Fired whenever the trigger is activated.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTouching",
+          "Description": "Fired when the TestTouch input is true (something is touching the trigger.)",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNotTouching",
+          "Description": "Fired when the TestTouch input is not true (nothing is touching the trigger.)",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

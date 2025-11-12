@@ -1,0 +1,441 @@
+{
+  "Name": "dota_custom_game_events",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "dota_custom_game_events",
+      "Description": "Used to change settings on the game mode for custom games.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Gold Per Tick",
+          "InternalName": "GoldPerTick",
+          "VariableType": "Integer",
+          "Description": "Gold to award to all players each gold tick.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Gold Tick Time",
+          "InternalName": "GoldTickTime",
+          "VariableType": "Float",
+          "Description": "Time in seconds between gold ticks.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Player Starting Gold",
+          "InternalName": "PlayerStartingGold",
+          "VariableType": "Integer",
+          "Description": "Gold players start with.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hero Respawn",
+          "InternalName": "HeroRespawnEnabled",
+          "VariableType": "Bool",
+          "Description": "Do heroes automatically respawn?",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Tree Regrow Time",
+          "InternalName": "TreeRegrowTime",
+          "VariableType": "Float",
+          "Description": "Time in seconds for a tree to regrow.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hero Selection Time",
+          "InternalName": "HeroSelectionTime",
+          "VariableType": "Float",
+          "Description": "Time in seconds for hero selection.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pre-Game Time",
+          "InternalName": "PreGameTime",
+          "VariableType": "Float",
+          "Description": "Time in seconds before the game begins.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Post-Game Time",
+          "InternalName": "PostGameTime",
+          "VariableType": "Float",
+          "Description": "Time in seconds after the game ends before the server.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Time Of Day",
+          "InternalName": "TimeOfDay",
+          "VariableType": "Float",
+          "Description": "Current time of day.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hero Minimap Icon Scale",
+          "InternalName": "HeroMinimapIconScale",
+          "VariableType": "Float",
+          "Description": "Scale for hero minimap icons.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Creep Minimap Icon Scale",
+          "InternalName": "CreepMinimapIconScale",
+          "VariableType": "Float",
+          "Description": "Scale for creep minimap icons.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Rune Minimap Icon Scale",
+          "InternalName": "RuneMinimapIconScale",
+          "VariableType": "Float",
+          "Description": "Scale for rune minimap icons.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Is First Blood Active",
+          "InternalName": "IsFirstBloodActive",
+          "VariableType": "Bool",
+          "Description": "Is first blood active?",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Custom Hero XP Values",
+          "InternalName": "UseCustomHeroXPValues",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Base Gold Bounty On Heroes",
+          "InternalName": "UseBaseGoldBountyOnHeroes",
+          "VariableType": "Bool",
+          "Description": "Force base gold usage instead of calculated value.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Remove Illusions On Death",
+          "InternalName": "RemoveIllusionsOnDeath",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Top Bar Team Values Visible",
+          "InternalName": "TopBarTeamValuesVisible",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Camera Distance Override",
+          "InternalName": "CameraDistanceOverride",
+          "VariableType": "Float",
+          "Description": "Override the camera distance.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Fog Of War",
+          "InternalName": "DisableFogOfWar",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Unseen Fog Of War",
+          "InternalName": "UseUnseenFogOfWar",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Is Safe To Leave",
+          "InternalName": "IsSafeToLeave",
+          "VariableType": "Bool",
+          "Description": "Is this game safe to leave?",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force Select Hero",
+          "InternalName": "ForceSelectHero",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Universal Shop Mode",
+          "InternalName": "UseUniversalShopMode",
+          "VariableType": "Bool",
+          "Description": "Can you buy any item from any shop?",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Purchasing to Stash",
+          "InternalName": "DisableStashPurchasing",
+          "VariableType": "Bool",
+          "Description": "Disable purchasing items to the stash. If disabled shops can only be used when nearby.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Announcers",
+          "InternalName": "DisableAnnouncer",
+          "VariableType": "Bool",
+          "Description": "Mute the in-game announcers",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fixed Respawn Time",
+          "InternalName": "FixedRespawnTime",
+          "VariableType": "Float",
+          "Description": "Fixed time for heroes to respawn (or -1 to use the standard rules)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hide Kill-Message Headers",
+          "InternalName": "HideKillMessageHeaders",
+          "VariableType": "Bool",
+          "Description": "Hide multikill, streak, and first-blood banners",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnDayStarted",
+          "Description": "Fired when the day starts.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnNightStarted",
+          "Description": "Fired when the night starts.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnRadiantFortDestroyed",
+          "Description": "Fired when the Radiant Ancient is destroyed.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnDireFortDestroyed",
+          "Description": "Fired when the Dire Ancient is destroyed.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnGameEnded",
+          "Description": "Fired when the game ends.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnGameStarted",
+          "Description": "Fired when game starts.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetTimeOfDay",
+          "Description": "Sets the time of day (0.0-\u0026gt;1.0)",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetGameWinner",
+          "Description": "Set the winning team and end the game.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "LevelAllHeroesUpOnce",
+          "Description": "Level each hero in the game up one level.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "LevelAllHeroesToMax",
+          "Description": "Level each hero in the game to the max level.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "LevelAllHeroesToLevel",
+          "Description": "Ensure all heroes are at least level.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetStashPurchasingDisabled",
+          "Description": "Turn purchasing items to the stash off/on. If purchasing to the stash is off the player must be at a shop to purchase items.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFogOfWarDisabled",
+          "Description": "Enable or disable fog of war. When disabled all units are considered visible.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetUnseenFogOfWarEnabled",
+          "Description": "Enable or disable unseen fog of war. When unseen fog of war is enabled parts of the map the player has never seen will be blocked out.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        }
+      ]
+    }
+  ]
+}

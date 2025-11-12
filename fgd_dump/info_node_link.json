@@ -2,6 +2,335 @@
   "Name": "info_node_link",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "info_node_link",
+      "Description": "A dynamic connection between two navigation nodes. You specify the node IDs of the start and end nodes, and then you can use entity I/O to turn on and off the connection. This could be used to create or destroy a connection in the nodegraph because of some event in your map (a bridge being created/destroyed, etc).",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Force human AI Hull",
+          "InternalName": "aihull_human",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force small_centered AI Hull",
+          "InternalName": "aihull_small_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force wide_human AI Hull",
+          "InternalName": "aihull_wide_human",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force tiny AI Hull",
+          "InternalName": "aihull_tiny",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force medium AI Hull",
+          "InternalName": "aihull_medium",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force tiny_centered AI Hull",
+          "InternalName": "aihull_tiny_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force large AI Hull",
+          "InternalName": "aihull_large",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force large_centered AI Hull",
+          "InternalName": "aihull_large_centered",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force medium_tall AI Hull",
+          "InternalName": "aihull_medium_tall",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial State",
+          "InternalName": "initialstate",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Off - navigation between the nodes is disabled",
+              "Description": ""
+            },
+            {
+              "Name": "On - navigation between the nodes is enabled",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Allow Pass When Off",
+          "InternalName": "AllowUse",
+          "VariableType": "String",
+          "Description": "Entity or class to allow passage even when node is off.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Invert exclusion rules",
+          "InternalName": "InvertAllow",
+          "VariableType": "Bool",
+          "Description": "Allowed entity is the only entity NOT allowed when this is checked.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Priority",
+          "InternalName": "priority",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Use As Last Resort",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start node ID",
+          "InternalName": "StartNode",
+          "VariableType": "NodeDest",
+          "Description": "The node ID of one end of the node connection.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End node ID",
+          "InternalName": "EndNode",
+          "VariableType": "NodeDest",
+          "Description": "The node ID of one end of the node connection.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Type of Connection",
+          "InternalName": "linktype",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Ground",
+              "Description": ""
+            },
+            {
+              "Name": "Jump",
+              "Description": ""
+            },
+            {
+              "Name": "Fly",
+              "Description": ""
+            },
+            {
+              "Name": "Climb",
+              "Description": ""
+            },
+            {
+              "Name": "Crawl",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Precise Movement",
+          "InternalName": "preciseMovement",
+          "VariableType": "Bool",
+          "Description": "Movement through this link must be precise. Used for NPCs that have sloppy movement characteristics to move through things like doors or windows",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "TurnOn",
+          "Description": "Turn the link on, enabling travel between the nodes.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Turn the link off, disabling travel between the nodes.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Turn the link on.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Turn the link off.",
+          "VariableType": "Void",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "info_node_link",

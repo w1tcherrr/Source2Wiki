@@ -2,6 +2,483 @@
   "Name": "npc_template_maker",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "npc_template_maker",
+      "Description": "An entity that creates NPCs. The NPCs it creates are clones of a template NPC. NPCs are spawned around this maker\u0027s origin, or at specified destination points.",
+      "IconPath": "static/fgd_dump/img/hla/npc_template_maker.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Model Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment position offset",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment angular offset",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Model Attachment scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Model Attachment Offset",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "StartDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Fade Corpse",
+              "Description": ""
+            },
+            {
+              "Name": "Infinite Children",
+              "Description": ""
+            },
+            {
+              "Name": "Do Not Drop",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t Spawn While Visible",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t preload template models",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Radius",
+          "InternalName": "Radius",
+          "VariableType": "Float",
+          "Description": "Radius around this maker within which NPCs are to be placed. Spawned NPCs will try and find empty space within this radius to spawn.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name of Destination Group",
+          "InternalName": "DestinationGroup",
+          "VariableType": "TargetDestination",
+          "Description": "If you\u0027d like spawned NPCs to be created at an info_npc_spawn_destination entity, enter the name of that entity here. If you have more than one destination entity by that name, the Destination Criteria will be used to select one from the group.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Dest. Criterion: Visible to player?",
+          "InternalName": "CriterionVisibility",
+          "VariableType": "Choices",
+          "Description": "Should the NPC try to spawn at a destination that the player can see? Only applicable if a Destination Group is being used.",
+          "Options": [
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t Care",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Dest. Criterion: Distance to player?",
+          "InternalName": "CriterionDistance",
+          "VariableType": "Choices",
+          "Description": "Should the NPC try to spawn nearest to or farthest from the player\u0027s current location? Only applicable if a Destination Group is being used.",
+          "Options": [
+            {
+              "Name": "Nearest",
+              "Description": ""
+            },
+            {
+              "Name": "Farthest",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t Care",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum spawn distance from player",
+          "InternalName": "MinSpawnDistance",
+          "VariableType": "Integer",
+          "Description": "The spawn destination node distance to the player will have to be further or equal than this value.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Num. of NPCs",
+          "InternalName": "MaxNPCCount",
+          "VariableType": "Integer",
+          "Description": "Number of NPCs that will spawn before this spawner is exhausted.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Frequency",
+          "InternalName": "SpawnFrequency",
+          "VariableType": "Integer",
+          "Description": "How often (in seconds) a new NPC will be spawned. If set to -1, a new NPC will be made when the last NPC dies.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Retry Frequency",
+          "InternalName": "RetryFrequency",
+          "VariableType": "Integer",
+          "Description": "How long (in seconds) to wait before trying again after failing to spawn an NPC when no valid spot could be found. If set to -1, Spawn Frequency is used.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Max Live NPCs",
+          "InternalName": "MaxLiveChildren",
+          "VariableType": "Integer",
+          "Description": "Maximum number of live children allowed at any one time (new ones will not be made until one dies). If set to -1, no limit is applied.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hull Check Mode",
+          "InternalName": "HullCheckMode",
+          "VariableType": "Choices",
+          "Description": "How NPC\u0027s hull should be checked at spawn destination?",
+          "Options": [
+            {
+              "Name": "Default",
+              "Description": ""
+            },
+            {
+              "Name": "No hull check",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Don\u0027t preload template models",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name of template NPC",
+          "InternalName": "TemplateName",
+          "VariableType": "TargetDestination",
+          "Description": "Template NPC that this maker should be creating clones of.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnSpawnNPC",
+          "Description": "Fired when an NPC is spawned. The activator is the NPC, and the string is the name of the NPC.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnAllSpawned",
+          "Description": "Fired when the spawned is exhausted (all children have been spawned).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnAllSpawnedDead",
+          "Description": "Fired when the spawner is exhausted (all children have been spawned) and all spawned children have died.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnAllLiveChildrenDead",
+          "Description": "Fired when all spawned children have died. This does not mean the spawned is exhausted, so a new child may be spawned any time after this (unless the maker is disabled).",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Spawn",
+          "Description": "Spawns an NPC.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggles the spawner enabled/disabled state.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Enable",
+          "Description": "Enables the spawner.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disables the spawner.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddMaxChildren",
+          "Description": "Adds to the number of NPCs that can spawn before the spawner is exhausted. If an exhausted spawner is given some children to spawn, it still wont begin spawning until it is re-enabled with the Enable input.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMaxChildren",
+          "Description": "Sets the number of NPCs that can spawn before the spawner is exhausted. If an exhausted spawner is given some children to spawn, it still won\u0027t begin spawning until it is re-enabled with the Enable input.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMaxLiveChildren",
+          "Description": "Sets the maximum number of NPCs that can be alive at any one time from this spawner.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetSpawnFrequency",
+          "Description": "Sets how often (in seconds) a new NPC will be spawned.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpawnInRadius",
+          "Description": "Spawn an NPC somewhere within the maker\u0027s radius.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpawnInLine",
+          "Description": "Spawn an NPC somewhere within a line behind the maker.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpawnMultiple",
+          "Description": "Spawn multiple NPCs (uses destination group, else radius).",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "ChangeDestinationGroup",
+          "Description": "Switch to a different set of Destination entities.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMinimumSpawnDistance",
+          "Description": "Set the minimum spawn distance from player to destination node.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "npc_template_maker",

@@ -2,6 +2,324 @@
   "Name": "logic_choreographed_scene",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "logic_choreographed_scene",
+      "Description": "Manages a choreographed scene of one or more actors.",
+      "IconPath": "static/fgd_dump/img/hla/logic_choreographed_scene.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Scene file",
+          "InternalName": "SceneFile",
+          "VariableType": "Scene",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 1",
+          "InternalName": "target1",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 2",
+          "InternalName": "target2",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 3",
+          "InternalName": "target3",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 4",
+          "InternalName": "target4",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 5",
+          "InternalName": "target5",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 6",
+          "InternalName": "target6",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 7",
+          "InternalName": "target7",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Target 8",
+          "InternalName": "target8",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "If an Actor is talking...",
+          "InternalName": "busyactor",
+          "VariableType": "Choices",
+          "Description": "What to do if an actor this scene needs is already talking when this scene is told to start.",
+          "Options": [
+            {
+              "Name": "Start immediately",
+              "Description": ""
+            },
+            {
+              "Name": "Wait for actor to finish",
+              "Description": ""
+            },
+            {
+              "Name": "Interrupt at next interrupt event",
+              "Description": ""
+            },
+            {
+              "Name": "Cancel at next interrupt event",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "On player death",
+          "InternalName": "onplayerdeath",
+          "VariableType": "Choices",
+          "Description": "What should this entity do if the player dies",
+          "Options": [
+            {
+              "Name": "Do Nothing",
+              "Description": ""
+            },
+            {
+              "Name": "Cancel Script and return to AI",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Start",
+          "Description": "Starts playback of the scene file",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Pause",
+          "Description": "Pauses playback of the scene file",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Resume",
+          "Description": "Resumes playback of the scene if it has been paused",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Cancel",
+          "Description": "Cancels playback of the scene",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "CancelAtNextInterrupt",
+          "Description": "Cancels playback of the scene at the next interrupt event in the scene.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PitchShift",
+          "Description": "Multiplies the the pitch",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "InterjectResponse",
+          "Description": "Finds an actor who can respond to the specified concept string while the scene continues playing",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "StopWaitingForActor",
+          "Description": "Stop waiting on an actor to stop talking.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PauseAtNextInterrupt",
+          "Description": "Pause playback of the scene at the next interrupt event in the scene.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetTarget1",
+          "Description": "Change the entity Target1 references.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetTarget2",
+          "Description": "Change the entity Target2 references.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnStart",
+          "Description": "The scene has started",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCompletion",
+          "Description": "The scene has completed",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnCanceled",
+          "Description": "The scene has been canceled",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPaused",
+          "Description": "The scene has been paused",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnResumed",
+          "Description": "The scene has been resumed",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger1",
+          "Description": "Scene trigger 1",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger2",
+          "Description": "Scene trigger 2",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger3",
+          "Description": "Scene trigger 3",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger4",
+          "Description": "Scene trigger 4",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger5",
+          "Description": "Scene trigger 5",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger6",
+          "Description": "Scene trigger 6",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger7",
+          "Description": "Scene trigger 7",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger8",
+          "Description": "Scene trigger 8",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger9",
+          "Description": "Scene trigger 9",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger10",
+          "Description": "Scene trigger 10",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger11",
+          "Description": "Scene trigger 11",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger12",
+          "Description": "Scene trigger 12",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger13",
+          "Description": "Scene trigger 13",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger14",
+          "Description": "Scene trigger 14",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger15",
+          "Description": "Scene trigger 15",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnTrigger16",
+          "Description": "Scene trigger 16",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "logic_choreographed_scene",

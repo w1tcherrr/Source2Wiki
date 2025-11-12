@@ -1,0 +1,274 @@
+{
+  "Name": "env_global",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "env_global",
+      "Description": "An entity to control a game-specific global states.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial State",
+          "InternalName": "initialstate",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Off",
+              "Description": ""
+            },
+            {
+              "Name": "On",
+              "Description": ""
+            },
+            {
+              "Name": "Dead",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Counter",
+          "InternalName": "counter",
+          "VariableType": "Integer",
+          "Description": "An integer counter value associated with this global.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Set Initial State",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Global State to Set",
+          "InternalName": "globalstate",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Gordon pre-criminal",
+              "Description": ""
+            },
+            {
+              "Name": "Antlions are player allies",
+              "Description": ""
+            },
+            {
+              "Name": "Suit sprint function not yet enabled",
+              "Description": ""
+            },
+            {
+              "Name": "Super phys gun is enabled",
+              "Description": ""
+            },
+            {
+              "Name": "Friendly encounter sequence (lower weapons, etc.)",
+              "Description": ""
+            },
+            {
+              "Name": "Gordon is invulnerable",
+              "Description": ""
+            },
+            {
+              "Name": "Don\u0027t spawn seagulls on the jeep",
+              "Description": ""
+            },
+            {
+              "Name": "Episode 2: Alyx injured",
+              "Description": ""
+            },
+            {
+              "Name": "Episodic: Alyx darkness mode",
+              "Description": ""
+            },
+            {
+              "Name": "Ep2 Counter: Hunters to run over before they dodge",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Set state of global to ON.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Set state of global to OFF.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggles state of global between ON and OFF.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Remove",
+          "Description": "Set state of global to DEAD.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetCounter",
+          "Description": "Sets the counter value of this global.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddToCounter",
+          "Description": "Adds to the counter value of this global. Negative numbers subtract.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "GetCounter",
+          "Description": "Causes the Counter output to be fired, passing the current counter value for this global.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Counter",
+          "Description": "Fired in response to the GetCounter input, passing the current value of the counter.",
+          "VariableType": "Integer",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

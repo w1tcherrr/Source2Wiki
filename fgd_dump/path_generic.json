@@ -10,6 +10,16 @@
       "PageAnnotation": null,
       "Properties": [],
       "InputOutputs": []
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "path_generic",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [],
+      "InputOutputs": []
     }
   ]
 }

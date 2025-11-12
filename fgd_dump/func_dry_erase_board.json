@@ -1,0 +1,511 @@
+{
+  "Name": "func_dry_erase_board",
+  "Pages": [
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "func_dry_erase_board",
+      "Description": "Dry erase board panel",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Minimum CPU Level",
+          "InternalName": "mincpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (low)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum CPU Level",
+          "InternalName": "maxcpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum GPU Level",
+          "InternalName": "mingpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (very low)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum GPU Level",
+          "InternalName": "maxgpulevel",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "default (high)",
+              "Description": ""
+            },
+            {
+              "Name": "very low",
+              "Description": ""
+            },
+            {
+              "Name": "low",
+              "Description": ""
+            },
+            {
+              "Name": "medium",
+              "Description": ""
+            },
+            {
+              "Name": "high",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable X360",
+          "InternalName": "disableX360",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render Mode",
+          "InternalName": "rendermode",
+          "VariableType": "Choices",
+          "Description": "Used to set a non-standard rendering mode on this entity. See also \u0027FX Amount\u0027 and \u0027FX Color\u0027.",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Color",
+              "Description": ""
+            },
+            {
+              "Name": "Texture",
+              "Description": ""
+            },
+            {
+              "Name": "Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Additive",
+              "Description": ""
+            },
+            {
+              "Name": "Additive Fractional Frame",
+              "Description": ""
+            },
+            {
+              "Name": "World Space Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Dont Render",
+              "Description": ""
+            },
+            {
+              "Name": "Dev Visualizer",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render FX",
+          "InternalName": "renderfx",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Wide Pulse",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Faster Strobe",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Flicker",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Fade Away",
+              "Description": ""
+            },
+            {
+              "Name": "Slow Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Fast Become Solid",
+              "Description": ""
+            },
+            {
+              "Name": "Constant Glow",
+              "Description": ""
+            },
+            {
+              "Name": "Distort",
+              "Description": ""
+            },
+            {
+              "Name": "Hologram (Distort \u002B fade)",
+              "Description": ""
+            },
+            {
+              "Name": "Cull By Distance (TEST)",
+              "Description": ""
+            },
+            {
+              "Name": "Spotlight FX",
+              "Description": ""
+            },
+            {
+              "Name": "Fade Near",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Amount (0 - 255)",
+          "InternalName": "renderamt",
+          "VariableType": "Integer",
+          "Description": "The FX amount is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "FX Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "The FX color is used by the selected Render Mode.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Receiving Shadows",
+          "InternalName": "disablereceiveshadows",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Group",
+          "InternalName": "lightgroup",
+          "VariableType": "String",
+          "Description": "Will only be lit by lights affecting this group.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Fade Dist",
+          "InternalName": "fademindist",
+          "VariableType": "Float",
+          "Description": "Distance at which the overlay starts to fade (\u0026lt;0 = subtract from fademaxdist).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "End Fade Dist",
+          "InternalName": "fademaxdist",
+          "VariableType": "Float",
+          "Description": "Maximum distance at which the overlay is visible (0 = don\u0027t fade out).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Fade Scale",
+          "InternalName": "fadescale",
+          "VariableType": "Float",
+          "Description": "If you specify a fade in the worldspawn, or if the engine is running under low end/medium end/XBox360, then the engine will forcibly fade out props even if fademindist/fademaxdist isn\u0027t specified. This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades. Numbers smaller than 1 cause the prop to fade out at further distances, and greater than 1 cause it to fade out at closer distances.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Render to Cubemaps",
+          "InternalName": "rendertocubemaps",
+          "VariableType": "Bool",
+          "Description": "If true, this geometry renders into baked cube maps",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lightmap Static",
+          "InternalName": "lightmapstatic",
+          "VariableType": "Choices",
+          "Description": "How this geometry influences baked lighting.",
+          "Options": [
+            {
+              "Name": "No",
+              "Description": ""
+            },
+            {
+              "Name": "Yes",
+              "Description": ""
+            },
+            {
+              "Name": "Bounce Only",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Stamp Name",
+          "InternalName": "StampName",
+          "VariableType": "TargetDestination",
+          "Description": "The name of the particles to stamp onto the board at map start.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable Front of Board Check",
+          "InternalName": "DisableFrontOfBoardCheck",
+          "VariableType": "Bool",
+          "Description": "Disables the checks to see if the marker is in front of or behind the board. Use with 1-sided boards.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Alpha",
+          "Description": "Set the sprite\u0027s alpha (0 - 255).",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Color",
+          "Description": "Set the sprite\u0027s color (R G B).",
+          "VariableType": "Color255",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

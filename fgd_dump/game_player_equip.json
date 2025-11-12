@@ -351,6 +351,355 @@
       ]
     },
     {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "game_player_equip",
+      "Description": "An entity that gives equipment to the player who activates it. To use, add new keys to this entity, where each key is the classname of a weapon/item, and the corresponding value is the number of those weapons/items to give to the player who uses this entity. If the \u0027Use Only\u0027 spawnflag isn\u0027t set, then players can just touch this entity to get the equipment.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Use Only",
+              "Description": ""
+            },
+            {
+              "Name": "Strip First",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Team Master (Obsolete)",
+          "InternalName": "master",
+          "VariableType": "String",
+          "Description": "Legacy support: The name of a master entity. If the master hasn\u0027t been activated, this entity will not activate.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon0",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon1",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon2",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon3",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon4",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon5",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon6",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon7",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon8",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon9",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon10",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon11",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon12",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon13",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon14",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon15",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon16",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon17",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon18",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon19",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon20",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Weapon",
+          "InternalName": "weapon21",
+          "VariableType": "String",
+          "Description": "Classname of item to equip, eg \u0027weapon_ak47\u0027.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "TriggerForAllPlayers",
+          "Description": "This will force all connected players to take the weapon(s) specified.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TriggerForActivatedPlayer",
+          "Description": "This will force the player who activated to equip the specified weapon.",
+          "VariableType": "String",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "game_player_equip",

@@ -2,6 +2,146 @@
   "Name": "scripted_sentence",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "scripted_sentence",
+      "Description": "Scripted Sentence",
+      "IconPath": "static/fgd_dump/img/hla/scripted_sentence.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Fire Once",
+              "Description": ""
+            },
+            {
+              "Name": "Followers Only",
+              "Description": ""
+            },
+            {
+              "Name": "Interrupt Speech",
+              "Description": ""
+            },
+            {
+              "Name": "Concurrent",
+              "Description": ""
+            },
+            {
+              "Name": "Speak to Activator",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sentence Name",
+          "InternalName": "sentence",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Speaker Type",
+          "InternalName": "entity",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Additional Sentence Time",
+          "InternalName": "delay",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Radius",
+          "InternalName": "radius",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Delay Before Refire",
+          "InternalName": "refire",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Listener Type",
+          "InternalName": "listener",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Volume 0-10",
+          "InternalName": "volume",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Sound Radius",
+          "InternalName": "attenuation",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Small Radius",
+              "Description": ""
+            },
+            {
+              "Name": "Medium Radius",
+              "Description": ""
+            },
+            {
+              "Name": "Large  Radius",
+              "Description": ""
+            },
+            {
+              "Name": "Play Everywhere",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "BeginSentence",
+          "Description": "Starts the scripted sentence.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBeginSentence",
+          "Description": "Fires when the sentence begins",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnEndSentence",
+          "Description": "Fires when the sentence ends",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "scripted_sentence",

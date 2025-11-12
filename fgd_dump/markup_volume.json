@@ -10,6 +10,16 @@
       "PageAnnotation": null,
       "Properties": [],
       "InputOutputs": []
+    },
+    {
+      "Game": "hla",
+      "EntityType": "Mesh",
+      "Name": "markup_volume",
+      "Description": "Generic markup volume entity, can be queried in-game by name/type/location",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [],
+      "InputOutputs": []
     }
   ]
 }

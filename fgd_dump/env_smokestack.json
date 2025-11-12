@@ -2,6 +2,275 @@
   "Name": "env_smokestack",
   "Pages": [
     {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "env_smokestack",
+      "Description": "An entity that spits out a constant stream of smoke. See particlezoo.vmf for sample usage. You can place up to two env_particlelight entities near the smoke stack to add ambient light to its particles.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Parent",
+          "InternalName": "parentname",
+          "VariableType": "TargetDestination",
+          "Description": "The name of this entity\u0027s parent in the movement hierarchy. Entities with parents move with their parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Parent Bone/Attachment Name",
+          "InternalName": "parentAttachmentName",
+          "VariableType": "ParentAttachment",
+          "Description": "The name of the bone or attachment to attach to on the entity\u0027s parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment. NOTE: If this is specified the Hammer transform will be disregarded, even if \u0027Use Local Transform\u0027 is NOT specified (in that case local transform will be identity)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Local Transform",
+          "InternalName": "useLocalOffset",
+          "VariableType": "Bool",
+          "Description": "Whether to respect the specified local offset when doing the initial hierarchical attachment to its parent.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Origin",
+          "InternalName": "local.origin",
+          "VariableType": "Vector",
+          "Description": "Offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Angles",
+          "InternalName": "local.angles",
+          "VariableType": "Angle",
+          "Description": "Angular offset in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Local Scale",
+          "InternalName": "local.scales",
+          "VariableType": "Vector",
+          "Description": "Scale in the local space of the parent model\u0027s attachment/bone to use in hierarchy. Not used if you are not using parent attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Initial State",
+          "InternalName": "InitialState",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Off",
+              "Description": ""
+            },
+            {
+              "Name": "On",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spread at the base",
+          "InternalName": "BaseSpread",
+          "VariableType": "Integer",
+          "Description": "Amount of random spread in the origins of the smoke particles when they\u0027re spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Spread Speed",
+          "InternalName": "SpreadSpeed",
+          "VariableType": "Integer",
+          "Description": "Amount of random spread in the velocity of the smoke particles after they\u0027re spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Speed",
+          "InternalName": "Speed",
+          "VariableType": "Integer",
+          "Description": "The speed at which the smoke particles move after they\u0027re spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Particle start size",
+          "InternalName": "StartSize",
+          "VariableType": "Integer",
+          "Description": "Size of the smoke particles when they\u0027re first emitted.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Particle end size",
+          "InternalName": "EndSize",
+          "VariableType": "Integer",
+          "Description": "Size of the smoke particles at the point they fade out completely.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Emission rate",
+          "InternalName": "Rate",
+          "VariableType": "Integer",
+          "Description": "Rate at which to emit smoke particles (i.e. particles to emit per second).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Length of smoke trail",
+          "InternalName": "JetLength",
+          "VariableType": "Integer",
+          "Description": "Length of the smokestack. Lifetime of the smoke particles is derived from this \u0026 particle speed.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wind X/Y Angle",
+          "InternalName": "WindAngle",
+          "VariableType": "Integer",
+          "Description": "This specifies the wind direction. It is an angle in the XY plane. WindSpeed specifies the strength of the wind.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Wind Speed",
+          "InternalName": "WindSpeed",
+          "VariableType": "Integer",
+          "Description": "The strength of the wind.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Particle material",
+          "InternalName": "SmokeMaterial",
+          "VariableType": "String",
+          "Description": "Material of the smoke particles emitted by this stack.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Twist",
+          "InternalName": "twist",
+          "VariableType": "Integer",
+          "Description": "The amount, in degrees per second, that the smoke particles twist around the origin.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Roll Speed",
+          "InternalName": "roll",
+          "VariableType": "Float",
+          "Description": "Amount of roll in degrees per second.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Base Color (R G B)",
+          "InternalName": "rendercolor",
+          "VariableType": "Color255",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Translucency",
+          "InternalName": "renderamt",
+          "VariableType": "Integer",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetParent",
+          "Description": "Changes the entity\u0027s parent in the movement hierarchy.",
+          "VariableType": "TargetDestination",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachment",
+          "Description": "Change this entity to attach to a specific attachment point on its parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetParentAttachmentMaintainOffset",
+          "Description": "Change this entity to attach to a specific attachment point on it\u0027s parent. Entities must be parented before being sent this input. The parameter passed in should be the name of the attachment. The entity will maintain it\u0027s position relative to the parent at the time it is attached.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "ClearParent",
+          "Description": "Removes this entity from the the movement hierarchy, leaving it free to move independently.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FollowEntity",
+          "Description": "Bone merges this entity to a parent entity. Call again passing nothing to end the bone merge.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Turn on the smokestack.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Turn off the smokestack.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Toggle",
+          "Description": "Toggles the smokestack between on and off state.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "JetLength",
+          "Description": "Set the length of the smoke trail.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Rate",
+          "Description": "Set the rate at which to emit smoke particles (particles per second).",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Speed",
+          "Description": "Set the speed at which the smoke particles move after they\u0027re spawned.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SpreadSpeed",
+          "Description": "Set the amount of random spread in the velocity of the smoke particles after they\u0027re spawned.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "env_smokestack",

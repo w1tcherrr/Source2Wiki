@@ -1,0 +1,55 @@
+{
+  "Name": "info_player_start_badguys",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "info_player_start_badguys",
+      "Description": "Spawn point for Dire heroes.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Disabled",
+          "InternalName": "Disabled",
+          "VariableType": "Bool",
+          "Description": "If disabled this entity will not be used when picking a location to spawn a player at.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetEnabled",
+          "Description": "Enable this player start location, allowing it to be picked as spawn location for players.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDisabled",
+          "Description": "Disable this player start location, preventing it from being picked as a location where players will spawn.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetEnabledExclusively",
+          "Description": "Enabled this player start location and disable all others.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnEnabled",
+          "Description": "Called when the player start is enabled.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnDisabled",
+          "Description": "Called when the player start is disabled.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    }
+  ]
+}

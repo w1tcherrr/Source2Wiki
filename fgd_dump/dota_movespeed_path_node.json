@@ -1,0 +1,41 @@
+{
+  "Name": "dota_movespeed_path_node",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "dota_movespeed_path_node",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Radius",
+          "InternalName": "radius_scale",
+          "VariableType": "Float",
+          "Description": "Radius",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Move Speed Type",
+          "InternalName": "MoveSpeedType",
+          "VariableType": "Choices",
+          "Description": "The movement speed bonus that the unit receives.",
+          "Options": [
+            {
+              "Name": "Moderate",
+              "Description": ""
+            },
+            {
+              "Name": "Fast",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

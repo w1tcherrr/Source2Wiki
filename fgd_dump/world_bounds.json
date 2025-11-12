@@ -1,0 +1,32 @@
+{
+  "Name": "world_bounds",
+  "Pages": [
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "world_bounds",
+      "Description": "",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Min",
+          "InternalName": "min",
+          "VariableType": "Vecline",
+          "Description": "World min bounds (Z currently ignored).",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Max",
+          "InternalName": "max",
+          "VariableType": "Vecline",
+          "Description": "World max bounds (Z currently ignored).",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    }
+  ]
+}

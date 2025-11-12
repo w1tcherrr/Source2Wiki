@@ -389,6 +389,403 @@
           "Type": "Output"
         }
       ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "snd_opvar_set_auto_room",
+      "Description": "Analyzes a mostly enclosed space and defines walls and doorways within that space. Sets an opvar value on a library stack based on distance from the doorways",
+      "IconPath": "static/fgd_dump/img/dota2/snd_opvar_set_auto_room.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Stack Name",
+          "InternalName": "stackName",
+          "VariableType": "String",
+          "Description": "The name of the stack the operator is in",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Operator Name",
+          "InternalName": "operatorName",
+          "VariableType": "String",
+          "Description": "The name of the operator the OpVar is in",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "OpVar Name",
+          "InternalName": "opvarName",
+          "VariableType": "String",
+          "Description": "The name of the OpVar to change",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Auto Compare",
+          "InternalName": "opvarUseAutoCompare",
+          "VariableType": "Bool",
+          "Description": "All entities that point to the same opvar and have this selected will automatically have their values compared and the largest set to the opvar value",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "OpVar Index",
+          "InternalName": "opvarArrayIndex",
+          "VariableType": "Integer",
+          "Description": "Index of the OpVar array to set",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Distance Map Minimum",
+          "InternalName": "distanceMapMin",
+          "VariableType": "Float",
+          "Description": "Minimum value to map distance to",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Distance Map Maximum",
+          "InternalName": "distanceMapMax",
+          "VariableType": "Float",
+          "Description": "Maximum value to map distance to",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Occlusion Radius",
+          "InternalName": "occlusionRadius",
+          "VariableType": "Float",
+          "Description": "Size of the occlusion sphere",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum Occlusion",
+          "InternalName": "occlusionMin",
+          "VariableType": "Float",
+          "Description": "Occlusion value when fully occluded",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum Occlusion",
+          "InternalName": "occlusionMax",
+          "VariableType": "Float",
+          "Description": "Occlusion value when un-occluded",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Simulation Mode",
+          "InternalName": "simulationMode",
+          "VariableType": "Choices",
+          "Description": "Simulation Mode for occlusion check.",
+          "Options": [
+            {
+              "Name": "Source 2",
+              "Description": ""
+            },
+            {
+              "Name": "Steam Audio Raycast",
+              "Description": ""
+            },
+            {
+              "Name": "Steam Audio Volumetric",
+              "Description": ""
+            },
+            {
+              "Name": "Steam Audio Pathing",
+              "Description": ""
+            },
+            {
+              "Name": "Steam Audio Dynamic Pathing",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Visibility Samples",
+          "InternalName": "visibilitySamples",
+          "VariableType": "Integer",
+          "Description": "Number of samples to use for volumetric occlusion or dynamic pathing.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Set OpVar value when disabled",
+          "InternalName": "setToValueOnDisable",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Set to value on disable",
+          "InternalName": "disabledValue",
+          "VariableType": "Float",
+          "Description": "Value to set the OpVar index to when disabled",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start Disabled",
+          "InternalName": "startDisabled",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Disable when out of range",
+          "InternalName": "autoDisable",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Use Fast Refresh",
+          "InternalName": "entityUseFastRefreshRate",
+          "VariableType": "Bool",
+          "Description": "Entity will run at a faster refresh rate when enabled.  Use sparingly.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Minimum Distance",
+          "InternalName": "distanceMin",
+          "VariableType": "Float",
+          "Description": "Minimum distance to map the OpVar value to",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Maximum Distance",
+          "InternalName": "distanceMax",
+          "VariableType": "Float",
+          "Description": "Maximum distance to map the OpVar value to",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Size (radius)",
+          "InternalName": "size",
+          "VariableType": "Float",
+          "Description": "Size of the room to analyze",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Height Tolerance (units)",
+          "InternalName": "height_tolerance",
+          "VariableType": "Float",
+          "Description": "If the player\u0027s height and the raycast height are within this many units, the difference is ignored when performing distance calculations",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetSoundEventGUID",
+          "Description": "Start the sound event using a snd_event_point and pass its guid output to this.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetStackName",
+          "Description": "Change the target stack name",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetOperatorName",
+          "Description": "Change the target operator name",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetOpvarName",
+          "Description": "Change the target opvar name",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetOpvarIndex",
+          "Description": "Change the target opvar index",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "Enable",
+          "Description": "Enable the entity",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Disable",
+          "Description": "Disable the entity",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDisabledValue",
+          "Description": "Set the on-disable value for the player that causes this input",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDistanceMapMin",
+          "Description": "Set the min distance map value",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetDistanceMapMax",
+          "Description": "Set the max distance map value",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnEnter",
+          "Description": "Fired when the player enters the outer distance.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnExit",
+          "Description": "Fired when the player exits the outer distance.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
     }
   ]
 }

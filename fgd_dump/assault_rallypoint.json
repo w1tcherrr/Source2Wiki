@@ -2,6 +2,80 @@
   "Name": "assault_rallypoint",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "assault_rallypoint",
+      "Description": "(Assault) rally point",
+      "IconPath": "static/fgd_dump/img/hla/assault_rallypoint.png",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Assault Point",
+          "InternalName": "assaultpoint",
+          "VariableType": "TargetDestination",
+          "Description": "Location to move to as assault begins",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Assault Delay",
+          "InternalName": "assaultdelay",
+          "VariableType": "Float",
+          "Description": "How long to wait after cue is given before assault begins.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Rally Sequence",
+          "InternalName": "rallysequence",
+          "VariableType": "String",
+          "Description": "Override the NPC\u0027s wait activity by entering a sequence name.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Priority",
+          "InternalName": "priority",
+          "VariableType": "Integer",
+          "Description": "Higher priority rally points get selected first.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Force Crouch",
+          "InternalName": "forcecrouch",
+          "VariableType": "Bool",
+          "Description": "NPCs using this assault point are forced into crouching while holding it.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Urgent",
+          "InternalName": "urgent",
+          "VariableType": "Bool",
+          "Description": "If true, NPCs will consider movement to this rally point as Urgent Navigation.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Lock Point",
+          "InternalName": "lockpoint",
+          "VariableType": "Bool",
+          "Description": "Should this point be locked by a character using it.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "OnArrival",
+          "Description": "Fires when the NPC reaches this rally point",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "assault_rallypoint",

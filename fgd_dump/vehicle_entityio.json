@@ -672,6 +672,678 @@
           "Type": "Output"
         }
       ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "vehicle_entityio",
+      "Description": "Vehicle which does nothing but fire outputs based on IN_BUTTONS, typically used for prototyping.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Global Entity Name",
+          "InternalName": "globalname",
+          "VariableType": "String",
+          "Description": "Name by which this entity is linked to another entity in a different map. When the player transitions to a new map, entities in the new map with globalnames matching entities in the previous map will have the previous map\u0027s state copied over their state.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Vehicle Subclass",
+          "InternalName": "subclass_name",
+          "VariableType": "SubclassChoice",
+          "Description": "Subclass of the Vehicle.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Start locked",
+          "InternalName": "vehicle_locked",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 1",
+          "InternalName": "button1",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button1-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 2",
+          "InternalName": "button2",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button2-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 3",
+          "InternalName": "button3",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button3-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 4",
+          "InternalName": "button4",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button4-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 5",
+          "InternalName": "button5",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button5-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 6",
+          "InternalName": "button6",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button6-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 7",
+          "InternalName": "button7",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button7-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Button 8",
+          "InternalName": "button8",
+          "VariableType": "Choices",
+          "Description": "The button which fires the Button8-related outputs.",
+          "Options": [
+            {
+              "Name": "IN_NONE",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_JUMP",
+              "Description": ""
+            },
+            {
+              "Name": "IN_DUCK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_FORWARD",
+              "Description": ""
+            },
+            {
+              "Name": "IN_BACK",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVELEFT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_MOVERIGHT",
+              "Description": ""
+            },
+            {
+              "Name": "IN_ATTACK2",
+              "Description": ""
+            },
+            {
+              "Name": "IN_RELOAD",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PassengerEntered",
+          "Description": "Passenger entered the vehicle (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "PassengerExited",
+          "Description": "Passenger exited the vehicle (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "Lock",
+          "Description": "Prevent passengers from entering or exiting the vehicle.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Unlock",
+          "Description": "Re-allow passengers to enter or exit the vehicle.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnButtonStart1",
+          "Description": "Passenger started hitting button 1 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd1",
+          "Description": "Passenger stopped hitting button 1 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart2",
+          "Description": "Passenger started hitting button 1 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd2",
+          "Description": "Passenger stopped hitting button 2 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart3",
+          "Description": "Passenger started hitting button 3 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd3",
+          "Description": "Passenger stopped hitting button 3 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart4",
+          "Description": "Passenger started hitting button 4 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd4",
+          "Description": "Passenger stopped hitting button 4 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart5",
+          "Description": "Passenger started hitting button 5 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd5",
+          "Description": "Passenger stopped hitting button 5 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart6",
+          "Description": "Passenger started hitting button 6 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd6",
+          "Description": "Passenger stopped hitting button 6 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart7",
+          "Description": "Passenger started hitting button 7 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd7",
+          "Description": "Passenger stopped hitting button 7 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonStart8",
+          "Description": "Passenger started hitting button 8 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnButtonEnd8",
+          "Description": "Passenger stopped hitting button 8 (argument is passenger index)",
+          "VariableType": "Integer",
+          "Type": "Output"
+        }
+      ]
     }
   ]
 }

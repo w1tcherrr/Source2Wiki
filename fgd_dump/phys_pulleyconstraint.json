@@ -296,6 +296,568 @@
       ]
     },
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "phys_pulleyconstraint",
+      "Description": "A constraint that is essentially two length constraints and two points. Imagine it as a virtual rope connected to two objects, each suspended from a pulley above them.The constraint keeps the sum of the distances between the pulley points and their suspended objects constant.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No Collision until break",
+              "Description": ""
+            },
+            {
+              "Name": "Start inactive",
+              "Description": ""
+            },
+            {
+              "Name": "Change mass to keep stable attachment to world",
+              "Description": ""
+            },
+            {
+              "Name": "Do not connect entities until turned on",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 1",
+          "InternalName": "attach1",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 2",
+          "InternalName": "attach2",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Impulse Limit to Break (kg)",
+          "InternalName": "forcelimit",
+          "VariableType": "Float",
+          "Description": "The amount of impulse an impact must apply to the constraint to break it. A way of calculating this is to set it to the mass of an object that would break this constraint if it were resting on the constrainted objects.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Angular Impulse Limit to Break (kg * distance)",
+          "InternalName": "torquelimit",
+          "VariableType": "Float",
+          "Description": "The amount of angular impulse required to break the constraint. A way of calculating this is to multiply any reference mass by the resting distance (from the center of mass of the object) needed to break the constraint.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Play Sound on Break",
+          "InternalName": "breaksound",
+          "VariableType": "Sound",
+          "Description": "A sound played when the constraint is broken.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Follow teleport distance",
+          "InternalName": "teleportfollowdistance",
+          "VariableType": "Float",
+          "Description": "If one object teleports more than this many units away it will cause the other constrained object to teleport to an appropriate relative position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Additional Length",
+          "InternalName": "addlength",
+          "VariableType": "Float",
+          "Description": "Add (or subtract) this amount to the rest length of the pulley rope.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pulley Gear Ratio",
+          "InternalName": "gearratio",
+          "VariableType": "Float",
+          "Description": "Add (or subtract) this amount to the rest length of the pulley rope.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pulley Position 2",
+          "InternalName": "position2",
+          "VariableType": "Vecline",
+          "Description": "The position of the pulley for Entity 2. The pulley for Entity 1 is the origin of this constraint entity. Entity 1 is always suspended from pulley point 1, and Entity 2 is always suspended from pulley point 2.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No Collision until break",
+              "Description": ""
+            },
+            {
+              "Name": "Keep Rigid",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Break",
+          "Description": "Force the constraint to break.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Enable the constraint.  Do this when the objects don\u0027t exist when the constraint spawns - or when you have deactivated the constraint.  Broken constraints can NOT be turned on.  They have been deleted.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Disable this constraint.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBreak",
+          "Description": "Fired when the constraint breaks.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "phys_pulleyconstraint",
+      "Description": "A constraint that is essentially two length constraints and two points. Imagine it as a virtual rope connected to two objects, each suspended from a pulley above them.The constraint keeps the sum of the distances between the pulley points and their suspended objects constant.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No Collision until break",
+              "Description": ""
+            },
+            {
+              "Name": "Start inactive",
+              "Description": ""
+            },
+            {
+              "Name": "Do not connect entities until turned on",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 1",
+          "InternalName": "attach1",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 2",
+          "InternalName": "attach2",
+          "VariableType": "TargetDestination",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 1 Attachment Name",
+          "InternalName": "attachment1",
+          "VariableType": "String",
+          "Description": "If set, we\u0027ll attach to the body / location corresponding to this attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity 2 Attachment Name",
+          "InternalName": "attachment2",
+          "VariableType": "String",
+          "Description": "If set, we\u0027ll attach to the body / location corresponding to this attachment.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Impulse Limit to Break (kg)",
+          "InternalName": "forcelimit",
+          "VariableType": "Float",
+          "Description": "The amount of impulse an impact must apply to the constraint to break it. A way of calculating this is to set it to the mass of an object that would break this constraint if it were resting on the constrainted objects.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Angular Impulse Limit to Break (kg * distance)",
+          "InternalName": "torquelimit",
+          "VariableType": "Float",
+          "Description": "The amount of angular impulse required to break the constraint. A way of calculating this is to multiply any reference mass by the resting distance (from the center of mass of the object) needed to break the constraint.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Play Sound on Break",
+          "InternalName": "breaksound",
+          "VariableType": "Sound",
+          "Description": "A sound played when the constraint is broken.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Follow teleport distance",
+          "InternalName": "teleportfollowdistance",
+          "VariableType": "Float",
+          "Description": "If one object teleports more than this many units away it will cause the other constrained object to teleport to an appropriate relative position.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Treat Entity 1 As Infinite Mass",
+          "InternalName": "treat_entity1_as_infinite_mass",
+          "VariableType": "Bool",
+          "Description": "If true, the joint will not affect the motion of Entity 1. Entity 2 will just follow Entity 1.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Additional Length",
+          "InternalName": "addlength",
+          "VariableType": "Float",
+          "Description": "Add (or subtract) this amount to the rest length of the pulley rope.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pulley Gear Ratio",
+          "InternalName": "gearratio",
+          "VariableType": "Float",
+          "Description": "Add (or subtract) this amount to the rest length of the pulley rope.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Pulley Position 2",
+          "InternalName": "position2",
+          "VariableType": "Vecline",
+          "Description": "The position of the pulley for Entity 2. The pulley for Entity 1 is the origin of this constraint entity. Entity 1 is always suspended from pulley point 1, and Entity 2 is always suspended from pulley point 2.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "",
+          "InternalName": "spawnflags",
+          "VariableType": "Flags",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "No Collision until break",
+              "Description": ""
+            },
+            {
+              "Name": "Keep Rigid",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "Break",
+          "Description": "Force the constraint to break.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOn",
+          "Description": "Enable the constraint.  Do this when the objects don\u0027t exist when the constraint spawns - or when you have deactivated the constraint.  Broken constraints can NOT be turned on.  They have been deleted.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "TurnOff",
+          "Description": "Disable this constraint.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnBreak",
+          "Description": "Fired when the constraint breaks.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "phys_pulleyconstraint",

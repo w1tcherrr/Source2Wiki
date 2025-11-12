@@ -2,6 +2,94 @@
   "Name": "env_cubemap",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "env_cubemap",
+      "Description": "Cubemap for sampling indirect specular reflection.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Priority",
+          "InternalName": "indoor_outdoor_level",
+          "VariableType": "Choices",
+          "Description": "If multiple volumes contain an object, the highest priority volume takes precedence.",
+          "Options": [
+            {
+              "Name": "Lowest",
+              "Description": ""
+            },
+            {
+              "Name": "Low",
+              "Description": ""
+            },
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "High",
+              "Description": ""
+            },
+            {
+              "Name": "Highest",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Cubemap Texture",
+          "InternalName": "cubemaptexture",
+          "VariableType": "Resource",
+          "Description": "Name of the cubemap texture",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bake Near Z",
+          "InternalName": "bakenearz",
+          "VariableType": "Float",
+          "Description": "Near clip plane used for the camera when baking the cube map",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Bake Far Z",
+          "InternalName": "bakefarz",
+          "VariableType": "Float",
+          "Description": "Far clip plane used for the camera when baking the cube map",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Group",
+          "InternalName": "lightgroup",
+          "VariableType": "String",
+          "Description": "Semicolon-delimited list of light groups to affect",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Moveable",
+          "InternalName": "moveable",
+          "VariableType": "Bool",
+          "Description": "Can be moved, parented, enabled, or disabled at runtime.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Influence Radius",
+          "InternalName": "influenceradius",
+          "VariableType": "Float",
+          "Description": "The radius of influence for this cubemap",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "env_cubemap",

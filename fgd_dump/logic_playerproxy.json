@@ -260,6 +260,732 @@
       ]
     },
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "logic_playerproxy",
+      "Description": "An entity that is used to relay inputs/ouputs to the player and back to the world.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Damage Filter",
+          "InternalName": "damagefilter",
+          "VariableType": "TargetDestination",
+          "Description": "Name of the filter entity that controls which entities can damage us.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetDamageFilter",
+          "Description": "Sets the entity to use as damage filter. Pass in an empty string to clear the damage filter.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartSlowingTime",
+          "Description": "Fired when a Portal player initiates slow time.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStopSlowingTime",
+          "Description": "Fired when a Portal player stops slowing time.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFlashlightOn",
+          "Description": "Fired when the player turns on his flashlight. This output has the value of how much energy the player had when this happened [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFlashlightOff",
+          "Description": "Fired when the player turns off his flashlight. This output has the value of how much energy the player had when this happened [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "RequestPlayerHealth",
+          "Description": "Requests the current player\u0027s health from the proxy. This will fire the PlayerHealth output with the value.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerHealth",
+          "Description": "The player\u0027s current health value.",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerMissedAR2AltFire",
+          "Description": "Player fired an AR2 combine ball that didn\u0027t kill any enemies.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetFlashlightSlowDrain",
+          "Description": "Puts the player\u0027s flashlight in slow-power-drain mode (for Episodic darkness)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashlightNormalDrain",
+          "Description": "Puts the player\u0027s flashlight to default power drain",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetPlayerHealth",
+          "Description": "Sets the player\u0027s health to this value.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "RequestAmmoState",
+          "Description": "Request the ammo state of the player. It will fire PlayerHasAmmo or PlayerHasNoAmmo outputs.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerHasAmmo",
+          "Description": "Fired by request if the player has any ammo.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerHasNoAmmo",
+          "Description": "Fired by request if the player doesn\u0027t have any ammo.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerDied",
+          "Description": "Fires when the player dies.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "LowerWeapon",
+          "Description": "Lowers the players weapon.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableCappedPhysicsDamage",
+          "Description": "Cause player to take less damage from physics objects, and never more than 30 points from any individual strike.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableCappedPhysicsDamage",
+          "Description": "Undo effects of EnableCappedPhysicsDamage",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetLocatorTargetEntity",
+          "Description": "Set the entity that the HUD locator should track. (Usually a vehicle)",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashlightEnable",
+          "Description": "Enable the flashlight",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashlightDisable",
+          "Description": "Turn off the flashlight over specified duration",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashlightFlicker",
+          "Description": "Make the flashlight flicker for the specified amount of time (max 10 seconds)",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashglihtBrightness",
+          "Description": "Set the brightness level of the flashlight to the specified level (value should be between 0..1). It will adjust itself to the new brightness over time.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "HapticPulseLeftHand",
+          "Description": "Pulse the left hand, value is number of seconds. We use this for \u0027job to do\u0027 emphasis.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "HapticPulseHands",
+          "Description": "Pulse the hands, value is number of seconds.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetGlovesGordon",
+          "Description": "Switch to the Gordon glove models",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetGlovesAlyx",
+          "Description": "Switch to the Alyx glove models",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetMuzzleFlashEmitLightEnable",
+          "Description": "Enable or disable muzzle flashes emitting light when the player doesn\u0027t have the flashlight",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "TestWeaponActive",
+          "Description": "Fires the OnWeaponActive output if the player currently has a weapon drawn, otherwise fires the OnWeaponNotActive output.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFullPlayerHealthOverTime",
+          "Description": "Set the player health to max value over time, value is number of seconds.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetTeleportFlipped",
+          "Description": "Invert the player teleport arc.",
+          "VariableType": "Bool",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetCanAttackEnable",
+          "Description": "Allow the player to attack again",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetCanAttackDisable",
+          "Description": "Prevent the player from attacking",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "CheckWearingHat",
+          "Description": "Test to see if the player is wearing a hat. Will fire either of the OutPlayerIsWearingHat/OutPlayerIsNotWearingHat outputs.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetReceivedDamageScale",
+          "Description": "Scale the damage taken by the player by the specified amount. Set it back to 1 to clear it.",
+          "VariableType": "Float",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetPreventSaving",
+          "Description": "Set to prevent the player from bringing up the Game Menu",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetEnableSaving",
+          "Description": "Restore the Ability for Players to bring up the Game Menu",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetHUDEnable",
+          "Description": "Enable 2D HUD",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetHUDDisable",
+          "Description": "Disable 2D HUD",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "CheckPlayerHasVodkaBottleInWristPocket",
+          "Description": "Test to see if the player has a vodka bottle in either of their wrist pockets. Will fire OnPlayerHasOneVodkaBottleInWristPocket or OnPlayerHasTwoVodkaBottlesInWristPockets if true.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnPlayerCoughed",
+          "Description": "Fired any time Alyx coughs due to the Xen coughers. Does not fire if the cough is suppressed by the player\u0027s hand.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnWeaponActive",
+          "Description": "Fired in response to the TestWeaponActive input if the player has a weapon drawn.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnWeaponNotActive",
+          "Description": "Fired in response to the TestWeaponActive input if the player does not have a weapon drawn.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerCoverMouth",
+          "Description": "Fired in response to the player covering their mouth.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerUncoverMouth",
+          "Description": "Fired in response to the player uncovering their mouth.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerHitBySpit",
+          "Description": "Fired when the player is hit by an antlion worker spit projectile.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnVortEnergyAcquiredPrimaryHand",
+          "Description": "Fired when the player\u0027s primary hand is charged with vort energy.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnVortEnergyReleasedPrimaryHand",
+          "Description": "Fired when vort energy is removed from the player\u0027s primary hand.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnVortEnergyAcquiredOffHand",
+          "Description": "Fired when the player\u0027s off hand is charged with vort energy.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnVortEnergyReleasedOffHand",
+          "Description": "Fired when vort energy is removed from the player\u0027s off hand.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerTeleported",
+          "Description": "Fired when player teleports.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OutPlayerIsWearingHat",
+          "Description": "Fired in response to the CheckWearingHat input, if the player is wearing a hat. Parameter will be the hat model name.",
+          "VariableType": "String",
+          "Type": "Output"
+        },
+        {
+          "Name": "OutPlayerIsNotWearingHat",
+          "Description": "Fired in response to the CheckWearingHat input, if the player is not wearing a hat.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerHasOneVodkaBottleInWristPocket",
+          "Description": "Fired in response to CheckPlayerHasVodkaBottleInWristPocket, if there is a single vodka bottle in the wrist pockets.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnPlayerHasTwoVodkaBottlesInWristPockets",
+          "Description": "Fired in response to CheckPlayerHasVodkaBottleInWristPocket, if there are two vodka bottle in the wrist pockets.",
+          "VariableType": "Void",
+          "Type": "Output"
+        }
+      ]
+    },
+    {
+      "Game": "dota2",
+      "EntityType": "Point",
+      "Name": "logic_playerproxy",
+      "Description": "An entity that is used to relay inputs/ouputs to the player and back to the world.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Damage Filter",
+          "InternalName": "damagefilter",
+          "VariableType": "TargetDestination",
+          "Description": "Name of the filter entity that controls which entities can damage us.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Entity Scripts",
+          "InternalName": "vscripts",
+          "VariableType": "ScriptList",
+          "Description": "Name(s) of script files that are executed after all entities have spawned.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name",
+          "InternalName": "targetname",
+          "VariableType": "TargetSource",
+          "Description": "The name that other entities refer to this entity by.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "SetDamageFilter",
+          "Description": "Sets the entity to use as damage filter. Pass in an empty string to clear the damage filter.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptFile",
+          "Description": "Load and execute a script file",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "RunScriptCode",
+          "Description": "Execute a fragment of script code",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallScriptFunction",
+          "Description": "Call a script function",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallPrivateScriptFunction",
+          "Description": "Calls a script function from this entity\u0027s private script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "CallGlobalScriptFunction",
+          "Description": "Calls a script function in the global script scope.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillHierarchy",
+          "Description": "Removes this entity and all its children from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "KillConstrained",
+          "Description": "Removes this entity, all its children, and anything constrained to it, from the world.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "AddOutput",
+          "Description": "Adds an entity I/O connection to this entity. Parameter format: outputname\u0026gt;targetname\u003Einputname\u0026gt;parameter\u0026gt;delay\u0026gt;max times to fire (-1 == infinite). Very dangerous, use with care.",
+          "VariableType": "String",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser1",
+          "Description": "Causes this entity\u0027s OnUser1 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser2",
+          "Description": "Causes this entity\u0027s OnUser2 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser3",
+          "Description": "Causes this entity\u0027s OnUser3 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "FireUser4",
+          "Description": "Causes this entity\u0027s OnUser4 output to be fired.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "OnUser1",
+          "Description": "Fired in response to FireUser1 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser2",
+          "Description": "Fired in response to FireUser2 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser3",
+          "Description": "Fired in response to FireUser3 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnUser4",
+          "Description": "Fired in response to FireUser4 input.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnKilled",
+          "Description": "Fired when the entity is killed and removed from the game. Parameter is the inflictor.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStartSlowingTime",
+          "Description": "Fired when a Portal player initiates slow time.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnStopSlowingTime",
+          "Description": "Fired when a Portal player stops slowing time.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFlashlightOn",
+          "Description": "Fired when the player turns on his flashlight. This output has the value of how much energy the player had when this happened [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "OnFlashlightOff",
+          "Description": "Fired when the player turns off his flashlight. This output has the value of how much energy the player had when this happened [0..1].",
+          "VariableType": "Float",
+          "Type": "Output"
+        },
+        {
+          "Name": "RequestPlayerHealth",
+          "Description": "Requests the current player\u0027s health from the proxy. This will fire the PlayerHealth output with the value.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerHealth",
+          "Description": "The player\u0027s current health value.",
+          "VariableType": "Integer",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerMissedAR2AltFire",
+          "Description": "Player fired an AR2 combine ball that didn\u0027t kill any enemies.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "SetFlashlightSlowDrain",
+          "Description": "Puts the player\u0027s flashlight in slow-power-drain mode (for Episodic darkness)",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetFlashlightNormalDrain",
+          "Description": "Puts the player\u0027s flashlight to default power drain",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetPlayerHealth",
+          "Description": "Sets the player\u0027s health to this value.",
+          "VariableType": "Integer",
+          "Type": "Input"
+        },
+        {
+          "Name": "RequestAmmoState",
+          "Description": "Request the ammo state of the player. It will fire PlayerHasAmmo or PlayerHasNoAmmo outputs.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "PlayerHasAmmo",
+          "Description": "Fired by request if the player has any ammo.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerHasNoAmmo",
+          "Description": "Fired by request if the player doesn\u0027t have any ammo.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "PlayerDied",
+          "Description": "Fires when the player dies.",
+          "VariableType": "Void",
+          "Type": "Output"
+        },
+        {
+          "Name": "LowerWeapon",
+          "Description": "Lowers the players weapon.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "EnableCappedPhysicsDamage",
+          "Description": "Cause player to take less damage from physics objects, and never more than 30 points from any individual strike.",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "DisableCappedPhysicsDamage",
+          "Description": "Undo effects of EnableCappedPhysicsDamage",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "SetLocatorTargetEntity",
+          "Description": "Set the entity that the HUD locator should track. (Usually a vehicle)",
+          "VariableType": "String",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "logic_playerproxy",

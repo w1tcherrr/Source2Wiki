@@ -144,6 +144,156 @@
       "InputOutputs": []
     },
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "env_light_probe_volume",
+      "Description": "A grid of precomputed light probes.",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Priority",
+          "InternalName": "indoor_outdoor_level",
+          "VariableType": "Choices",
+          "Description": "If multiple volumes contain an object, the highest priority volume takes precedence.",
+          "Options": [
+            {
+              "Name": "Lowest",
+              "Description": ""
+            },
+            {
+              "Name": "Low",
+              "Description": ""
+            },
+            {
+              "Name": "Normal",
+              "Description": ""
+            },
+            {
+              "Name": "High",
+              "Description": ""
+            },
+            {
+              "Name": "Highest",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Probe Texture",
+          "InternalName": "lightprobetexture",
+          "VariableType": "Resource",
+          "Description": "Name of the light probe texture",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Box Mins",
+          "InternalName": "box_mins",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Box Maxs",
+          "InternalName": "box_maxs",
+          "VariableType": "Vector",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Voxel Size",
+          "InternalName": "voxel_size",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Very High Resolution",
+              "Description": ""
+            },
+            {
+              "Name": "High Resolution",
+              "Description": ""
+            },
+            {
+              "Name": "Medium Resolution",
+              "Description": ""
+            },
+            {
+              "Name": "Low Resolution",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Unreachable Space",
+          "InternalName": "flood_fill",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Ignore Voxelized Solid Space",
+          "InternalName": "voxelize",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Calculate Diffuse Lighting Using Cubemap",
+          "InternalName": "light_probe_volume_from_cubemap",
+          "VariableType": "Bool",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Light Group",
+          "InternalName": "lightgroup",
+          "VariableType": "String",
+          "Description": "Semicolon-delimited list of light groups to affect",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Moveable",
+          "InternalName": "moveable",
+          "VariableType": "Bool",
+          "Description": "Can be moved, parented, enabled, or disabled at runtime.",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Storage",
+          "InternalName": "storage",
+          "VariableType": "Choices",
+          "Description": "",
+          "Options": [
+            {
+              "Name": "Default",
+              "Description": ""
+            },
+            {
+              "Name": "AmbientCube RGBM8888 Uncompressed",
+              "Description": ""
+            },
+            {
+              "Name": "AmbientCube RGBMDXT5 Compressed",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": []
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "env_light_probe_volume",

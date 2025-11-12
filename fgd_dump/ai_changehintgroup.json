@@ -2,6 +2,83 @@
   "Name": "ai_changehintgroup",
   "Pages": [
     {
+      "Game": "hla",
+      "EntityType": "Point",
+      "Name": "ai_changehintgroup",
+      "Description": "Change Hint Group",
+      "IconPath": "",
+      "PageAnnotation": null,
+      "Properties": [
+        {
+          "FriendlyName": "Search Type",
+          "InternalName": "SearchType",
+          "VariableType": "Choices",
+          "Description": "How to search for the entities to change.",
+          "Options": [
+            {
+              "Name": "Entity Name",
+              "Description": ""
+            },
+            {
+              "Name": "Classname",
+              "Description": ""
+            },
+            {
+              "Name": "Old Hint Group",
+              "Description": ""
+            }
+          ],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Name to search for",
+          "InternalName": "SearchName",
+          "VariableType": "TargetNameOrClass",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "New Hint Group",
+          "InternalName": "NewHintGroup",
+          "VariableType": "String",
+          "Description": "",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Search Radius",
+          "InternalName": "Radius",
+          "VariableType": "String",
+          "Description": "Radius to search (0 for all of map)",
+          "Options": [],
+          "Annotations": []
+        },
+        {
+          "FriendlyName": "Hint Limit Nav",
+          "InternalName": "hintlimiting",
+          "VariableType": "Bool",
+          "Description": "Limits NPC to using specified hint group for navigation requests, does not limit local navigation.",
+          "Options": [],
+          "Annotations": []
+        }
+      ],
+      "InputOutputs": [
+        {
+          "Name": "Kill",
+          "Description": "Removes this entity from the world",
+          "VariableType": "Void",
+          "Type": "Input"
+        },
+        {
+          "Name": "Activate",
+          "Description": "Change the Hint Group",
+          "VariableType": "Void",
+          "Type": "Input"
+        }
+      ]
+    },
+    {
       "Game": "steamvr",
       "EntityType": "Point",
       "Name": "ai_changehintgroup",
