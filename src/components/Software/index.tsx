@@ -94,6 +94,7 @@ const GetSoftwareHtml = (softwateInfo: SoftwareInfo, {
       <span 
         style={{ 
           backgroundColor: overlayColor,
+	  borderRadius: '6px',
           paddingRight: '0.2rem',
           paddingLeft: '0.2rem',
           display: 'inline-flex', 
