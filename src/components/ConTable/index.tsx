@@ -31,6 +31,22 @@ const ConTable: React.FC<ConTableProps> = ({ game }) => {
         return null;
     }
   };
+
+  const getFormattedFlags = (flags: string[]) : string =>{
+    let returnString = "";
+    
+    for (let index = 0; index < flags.length; index++) {
+      
+      returnString += `${flags[index].trim()}`
+      
+      if(index < flags.length - 1)
+      {
+        returnString += " | "
+      }
+    }
+
+    return returnString;
+  }
   
   const conData: ConEntry[] = useMemo(() => getConDataForGame(game), [game]);;
   const [searchTerm, setSearchTerm] = useState('');
@@ -49,7 +65,7 @@ const ConTable: React.FC<ConTableProps> = ({ game }) => {
   }, [conData, searchTerm]);
 
   return (
-    <div className={styles.entityTableContainer}>
+    <div className={styles.table}>
       <div className={styles.searchBox}>
         <input 
           className={clsx("navbar__search-input", styles.input)} 
@@ -78,15 +94,26 @@ const ConTable: React.FC<ConTableProps> = ({ game }) => {
               </tr>
             </thead>
             <tbody>
-              {filteredConData.map((entity, index) => {
+              {filteredConData.map((conData, index) => {
                 return (
                   <tr key={index} className={styles.clickableRow}>
+                    
                     <td>
-                       <code className={styles.code} dangerouslySetInnerHTML={{ __html: entity.Name }}/>
+                       <code className={styles.code} dangerouslySetInnerHTML={{ __html: conData.Name }}/>
                     </td>
-                    <td dangerouslySetInnerHTML={{ __html: entity.Description }} />
-                    <td dangerouslySetInnerHTML={{ __html: entity.DefaultValue }} />
-                    <td dangerouslySetInnerHTML={{ __html: entity.flags }} />
+
+                    <td dangerouslySetInnerHTML={{ __html: conData.Description }} />
+
+                    <td>
+                       <code className={styles.code} dangerouslySetInnerHTML={{ __html: conData.DefaultValue }}/>
+                    </td>
+                    
+                    {
+                      conData.flags.length > 0 ? <td> <code className={styles.code} dangerouslySetInnerHTML={{ __html: getFormattedFlags(conData.flags)}}/> </td>
+                                               :
+                                                 <td dangerouslySetInnerHTML={{ __html: getFormattedFlags(conData.flags)}}/>
+                    }
+                    
                   </tr>
                 );
               })}
