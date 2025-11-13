@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  vertical-align: top;
+  padding: 8px;
+  max-width: 0;
+}
+
+/* need to set specific widths for each column otherwise its shit */
+.table th:nth-child(1), /* name */
+.table td:nth-child(1) {
+  width: 15%;
+  min-width: 300px;
+}
+
+.table th:nth-child(2), /* description */
+.table td:nth-child(2) {
+  width: 75%;
+  min-width: 400px;
+}
+
+.table th:nth-child(3), /* defaultValue */
+.table td:nth-child(3) {
+  width: 5%;
+  min-width: 100px;
+}
+
+.table th:nth-child(4), /* flags */
+.table td:nth-child(4) {
+  width: 5%;
+  min-width: 100px;
+}
+
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  flex-wrap: wrap;
+  background-color: var(--ifm-background-color);
+}
+
+.code {
+  padding: 0.2rem 0.4rem;
+}
