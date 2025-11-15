@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "prestart": "npm install",
-    "start": "EntityPageTools.exe --root ./ --generate_mdx --no_listen && start /b EntityPageTools.exe --root ./ --generate_mdx & docusaurus start",
+    "start": "WikiPageTools.exe --root ./ --generate_mdx --no_listen && start /b WikiPageTools.exe --root ./ --generate_mdx & docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
