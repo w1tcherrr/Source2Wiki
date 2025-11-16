@@ -17,7 +17,8 @@
           "Options": [
             {
               "Name": "Not solid",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []

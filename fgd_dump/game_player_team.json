@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Remove On fire",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Kill Player",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Gib Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

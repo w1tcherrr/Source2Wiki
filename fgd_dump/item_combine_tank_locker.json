@@ -377,23 +377,28 @@
           "Options": [
             {
               "Name": "Ease-in, ease-out",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Ease-in only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Ease-out only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Bounce",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Lerp",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -542,15 +547,18 @@
           "Options": [
             {
               "Name": "0",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

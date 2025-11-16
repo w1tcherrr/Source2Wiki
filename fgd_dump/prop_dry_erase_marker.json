@@ -73,31 +73,38 @@
           "Options": [
             {
               "Name": "Round Tip",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Chisel Tip",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Chalk",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Dirty",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Dried Out",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Eraser",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Square Eraser",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []

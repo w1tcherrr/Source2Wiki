@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -360,11 +362,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

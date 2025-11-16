@@ -89,11 +89,13 @@
           "Options": [
             {
               "Name": "AABB (use Mins/Maxs)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Spherical Cap (use Angles and Radii)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

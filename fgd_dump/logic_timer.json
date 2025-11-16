@@ -41,7 +41,8 @@
           "Options": [
             {
               "Name": "Oscillator (alternates between OnTimerHigh and OnTimerLow outputs)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -336,7 +337,8 @@
           "Options": [
             {
               "Name": "Oscillator (alternates between OnTimerHigh and OnTimerLow outputs)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -617,7 +619,8 @@
           "Options": [
             {
               "Name": "Oscillator (alternates between OnTimerHigh and OnTimerLow outputs)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -912,7 +915,8 @@
           "Options": [
             {
               "Name": "Oscillator (alternates between OnTimerHigh and OnTimerLow outputs)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

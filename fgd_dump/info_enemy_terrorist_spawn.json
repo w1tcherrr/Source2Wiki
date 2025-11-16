@@ -73,15 +73,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Vest and Helmet",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Heavy Armor",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -102,19 +105,23 @@
           "Options": [
             {
               "Name": "Defend Camp",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Hunt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Charge Enemy",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Defend Investigate",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

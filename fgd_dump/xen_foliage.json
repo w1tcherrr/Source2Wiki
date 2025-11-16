@@ -145,11 +145,13 @@
           "Options": [
             {
               "Name": "Killable",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Unkillable",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

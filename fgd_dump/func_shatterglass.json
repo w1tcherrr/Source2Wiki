@@ -153,23 +153,28 @@
           "Options": [
             {
               "Name": "Bullet",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Melee",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Thrown",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Explosive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -214,11 +219,13 @@
           "Options": [
             {
               "Name": "Glass",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Concrete",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -425,19 +432,23 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -578,23 +589,28 @@
           "Options": [
             {
               "Name": "Bullet",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Melee",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Thrown",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Explosive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -981,23 +997,28 @@
           "Options": [
             {
               "Name": "Bullet",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Melee",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Thrown",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Explosive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1042,11 +1063,13 @@
           "Options": [
             {
               "Name": "Glass",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Concrete",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

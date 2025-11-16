@@ -145,7 +145,8 @@
           "Options": [
             {
               "Name": "Visible only from front",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

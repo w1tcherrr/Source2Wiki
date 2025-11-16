@@ -25,51 +25,63 @@
           "Options": [
             {
               "Name": "Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Projectiles",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics Objects",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Only player ally NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Only clients in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Everything (not including physics debris)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Only clients *not* in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Physics debris",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Only NPCs in vehicles (respects player ally flag)",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Touch objects in the trigger\u0027s hierarchy",
-              "Description": ""
+              "Description": "",
+              "Key": "268435456"
             }
           ],
           "Annotations": []
@@ -186,91 +198,113 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "CHEMICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             },
             {
               "Name": "DISSOLVE",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             },
             {
               "Name": "SPORE",
-              "Description": ""
+              "Description": "",
+              "Key": "1114112"
             }
           ],
           "Annotations": []
@@ -283,11 +317,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Doubling w/forgiveness",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -550,51 +586,63 @@
           "Options": [
             {
               "Name": "Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Pushables",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics Objects",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Only player ally NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Only clients in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Everything (not including physics debris)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Only clients *not* in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Physics debris",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Only NPCs in vehicles (respects player ally flag)",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Ignore client\u0027s hands",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []
@@ -711,91 +759,113 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "CHEMICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             },
             {
               "Name": "DISSOLVE",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             },
             {
               "Name": "SPORE",
-              "Description": ""
+              "Description": "",
+              "Key": "1114112"
             }
           ],
           "Annotations": []
@@ -808,11 +878,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Doubling w/forgiveness",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1063,51 +1135,63 @@
           "Options": [
             {
               "Name": "Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Projectiles",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics Objects",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Only player ally NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Only clients in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Everything (not including physics debris)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Only clients *not* in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Physics debris",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Only NPCs in vehicles (respects player ally flag)",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Touch objects in the trigger\u0027s hierarchy",
-              "Description": ""
+              "Description": "",
+              "Key": "268435456"
             }
           ],
           "Annotations": []
@@ -1224,91 +1308,113 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "CHEMICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             },
             {
               "Name": "DISSOLVE",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             },
             {
               "Name": "SPORE",
-              "Description": ""
+              "Description": "",
+              "Key": "1114112"
             }
           ],
           "Annotations": []
@@ -1321,11 +1427,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Doubling w/forgiveness",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1588,51 +1696,63 @@
           "Options": [
             {
               "Name": "Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Pushables",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics Objects",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Only player ally NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Only clients in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Everything (not including physics debris)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Only clients *not* in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Physics debris",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Only NPCs in vehicles (respects player ally flag)",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Ignore client\u0027s hands",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []
@@ -1749,91 +1869,113 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "CHEMICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             },
             {
               "Name": "DISSOLVE",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             },
             {
               "Name": "SPORE",
-              "Description": ""
+              "Description": "",
+              "Key": "1114112"
             }
           ],
           "Annotations": []
@@ -1846,11 +1988,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Doubling w/forgiveness",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

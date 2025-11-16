@@ -73,7 +73,8 @@
           "Options": [
             {
               "Name": "Do not automatically attach to surface",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

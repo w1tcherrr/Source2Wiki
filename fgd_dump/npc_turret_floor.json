@@ -33,23 +33,28 @@
           "Options": [
             {
               "Name": "Autostart",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Start Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Fast Retire",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Out of Ammo",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Citizen modified (Friendly)",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []

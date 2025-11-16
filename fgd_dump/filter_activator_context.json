@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -50,11 +52,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -213,11 +217,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -246,11 +252,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -425,11 +433,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

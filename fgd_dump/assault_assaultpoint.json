@@ -73,11 +73,13 @@
           "Options": [
             {
               "Name": "No, NPC may move from point to attack",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, NPC may not move to attack",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -90,7 +92,8 @@
           "Options": [
             {
               "Name": "Clear this point upon arrival, UNCONDITIONALLY",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -119,15 +122,18 @@
           "Options": [
             {
               "Name": "Tight (3ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "36"
             },
             {
               "Name": "Medium (6ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "72"
             },
             {
               "Name": "Large (10ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "120"
             }
           ],
           "Annotations": []
@@ -238,11 +244,13 @@
           "Options": [
             {
               "Name": "No, NPC may move from point to attack",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, NPC may not move to attack",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -255,7 +263,8 @@
           "Options": [
             {
               "Name": "Clear this point upon arrival, UNCONDITIONALLY",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -284,15 +293,18 @@
           "Options": [
             {
               "Name": "Tight (3ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "36"
             },
             {
               "Name": "Medium (6ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "72"
             },
             {
               "Name": "Large (10ft)",
-              "Description": ""
+              "Description": "",
+              "Key": "120"
             }
           ],
           "Annotations": []

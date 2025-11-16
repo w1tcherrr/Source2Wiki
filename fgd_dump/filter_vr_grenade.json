@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

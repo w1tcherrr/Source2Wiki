@@ -17,19 +17,23 @@
           "Options": [
             {
               "Name": "Hate",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fear",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Like",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Neutral",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -74,11 +78,13 @@
           "Options": [
             {
               "Name": "Notify subject of target\u0027s location",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Notify target of subject\u0027s location",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -137,19 +143,23 @@
           "Options": [
             {
               "Name": "Hate",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fear",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Like",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Neutral",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -194,11 +204,13 @@
           "Options": [
             {
               "Name": "Notify subject of target\u0027s location",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Notify target of subject\u0027s location",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

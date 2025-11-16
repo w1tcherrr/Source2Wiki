@@ -33,7 +33,8 @@
           "Options": [
             {
               "Name": "All Players",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -70,15 +71,18 @@
           "Options": [
             {
               "Name": "Fade In/Out",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Credits",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Scan Out",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -139,19 +143,23 @@
           "Options": [
             {
               "Name": "Channel 1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Channel 2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Channel 3",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Channel 4",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -320,7 +328,8 @@
           "Options": [
             {
               "Name": "All Players",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -357,15 +366,18 @@
           "Options": [
             {
               "Name": "Fade In/Out",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Credits",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Scan Out",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -426,19 +438,23 @@
           "Options": [
             {
               "Name": "Channel 1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Channel 2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Channel 3",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Channel 4",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -601,7 +617,8 @@
           "Options": [
             {
               "Name": "All Players",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -638,15 +655,18 @@
           "Options": [
             {
               "Name": "Fade In/Out",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Credits",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Scan Out",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -707,19 +727,23 @@
           "Options": [
             {
               "Name": "Channel 1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Channel 2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Channel 3",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Channel 4",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -888,7 +912,8 @@
           "Options": [
             {
               "Name": "All Players",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -925,15 +950,18 @@
           "Options": [
             {
               "Name": "Fade In/Out",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Credits",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Scan Out",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -994,19 +1022,23 @@
           "Options": [
             {
               "Name": "Channel 1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Channel 2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Channel 3",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Channel 4",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

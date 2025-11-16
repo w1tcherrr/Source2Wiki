@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -50,11 +52,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -67,83 +71,103 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "ACID",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []
@@ -310,11 +334,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -327,83 +353,103 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "ACID",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []
@@ -548,11 +594,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -581,11 +629,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -598,83 +648,103 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "ACID",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []
@@ -841,11 +911,13 @@
           "Options": [
             {
               "Name": "Allow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disallow entities that match criteria",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -858,83 +930,103 @@
           "Options": [
             {
               "Name": "GENERIC",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "CRUSH",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "BULLET",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "SLASH",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "BURN",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "VEHICLE",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "FALL",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "BLAST",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "CLUB",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "SHOCK",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "SONIC",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "ENERGYBEAM",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "DROWN",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "PARALYSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "NERVEGAS",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "POISON",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "RADIATION",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "DROWNRECOVER",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "ACID",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "SLOWBURN",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []

@@ -41,35 +41,43 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -162,23 +170,28 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Suck On Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Allow Attached Rotation",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Coast jeep pickup hack",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -541,23 +554,28 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Suck On Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Allow Attached Rotation",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Coast jeep pickup hack",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -824,35 +842,43 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -945,23 +971,28 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Suck On Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Allow Attached Rotation",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Coast jeep pickup hack",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -1324,23 +1355,28 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Suck On Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Allow Attached Rotation",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Coast jeep pickup hack",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

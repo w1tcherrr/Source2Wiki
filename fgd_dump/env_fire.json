@@ -113,11 +113,13 @@
           "Options": [
             {
               "Name": "Natural",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Plasma",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -130,35 +132,43 @@
           "Options": [
             {
               "Name": "Infinite Duration",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smokeless",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Start Full",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Don\u0027t drop",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No glow",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Delete when out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Visible from above",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -475,11 +485,13 @@
           "Options": [
             {
               "Name": "Natural",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Plasma",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -492,35 +504,43 @@
           "Options": [
             {
               "Name": "Infinite Duration",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smokeless",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Start Full",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Don\u0027t drop",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No glow",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Delete when out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Visible from above",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -825,11 +845,13 @@
           "Options": [
             {
               "Name": "Natural",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Plasma",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -842,35 +864,43 @@
           "Options": [
             {
               "Name": "Infinite Duration",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smokeless",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Start Full",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Don\u0027t drop",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No glow",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Delete when out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Visible from above",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -1187,11 +1217,13 @@
           "Options": [
             {
               "Name": "Natural",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Plasma",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1204,35 +1236,43 @@
           "Options": [
             {
               "Name": "Infinite Duration",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smokeless",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Start Full",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Don\u0027t drop",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No glow",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Delete when out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Visible from above",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []

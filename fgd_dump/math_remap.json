@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Ignore out of range input values",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clamp out of range output values",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -282,11 +284,13 @@
           "Options": [
             {
               "Name": "Ignore out of range input values",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clamp out of range output values",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -517,11 +521,13 @@
           "Options": [
             {
               "Name": "Ignore out of range input values",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clamp out of range output values",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -758,11 +764,13 @@
           "Options": [
             {
               "Name": "Ignore out of range input values",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clamp out of range output values",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

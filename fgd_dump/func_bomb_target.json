@@ -97,11 +97,13 @@
           "Options": [
             {
               "Name": "A",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "B",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

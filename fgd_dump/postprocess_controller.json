@@ -105,7 +105,8 @@
           "Options": [
             {
               "Name": "Master (Has priority if multiple postprocess_controllers exist)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -380,7 +381,8 @@
           "Options": [
             {
               "Name": "Master (Has priority if multiple postprocess_controllers exist)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

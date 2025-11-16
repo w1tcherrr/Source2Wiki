@@ -33,7 +33,8 @@
           "Options": [
             {
               "Name": "Remove on fire",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -46,43 +47,53 @@
           "Options": [
             {
               "Name": "--- None ---",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Gordon pre-criminal",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_precriminal"
             },
             {
               "Name": "Antlions are player allies",
-              "Description": ""
+              "Description": "",
+              "Key": "antlion_allied"
             },
             {
               "Name": "Suit sprint function not yet enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "suit_no_sprint"
             },
             {
               "Name": "Super phys gun is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "super_phys_gun"
             },
             {
               "Name": "Friendly encounter sequence (lower weapons, etc.)",
-              "Description": ""
+              "Description": "",
+              "Key": "friendly_encounter"
             },
             {
               "Name": "Gordon is invulnerable",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_invulnerable"
             },
             {
               "Name": "Don\u0027t spawn seagulls on the jeep",
-              "Description": ""
+              "Description": "",
+              "Key": "no_seagulls_on_jeep"
             },
             {
               "Name": "Game is running on a console",
-              "Description": ""
+              "Description": "",
+              "Key": "is_console"
             },
             {
               "Name": "Game is running on a PC",
-              "Description": ""
+              "Description": "",
+              "Key": "is_pc"
             }
           ],
           "Annotations": []
@@ -291,7 +302,8 @@
           "Options": [
             {
               "Name": "Remove on fire",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -304,43 +316,53 @@
           "Options": [
             {
               "Name": "--- None ---",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Gordon pre-criminal",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_precriminal"
             },
             {
               "Name": "Antlions are player allies",
-              "Description": ""
+              "Description": "",
+              "Key": "antlion_allied"
             },
             {
               "Name": "Suit sprint function not yet enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "suit_no_sprint"
             },
             {
               "Name": "Super phys gun is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "super_phys_gun"
             },
             {
               "Name": "Friendly encounter sequence (lower weapons, etc.)",
-              "Description": ""
+              "Description": "",
+              "Key": "friendly_encounter"
             },
             {
               "Name": "Gordon is invulnerable",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_invulnerable"
             },
             {
               "Name": "Don\u0027t spawn seagulls on the jeep",
-              "Description": ""
+              "Description": "",
+              "Key": "no_seagulls_on_jeep"
             },
             {
               "Name": "Game is running on a console",
-              "Description": ""
+              "Description": "",
+              "Key": "is_console"
             },
             {
               "Name": "Game is running on a PC",
-              "Description": ""
+              "Description": "",
+              "Key": "is_pc"
             }
           ],
           "Annotations": []
@@ -543,7 +565,8 @@
           "Options": [
             {
               "Name": "Remove on fire",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -556,43 +579,53 @@
           "Options": [
             {
               "Name": "--- None ---",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Gordon pre-criminal",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_precriminal"
             },
             {
               "Name": "Antlions are player allies",
-              "Description": ""
+              "Description": "",
+              "Key": "antlion_allied"
             },
             {
               "Name": "Suit sprint function not yet enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "suit_no_sprint"
             },
             {
               "Name": "Super phys gun is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "super_phys_gun"
             },
             {
               "Name": "Friendly encounter sequence (lower weapons, etc.)",
-              "Description": ""
+              "Description": "",
+              "Key": "friendly_encounter"
             },
             {
               "Name": "Gordon is invulnerable",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_invulnerable"
             },
             {
               "Name": "Don\u0027t spawn seagulls on the jeep",
-              "Description": ""
+              "Description": "",
+              "Key": "no_seagulls_on_jeep"
             },
             {
               "Name": "Game is running on a console",
-              "Description": ""
+              "Description": "",
+              "Key": "is_console"
             },
             {
               "Name": "Game is running on a PC",
-              "Description": ""
+              "Description": "",
+              "Key": "is_pc"
             }
           ],
           "Annotations": []
@@ -801,7 +834,8 @@
           "Options": [
             {
               "Name": "Remove on fire",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -814,43 +848,53 @@
           "Options": [
             {
               "Name": "--- None ---",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Gordon pre-criminal",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_precriminal"
             },
             {
               "Name": "Antlions are player allies",
-              "Description": ""
+              "Description": "",
+              "Key": "antlion_allied"
             },
             {
               "Name": "Suit sprint function not yet enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "suit_no_sprint"
             },
             {
               "Name": "Super phys gun is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "super_phys_gun"
             },
             {
               "Name": "Friendly encounter sequence (lower weapons, etc.)",
-              "Description": ""
+              "Description": "",
+              "Key": "friendly_encounter"
             },
             {
               "Name": "Gordon is invulnerable",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_invulnerable"
             },
             {
               "Name": "Don\u0027t spawn seagulls on the jeep",
-              "Description": ""
+              "Description": "",
+              "Key": "no_seagulls_on_jeep"
             },
             {
               "Name": "Game is running on a console",
-              "Description": ""
+              "Description": "",
+              "Key": "is_console"
             },
             {
               "Name": "Game is running on a PC",
-              "Description": ""
+              "Description": "",
+              "Key": "is_pc"
             }
           ],
           "Annotations": []

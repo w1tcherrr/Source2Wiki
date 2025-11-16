@@ -81,31 +81,38 @@
           "Options": [
             {
               "Name": "GlobalShake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "In Air",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ropes",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "DON\u0027T shake view (for shaking ropes or physics only)",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "DON\u0027T Rumble Controller",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Water",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -396,27 +403,33 @@
           "Options": [
             {
               "Name": "GlobalShake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "In Air",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ropes",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "DON\u0027T shake view (for shaking ropes or physics only)",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "DON\u0027T Rumble Controller",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []
@@ -695,31 +708,38 @@
           "Options": [
             {
               "Name": "GlobalShake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "In Air",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ropes",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "DON\u0027T shake view (for shaking ropes or physics only)",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "DON\u0027T Rumble Controller",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Water",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -1010,27 +1030,33 @@
           "Options": [
             {
               "Name": "GlobalShake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "In Air",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ropes",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "DON\u0027T shake view (for shaking ropes or physics only)",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "DON\u0027T Rumble Controller",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []

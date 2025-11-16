@@ -57,11 +57,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Custom",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -82,27 +84,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Dominant Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Off Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "HMD",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Large Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -297,11 +305,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Custom",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -322,27 +332,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Dominant Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Off Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "HMD",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Large Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -543,11 +559,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Custom",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -568,27 +586,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Dominant Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Off Hand",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "HMD",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Large Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []

@@ -121,7 +121,8 @@
           "Options": [
             {
               "Name": "Use target entity\u0027s angles (NOT position)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -436,7 +437,8 @@
           "Options": [
             {
               "Name": "Use target entity\u0027s angles (NOT position)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -739,7 +741,8 @@
           "Options": [
             {
               "Name": "Use target entity\u0027s angles (NOT position)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1054,7 +1057,8 @@
           "Options": [
             {
               "Name": "Use target entity\u0027s angles (NOT position)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

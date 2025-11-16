@@ -465,51 +465,63 @@
           "Options": [
             {
               "Name": "Dynamic Weather - On",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "All - Always On",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Default Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Snow Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rain Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Magical Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Pestilence Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Harvest Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Sirocco Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Spring Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Fire Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Northern Lights Weather Only",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []
@@ -770,15 +782,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Distance Based",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Angular",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -999,11 +1014,13 @@
           "Options": [
             {
               "Name": "Height Fog",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Caustics",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1056,11 +1073,13 @@
           "Options": [
             {
               "Name": "Day",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Night",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

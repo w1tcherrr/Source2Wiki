@@ -33,19 +33,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -58,19 +62,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -83,23 +91,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -112,23 +125,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -141,11 +159,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -158,43 +178,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -207,83 +237,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -360,15 +410,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -445,39 +498,48 @@
           "Options": [
             {
               "Name": "Active",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Direct",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Controllable",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Damage Kick",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "NPC Controllable",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "NPC Set Controller",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Allow friendlies to hit player",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Non-solid.",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "Perfect accuracy every 3rd shot at player",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             }
           ],
           "Annotations": []
@@ -666,23 +728,28 @@
           "Options": [
             {
               "Name": "Perfect Shot",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Small cone",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium cone",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Large cone",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Extra-large cone",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -815,15 +882,18 @@
           "Options": [
             {
               "Name": "Use Individual Settings.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Combine Cannon",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

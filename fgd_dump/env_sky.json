@@ -363,15 +363,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Distance Based",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Angular",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -662,15 +665,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Distance Based",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Angular",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -965,15 +971,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Distance Based",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Angular",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

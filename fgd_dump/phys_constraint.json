@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "No Collision until break",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Do not connect entities until turned on",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -350,19 +353,23 @@
           "Options": [
             {
               "Name": "No Collision until break",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Change mass to keep stable attachment to world",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Do not connect entities until turned on",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -625,15 +632,18 @@
           "Options": [
             {
               "Name": "No Collision until break",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Do not connect entities until turned on",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -942,19 +952,23 @@
           "Options": [
             {
               "Name": "No Collision until break",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Change mass to keep stable attachment to world",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Do not connect entities until turned on",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

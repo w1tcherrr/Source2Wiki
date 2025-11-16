@@ -17,23 +17,28 @@
           "Options": [
             {
               "Name": "Human",
-              "Description": ""
+              "Description": "",
+              "Key": "HUMAN_HULL"
             },
             {
               "Name": "Wide",
-              "Description": ""
+              "Description": "",
+              "Key": "WIDE_HUMAN_HULL"
             },
             {
               "Name": "Tiny",
-              "Description": ""
+              "Description": "",
+              "Key": "TINY_HULL"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "MEDIUM_HULL"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "LARGE_HULL"
             }
           ],
           "Annotations": []
@@ -54,11 +59,13 @@
           "Options": [
             {
               "Name": "No, obey gravity",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, don\u0027t apply gravity on spawn",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -111,23 +118,28 @@
           "Options": [
             {
               "Name": "Human",
-              "Description": ""
+              "Description": "",
+              "Key": "HUMAN_HULL"
             },
             {
               "Name": "Wide",
-              "Description": ""
+              "Description": "",
+              "Key": "WIDE_HUMAN_HULL"
             },
             {
               "Name": "Tiny",
-              "Description": ""
+              "Description": "",
+              "Key": "TINY_HULL"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "MEDIUM_HULL"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "LARGE_HULL"
             }
           ],
           "Annotations": []
@@ -148,11 +160,13 @@
           "Options": [
             {
               "Name": "No, obey gravity",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, don\u0027t apply gravity on spawn",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

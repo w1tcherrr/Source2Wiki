@@ -137,11 +137,13 @@
           "Options": [
             {
               "Name": "Use World Index",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Entity Index",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -810,11 +812,13 @@
           "Options": [
             {
               "Name": "Use World Index",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Entity Index",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

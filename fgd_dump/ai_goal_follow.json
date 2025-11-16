@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,15 +60,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -79,23 +84,28 @@
           "Options": [
             {
               "Name": "Close circle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Wide circle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium circle",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Sidekick",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Vortigaunt (FIXME)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -148,11 +158,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -173,15 +185,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -194,23 +209,28 @@
           "Options": [
             {
               "Name": "Close circle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Wide circle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium circle",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Sidekick",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Vortigaunt (FIXME)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

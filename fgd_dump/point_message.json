@@ -81,7 +81,8 @@
           "Options": [
             {
               "Name": "Start Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -350,7 +351,8 @@
           "Options": [
             {
               "Name": "Start Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -607,7 +609,8 @@
           "Options": [
             {
               "Name": "Start Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -876,7 +879,8 @@
           "Options": [
             {
               "Name": "Start Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

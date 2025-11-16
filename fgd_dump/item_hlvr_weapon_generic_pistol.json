@@ -73,7 +73,8 @@
           "Options": [
             {
               "Name": "Start Constrained",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -102,19 +103,23 @@
           "Options": [
             {
               "Name": "Top",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bottom",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Right",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Left",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []

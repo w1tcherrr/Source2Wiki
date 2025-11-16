@@ -41,15 +41,18 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Important",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Very Important",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -62,11 +65,13 @@
           "Options": [
             {
               "Name": "Choose Light",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Nearest light_environment",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -33,23 +33,28 @@
           "Options": [
             {
               "Name": "Test LOS before pushing",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Use angles for push direction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "No falloff (constant push at any distance)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Push players",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Push physics",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

@@ -41,15 +41,18 @@
           "Options": [
             {
               "Name": "Do not call antlions to position",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t activate on thrown bugbait splashes",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Don\u0027t activate on squeezed bugbait",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

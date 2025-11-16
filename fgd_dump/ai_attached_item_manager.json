@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,43 +60,53 @@
           "Options": [
             {
               "Name": "Default (Code decides)",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Energy Gun Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_energygun"
             },
             {
               "Name": "Rapidfire Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_rapidfire"
             },
             {
               "Name": "Shotgun Shell (Single)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_single"
             },
             {
               "Name": "Shotgun Shells (Two)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_shells_pair"
             },
             {
               "Name": "Shotgun Shells (Box)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_multiple"
             },
             {
               "Name": "Health Vial",
-              "Description": ""
+              "Description": "",
+              "Key": "item_healthvial"
             },
             {
               "Name": "Frag Grenade",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_grenade_frag"
             },
             {
               "Name": "Small Crafting Currency",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_crafting_currency_small"
             },
             {
               "Name": "Manhack (ONLY USE ON COMBINE OFFICERS)",
-              "Description": ""
+              "Description": "",
+              "Key": "npc_manhack_attached"
             }
           ],
           "Annotations": []
@@ -107,39 +119,48 @@
           "Options": [
             {
               "Name": "Default (Code decides)",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Energy Gun Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_energygun"
             },
             {
               "Name": "Rapidfire Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_rapidfire"
             },
             {
               "Name": "Shotgun Shell (Single)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_single"
             },
             {
               "Name": "Shotgun Shells (Two)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_shells_pair"
             },
             {
               "Name": "Shotgun Shells (Box)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_multiple"
             },
             {
               "Name": "Health Vial",
-              "Description": ""
+              "Description": "",
+              "Key": "item_healthvial"
             },
             {
               "Name": "Frag Grenade",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_grenade_frag"
             },
             {
               "Name": "Small Crafting Currency",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_crafting_currency_small"
             }
           ],
           "Annotations": []
@@ -152,39 +173,48 @@
           "Options": [
             {
               "Name": "Default (Code decides)",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Energy Gun Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_energygun"
             },
             {
               "Name": "Rapidfire Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_rapidfire"
             },
             {
               "Name": "Shotgun Shell (Single)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_single"
             },
             {
               "Name": "Shotgun Shells (Two)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_shells_pair"
             },
             {
               "Name": "Shotgun Shells (Box)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_multiple"
             },
             {
               "Name": "Health Vial",
-              "Description": ""
+              "Description": "",
+              "Key": "item_healthvial"
             },
             {
               "Name": "Frag Grenade",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_grenade_frag"
             },
             {
               "Name": "Small Crafting Currency",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_crafting_currency_small"
             }
           ],
           "Annotations": []
@@ -197,39 +227,48 @@
           "Options": [
             {
               "Name": "Default (Code decides)",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "Energy Gun Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_energygun"
             },
             {
               "Name": "Rapidfire Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_rapidfire"
             },
             {
               "Name": "Shotgun Shell (Single)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_single"
             },
             {
               "Name": "Shotgun Shells (Two)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_shells_pair"
             },
             {
               "Name": "Shotgun Shells (Box)",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_clip_shotgun_multiple"
             },
             {
               "Name": "Health Vial",
-              "Description": ""
+              "Description": "",
+              "Key": "item_healthvial"
             },
             {
               "Name": "Frag Grenade",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_grenade_frag"
             },
             {
               "Name": "Small Crafting Currency",
-              "Description": ""
+              "Description": "",
+              "Key": "item_hlvr_crafting_currency_small"
             }
           ],
           "Annotations": []
@@ -309,11 +348,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

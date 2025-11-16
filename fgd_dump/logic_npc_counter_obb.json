@@ -73,39 +73,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -174,39 +183,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -275,39 +293,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -690,39 +717,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -791,39 +827,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -892,39 +937,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -1301,39 +1355,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -1402,39 +1465,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -1503,39 +1575,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -1918,39 +1999,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -2019,39 +2109,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -2120,39 +2219,48 @@
           "Options": [
             {
               "Name": "Any",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Script",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Playdead",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Prone",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []

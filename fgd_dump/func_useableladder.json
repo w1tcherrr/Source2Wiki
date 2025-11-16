@@ -81,7 +81,8 @@
           "Options": [
             {
               "Name": "Fake Ladder",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -364,7 +365,8 @@
           "Options": [
             {
               "Name": "Fake Ladder",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -635,7 +637,8 @@
           "Options": [
             {
               "Name": "Fake Ladder",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -918,7 +921,8 @@
           "Options": [
             {
               "Name": "Fake Ladder",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Closed",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Open",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

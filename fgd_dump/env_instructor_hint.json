@@ -49,11 +49,13 @@
           "Options": [
             {
               "Name": "Follow the Target Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show on the hud",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -66,11 +68,13 @@
           "Options": [
             {
               "Name": "End immediately on nodraw",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -107,11 +111,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show when occluded",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -124,91 +130,113 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             },
             {
               "Name": "show key bindings",
-              "Description": ""
+              "Description": "",
+              "Key": "use_binding"
             }
           ],
           "Annotations": []
@@ -221,87 +249,108 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             }
           ],
           "Annotations": []
@@ -314,11 +363,13 @@
           "Options": [
             {
               "Name": "Show",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Don\u0027t show",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -347,19 +398,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -372,19 +427,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -397,15 +456,18 @@
           "Options": [
             {
               "Name": "No Shaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Narrow Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Wide Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -614,11 +676,13 @@
           "Options": [
             {
               "Name": "Follow the Target Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show on the hud",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -631,11 +695,13 @@
           "Options": [
             {
               "Name": "End immediately on nodraw",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -672,11 +738,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show when occluded",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -689,91 +757,113 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             },
             {
               "Name": "show key bindings",
-              "Description": ""
+              "Description": "",
+              "Key": "use_binding"
             }
           ],
           "Annotations": []
@@ -786,87 +876,108 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             }
           ],
           "Annotations": []
@@ -879,11 +990,13 @@
           "Options": [
             {
               "Name": "Show",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Don\u0027t show",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -912,19 +1025,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -937,19 +1054,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -962,15 +1083,18 @@
           "Options": [
             {
               "Name": "No Shaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Narrow Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Wide Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1179,11 +1303,13 @@
           "Options": [
             {
               "Name": "Follow the Target Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show on the hud",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1196,11 +1322,13 @@
           "Options": [
             {
               "Name": "End immediately on nodraw",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1237,11 +1365,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Show when occluded",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1254,91 +1384,113 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             },
             {
               "Name": "show key bindings",
-              "Description": ""
+              "Description": "",
+              "Key": "use_binding"
             }
           ],
           "Annotations": []
@@ -1351,87 +1503,108 @@
           "Options": [
             {
               "Name": "icon_bulb",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_bulb"
             },
             {
               "Name": "icon_caution",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_caution"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_info",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_info"
             },
             {
               "Name": "icon_shield",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_shield"
             },
             {
               "Name": "icon_alert",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert"
             },
             {
               "Name": "icon_alert_red",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_alert_red"
             },
             {
               "Name": "icon_tip",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_tip"
             },
             {
               "Name": "icon_skull",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_skull"
             },
             {
               "Name": "icon_no",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_no"
             },
             {
               "Name": "icon_run",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_run"
             },
             {
               "Name": "icon_interact",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_interact"
             },
             {
               "Name": "icon_button",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_button"
             },
             {
               "Name": "icon_door",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_door"
             },
             {
               "Name": "icon_arrow_plain",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain"
             },
             {
               "Name": "icon_arrow_plain_white_dn",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_dn"
             },
             {
               "Name": "icon_arrow_plain_white_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_plain_white_up"
             },
             {
               "Name": "icon_arrow_up",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_up"
             },
             {
               "Name": "icon_arrow_right",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_arrow_right"
             },
             {
               "Name": "icon_fire",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_fire"
             },
             {
               "Name": "icon_present",
-              "Description": ""
+              "Description": "",
+              "Key": "icon_present"
             }
           ],
           "Annotations": []
@@ -1444,11 +1617,13 @@
           "Options": [
             {
               "Name": "Show",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Don\u0027t show",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1477,19 +1652,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1502,19 +1681,23 @@
           "Options": [
             {
               "Name": "No Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Urgent Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1527,15 +1710,18 @@
           "Options": [
             {
               "Name": "No Shaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Narrow Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Wide Shake",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

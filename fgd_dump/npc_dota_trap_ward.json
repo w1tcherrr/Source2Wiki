@@ -49,59 +49,73 @@
           "Options": [
             {
               "Name": "Unassigned",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Spectators",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Good Guys",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Bad Guys",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Neutrals",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "No Team",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Custom 1",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Custom 2",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Custom 3",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Custom 4",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "Custom 5",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Custom 6",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Custom 7",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "Custom 8",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             }
           ],
           "Annotations": []
@@ -138,7 +152,8 @@
           "Options": [
             {
               "Name": "Ignored by the modelhelper code",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             }
           ],
           "Annotations": []

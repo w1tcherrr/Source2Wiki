@@ -81,43 +81,53 @@
           "Options": [
             {
               "Name": "No Impact Sound",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No Launch Sound",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Start Impacted",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Land at initial position",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "Wait for input to open",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "Wait for input to spawn headcrabs",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "No smoke",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "No shake",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Remove on impact",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "No impact effects",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             }
           ],
           "Annotations": []
@@ -130,15 +140,18 @@
           "Options": [
             {
               "Name": "Normal headcrabs",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fast Headcrabs",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Poison Headcrabs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -65,43 +65,53 @@
           "Options": [
             {
               "Name": "Pistol",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "SMG1",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "RPG Rounds",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Buckshot",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Grenades",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "357",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "XBowBolt",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "AR2 Alt-Fire Round",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "SMG Alt-Fire grenade",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []

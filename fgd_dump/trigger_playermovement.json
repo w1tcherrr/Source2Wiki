@@ -25,51 +25,63 @@
           "Options": [
             {
               "Name": "Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Pushables",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Physics Objects",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Only player ally NPCs",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Only clients in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Everything (not including physics debris)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Only clients *not* in vehicles",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Physics debris",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Only NPCs in vehicles (respects player ally flag)",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Correctly account for object mass (trigger_push used to assume 100Kg) and multiple component physobjs (car, blob...)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Ignore client\u0027s hands",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []
@@ -162,23 +174,28 @@
           "Options": [
             {
               "Name": "(OBSOLETE, Uncheck me)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Disable auto player movement",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Auto-duck while in trigger",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Auto-walk while in trigger",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Disable jump while in trigger",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []

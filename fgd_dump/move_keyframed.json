@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -264,11 +266,13 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -511,11 +515,13 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

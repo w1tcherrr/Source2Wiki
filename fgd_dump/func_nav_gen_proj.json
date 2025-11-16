@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Air",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -58,19 +60,23 @@
           "Options": [
             {
               "Name": "Walkable Seed",
-              "Description": ""
+              "Description": "",
+              "Key": "WALKABLESEED"
             },
             {
               "Name": "No Nav",
-              "Description": ""
+              "Description": "",
+              "Key": "NONAV"
             },
             {
               "Name": "No Nav Non Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "NONAVNONSOLID"
             },
             {
               "Name": "No Nav Space",
-              "Description": ""
+              "Description": "",
+              "Key": "NONAVSPACE"
             }
           ],
           "Annotations": []
@@ -83,11 +89,13 @@
           "Options": [
             {
               "Name": "Avoid",
-              "Description": ""
+              "Description": "",
+              "Key": "AVOID"
             },
             {
               "Name": "Split",
-              "Description": ""
+              "Description": "",
+              "Key": "SPLIT"
             }
           ],
           "Annotations": []
@@ -100,7 +108,8 @@
           "Options": [
             {
               "Name": "Oriented nav generation (along projection indicated by arrow)",
-              "Description": ""
+              "Description": "",
+              "Key": "NAV_GEN_PROJ"
             }
           ],
           "Annotations": []

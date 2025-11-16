@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Explodes",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -41,15 +41,18 @@
           "Options": [
             {
               "Name": "Everything",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Static Props",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only World Geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -97,15 +100,18 @@
           "Options": [
             {
               "Name": "Everything",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Static Props",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only World Geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -153,15 +159,18 @@
           "Options": [
             {
               "Name": "Everything",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Static Props",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only World Geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -209,15 +218,18 @@
           "Options": [
             {
               "Name": "Everything",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Static Props",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only World Geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

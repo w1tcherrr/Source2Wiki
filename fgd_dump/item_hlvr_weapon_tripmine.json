@@ -65,11 +65,13 @@
           "Options": [
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

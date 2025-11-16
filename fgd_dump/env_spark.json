@@ -89,15 +89,18 @@
           "Options": [
             {
               "Name": "Electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Metal",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "base",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -110,19 +113,23 @@
           "Options": [
             {
               "Name": "Small",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Huge",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -135,15 +142,18 @@
           "Options": [
             {
               "Name": "Short",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Long",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -156,19 +166,23 @@
           "Options": [
             {
               "Name": "Start ON",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Directional",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -427,15 +441,18 @@
           "Options": [
             {
               "Name": "Electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Metal",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "base",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -448,19 +465,23 @@
           "Options": [
             {
               "Name": "Small",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Huge",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -473,15 +494,18 @@
           "Options": [
             {
               "Name": "Short",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Long",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -494,19 +518,23 @@
           "Options": [
             {
               "Name": "Start ON",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Directional",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -753,15 +781,18 @@
           "Options": [
             {
               "Name": "Electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Metal",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "base",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -774,19 +805,23 @@
           "Options": [
             {
               "Name": "Small",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Huge",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -799,15 +834,18 @@
           "Options": [
             {
               "Name": "Short",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Long",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -820,19 +858,23 @@
           "Options": [
             {
               "Name": "Start ON",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Directional",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -1091,15 +1133,18 @@
           "Options": [
             {
               "Name": "Electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Metal",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "base",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1112,19 +1157,23 @@
           "Options": [
             {
               "Name": "Small",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Large",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Huge",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -1137,15 +1186,18 @@
           "Options": [
             {
               "Name": "Short",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Long",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1158,19 +1210,23 @@
           "Options": [
             {
               "Name": "Start ON",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Directional",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []

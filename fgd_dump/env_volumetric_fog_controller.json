@@ -145,19 +145,23 @@
           "Options": [
             {
               "Name": "Very High Resolution (512x)",
-              "Description": ""
+              "Description": "",
+              "Key": "512.0"
             },
             {
               "Name": "High Resolution (256x)",
-              "Description": ""
+              "Description": "",
+              "Key": "256.0"
             },
             {
               "Name": "Medium Resolution (128x)",
-              "Description": ""
+              "Description": "",
+              "Key": "128.0"
             },
             {
               "Name": "Low Resolution (64x)",
-              "Description": ""
+              "Description": "",
+              "Key": "64.0"
             }
           ],
           "Annotations": []
@@ -546,19 +550,23 @@
           "Options": [
             {
               "Name": "Very High Resolution (512x)",
-              "Description": ""
+              "Description": "",
+              "Key": "512.0"
             },
             {
               "Name": "High Resolution (256x)",
-              "Description": ""
+              "Description": "",
+              "Key": "256.0"
             },
             {
               "Name": "Medium Resolution (128x)",
-              "Description": ""
+              "Description": "",
+              "Key": "128.0"
             },
             {
               "Name": "Low Resolution (64x)",
-              "Description": ""
+              "Description": "",
+              "Key": "64.0"
             }
           ],
           "Annotations": []
@@ -937,19 +945,23 @@
           "Options": [
             {
               "Name": "Very High Resolution (512x)",
-              "Description": ""
+              "Description": "",
+              "Key": "512.0"
             },
             {
               "Name": "High Resolution (256x)",
-              "Description": ""
+              "Description": "",
+              "Key": "256.0"
             },
             {
               "Name": "Medium Resolution (128x)",
-              "Description": ""
+              "Description": "",
+              "Key": "128.0"
             },
             {
               "Name": "Low Resolution (64x)",
-              "Description": ""
+              "Description": "",
+              "Key": "64.0"
             }
           ],
           "Annotations": []

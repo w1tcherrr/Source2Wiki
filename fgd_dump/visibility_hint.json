@@ -33,43 +33,53 @@
           "Options": [
             {
               "Name": "Use High Resolution (8 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Normal Resolution (8 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Use Reduced Resolution (16 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Use Medium Resolution (32 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Use Low Resolution (64 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Use Lower Resolution (64 unit grid, fewer intial clusters)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Use Lowest Resolution (256 unit grid, fewest initial clusters)",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "X-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Y-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Z-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []
@@ -109,15 +119,18 @@
           "Options": [
             {
               "Name": "Use High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Low Resolution (64 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Z-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []
@@ -157,43 +170,53 @@
           "Options": [
             {
               "Name": "Use High Resolution (8 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Normal Resolution (8 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Use Reduced Resolution (16 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Use Medium Resolution (32 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Use Low Resolution (64 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Use Lower Resolution (64 unit grid, fewer intial clusters)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Use Lowest Resolution (256 unit grid, fewest initial clusters)",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "X-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Y-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Z-axis split",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []
@@ -233,11 +256,13 @@
           "Options": [
             {
               "Name": "Use High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use Low Resolution (64 unit grid)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

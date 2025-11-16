@@ -17,83 +17,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -250,19 +270,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Energy",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Heavy electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Light electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -275,19 +299,23 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []
@@ -456,83 +484,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -689,19 +737,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Energy",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Heavy electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Light electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -714,19 +766,23 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []
@@ -907,83 +963,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -1140,19 +1216,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Energy",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Heavy electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Light electrical",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1165,19 +1245,23 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []

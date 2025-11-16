@@ -73,11 +73,13 @@
           "Options": [
             {
               "Name": "Citadel recharger",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "Kleiner\u0027s recharger",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             }
           ],
           "Annotations": []

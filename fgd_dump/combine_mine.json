@@ -105,11 +105,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Cavern",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

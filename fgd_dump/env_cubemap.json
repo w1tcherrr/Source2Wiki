@@ -17,23 +17,28 @@
           "Options": [
             {
               "Name": "Lowest",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -105,23 +110,28 @@
           "Options": [
             {
               "Name": "Lowest",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

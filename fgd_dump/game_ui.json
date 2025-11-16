@@ -33,19 +33,23 @@
           "Options": [
             {
               "Name": "Freeze Player",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Hide Weapon",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "\u002BUse Deactivates",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Jump Deactivates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []
@@ -316,19 +320,23 @@
           "Options": [
             {
               "Name": "Freeze Player",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Hide Weapon",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "\u002BUse Deactivates",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Jump Deactivates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             }
           ],
           "Annotations": []

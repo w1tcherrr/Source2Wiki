@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Walkable Seed",
-              "Description": ""
+              "Description": "",
+              "Key": "WALKABLESEED"
             },
             {
               "Name": "No Nav",
-              "Description": ""
+              "Description": "",
+              "Key": "NONAV"
             }
           ],
           "Annotations": []
@@ -50,11 +52,13 @@
           "Options": [
             {
               "Name": "Avoid",
-              "Description": ""
+              "Description": "",
+              "Key": "AVOID"
             },
             {
               "Name": "Split",
-              "Description": ""
+              "Description": "",
+              "Key": "SPLIT"
             }
           ],
           "Annotations": []

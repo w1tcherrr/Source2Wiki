@@ -17,43 +17,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -66,83 +76,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -195,19 +225,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Much smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "When extremely small",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -228,15 +262,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -321,7 +358,8 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -342,15 +380,18 @@
           "Options": [
             {
               "Name": "Start position (position = \u0027Start Position\u0027 key)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Open position (position = 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Closed position (position = 0)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -665,19 +706,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -690,19 +735,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -715,23 +764,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -744,23 +798,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -773,11 +832,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -790,43 +851,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -839,83 +910,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -992,15 +1083,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1093,7 +1187,8 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -1372,43 +1467,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -1421,83 +1526,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -1550,19 +1675,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Much smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "When extremely small",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1583,15 +1712,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1676,7 +1808,8 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -1697,15 +1830,18 @@
           "Options": [
             {
               "Name": "Start position (position = \u0027Start Position\u0027 key)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Open position (position = 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Closed position (position = 0)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -2020,19 +2156,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -2045,19 +2185,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -2070,23 +2214,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -2099,23 +2248,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -2128,11 +2282,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -2145,43 +2301,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -2194,83 +2360,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -2347,15 +2533,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -2448,7 +2637,8 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

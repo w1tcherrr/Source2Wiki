@@ -49,11 +49,13 @@
           "Options": [
             {
               "Name": "Player Shoot Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Shoot Position Around Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -114,11 +116,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -131,19 +135,23 @@
           "Options": [
             {
               "Name": "Animation Cycle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Rotation X",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rotation Y",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rotation Z",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -188,11 +196,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -205,19 +215,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Friction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Spring Toward Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Spring Away From Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -246,11 +260,13 @@
           "Options": [
             {
               "Name": "Absolute",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Each Engage",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -547,11 +563,13 @@
           "Options": [
             {
               "Name": "Player Shoot Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Shoot Position Around Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -612,11 +630,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -629,19 +649,23 @@
           "Options": [
             {
               "Name": "Animation Cycle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Rotation X",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rotation Y",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rotation Z",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -686,11 +710,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -703,19 +729,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Friction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Spring Toward Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Spring Away From Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -744,11 +774,13 @@
           "Options": [
             {
               "Name": "Absolute",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Each Engage",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1039,11 +1071,13 @@
           "Options": [
             {
               "Name": "Player Shoot Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Shoot Position Around Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1104,11 +1138,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1121,19 +1157,23 @@
           "Options": [
             {
               "Name": "Animation Cycle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Rotation X",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rotation Y",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rotation Z",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1178,11 +1218,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1195,19 +1237,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Friction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Spring Toward Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Spring Away From Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1236,11 +1282,13 @@
           "Options": [
             {
               "Name": "Absolute",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Each Engage",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1537,11 +1585,13 @@
           "Options": [
             {
               "Name": "Player Shoot Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Shoot Position Around Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1602,11 +1652,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1619,19 +1671,23 @@
           "Options": [
             {
               "Name": "Animation Cycle",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Rotation X",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rotation Y",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rotation Z",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1676,11 +1732,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1693,19 +1751,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Friction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Spring Toward Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Spring Away From Snap Value",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1734,11 +1796,13 @@
           "Options": [
             {
               "Name": "Absolute",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Each Engage",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -25,11 +25,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -50,15 +52,18 @@
           "Options": [
             {
               "Name": "Move when ready (default AI)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Move when seek cover",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Move immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -71,23 +76,28 @@
           "Options": [
             {
               "Name": "Very low",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Very High",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -162,11 +172,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -187,15 +199,18 @@
           "Options": [
             {
               "Name": "Move when ready (default AI)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Move when seek cover",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Move immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -208,23 +223,28 @@
           "Options": [
             {
               "Name": "Very low",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Very High",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

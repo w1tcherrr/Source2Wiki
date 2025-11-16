@@ -41,7 +41,8 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -54,7 +55,8 @@
           "Options": [
             {
               "Name": "NPCs Ignore this when navigating (they\u0027ll bump into it)",
-              "Description": ""
+              "Description": "",
+              "Key": "Ignore"
             }
           ],
           "Annotations": []
@@ -229,7 +231,8 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -242,7 +245,8 @@
           "Options": [
             {
               "Name": "NPCs Ignore this when navigating (they\u0027ll bump into it)",
-              "Description": ""
+              "Description": "",
+              "Key": "Ignore"
             }
           ],
           "Annotations": []
@@ -411,7 +415,8 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -424,7 +429,8 @@
           "Options": [
             {
               "Name": "NPCs Ignore this when navigating (they\u0027ll bump into it)",
-              "Description": ""
+              "Description": "",
+              "Key": "Ignore"
             }
           ],
           "Annotations": []
@@ -599,7 +605,8 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -612,7 +619,8 @@
           "Options": [
             {
               "Name": "NPCs Ignore this when navigating (they\u0027ll bump into it)",
-              "Description": ""
+              "Description": "",
+              "Key": "Ignore"
             }
           ],
           "Annotations": []

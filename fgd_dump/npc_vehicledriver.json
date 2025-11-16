@@ -25,7 +25,8 @@
           "Options": [
             {
               "Name": "Start Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -116,7 +117,8 @@
           "Options": [
             {
               "Name": "Start Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []

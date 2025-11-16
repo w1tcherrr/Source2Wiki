@@ -113,19 +113,23 @@
           "Options": [
             {
               "Name": "No fall-off",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Infinite Length",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ignore Surface Normal When Applying Force",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -390,19 +394,23 @@
           "Options": [
             {
               "Name": "No fall-off",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Infinite Length",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ignore Surface Normal When Applying Force",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -655,19 +663,23 @@
           "Options": [
             {
               "Name": "No fall-off",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Infinite Length",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ignore Surface Normal When Applying Force",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -932,19 +944,23 @@
           "Options": [
             {
               "Name": "No fall-off",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Infinite Length",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ignore Surface Normal When Applying Force",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

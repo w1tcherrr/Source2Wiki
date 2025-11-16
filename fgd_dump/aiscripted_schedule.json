@@ -41,15 +41,18 @@
           "Options": [
             {
               "Name": "Repeatable",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Search Cyclically",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Don\u0027t Complain",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []
@@ -62,19 +65,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Set state to IDLE",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Set state to ALERT",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Set state to COMBAT",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -87,35 +94,43 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Set enemy to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Walk Goal Path",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Run Goal Path",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Set enemy to Goal Entity AND Run to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Set enemy to Goal Entity AND Walk to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -128,19 +143,23 @@
           "Options": [
             {
               "Name": "General",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Damage or Death",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Death",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -217,15 +236,18 @@
           "Options": [
             {
               "Name": "Repeatable",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Search Cyclically",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Don\u0027t Complain",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []
@@ -238,19 +260,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Set state to IDLE",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Set state to ALERT",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Set state to COMBAT",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -263,35 +289,43 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Set enemy to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Walk Goal Path",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Run Goal Path",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Set enemy to Goal Entity AND Run to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Set enemy to Goal Entity AND Walk to Goal Entity",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -304,19 +338,23 @@
           "Options": [
             {
               "Name": "General",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Damage or Death",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Death",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

@@ -25,11 +25,13 @@
           "Options": [
             {
               "Name": "Moderate",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fast",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

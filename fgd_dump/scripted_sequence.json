@@ -97,11 +97,13 @@
           "Options": [
             {
               "Name": "Enqueue",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Interrupt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -114,11 +116,13 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disable for this sequence",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -147,27 +151,33 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Custom movement",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Instantaneous",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "No - Turn to Face",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -212,43 +222,53 @@
           "Options": [
             {
               "Name": "Repeatable",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Leave Corpse (if not, fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Start on Spawn",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No Interruptions",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Override AI",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Don\u0027t Teleport NPC On End",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Loop in Post Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Priority Script",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Hide Debug Complaints",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Allow other NPC actors to continue after this NPC actor\u0027s death",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -261,11 +281,13 @@
           "Options": [
             {
               "Name": "Do Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Cancel Script and return to AI",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -278,15 +300,18 @@
           "Options": [
             {
               "Name": "LEGACY - Use old settings",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Ragdoll immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Perform a death animation",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -299,11 +324,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -316,11 +343,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -527,11 +556,13 @@
           "Options": [
             {
               "Name": "Enqueue",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Interrupt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -544,11 +575,13 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disable for this sequence",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -577,27 +610,33 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Custom movement",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Instantaneous",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "No - Turn to Face",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -642,43 +681,53 @@
           "Options": [
             {
               "Name": "Repeatable",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Leave Corpse (if not, fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Start on Spawn",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "No Interruptions",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Override AI",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Don\u0027t Teleport NPC On End",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Loop in Post Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Priority Script",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Hide Debug Complaints",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Allow other NPC actors to continue after this NPC actor\u0027s death",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -691,11 +740,13 @@
           "Options": [
             {
               "Name": "Do Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Cancel Script and return to AI",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -708,15 +759,18 @@
           "Options": [
             {
               "Name": "LEGACY - Use old settings",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Ragdoll immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Perform a death animation",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -729,11 +783,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -746,11 +802,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

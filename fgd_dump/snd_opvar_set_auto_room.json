@@ -97,23 +97,28 @@
           "Options": [
             {
               "Name": "Source 2",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Steam Audio Raycast",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Steam Audio Volumetric",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Steam Audio Pathing",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Steam Audio Dynamic Pathing",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -486,23 +491,28 @@
           "Options": [
             {
               "Name": "Source 2",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Steam Audio Raycast",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Steam Audio Volumetric",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Steam Audio Pathing",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Steam Audio Dynamic Pathing",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

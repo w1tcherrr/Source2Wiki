@@ -219,11 +219,13 @@
           "Options": [
             {
               "Name": "Master (Has priority if multiple info_player_starts exist)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "VR Anchor location (vs player location)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -578,11 +580,13 @@
           "Options": [
             {
               "Name": "Master (Has priority if multiple info_player_starts exist)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "VR Anchor location (vs player location)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -73,11 +73,13 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -342,11 +344,13 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

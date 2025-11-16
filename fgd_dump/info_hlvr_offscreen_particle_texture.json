@@ -57,15 +57,18 @@
           "Options": [
             {
               "Name": "Gain \u0026 Bias: Out = In * S \u002B T",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Gamma: Out = pow( In, S )",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smoothstep: Out = smoothstep(S, T, In)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -102,15 +105,18 @@
           "Options": [
             {
               "Name": "Gain \u0026 Bias: Out = In * S \u002B T",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Gamma: Out = pow( In, S )",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smoothstep: Out = smoothstep(S, T, In)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -147,15 +153,18 @@
           "Options": [
             {
               "Name": "Gain \u0026 Bias: Out = In * S \u002B T",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Gamma: Out = pow( In, S )",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smoothstep: Out = smoothstep(S, T, In)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -192,15 +201,18 @@
           "Options": [
             {
               "Name": "Gain \u0026 Bias: Out = In * S \u002B T",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Gamma: Out = pow( In, S )",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Smoothstep: Out = smoothstep(S, T, In)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

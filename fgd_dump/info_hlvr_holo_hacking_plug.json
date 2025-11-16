@@ -97,35 +97,43 @@
           "Options": [
             {
               "Name": "Sphere trace",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Point search",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Core search",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rod pull",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Point match",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Simple Activate",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Point drag",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Toner interact",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []

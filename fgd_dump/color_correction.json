@@ -97,11 +97,13 @@
           "Options": [
             {
               "Name": "Master (Default color correction when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Simulate client-side (Must be set when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -332,11 +334,13 @@
           "Options": [
             {
               "Name": "Master (Default color correction when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Simulate client-side (Must be set when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -573,11 +577,13 @@
           "Options": [
             {
               "Name": "Master (Default color correction when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Simulate client-side (Must be set when used with L4D fog_volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

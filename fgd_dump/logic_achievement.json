@@ -41,123 +41,153 @@
           "Options": [
             {
               "Name": "A1_IntroWorld1 - Feed the Snark",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_FEED_SNARK"
             },
             {
               "Name": "A1_IntroWorld2 - Escape the Combine truck.",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A1_INTRO_WORLD_2"
             },
             {
               "Name": "A1_IntroWorld2 - Play with Playground",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_HL2_PLAYGROUND"
             },
             {
               "Name": "A1_IntroWorld2 - Russell Scene - Represent Self with Specific Prop",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_RUSSELL_SCENE"
             },
             {
               "Name": "A1_IntroWorld2 - Russell Scene - Point Geiger At Russell",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_GEIGER_COUNTER"
             },
             {
               "Name": "A1_IntroWorld2 - Russell Scene - Catch/GG Ammo Clip Before It Lands",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_CATCH_AMMO_CLIP"
             },
             {
               "Name": "A2_Quarantine - Enter the Quarantine Zone.",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A2_QUARANTINE_ENTRANCE"
             },
             {
               "Name": "A2_Hideout - After the Vort scene.",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A2_HIDEOUT"
             },
             {
               "Name": "A2_Hideout - Squeeze a HC Heart",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_SQUEEZE_HC_HEART"
             },
             {
               "Name": "A2_HC_Tunnels - Collect the Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A2_HEADCRABS_TUNNEL"
             },
             {
               "Name": "A2_Drainage - Reach the Explosive Infestation",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A2_DRAINAGE"
             },
             {
               "Name": "A2_Trainyard - After the Train Heist",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A2_TRAIN_YARD"
             },
             {
               "Name": "A3_StationSt - Reach the Northern Star",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_STATION_STREET"
             },
             {
               "Name": "A3_Hotel_Lobby - After the first Reviver fight",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_HOTEL_LOBBY_BASEMENT"
             },
             {
               "Name": "A3_Hotel_Underground - Escape the Pit",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_HOTEL_UNDERGROUND_PIT"
             },
             {
               "Name": "A3_Hotel_Interior - Collect the Rapidfire",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_HOTEL_INTERIOR_ROOFTOP"
             },
             {
               "Name": "A3_Hotel_Street - Shutdown the Substation",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_HOTEL_STREET"
             },
             {
               "Name": "A3_ProcPlant - After the Exploding Barrel Tripmine Room",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_C17_PROCESSING_PLANT"
             },
             {
               "Name": "A3_Distillery - Leave the Distillery without killing BZ",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_DISTILLERY_NOKILLBZ"
             },
             {
               "Name": "A3_Distillery - Leave the Distillery after killing BZ",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A3_DISTILLERY_KILLBZ"
             },
             {
               "Name": "A3_Distillery - Kill Annoying HC Before He Knocks Bottles",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_KILL_ANNOYING_HC"
             },
             {
               "Name": "A3_Distillery - Catch Trap Bottles Before They Hit Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_CATCH_FALLING_BOTTLE"
             },
             {
               "Name": "A3_Distillery - Bring Russell Vodka",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_SIDE_BRING_RUSSELL_VODKA"
             },
             {
               "Name": "A4_Zoo - Reach the Aquatic Exhibits",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A4_C17_ZOO"
             },
             {
               "Name": "A4_TankerYard - Solve the Tanker Yard\u0027s Toner puzzle",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A4_C17_TANKER_YARD"
             },
             {
               "Name": "A4_WaterTower - Reach the Water Tower",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A4_C17_WATER_TOWER"
             },
             {
               "Name": "A4_ParkingG - After the Strider Wakes Up",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A4_C17_PARKING_GARAGE"
             },
             {
               "Name": "A5_Vault - Reach the Superweapon",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A5_VAULT"
             },
             {
               "Name": "A5_Vault - Hidden Carry Gnome",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_HIDDEN_CARRY_GNOME"
             },
             {
               "Name": "A5_Ending - End Game",
-              "Description": ""
+              "Description": "",
+              "Key": "ACHIEVEMENT_EVENT_TRACK_A5_ENDING"
             }
           ],
           "Annotations": []

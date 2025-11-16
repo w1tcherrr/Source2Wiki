@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "Punch all players (ignore radius)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Punch players in the air",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -334,11 +336,13 @@
           "Options": [
             {
               "Name": "Punch all players (ignore radius)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Punch players in the air",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -587,11 +591,13 @@
           "Options": [
             {
               "Name": "Punch all players (ignore radius)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Punch players in the air",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

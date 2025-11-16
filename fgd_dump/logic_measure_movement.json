@@ -73,11 +73,13 @@
           "Options": [
             {
               "Name": "Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Eye position",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -308,11 +310,13 @@
           "Options": [
             {
               "Name": "Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Eye position",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -543,11 +547,13 @@
           "Options": [
             {
               "Name": "Position",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Eye position",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

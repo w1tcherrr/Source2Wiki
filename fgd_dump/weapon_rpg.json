@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Start constrained",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Deny player pickup (reserve for NPC)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Not puntable by Gravity Gun",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

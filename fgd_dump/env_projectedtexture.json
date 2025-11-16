@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Always Update (moving light)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -138,11 +140,13 @@
           "Options": [
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -211,11 +215,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

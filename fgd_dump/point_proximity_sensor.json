@@ -97,7 +97,8 @@
           "Options": [
             {
               "Name": "Test the distance as measured along the axis specified by our direction.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -364,7 +365,8 @@
           "Options": [
             {
               "Name": "Test the distance as measured along the axis specified by our direction.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -619,7 +621,8 @@
           "Options": [
             {
               "Name": "Test the distance as measured along the axis specified by our direction.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -886,7 +889,8 @@
           "Options": [
             {
               "Name": "Test the distance as measured along the axis specified by our direction.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

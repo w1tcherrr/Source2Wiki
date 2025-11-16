@@ -81,7 +81,8 @@
           "Options": [
             {
               "Name": "Start Constrained",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             }
           ],
           "Annotations": []

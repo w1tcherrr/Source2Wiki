@@ -17,19 +17,23 @@
           "Options": [
             {
               "Name": "Check Visibility",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "APC Visibility checks",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Short memory",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "Can be an enemy",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             }
           ],
           "Annotations": []
@@ -150,19 +154,23 @@
           "Options": [
             {
               "Name": "Check Visibility",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "APC Visibility checks",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Short memory",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "Can be an enemy",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             }
           ],
           "Annotations": []

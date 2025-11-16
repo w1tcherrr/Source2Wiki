@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "No (Use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Don\u0027t use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,27 +60,33 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "default"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_ar2"
             },
             {
               "Name": "Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_shotgun"
             },
             {
               "Name": "SMG1",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_smg1"
             },
             {
               "Name": "Stun Stick",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_stunstick"
             },
             {
               "Name": "Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             }
           ],
           "Annotations": []
@@ -99,15 +107,18 @@
           "Options": [
             {
               "Name": "Start LookOff",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "Don\u0027t drop grenades",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Don\u0027t drop ar2 alt fire (elite only) ",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             }
           ],
           "Annotations": []
@@ -120,11 +131,13 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Teleport Grenades",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -145,19 +158,23 @@
           "Options": [
             {
               "Name": "Grunt",
-              "Description": ""
+              "Description": "",
+              "Key": "models/characters/combine_grunt/combine_grunt.vmdl"
             },
             {
               "Name": "Officer",
-              "Description": ""
+              "Description": "",
+              "Key": "models/characters/combine_soldier_captain/combine_captain.vmdl"
             },
             {
               "Name": "Charger",
-              "Description": ""
+              "Description": "",
+              "Key": "models/characters/combine_soldier_heavy/combine_soldier_heavy.vmdl"
             },
             {
               "Name": "Suppressor",
-              "Description": ""
+              "Description": "",
+              "Key": "models/characters/combine_suppressor/combine_suppressor.vmdl"
             }
           ],
           "Annotations": []
@@ -170,19 +187,23 @@
           "Options": [
             {
               "Name": "Normal Tactics",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "OBSOLETE - Pressure the enemy (Keep advancing)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "OBSOLETE - Pressure until within 30ft, then normal",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Defensive Stance towards Last Seen Position",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -195,11 +216,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -212,11 +235,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (carries 4 health vials)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -229,11 +254,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Grenades wont be removed)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -17,83 +17,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -306,43 +326,53 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Random Strike",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ring",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Shade Start",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Shade End",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Taper Out",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -355,23 +385,28 @@
           "Options": [
             {
               "Name": "Not a tripwire",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPC Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Player or NPC",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Player or NPC or Physprop",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -384,15 +419,18 @@
           "Options": [
             {
               "Name": "Do not clip (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Clip to geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clip to everything solid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -629,83 +667,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -918,43 +976,53 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Random Strike",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ring",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Shade Start",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Shade End",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Taper Out",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -967,23 +1035,28 @@
           "Options": [
             {
               "Name": "Not a tripwire",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPC Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Player or NPC",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Player or NPC or Physprop",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -996,15 +1069,18 @@
           "Options": [
             {
               "Name": "Do not clip (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Clip to geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clip to everything solid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1253,83 +1329,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -1542,43 +1638,53 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Random Strike",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ring",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "StartSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "EndSparks",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Decal End",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Shade Start",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Shade End",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Taper Out",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -1591,23 +1697,28 @@
           "Options": [
             {
               "Name": "Not a tripwire",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Player Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "NPC Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Player or NPC",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Player or NPC or Physprop",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1620,15 +1731,18 @@
           "Options": [
             {
               "Name": "Do not clip (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Clip to geometry",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Clip to everything solid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

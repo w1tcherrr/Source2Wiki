@@ -49,7 +49,8 @@
           "Options": [
             {
               "Name": "cover_strong",
-              "Description": ""
+              "Description": "",
+              "Key": "COVER_STRONG"
             }
           ],
           "Annotations": []

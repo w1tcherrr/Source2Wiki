@@ -97,115 +97,143 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Huge Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Big Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Slow Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Quick Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Quick pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "Slow Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Quick Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "Grunge pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "Very low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "Low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "High pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Very high pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Screaming pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "18"
             },
             {
               "Name": "Oscillate spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "19"
             },
             {
               "Name": "Pulse spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "20"
             },
             {
               "Name": "Random pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Random pitch fast",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Incremental Spinup",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Alien",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Bizzare",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             },
             {
               "Name": "Planet X",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             },
             {
               "Name": "Haunted",
-              "Description": ""
+              "Description": "",
+              "Key": "27"
             }
           ],
           "Annotations": []
@@ -322,15 +350,18 @@
           "Options": [
             {
               "Name": "Play everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Is NOT Looped",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             }
           ],
           "Annotations": []
@@ -623,115 +654,143 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Huge Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Big Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Slow Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Quick Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Quick pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "Slow Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Quick Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "Grunge pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "Very low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "Low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "High pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Very high pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Screaming pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "18"
             },
             {
               "Name": "Oscillate spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "19"
             },
             {
               "Name": "Pulse spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "20"
             },
             {
               "Name": "Random pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Random pitch fast",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Incremental Spinup",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Alien",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Bizzare",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             },
             {
               "Name": "Planet X",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             },
             {
               "Name": "Haunted",
-              "Description": ""
+              "Description": "",
+              "Key": "27"
             }
           ],
           "Annotations": []
@@ -848,15 +907,18 @@
           "Options": [
             {
               "Name": "Play everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Is NOT Looped",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             }
           ],
           "Annotations": []
@@ -1137,115 +1199,143 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Huge Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Big Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Slow Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Quick Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Quick pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "Slow Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Quick Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "Grunge pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "Very low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "Low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "High pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Very high pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Screaming pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "18"
             },
             {
               "Name": "Oscillate spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "19"
             },
             {
               "Name": "Pulse spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "20"
             },
             {
               "Name": "Random pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Random pitch fast",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Incremental Spinup",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Alien",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Bizzare",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             },
             {
               "Name": "Planet X",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             },
             {
               "Name": "Haunted",
-              "Description": ""
+              "Description": "",
+              "Key": "27"
             }
           ],
           "Annotations": []
@@ -1362,15 +1452,18 @@
           "Options": [
             {
               "Name": "Play everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Is NOT Looped",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             }
           ],
           "Annotations": []
@@ -1663,115 +1756,143 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Huge Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Big Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Machine",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Slow Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Quick Fade in",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Quick pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             },
             {
               "Name": "Slow Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Quick Oscillator",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "Grunge pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "Very low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "Low pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "High pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Very high pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Screaming pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "18"
             },
             {
               "Name": "Oscillate spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "19"
             },
             {
               "Name": "Pulse spinup/down",
-              "Description": ""
+              "Description": "",
+              "Key": "20"
             },
             {
               "Name": "Random pitch",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Random pitch fast",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Incremental Spinup",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Alien",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Bizzare",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             },
             {
               "Name": "Planet X",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             },
             {
               "Name": "Haunted",
-              "Description": ""
+              "Description": "",
+              "Key": "27"
             }
           ],
           "Annotations": []
@@ -1888,15 +2009,18 @@
           "Options": [
             {
               "Name": "Play everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Start Silent",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Is NOT Looped",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             }
           ],
           "Annotations": []

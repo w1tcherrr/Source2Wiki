@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Convert Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Convert As Debris",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -216,11 +218,13 @@
           "Options": [
             {
               "Name": "Convert Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Convert As Debris",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

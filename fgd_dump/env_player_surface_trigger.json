@@ -33,63 +33,78 @@
           "Options": [
             {
               "Name": "None (player\u0027s in the air)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Concrete",
-              "Description": ""
+              "Description": "",
+              "Key": "67"
             },
             {
               "Name": "Metal",
-              "Description": ""
+              "Description": "",
+              "Key": "77"
             },
             {
               "Name": "Dirt",
-              "Description": ""
+              "Description": "",
+              "Key": "68"
             },
             {
               "Name": "Vent",
-              "Description": ""
+              "Description": "",
+              "Key": "86"
             },
             {
               "Name": "Grate",
-              "Description": ""
+              "Description": "",
+              "Key": "71"
             },
             {
               "Name": "Tile",
-              "Description": ""
+              "Description": "",
+              "Key": "84"
             },
             {
               "Name": "Slosh",
-              "Description": ""
+              "Description": "",
+              "Key": "83"
             },
             {
               "Name": "Wood",
-              "Description": ""
+              "Description": "",
+              "Key": "87"
             },
             {
               "Name": "Computer",
-              "Description": ""
+              "Description": "",
+              "Key": "80"
             },
             {
               "Name": "Glass",
-              "Description": ""
+              "Description": "",
+              "Key": "89"
             },
             {
               "Name": "Flesh",
-              "Description": ""
+              "Description": "",
+              "Key": "70"
             },
             {
               "Name": "Clip",
-              "Description": ""
+              "Description": "",
+              "Key": "73"
             },
             {
               "Name": "Foliage",
-              "Description": ""
+              "Description": "",
+              "Key": "79"
             },
             {
               "Name": "Sand",
-              "Description": ""
+              "Description": "",
+              "Key": "78"
             }
           ],
           "Annotations": []

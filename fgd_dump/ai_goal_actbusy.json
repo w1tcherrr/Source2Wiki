@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -82,11 +84,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -99,11 +103,13 @@
           "Options": [
             {
               "Name": "Default. LOS -and- Viewcone",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "LOS Only. Disregard Viewcone",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -116,15 +122,18 @@
           "Options": [
             {
               "Name": "Not forced",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Forced but not held",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Forced and held until deactivated via input",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -137,11 +146,13 @@
           "Options": [
             {
               "Name": "Default (Standard)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -162,11 +173,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Only for Combat Actbusy)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -291,11 +304,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -340,11 +355,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -357,11 +374,13 @@
           "Options": [
             {
               "Name": "Default. LOS -and- Viewcone",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "LOS Only. Disregard Viewcone",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -374,15 +393,18 @@
           "Options": [
             {
               "Name": "Not forced",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Forced but not held",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Forced and held until deactivated via input",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -395,11 +417,13 @@
           "Options": [
             {
               "Name": "Default (Standard)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -420,11 +444,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Only for Combat Actbusy)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

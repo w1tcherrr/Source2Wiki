@@ -89,31 +89,38 @@
           "Options": [
             {
               "Name": "Coca-Cola",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sprite",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Diet Coke",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Orange",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Surge",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Moxie",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []
@@ -354,31 +361,38 @@
           "Options": [
             {
               "Name": "Coca-Cola",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sprite",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Diet Coke",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Orange",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Surge",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Moxie",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []

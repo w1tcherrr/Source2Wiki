@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Automatically find water surface (place entity above water)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Diminish with depth (diminished completely in 10 feet of water)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -208,11 +210,13 @@
           "Options": [
             {
               "Name": "Automatically find water surface (place entity above water)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Diminish with depth (diminished completely in 10 feet of water)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

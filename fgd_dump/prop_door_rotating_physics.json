@@ -97,19 +97,23 @@
           "Options": [
             {
               "Name": "OFF",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "\u002Buse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "look-at",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "ON",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -290,19 +294,23 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Lever",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Push bar",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Keypad",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -323,19 +331,23 @@
           "Options": [
             {
               "Name": "Closed",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Open forward",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Open back",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ajar (use Ajar Angle)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -468,15 +480,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -489,27 +504,33 @@
           "Options": [
             {
               "Name": "Starts Open",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Starts locked",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "Door silent (No sound, and does not alert NPCs)",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Use closes",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "Door silent to NPCS (Does not alert NPCs)",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "Ignore player \u002BUSE",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             }
           ],
           "Annotations": []
@@ -522,15 +543,18 @@
           "Options": [
             {
               "Name": "Open Both Directions",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Open Forward Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Open Backward Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

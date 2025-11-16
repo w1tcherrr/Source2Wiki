@@ -17,15 +17,18 @@
           "Options": [
             {
               "Name": "Lumens",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "EV",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Legacy",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -110,11 +113,13 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Static",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -199,15 +204,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disk",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Rectangle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -236,39 +244,48 @@
           "Options": [
             {
               "Name": "4096",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "3584",
-              "Description": ""
+              "Description": "",
+              "Key": "3584"
             },
             {
               "Name": "3072",
-              "Description": ""
+              "Description": "",
+              "Key": "3072"
             },
             {
               "Name": "2560",
-              "Description": ""
+              "Description": "",
+              "Key": "2560"
             },
             {
               "Name": "2048",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "1536",
-              "Description": ""
+              "Description": "",
+              "Key": "1536"
             },
             {
               "Name": "1024",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "512",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             }
           ],
           "Annotations": []
@@ -281,23 +298,28 @@
           "Options": [
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "100"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-5"
             },
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             }
           ],
           "Annotations": []
@@ -438,19 +460,23 @@
           "Options": [
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Color Temperature",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Color Temperature",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -463,11 +489,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -480,27 +508,33 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked \u0026 Dynamic",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Baked Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Static \u0026 Dynamic",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Static Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -521,35 +555,43 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Static",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Stationary",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Dynamic",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Static",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Stationary",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Dynamic",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -562,23 +604,28 @@
           "Options": [
             {
               "Name": "Disk (Area Light)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rectangle (Area Light)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Point",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Disk (Area Light)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rectangle (Area Light)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

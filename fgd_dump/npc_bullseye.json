@@ -49,27 +49,33 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "Take No Damage",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Enemy Damage Only",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "Bleed",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "Perfect Accuracy",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "Collide against physics objects (Creates VPhysics Shadow)",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []
@@ -138,27 +144,33 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "Take No Damage",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             },
             {
               "Name": "Enemy Damage Only",
-              "Description": ""
+              "Description": "",
+              "Key": "262144"
             },
             {
               "Name": "Bleed",
-              "Description": ""
+              "Description": "",
+              "Key": "524288"
             },
             {
               "Name": "Perfect Accuracy",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "Collide against physics objects (Creates VPhysics Shadow)",
-              "Description": ""
+              "Description": "",
+              "Key": "2097152"
             }
           ],
           "Annotations": []

@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -98,11 +100,13 @@
           "Options": [
             {
               "Name": "Don\u0027t remove template entities",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Preserve entity names (Don\u0027t do name fixup)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -139,15 +143,18 @@
           "Options": [
             {
               "Name": "Spawn into point_template\u0027s spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into the currently active spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into a newly created spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP"
             }
           ],
           "Annotations": []
@@ -160,11 +167,13 @@
           "Options": [
             {
               "Name": "Only create for clients connected at the time at which point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY"
             },
             {
               "Name": "Create for clients who connect after the point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CLIENTS_WHO_CONNECT_LATER"
             }
           ],
           "Annotations": []
@@ -873,11 +882,13 @@
           "Options": [
             {
               "Name": "Don\u0027t remove template entities",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Preserve entity names (Don\u0027t do name fixup)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -914,15 +925,18 @@
           "Options": [
             {
               "Name": "Spawn into point_template\u0027s spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into the currently active spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into a newly created spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP"
             }
           ],
           "Annotations": []
@@ -935,11 +949,13 @@
           "Options": [
             {
               "Name": "Only create for clients connected at the time at which point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY"
             },
             {
               "Name": "Create for clients who connect after the point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CLIENTS_WHO_CONNECT_LATER"
             }
           ],
           "Annotations": []
@@ -1596,11 +1612,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1677,11 +1695,13 @@
           "Options": [
             {
               "Name": "Don\u0027t remove template entities",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Preserve entity names (Don\u0027t do name fixup)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1718,15 +1738,18 @@
           "Options": [
             {
               "Name": "Spawn into point_template\u0027s spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into the currently active spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into a newly created spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP"
             }
           ],
           "Annotations": []
@@ -1739,11 +1762,13 @@
           "Options": [
             {
               "Name": "Only create for clients connected at the time at which point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY"
             },
             {
               "Name": "Create for clients who connect after the point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CLIENTS_WHO_CONNECT_LATER"
             }
           ],
           "Annotations": []
@@ -2452,11 +2477,13 @@
           "Options": [
             {
               "Name": "Don\u0027t remove template entities",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Preserve entity names (Don\u0027t do name fixup)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -2493,15 +2520,18 @@
           "Options": [
             {
               "Name": "Spawn into point_template\u0027s spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into the currently active spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP"
             },
             {
               "Name": "Spawn into a newly created spawn group",
-              "Description": ""
+              "Description": "",
+              "Key": "INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP"
             }
           ],
           "Annotations": []
@@ -2514,11 +2544,13 @@
           "Options": [
             {
               "Name": "Only create for clients connected at the time at which point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY"
             },
             {
               "Name": "Create for clients who connect after the point_template spawns its contents",
-              "Description": ""
+              "Description": "",
+              "Key": "CREATE_FOR_CLIENTS_WHO_CONNECT_LATER"
             }
           ],
           "Annotations": []

@@ -73,7 +73,8 @@
           "Options": [
             {
               "Name": "Start Constrained",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -86,7 +87,8 @@
           "Options": [
             {
               "Name": "Short Logon",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

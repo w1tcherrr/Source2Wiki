@@ -49,11 +49,13 @@
           "Options": [
             {
               "Name": "Disable Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "To Previous Chapter",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -134,11 +136,13 @@
           "Options": [
             {
               "Name": "Disable Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "To Previous Chapter",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -219,11 +223,13 @@
           "Options": [
             {
               "Name": "Disable Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "To Previous Chapter",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -304,11 +310,13 @@
           "Options": [
             {
               "Name": "Disable Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "To Previous Chapter",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

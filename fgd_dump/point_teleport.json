@@ -89,15 +89,18 @@
           "Options": [
             {
               "Name": "Teleport Home",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Into Duck (episodic)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Change View Direction (VR)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -372,15 +375,18 @@
           "Options": [
             {
               "Name": "Teleport Home",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Into Duck (episodic)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Change View Direction (VR)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -629,15 +635,18 @@
           "Options": [
             {
               "Name": "Teleport Home",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Into Duck (episodic)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Change View Direction (VR)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -912,15 +921,18 @@
           "Options": [
             {
               "Name": "Teleport Home",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Into Duck (episodic)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Change View Direction (VR)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

@@ -49,11 +49,13 @@
           "Options": [
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Nonsolid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

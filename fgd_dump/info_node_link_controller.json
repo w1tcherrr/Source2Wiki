@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "Off - navigation between the nodes is disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On - navigation between the nodes is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -50,11 +52,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use As Last Resort",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -251,11 +255,13 @@
           "Options": [
             {
               "Name": "Off - navigation between the nodes is disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On - navigation between the nodes is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -284,11 +290,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use As Last Resort",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

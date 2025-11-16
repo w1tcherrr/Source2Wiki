@@ -17,7 +17,8 @@
           "Options": [
             {
               "Name": "Auto Resize",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -38,15 +39,18 @@
           "Options": [
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Semi-rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -211,15 +215,18 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -400,19 +407,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -425,19 +436,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -450,23 +465,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -479,23 +499,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -508,11 +533,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -525,7 +552,8 @@
           "Options": [
             {
               "Name": "Auto Resize",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -546,15 +574,18 @@
           "Options": [
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Semi-rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -719,15 +750,18 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -896,7 +930,8 @@
           "Options": [
             {
               "Name": "Auto Resize",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -917,15 +952,18 @@
           "Options": [
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Semi-rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1090,15 +1128,18 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1279,19 +1320,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1304,19 +1349,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1329,23 +1378,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1358,23 +1412,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1387,11 +1446,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1404,7 +1465,8 @@
           "Options": [
             {
               "Name": "Auto Resize",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1425,15 +1487,18 @@
           "Options": [
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Semi-rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1598,15 +1663,18 @@
           "Options": [
             {
               "Name": "Linear",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Catmull-Rom Spline",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Rope",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

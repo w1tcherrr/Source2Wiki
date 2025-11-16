@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,15 +60,18 @@
           "Options": [
             {
               "Name": "Don\u0027t care",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Terrorists",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Counter-Terrorists",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

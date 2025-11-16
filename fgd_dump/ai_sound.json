@@ -33,55 +33,68 @@
           "Options": [
             {
               "Name": "Select one",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "World",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Danger",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Bullet Impact",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Carcass",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Meat",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Garbage",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Thumper",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Move Away - Most NPCs will clear the radius of this sound when heard.",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Readiness - Low",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "Readiness - Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "Readiness - High",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -94,15 +107,18 @@
           "Options": [
             {
               "Name": "Select one",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Combine hear",
-              "Description": ""
+              "Description": "",
+              "Key": "8388608"
             },
             {
               "Name": "Combine cannot hear",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             }
           ],
           "Annotations": []
@@ -163,55 +179,68 @@
           "Options": [
             {
               "Name": "Select one",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "World",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Danger",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Bullet Impact",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Carcass",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Meat",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Garbage",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Thumper",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Move Away - Most NPCs will clear the radius of this sound when heard.",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Readiness - Low",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             },
             {
               "Name": "Readiness - Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "Readiness - High",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -224,15 +253,18 @@
           "Options": [
             {
               "Name": "Select one",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Combine hear",
-              "Description": ""
+              "Description": "",
+              "Key": "8388608"
             },
             {
               "Name": "Combine cannot hear",
-              "Description": ""
+              "Description": "",
+              "Key": "67108864"
             }
           ],
           "Annotations": []

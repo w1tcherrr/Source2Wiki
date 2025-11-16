@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Play Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "All Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -74,19 +76,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -255,11 +261,13 @@
           "Options": [
             {
               "Name": "Play Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "All Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -288,19 +296,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -463,11 +475,13 @@
           "Options": [
             {
               "Name": "Play Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "All Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -496,19 +510,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -677,11 +695,13 @@
           "Options": [
             {
               "Name": "Play Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "All Clients",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -710,19 +730,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

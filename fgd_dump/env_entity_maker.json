@@ -81,23 +81,28 @@
           "Options": [
             {
               "Name": "Enable AutoSpawn (will spawn whenever there\u0027s room)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "AutoSpawn: Wait for entity destruction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "AutoSpawn: Even if the player is looking",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "ForceSpawn: Only if there\u0027s room",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "ForceSpawn: Only if the player isn\u0027t looking",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -388,23 +393,28 @@
           "Options": [
             {
               "Name": "Enable AutoSpawn (will spawn whenever there\u0027s room)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "AutoSpawn: Wait for entity destruction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "AutoSpawn: Even if the player is looking",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "ForceSpawn: Only if there\u0027s room",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "ForceSpawn: Only if the player isn\u0027t looking",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -683,23 +693,28 @@
           "Options": [
             {
               "Name": "Enable AutoSpawn (will spawn whenever there\u0027s room)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "AutoSpawn: Wait for entity destruction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "AutoSpawn: Even if the player is looking",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "ForceSpawn: Only if there\u0027s room",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "ForceSpawn: Only if the player isn\u0027t looking",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -990,23 +1005,28 @@
           "Options": [
             {
               "Name": "Enable AutoSpawn (will spawn whenever there\u0027s room)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "AutoSpawn: Wait for entity destruction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "AutoSpawn: Even if the player is looking",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "ForceSpawn: Only if there\u0027s room",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "ForceSpawn: Only if the player isn\u0027t looking",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

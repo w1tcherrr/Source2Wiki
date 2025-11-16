@@ -97,19 +97,23 @@
           "Options": [
             {
               "Name": "Shoot Me",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No Interruptions",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Resume if Interrupted",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Snap to me",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

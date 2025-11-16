@@ -17,23 +17,28 @@
           "Options": [
             {
               "Name": "Lowest",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -94,15 +99,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "AmbientCube RGBM8888 Uncompressed",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "AmbientCube RGBMDXT5 Compressed",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -155,11 +163,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -172,39 +182,48 @@
           "Options": [
             {
               "Name": "Very Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "6.0"
             },
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             },
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             }
           ],
           "Annotations": []
@@ -241,23 +260,28 @@
           "Options": [
             {
               "Name": "Lowest",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -318,15 +342,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "AmbientCube RGBM8888 Uncompressed",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "AmbientCube RGBMDXT5 Compressed",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -379,43 +406,53 @@
           "Options": [
             {
               "Name": "Insanely High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "1.5"
             },
             {
               "Name": "Very Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "6.0"
             },
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             },
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             }
           ],
           "Annotations": []
@@ -460,23 +497,28 @@
           "Options": [
             {
               "Name": "Lowest",
-              "Description": ""
+              "Description": "",
+              "Key": "-2"
             },
             {
               "Name": "Low",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "High",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Highest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -529,15 +571,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "AmbientCube RGBM8888 Uncompressed",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "AmbientCube RGBMDXT5 Compressed",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -590,35 +635,43 @@
           "Options": [
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             },
             {
               "Name": "Very High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "12.0"
             },
             {
               "Name": "High Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "24.0"
             },
             {
               "Name": "Medium Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "48.0"
             },
             {
               "Name": "Low Resolution",
-              "Description": ""
+              "Description": "",
+              "Key": "108.0"
             }
           ],
           "Annotations": []

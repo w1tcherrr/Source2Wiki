@@ -137,35 +137,43 @@
           "Options": [
             {
               "Name": "Start At Player",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Follow Player",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Freeze Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Infinite Hold Time",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Snap to goal angles",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Make Player non-solid",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Interruptable by Player",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Set FOV",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []
@@ -478,35 +486,43 @@
           "Options": [
             {
               "Name": "Start At Player",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Follow Player",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Freeze Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Infinite Hold Time",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Snap to goal angles",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Make Player non-solid",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Interruptable by Player",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Set FOV",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []

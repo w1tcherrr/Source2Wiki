@@ -41,19 +41,23 @@
           "Options": [
             {
               "Name": "A",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "B",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "C",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "D",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -74,11 +78,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -91,11 +97,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -108,11 +116,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -125,11 +135,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -142,11 +154,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -159,11 +173,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -176,11 +192,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -193,11 +211,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -210,11 +230,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -227,11 +249,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -244,11 +268,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -261,11 +287,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -278,11 +306,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -295,11 +325,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -312,11 +344,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -329,11 +363,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -346,11 +382,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -363,11 +401,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -380,11 +420,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -397,11 +439,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -414,11 +458,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -431,11 +477,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -448,11 +496,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -465,11 +515,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -482,11 +534,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -499,11 +553,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -516,11 +572,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -533,11 +591,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -550,11 +610,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -567,11 +629,13 @@
           "Options": [
             {
               "Name": "n/a",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Do not spawn together",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

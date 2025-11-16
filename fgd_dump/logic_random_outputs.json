@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Only trigger once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Allow fast retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -344,11 +346,13 @@
           "Options": [
             {
               "Name": "Only trigger once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Allow fast retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

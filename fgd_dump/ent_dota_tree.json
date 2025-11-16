@@ -57,35 +57,43 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

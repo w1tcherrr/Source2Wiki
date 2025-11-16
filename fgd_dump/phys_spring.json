@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Force only on stretch",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Enable collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -272,7 +274,8 @@
           "Options": [
             {
               "Name": "Force only on stretch",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -481,11 +484,13 @@
           "Options": [
             {
               "Name": "Force only on stretch",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Enable collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -720,7 +725,8 @@
           "Options": [
             {
               "Name": "Force only on stretch",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

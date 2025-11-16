@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -106,23 +108,28 @@
           "Options": [
             {
               "Name": "Point At Origin",
-              "Description": ""
+              "Description": "",
+              "Key": "eAbsOrigin"
             },
             {
               "Name": "Point At Center",
-              "Description": ""
+              "Description": "",
+              "Key": "eCenter"
             },
             {
               "Name": "Point At Head",
-              "Description": ""
+              "Description": "",
+              "Key": "eHead"
             },
             {
               "Name": "Align To Forward Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "eForward"
             },
             {
               "Name": "Align To Look Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "eEyesForward"
             }
           ],
           "Annotations": []
@@ -135,11 +142,13 @@
           "Options": [
             {
               "Name": "No constraints",
-              "Description": ""
+              "Description": "",
+              "Key": "eNone"
             },
             {
               "Name": "Preserve Up Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "ePreserveUpAxis"
             }
           ],
           "Annotations": []
@@ -160,11 +169,13 @@
           "Options": [
             {
               "Name": "Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Active",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -339,11 +350,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -428,23 +441,28 @@
           "Options": [
             {
               "Name": "Point At Origin",
-              "Description": ""
+              "Description": "",
+              "Key": "eAbsOrigin"
             },
             {
               "Name": "Point At Center",
-              "Description": ""
+              "Description": "",
+              "Key": "eCenter"
             },
             {
               "Name": "Point At Head",
-              "Description": ""
+              "Description": "",
+              "Key": "eHead"
             },
             {
               "Name": "Align To Forward Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "eForward"
             },
             {
               "Name": "Align To Look Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "eEyesForward"
             }
           ],
           "Annotations": []
@@ -457,11 +475,13 @@
           "Options": [
             {
               "Name": "No constraints",
-              "Description": ""
+              "Description": "",
+              "Key": "eNone"
             },
             {
               "Name": "Preserve Up Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "ePreserveUpAxis"
             }
           ],
           "Annotations": []
@@ -482,11 +502,13 @@
           "Options": [
             {
               "Name": "Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Active",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -121,23 +121,28 @@
           "Options": [
             {
               "Name": "No Damage - Only Force",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Push players",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Push radially - not as a sphere",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Test LOS before pushing",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Disorient player if pushed",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -166,11 +171,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -449,23 +456,28 @@
           "Options": [
             {
               "Name": "No Damage - Only Force",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Push players",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Push radially - not as a sphere",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Test LOS before pushing",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Disorient player if pushed",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -494,11 +506,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -765,23 +779,28 @@
           "Options": [
             {
               "Name": "No Damage - Only Force",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Push players",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Push radially - not as a sphere",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Test LOS before pushing",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Disorient player if pushed",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -810,11 +829,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1093,23 +1114,28 @@
           "Options": [
             {
               "Name": "No Damage - Only Force",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Push players",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Push radially - not as a sphere",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Test LOS before pushing",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Disorient player if pushed",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

@@ -81,7 +81,8 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

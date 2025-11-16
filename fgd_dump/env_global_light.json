@@ -345,11 +345,13 @@
           "Options": [
             {
               "Name": "Height Fog",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Caustics",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

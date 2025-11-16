@@ -113,47 +113,58 @@
           "Options": [
             {
               "Name": "Use Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "1 NO EFFECT",
-              "Description": ""
+              "Description": "",
+              "Key": "50"
             },
             {
               "Name": "2 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "51"
             },
             {
               "Name": "3 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "52"
             },
             {
               "Name": "4 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "53"
             },
             {
               "Name": "5 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "54"
             },
             {
               "Name": "6 SPEAKER, LOUDER",
-              "Description": ""
+              "Description": "",
+              "Key": "55"
             },
             {
               "Name": "7 SPEAKER VERY SMALL",
-              "Description": ""
+              "Description": "",
+              "Key": "56"
             },
             {
               "Name": "8 LOUDSPEAKER, ECHO",
-              "Description": ""
+              "Description": "",
+              "Key": "57"
             },
             {
               "Name": "9 SPEAKER SMALL",
-              "Description": ""
+              "Description": "",
+              "Key": "58"
             },
             {
               "Name": "10 SPEAKER TINY",
-              "Description": ""
+              "Description": "",
+              "Key": "59"
             }
           ],
           "Annotations": []
@@ -166,31 +177,38 @@
           "Options": [
             {
               "Name": "Hears combat sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Hears world sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hears player sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Hears bullet impacts",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Swallows sounds routed through speakers",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Hears explosions",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Ignores non-attenuated sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []
@@ -497,47 +515,58 @@
           "Options": [
             {
               "Name": "Use Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "1 NO EFFECT",
-              "Description": ""
+              "Description": "",
+              "Key": "50"
             },
             {
               "Name": "2 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "51"
             },
             {
               "Name": "3 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "52"
             },
             {
               "Name": "4 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "53"
             },
             {
               "Name": "5 (DUPLICATE OF 1)",
-              "Description": ""
+              "Description": "",
+              "Key": "54"
             },
             {
               "Name": "6 SPEAKER, LOUDER",
-              "Description": ""
+              "Description": "",
+              "Key": "55"
             },
             {
               "Name": "7 SPEAKER VERY SMALL",
-              "Description": ""
+              "Description": "",
+              "Key": "56"
             },
             {
               "Name": "8 LOUDSPEAKER, ECHO",
-              "Description": ""
+              "Description": "",
+              "Key": "57"
             },
             {
               "Name": "9 SPEAKER SMALL",
-              "Description": ""
+              "Description": "",
+              "Key": "58"
             },
             {
               "Name": "10 SPEAKER TINY",
-              "Description": ""
+              "Description": "",
+              "Key": "59"
             }
           ],
           "Annotations": []
@@ -550,31 +579,38 @@
           "Options": [
             {
               "Name": "Hears combat sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Hears world sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hears player sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Hears bullet impacts",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Swallows sounds routed through speakers",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Hears explosions",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Ignores non-attenuated sounds",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             }
           ],
           "Annotations": []

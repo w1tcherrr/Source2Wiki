@@ -89,19 +89,23 @@
           "Options": [
             {
               "Name": "Start immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Wait for actor to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Interrupt at next interrupt event",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Cancel at next interrupt event",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -114,11 +118,13 @@
           "Options": [
             {
               "Name": "Do Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Cancel Script and return to AI",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -407,19 +413,23 @@
           "Options": [
             {
               "Name": "Start immediately",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Wait for actor to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Interrupt at next interrupt event",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Cancel at next interrupt event",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -432,11 +442,13 @@
           "Options": [
             {
               "Name": "Do Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Cancel Script and return to AI",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

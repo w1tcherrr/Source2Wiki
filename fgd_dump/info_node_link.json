@@ -89,11 +89,13 @@
           "Options": [
             {
               "Name": "Off - navigation between the nodes is disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On - navigation between the nodes is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -122,11 +124,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use As Last Resort",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -171,23 +175,28 @@
           "Options": [
             {
               "Name": "Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Jump",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Fly",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Climb",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Crawl",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -418,11 +427,13 @@
           "Options": [
             {
               "Name": "Off - navigation between the nodes is disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On - navigation between the nodes is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -451,11 +462,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use As Last Resort",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -500,23 +513,28 @@
           "Options": [
             {
               "Name": "Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Jump",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Fly",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Climb",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Crawl",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

@@ -81,23 +81,28 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fire once",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Branch Reverse",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Disable train",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Teleport to THIS path track",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -142,15 +147,18 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face direction of motion",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face this path_track\u0027s angles",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -419,23 +427,28 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fire once",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Branch Reverse",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Disable train",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Teleport to THIS path track",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -480,15 +493,18 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face direction of motion",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face this path_track\u0027s angles",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -745,23 +761,28 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fire once",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Branch Reverse",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Disable train",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Teleport to THIS path track",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -806,15 +827,18 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face direction of motion",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face this path_track\u0027s angles",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1083,23 +1107,28 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Fire once",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Branch Reverse",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Disable train",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Teleport to THIS path track",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -1144,15 +1173,18 @@
           "Options": [
             {
               "Name": "No change",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face direction of motion",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face this path_track\u0027s angles",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -49,15 +49,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -234,15 +237,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -413,15 +419,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -598,15 +607,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "Wait for retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport to THIS path_corner",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -316,11 +318,13 @@
           "Options": [
             {
               "Name": "Wait for retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport to THIS path_corner",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -365,15 +369,18 @@
           "Options": [
             {
               "Name": "",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "ACT_WALK",
-              "Description": ""
+              "Description": "",
+              "Key": "ACT_WALK"
             },
             {
               "Name": "ACT_RUN",
-              "Description": ""
+              "Description": "",
+              "Key": "ACT_RUN"
             }
           ],
           "Annotations": []
@@ -584,11 +591,13 @@
           "Options": [
             {
               "Name": "Wait for retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport to THIS path_corner",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -819,11 +828,13 @@
           "Options": [
             {
               "Name": "Wait for retrigger",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport to THIS path_corner",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -868,15 +879,18 @@
           "Options": [
             {
               "Name": "",
-              "Description": ""
+              "Description": "",
+              "Key": ""
             },
             {
               "Name": "ACT_WALK",
-              "Description": ""
+              "Description": "",
+              "Key": "ACT_WALK"
             },
             {
               "Name": "ACT_RUN",
-              "Description": ""
+              "Description": "",
+              "Key": "ACT_RUN"
             }
           ],
           "Annotations": []

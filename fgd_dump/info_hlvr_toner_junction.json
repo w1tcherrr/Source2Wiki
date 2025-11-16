@@ -33,27 +33,33 @@
           "Options": [
             {
               "Name": "I Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "L Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "T Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "LL Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Static T Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Static \u002B Junction",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -66,19 +72,23 @@
           "Options": [
             {
               "Name": "0 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "90 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "180 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "270 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

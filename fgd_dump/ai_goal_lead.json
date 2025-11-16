@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "No, just idle and wait",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, move to retrieve",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -98,11 +100,13 @@
           "Options": [
             {
               "Name": "No, come back while speaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, wait for speech to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -115,11 +119,13 @@
           "Options": [
             {
               "Name": "No, start leading while speaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, wait for speech to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -132,11 +138,13 @@
           "Options": [
             {
               "Name": "Yes, speak the start greeting",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No, don\u0027t speak the greeting",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -149,11 +157,13 @@
           "Options": [
             {
               "Name": "No. Stop to fight, resume leading when safe.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, lead while fighting.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -166,11 +176,13 @@
           "Options": [
             {
               "Name": "No. Speak lead concepts normally, respecting other lead speech settings.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, don\u0027t speak any lead concepts at all, overriding all other lead speech settings.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -247,15 +259,18 @@
           "Options": [
             {
               "Name": "No def success",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No def failure",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Use goal facing",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -268,11 +283,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -415,11 +432,13 @@
           "Options": [
             {
               "Name": "No, just idle and wait",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, move to retrieve",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -432,11 +451,13 @@
           "Options": [
             {
               "Name": "No, come back while speaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, wait for speech to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -449,11 +470,13 @@
           "Options": [
             {
               "Name": "No, start leading while speaking",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, wait for speech to finish",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -466,11 +489,13 @@
           "Options": [
             {
               "Name": "Yes, speak the start greeting",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No, don\u0027t speak the greeting",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -483,11 +508,13 @@
           "Options": [
             {
               "Name": "No. Stop to fight, resume leading when safe.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, lead while fighting.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -500,11 +527,13 @@
           "Options": [
             {
               "Name": "No. Speak lead concepts normally, respecting other lead speech settings.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, don\u0027t speak any lead concepts at all, overriding all other lead speech settings.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -581,15 +610,18 @@
           "Options": [
             {
               "Name": "No def success",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No def failure",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Use goal facing",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -602,11 +634,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

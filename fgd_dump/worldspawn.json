@@ -49,19 +49,23 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Partitioned solve (large map volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             }
           ],
           "Annotations": []
@@ -74,11 +78,13 @@
           "Options": [
             {
               "Name": "No, keep current",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, clear previous levels",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -107,31 +113,38 @@
           "Options": [
             {
               "Name": "No Maximum",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "512",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "1024",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "2048",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "4096",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "8192",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "16384",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             }
           ],
           "Annotations": []
@@ -152,15 +165,18 @@
           "Options": [
             {
               "Name": "Cleanup",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Auto",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -173,15 +189,18 @@
           "Options": [
             {
               "Name": "Automatic, Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Automatic, Use Probe Generation Volumes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -282,15 +301,18 @@
           "Options": [
             {
               "Name": "Cleanup",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Auto",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -303,15 +325,18 @@
           "Options": [
             {
               "Name": "Automatic, Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Automatic, Use Probe Generation Volumes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -388,15 +413,18 @@
           "Options": [
             {
               "Name": "Cleanup",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Auto",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -409,15 +437,18 @@
           "Options": [
             {
               "Name": "Automatic, Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Automatic, Use Probe Generation Volumes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Manual",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -561,15 +592,18 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             }
           ],
           "Annotations": []
@@ -582,11 +616,13 @@
           "Options": [
             {
               "Name": "No, keep current",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, clear previous levels",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -615,15 +651,18 @@
           "Options": [
             {
               "Name": "Chaperone",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Chaperone \u002B Safe Zone",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No Chaperone",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -636,15 +675,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Teleport",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport (w/non-up floor)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -673,31 +715,38 @@
           "Options": [
             {
               "Name": "No Maximum",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "512",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "1024",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "2048",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             },
             {
               "Name": "4096",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "8192",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "16384",
-              "Description": ""
+              "Description": "",
+              "Key": "16384"
             }
           ],
           "Annotations": []
@@ -761,19 +810,23 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Partitioned solve (large map volume)",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             }
           ],
           "Annotations": []
@@ -786,11 +839,13 @@
           "Options": [
             {
               "Name": "No, keep current",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, clear previous levels",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -819,15 +874,18 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             }
           ],
           "Annotations": []
@@ -883,15 +941,18 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             }
           ],
           "Annotations": []
@@ -904,11 +965,13 @@
           "Options": [
             {
               "Name": "No, keep current",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes, clear previous levels",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -937,15 +1000,18 @@
           "Options": [
             {
               "Name": "Chaperone",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Chaperone \u002B Safe Zone",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No Chaperone",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -958,15 +1024,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Teleport",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Teleport (w/non-up floor)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -979,15 +1048,18 @@
           "Options": [
             {
               "Name": "Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Test map (open space, no skybox)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Full visibility solve",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             }
           ],
           "Annotations": []

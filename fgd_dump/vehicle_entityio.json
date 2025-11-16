@@ -57,43 +57,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -106,43 +116,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -155,43 +175,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -204,43 +234,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -253,43 +293,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -302,43 +352,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -351,43 +411,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -400,43 +470,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -729,43 +809,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -778,43 +868,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -827,43 +927,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -876,43 +986,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -925,43 +1045,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -974,43 +1104,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -1023,43 +1163,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []
@@ -1072,43 +1222,53 @@
           "Options": [
             {
               "Name": "IN_NONE",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "IN_ATTACK",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "IN_JUMP",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "IN_DUCK",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "IN_FORWARD",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "IN_BACK",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "IN_MOVELEFT",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "IN_MOVERIGHT",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "IN_ATTACK2",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "IN_RELOAD",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             }
           ],
           "Annotations": []

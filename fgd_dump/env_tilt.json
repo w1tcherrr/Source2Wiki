@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "GlobalTilt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Ease in/out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []
@@ -348,11 +350,13 @@
           "Options": [
             {
               "Name": "GlobalTilt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Ease in/out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []
@@ -615,11 +619,13 @@
           "Options": [
             {
               "Name": "GlobalTilt",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Ease in/out",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []

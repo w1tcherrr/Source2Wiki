@@ -137,51 +137,63 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fluorescent flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Slow, strong pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Slow pulse, noblack",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Gentle pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Flicker A",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Flicker B",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Candle A",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Candle B",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Candle C",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Fast strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Slow strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []
@@ -194,19 +206,23 @@
           "Options": [
             {
               "Name": "Do not light world (better perf)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Do not light models",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Add Displacement Alpha",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Subtract Displacement Alpha",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -549,51 +565,63 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fluorescent flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Slow, strong pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Slow pulse, noblack",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Gentle pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Flicker A",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Flicker B",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Candle A",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Candle B",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Candle C",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Fast strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Slow strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []
@@ -606,19 +634,23 @@
           "Options": [
             {
               "Name": "Do not light world (better perf)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Do not light models",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Add Displacement Alpha",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Subtract Displacement Alpha",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

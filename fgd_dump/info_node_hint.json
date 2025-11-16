@@ -25,7 +25,8 @@
           "Options": [
             {
               "Name": "Allow jump up",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -38,171 +39,213 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "World: Window",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "World: Act Busy Hint",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "World: Visually Interesting",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "World: Visually Interesting (Don\u0027t aim at)",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "World: Inhibit Combine Mines within 15 feet",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "World: Visually Interesting (Stealth mode)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Generic",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Tactical: Crouch Cover Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "100"
             },
             {
               "Name": "Tactical: Crouch Cover Low",
-              "Description": ""
+              "Description": "",
+              "Key": "101"
             },
             {
               "Name": "Tactical: Entrance / Exit Pinch",
-              "Description": ""
+              "Description": "",
+              "Key": "103"
             },
             {
               "Name": "Tactical: Enemy Disadvantage Point",
-              "Description": ""
+              "Description": "",
+              "Key": "105"
             },
             {
               "Name": "Tactical: High Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "107"
             },
             {
               "Name": "Tactical: Wall Cover Left",
-              "Description": ""
+              "Description": "",
+              "Key": "108"
             },
             {
               "Name": "Tactical: Wall Cover Right",
-              "Description": ""
+              "Description": "",
+              "Key": "109"
             },
             {
               "Name": "Tactical: Wall Cover Both",
-              "Description": ""
+              "Description": "",
+              "Key": "110"
             },
             {
               "Name": "Antlion: Burrow Point",
-              "Description": ""
+              "Description": "",
+              "Key": "400"
             },
             {
               "Name": "Antlion: Thumper Flee Point",
-              "Description": ""
+              "Description": "",
+              "Key": "401"
             },
             {
               "Name": "Headcrab: Burrow Point",
-              "Description": ""
+              "Description": "",
+              "Key": "450"
             },
             {
               "Name": "Headcrab: Exit Pod Point",
-              "Description": ""
+              "Description": "",
+              "Key": "451"
             },
             {
               "Name": "Roller: Patrol Point",
-              "Description": ""
+              "Description": "",
+              "Key": "500"
             },
             {
               "Name": "Roller: Cleanup Spot",
-              "Description": ""
+              "Description": "",
+              "Key": "501"
             },
             {
               "Name": "Crow: Fly to point",
-              "Description": ""
+              "Description": "",
+              "Key": "700"
             },
             {
               "Name": "Crow: Perch point",
-              "Description": ""
+              "Description": "",
+              "Key": "701"
             },
             {
               "Name": "Follower: Wait point",
-              "Description": ""
+              "Description": "",
+              "Key": "900"
             },
             {
               "Name": "Override jump permission",
-              "Description": ""
+              "Description": "",
+              "Key": "901"
             },
             {
               "Name": "Player squad transition point",
-              "Description": ""
+              "Description": "",
+              "Key": "902"
             },
             {
               "Name": "NPC exit point",
-              "Description": ""
+              "Description": "",
+              "Key": "903"
             },
             {
               "Name": "Strider node",
-              "Description": ""
+              "Description": "",
+              "Key": "904"
             },
             {
               "Name": "Player Ally: Push away destination",
-              "Description": ""
+              "Description": "",
+              "Key": "950"
             },
             {
               "Name": "PLayer Ally: Fear withdrawal destination",
-              "Description": ""
+              "Description": "",
+              "Key": "951"
             },
             {
               "Name": "HL1 World: Machinery",
-              "Description": ""
+              "Description": "",
+              "Key": "1000"
             },
             {
               "Name": "HL1 World: Blinking Light",
-              "Description": ""
+              "Description": "",
+              "Key": "1001"
             },
             {
               "Name": "HL1 World: Human Blood",
-              "Description": ""
+              "Description": "",
+              "Key": "1002"
             },
             {
               "Name": "HL1 World: Alien Blood",
-              "Description": ""
+              "Description": "",
+              "Key": "1003"
             },
             {
               "Name": "Ep3 Blob Shake Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1200"
             },
             {
               "Name": "Ep3 Blob Fire Cover Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1201"
             },
             {
               "Name": "Ep3 Blob Brain Cover Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1202"
             },
             {
               "Name": "Ep3 Blob Brain Regenerate Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1203"
             },
             {
               "Name": "Ep3 Blob Spit Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1204"
             },
             {
               "Name": "Ep3 Blob Spawn Regenerator Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1205"
             },
             {
               "Name": "Aperture: Nest",
-              "Description": ""
+              "Description": "",
+              "Key": "1300"
             }
           ],
           "Annotations": []
@@ -231,19 +274,23 @@
           "Options": [
             {
               "Name": "45 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "45"
             },
             {
               "Name": "90 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "90"
             },
             {
               "Name": "180 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "180"
             },
             {
               "Name": "360 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "360"
             }
           ],
           "Annotations": []
@@ -288,15 +335,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -309,15 +359,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -330,15 +383,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -521,7 +577,8 @@
           "Options": [
             {
               "Name": "Allow jump up",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -534,171 +591,213 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "World: Window",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "World: Act Busy Hint",
-              "Description": ""
+              "Description": "",
+              "Key": "12"
             },
             {
               "Name": "World: Visually Interesting",
-              "Description": ""
+              "Description": "",
+              "Key": "13"
             },
             {
               "Name": "World: Visually Interesting (Don\u0027t aim at)",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             },
             {
               "Name": "World: Inhibit Combine Mines within 15 feet",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "World: Visually Interesting (Stealth mode)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Generic",
-              "Description": ""
+              "Description": "",
+              "Key": "17"
             },
             {
               "Name": "Tactical: Crouch Cover Medium",
-              "Description": ""
+              "Description": "",
+              "Key": "100"
             },
             {
               "Name": "Tactical: Crouch Cover Low",
-              "Description": ""
+              "Description": "",
+              "Key": "101"
             },
             {
               "Name": "Tactical: Entrance / Exit Pinch",
-              "Description": ""
+              "Description": "",
+              "Key": "103"
             },
             {
               "Name": "Tactical: Enemy Disadvantage Point",
-              "Description": ""
+              "Description": "",
+              "Key": "105"
             },
             {
               "Name": "Tactical: High Ground",
-              "Description": ""
+              "Description": "",
+              "Key": "107"
             },
             {
               "Name": "Tactical: Wall Cover Left",
-              "Description": ""
+              "Description": "",
+              "Key": "108"
             },
             {
               "Name": "Tactical: Wall Cover Right",
-              "Description": ""
+              "Description": "",
+              "Key": "109"
             },
             {
               "Name": "Tactical: Wall Cover Both",
-              "Description": ""
+              "Description": "",
+              "Key": "110"
             },
             {
               "Name": "Antlion: Burrow Point",
-              "Description": ""
+              "Description": "",
+              "Key": "400"
             },
             {
               "Name": "Antlion: Thumper Flee Point",
-              "Description": ""
+              "Description": "",
+              "Key": "401"
             },
             {
               "Name": "Headcrab: Burrow Point",
-              "Description": ""
+              "Description": "",
+              "Key": "450"
             },
             {
               "Name": "Headcrab: Exit Pod Point",
-              "Description": ""
+              "Description": "",
+              "Key": "451"
             },
             {
               "Name": "Roller: Patrol Point",
-              "Description": ""
+              "Description": "",
+              "Key": "500"
             },
             {
               "Name": "Roller: Cleanup Spot",
-              "Description": ""
+              "Description": "",
+              "Key": "501"
             },
             {
               "Name": "Crow: Fly to point",
-              "Description": ""
+              "Description": "",
+              "Key": "700"
             },
             {
               "Name": "Crow: Perch point",
-              "Description": ""
+              "Description": "",
+              "Key": "701"
             },
             {
               "Name": "Follower: Wait point",
-              "Description": ""
+              "Description": "",
+              "Key": "900"
             },
             {
               "Name": "Override jump permission",
-              "Description": ""
+              "Description": "",
+              "Key": "901"
             },
             {
               "Name": "Player squad transition point",
-              "Description": ""
+              "Description": "",
+              "Key": "902"
             },
             {
               "Name": "NPC exit point",
-              "Description": ""
+              "Description": "",
+              "Key": "903"
             },
             {
               "Name": "Strider node",
-              "Description": ""
+              "Description": "",
+              "Key": "904"
             },
             {
               "Name": "Player Ally: Push away destination",
-              "Description": ""
+              "Description": "",
+              "Key": "950"
             },
             {
               "Name": "PLayer Ally: Fear withdrawal destination",
-              "Description": ""
+              "Description": "",
+              "Key": "951"
             },
             {
               "Name": "HL1 World: Machinery",
-              "Description": ""
+              "Description": "",
+              "Key": "1000"
             },
             {
               "Name": "HL1 World: Blinking Light",
-              "Description": ""
+              "Description": "",
+              "Key": "1001"
             },
             {
               "Name": "HL1 World: Human Blood",
-              "Description": ""
+              "Description": "",
+              "Key": "1002"
             },
             {
               "Name": "HL1 World: Alien Blood",
-              "Description": ""
+              "Description": "",
+              "Key": "1003"
             },
             {
               "Name": "Ep3 Blob Shake Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1200"
             },
             {
               "Name": "Ep3 Blob Fire Cover Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1201"
             },
             {
               "Name": "Ep3 Blob Brain Cover Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1202"
             },
             {
               "Name": "Ep3 Blob Brain Regenerate Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1203"
             },
             {
               "Name": "Ep3 Blob Spit Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1204"
             },
             {
               "Name": "Ep3 Blob Spawn Regenerator Position",
-              "Description": ""
+              "Description": "",
+              "Key": "1205"
             },
             {
               "Name": "Aperture: Nest",
-              "Description": ""
+              "Description": "",
+              "Key": "1300"
             }
           ],
           "Annotations": []
@@ -727,19 +826,23 @@
           "Options": [
             {
               "Name": "45 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "45"
             },
             {
               "Name": "90 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "90"
             },
             {
               "Name": "180 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "180"
             },
             {
               "Name": "360 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "360"
             }
           ],
           "Annotations": []
@@ -784,15 +887,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -805,15 +911,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -826,15 +935,18 @@
           "Options": [
             {
               "Name": "Idle",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Alert",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Combat",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

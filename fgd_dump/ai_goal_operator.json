@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Not ready (closed, locked, etc)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Ready (open and accessible)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,15 +60,18 @@
           "Options": [
             {
               "Name": "DO NOT USE THIS SETTING",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -157,11 +162,13 @@
           "Options": [
             {
               "Name": "Not ready (closed, locked, etc)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Ready (open and accessible)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -174,15 +181,18 @@
           "Options": [
             {
               "Name": "DO NOT USE THIS SETTING",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Walk",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Run",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Advisor Stun",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Intro Blur",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Groggy Vision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -196,15 +199,18 @@
           "Options": [
             {
               "Name": "Advisor Stun",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Intro Blur",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Groggy Vision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Prefix",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Postfix",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -161,15 +164,18 @@
           "Options": [
             {
               "Name": "Prefix",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Postfix",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

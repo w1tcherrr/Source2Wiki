@@ -121,11 +121,13 @@
           "Options": [
             {
               "Name": "Linear (Box) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Radial (Sphere) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -392,15 +394,18 @@
           "Options": [
             {
               "Name": "Linear (Box) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Radial (Sphere) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Height (Box) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -767,11 +772,13 @@
           "Options": [
             {
               "Name": "Linear (Box) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Radial (Sphere) Falloff",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "No (Use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Don\u0027t use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

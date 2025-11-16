@@ -137,19 +137,23 @@
           "Options": [
             {
               "Name": "1 Degree",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "5 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "10 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "15 Degrees",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             }
           ],
           "Annotations": []
@@ -162,11 +166,13 @@
           "Options": [
             {
               "Name": "Evenly distributed",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Biased towards the outside",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             }
           ],
           "Annotations": []
@@ -179,11 +185,13 @@
           "Options": [
             {
               "Name": "None. Cheap for performance.",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Normal collision detection.",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -196,11 +204,13 @@
           "Options": [
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "Weapon_AR2.NPC_Single"
             },
             {
               "Name": "SMG1",
-              "Description": ""
+              "Description": "",
+              "Key": "Weapon_SMG1.NPC_Single"
             }
           ],
           "Annotations": []
@@ -213,11 +223,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "Tracer"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "AR2TRACER"
             }
           ],
           "Annotations": []

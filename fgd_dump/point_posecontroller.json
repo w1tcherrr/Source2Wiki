@@ -81,27 +81,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Square",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triangle",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Sawtooth",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Noise",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -370,27 +376,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sine",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Square",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triangle",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Sawtooth",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Noise",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []

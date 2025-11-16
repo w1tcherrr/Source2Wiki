@@ -17,19 +17,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -42,19 +46,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -67,23 +75,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -96,23 +109,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -125,11 +143,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -158,19 +178,23 @@
           "Options": [
             {
               "Name": "Not Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Use axis-aligned box",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Use oriented Box",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Use VPhysics",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             }
           ],
           "Annotations": []
@@ -247,11 +271,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -81,11 +81,13 @@
           "Options": [
             {
               "Name": "Transmit to client (respect PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Always transmit to client (ignore PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -312,11 +314,13 @@
           "Options": [
             {
               "Name": "Transmit to client (respect PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Always transmit to client (ignore PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -531,11 +535,13 @@
           "Options": [
             {
               "Name": "Transmit to client (respect PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Always transmit to client (ignore PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -762,11 +768,13 @@
           "Options": [
             {
               "Name": "Transmit to client (respect PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Always transmit to client (ignore PVS)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

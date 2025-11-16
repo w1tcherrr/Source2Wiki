@@ -33,23 +33,28 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Apply Force",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Apply Torque",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Orient Locally",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -248,23 +253,28 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Apply Force",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Apply Torque",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Orient Locally",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -457,23 +467,28 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Apply Force",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Apply Torque",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Orient Locally",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -672,23 +687,28 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Apply Force",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Apply Torque",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Orient Locally",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Ignore Mass",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []

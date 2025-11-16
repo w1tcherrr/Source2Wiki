@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Use Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Strip First",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -382,11 +384,13 @@
           "Options": [
             {
               "Name": "Use Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Strip First",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -731,7 +735,8 @@
           "Options": [
             {
               "Name": "Use Only",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

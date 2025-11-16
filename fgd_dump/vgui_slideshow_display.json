@@ -113,15 +113,18 @@
           "Options": [
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Forward",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Backward",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -134,11 +137,13 @@
           "Options": [
             {
               "Name": "Allow List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -467,15 +472,18 @@
           "Options": [
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Forward",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Backward",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -488,11 +496,13 @@
           "Options": [
             {
               "Name": "Allow List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -821,15 +831,18 @@
           "Options": [
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Forward",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Backward",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -842,11 +855,13 @@
           "Options": [
             {
               "Name": "Allow List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No List Repeats",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

@@ -41,11 +41,13 @@
           "Options": [
             {
               "Name": "Cubemap From Env_Sky",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Cubemap From Material",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

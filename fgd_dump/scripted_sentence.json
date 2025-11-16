@@ -17,23 +17,28 @@
           "Options": [
             {
               "Name": "Fire Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Followers Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Interrupt Speech",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Concurrent",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Speak to Activator",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -102,19 +107,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -157,23 +166,28 @@
           "Options": [
             {
               "Name": "Fire Once",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Followers Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Interrupt Speech",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Concurrent",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Speak to Activator",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -242,19 +256,23 @@
           "Options": [
             {
               "Name": "Small Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Medium Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Large  Radius",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Play Everywhere",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

@@ -89,23 +89,28 @@
           "Options": [
             {
               "Name": "Fade Corpse",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Infinite Children",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Do Not Drop",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Don\u0027t Spawn While Visible",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Don\u0027t preload template models",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -134,15 +139,18 @@
           "Options": [
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t Care",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -155,15 +163,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t Care",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -216,11 +227,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No hull check",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -233,7 +246,8 @@
           "Options": [
             {
               "Name": "Don\u0027t preload template models",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []
@@ -566,19 +580,23 @@
           "Options": [
             {
               "Name": "Fade Corpse",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Infinite Children",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Do Not Drop",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Don\u0027t Spawn While Visible",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             }
           ],
           "Annotations": []
@@ -607,15 +625,18 @@
           "Options": [
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t Care",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -628,15 +649,18 @@
           "Options": [
             {
               "Name": "Nearest",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Farthest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t Care",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -689,11 +713,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No hull check",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -706,7 +732,8 @@
           "Options": [
             {
               "Name": "Don\u0027t preload template models",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             }
           ],
           "Annotations": []

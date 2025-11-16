@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "DOTA_TEAM_GOODGUYS",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "DOTA_TEAM_BADGUYS",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

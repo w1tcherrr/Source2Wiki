@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bake into cubemaps",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -54,11 +57,13 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -71,11 +76,13 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -120,15 +127,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Baked Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -149,51 +159,63 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fluorescent flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Slow, strong pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Slow pulse, noblack",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Gentle pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Flicker A",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Flicker B",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Candle A",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Candle B",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Candle C",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Fast strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Slow strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []
@@ -294,27 +316,33 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Per-Pixel",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Per-Pixel",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -335,23 +363,28 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Dynamic",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Baked - no shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Dynamic - no shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -544,15 +577,18 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bake into cubemaps",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -565,15 +601,18 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Per-Pixel",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -586,11 +625,13 @@
           "Options": [
             {
               "Name": "None",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Baked",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -635,15 +676,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Baked Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -664,51 +708,63 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fluorescent flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "10"
             },
             {
               "Name": "Slow, strong pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Slow pulse, noblack",
-              "Description": ""
+              "Description": "",
+              "Key": "11"
             },
             {
               "Name": "Gentle pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Flicker A",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Flicker B",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Candle A",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Candle B",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             },
             {
               "Name": "Candle C",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Fast strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Slow strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "9"
             }
           ],
           "Annotations": []

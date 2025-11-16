@@ -25,43 +25,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -74,83 +84,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -203,19 +233,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Much smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "When extremely small",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -236,15 +270,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -257,19 +294,23 @@
           "Options": [
             {
               "Name": "OFF",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "\u002Buse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "look-at",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "ON",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -338,11 +379,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NORMAL"
             },
             {
               "Name": "No Gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NO_GIBS"
             }
           ],
           "Annotations": []
@@ -363,55 +406,68 @@
           "Options": [
             {
               "Name": "Break on Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Break on Pressure",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Use Hitboxes for Renderbox",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Start with collision disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Set to Nav Ignore",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Set to Local-Nav Ignore (NPC will not try to avoid this entity)",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t take physics damage",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Debris - Don\u0027t collide with the player or other debris",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Prevent motion enable on player bump",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Debris with trigger interaction",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Force non-solid to players",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []
@@ -448,19 +504,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_DEFAULT"
             },
             {
               "Name": "Empty",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_EMPTY"
             },
             {
               "Name": "Prop Group Override",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_PROP_GROUP_OVERRIDE"
             },
             {
               "Name": "Particle System Override",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_PARTICLE_SYSTEM_OVERRIDE"
             }
           ],
           "Annotations": []
@@ -513,35 +573,43 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -570,11 +638,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -683,11 +753,13 @@
           "Options": [
             {
               "Name": "Blunt",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sharp",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -700,11 +772,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -765,15 +839,18 @@
           "Options": [
             {
               "Name": "Allow if requested by other body",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Always (request continuous contact against other dynamic bodies)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Never (don\u0027t use continuous contact against other dynamic bodies even if another body requests it)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -874,11 +951,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1371,43 +1450,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -1420,83 +1509,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -1573,15 +1682,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1594,19 +1706,23 @@
           "Options": [
             {
               "Name": "OFF",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "\u002Buse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "look-at",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "ON",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1643,19 +1759,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1668,19 +1788,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -1693,23 +1817,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1722,23 +1851,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -1751,11 +1885,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -1792,19 +1928,23 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NORMAL"
             },
             {
               "Name": "No Gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NO_GIBS"
             },
             {
               "Name": "Full Gibs on All Platforms",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_FULL_GIBS"
             },
             {
               "Name": "Reduced gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_REDUCED_GIBS"
             }
           ],
           "Annotations": []
@@ -1817,79 +1957,98 @@
           "Options": [
             {
               "Name": "Break on Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Break on Pressure",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Use Hitboxes for Renderbox",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Start with collision disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Set to NAVIgnore",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t take physics damage",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Debris - Don\u0027t collide with the player or other debris",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Enable motion on Physcannon grab (This also applies to the HLVR hand interaction)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Not affected by rotor wash",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Generate output on \u002BUSE ",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Prevent pickup",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Prevent motion enable on player bump",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Debris with trigger interaction",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Force non-solid to players",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "Enable \u002Buse glow effect",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "Physgun can ALWAYS pick up. No matter what.",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "Important Grabbity Glove target.",
-              "Description": ""
+              "Description": "",
+              "Key": "16777216"
             }
           ],
           "Annotations": []
@@ -1942,11 +2101,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -2055,11 +2216,13 @@
           "Options": [
             {
               "Name": "Blunt",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sharp",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -2072,11 +2235,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -2177,11 +2342,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Explosive",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -2194,27 +2361,33 @@
           "Options": [
             {
               "Name": "UNUSED",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "COLLISION_GROUP_ALWAYS",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "COLLISION_GROUP_NONPHYSICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "COLLISION_GROUP_DEFAULT",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "COLLISION_GROUP_DEBRIS",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "COLLISION_GROUP_WEAPON",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             }
           ],
           "Annotations": []
@@ -2235,35 +2408,43 @@
           "Options": [
             {
               "Name": "Default (Code decides)",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_INVALID"
             },
             {
               "Name": "One-handed rigid",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_1H_RIGID"
             },
             {
               "Name": "One-handed soft",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_1H_SOFT"
             },
             {
               "Name": "One-handed constrained (eg. drawers)",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_1H_CONSTRAINED"
             },
             {
               "Name": "Two-handed liftable",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_2H_PICKUP"
             },
             {
               "Name": "Two-handed draggable, flippable",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_2H_DRAG"
             },
             {
               "Name": "One or two-handed detachable",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_1H_2H_DETACHABLE"
             },
             {
               "Name": "Too heavy to move",
-              "Description": ""
+              "Description": "",
+              "Key": "CARRY_TYPE_TOO_HEAVY"
             }
           ],
           "Annotations": []
@@ -2784,43 +2965,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -2833,83 +3024,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -2962,19 +3173,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Much smaller than default",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "When extremely small",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -2995,15 +3210,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -3016,19 +3234,23 @@
           "Options": [
             {
               "Name": "OFF",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "\u002Buse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "look-at",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "ON",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -3097,11 +3319,13 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NORMAL"
             },
             {
               "Name": "No Gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NO_GIBS"
             }
           ],
           "Annotations": []
@@ -3122,55 +3346,68 @@
           "Options": [
             {
               "Name": "Break on Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Break on Pressure",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Use Hitboxes for Renderbox",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Start with collision disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Set to Nav Ignore",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Set to Local-Nav Ignore (NPC will not try to avoid this entity)",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t take physics damage",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Debris - Don\u0027t collide with the player or other debris",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Prevent motion enable on player bump",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Debris with trigger interaction",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Force non-solid to players",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             }
           ],
           "Annotations": []
@@ -3207,19 +3444,23 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_DEFAULT"
             },
             {
               "Name": "Empty",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_EMPTY"
             },
             {
               "Name": "Prop Group Override",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_PROP_GROUP_OVERRIDE"
             },
             {
               "Name": "Particle System Override",
-              "Description": ""
+              "Description": "",
+              "Key": "BC_PARTICLE_SYSTEM_OVERRIDE"
             }
           ],
           "Annotations": []
@@ -3272,35 +3513,43 @@
           "Options": [
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Realtime Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Only Baked Shadows",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -3329,11 +3578,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -3442,11 +3693,13 @@
           "Options": [
             {
               "Name": "Blunt",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sharp",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -3459,11 +3712,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -3524,15 +3779,18 @@
           "Options": [
             {
               "Name": "Allow if requested by other body",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Always (request continuous contact against other dynamic bodies)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Never (don\u0027t use continuous contact against other dynamic bodies even if another body requests it)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -3633,11 +3891,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4130,43 +4390,53 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNormal"
             },
             {
               "Name": "Color",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransColor"
             },
             {
               "Name": "Texture",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransTexture"
             },
             {
               "Name": "Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderGlow"
             },
             {
               "Name": "Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAlpha"
             },
             {
               "Name": "Additive",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAdd"
             },
             {
               "Name": "Additive Fractional Frame",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderTransAddFrameBlend"
             },
             {
               "Name": "World Space Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderWorldGlow"
             },
             {
               "Name": "Dont Render",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderNone"
             },
             {
               "Name": "Dev Visualizer",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderDevVisualizer"
             }
           ],
           "Annotations": []
@@ -4179,83 +4449,103 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNone"
             },
             {
               "Name": "Slow Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlow"
             },
             {
               "Name": "Fast Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFast"
             },
             {
               "Name": "Slow Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseSlowWide"
             },
             {
               "Name": "Fast Wide Pulse",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxPulseFastWide"
             },
             {
               "Name": "Slow Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeSlow"
             },
             {
               "Name": "Fast Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFast"
             },
             {
               "Name": "Faster Strobe",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxStrobeFaster"
             },
             {
               "Name": "Slow Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerSlow"
             },
             {
               "Name": "Fast Flicker",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFlickerFast"
             },
             {
               "Name": "Slow Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeSlow"
             },
             {
               "Name": "Fast Fade Away",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxFadeFast"
             },
             {
               "Name": "Slow Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidSlow"
             },
             {
               "Name": "Fast Become Solid",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxSolidFast"
             },
             {
               "Name": "Constant Glow",
-              "Description": ""
+              "Description": "",
+              "Key": "kRenderFxNoDissipation"
             },
             {
               "Name": "Distort",
-              "Description": ""
+              "Description": "",
+              "Key": "15"
             },
             {
               "Name": "Hologram (Distort \u002B fade)",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Cull By Distance (TEST)",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Spotlight FX",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Fade Near",
-              "Description": ""
+              "Description": "",
+              "Key": "26"
             }
           ],
           "Annotations": []
@@ -4332,15 +4622,18 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Bounce Only",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -4353,19 +4646,23 @@
           "Options": [
             {
               "Name": "OFF",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "\u002Buse",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "look-at",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "ON",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -4402,19 +4699,23 @@
           "Options": [
             {
               "Name": "default (low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -4427,19 +4728,23 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -4452,23 +4757,28 @@
           "Options": [
             {
               "Name": "default (very low)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -4481,23 +4791,28 @@
           "Options": [
             {
               "Name": "default (high)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "very low",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "low",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "medium",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "high",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -4510,11 +4825,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4551,19 +4868,23 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NORMAL"
             },
             {
               "Name": "No Gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_NO_GIBS"
             },
             {
               "Name": "Full Gibs on All Platforms",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_FULL_GIBS"
             },
             {
               "Name": "Reduced gibs",
-              "Description": ""
+              "Description": "",
+              "Key": "PM_REDUCED_GIBS"
             }
           ],
           "Annotations": []
@@ -4576,79 +4897,98 @@
           "Options": [
             {
               "Name": "Break on Touch",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             },
             {
               "Name": "Break on Pressure",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "Use Hitboxes for Renderbox",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Start with collision disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Set to NAVIgnore",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Start Asleep",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Don\u0027t take physics damage",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Debris - Don\u0027t collide with the player or other debris",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Motion Disabled",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             },
             {
               "Name": "Enable motion on Physcannon grab (This also applies to the HLVR hand interaction)",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Not affected by rotor wash",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Generate output on \u002BUSE ",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Prevent pickup",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Prevent motion enable on player bump",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Debris with trigger interaction",
-              "Description": ""
+              "Description": "",
+              "Key": "4096"
             },
             {
               "Name": "Force non-solid to players",
-              "Description": ""
+              "Description": "",
+              "Key": "8192"
             },
             {
               "Name": "Enable \u002Buse glow effect",
-              "Description": ""
+              "Description": "",
+              "Key": "32768"
             },
             {
               "Name": "Physgun can ALWAYS pick up. No matter what.",
-              "Description": ""
+              "Description": "",
+              "Key": "1048576"
             },
             {
               "Name": "Important Grabbity Glove target.",
-              "Description": ""
+              "Description": "",
+              "Key": "16777216"
             }
           ],
           "Annotations": []
@@ -4701,11 +5041,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4814,11 +5156,13 @@
           "Options": [
             {
               "Name": "Blunt",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Sharp",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4831,11 +5175,13 @@
           "Options": [
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4928,11 +5274,13 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Explosive",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -4945,27 +5293,33 @@
           "Options": [
             {
               "Name": "UNUSED",
-              "Description": ""
+              "Description": "",
+              "Key": "-1"
             },
             {
               "Name": "COLLISION_GROUP_ALWAYS",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "COLLISION_GROUP_NONPHYSICAL",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "COLLISION_GROUP_DEFAULT",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "COLLISION_GROUP_DEBRIS",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "COLLISION_GROUP_WEAPON",
-              "Description": ""
+              "Description": "",
+              "Key": "14"
             }
           ],
           "Annotations": []

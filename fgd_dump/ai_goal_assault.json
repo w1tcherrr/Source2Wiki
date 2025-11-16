@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -58,15 +60,18 @@
           "Options": [
             {
               "Name": "Entity System Input",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Gunfire",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Don\u0027t wait for a cue.",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -79,15 +84,18 @@
           "Options": [
             {
               "Name": "Priority, Closest (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Priority, Furthest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -100,15 +108,18 @@
           "Options": [
             {
               "Name": "Random (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Closest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Furthest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -167,11 +178,13 @@
           "Options": [
             {
               "Name": "Entity Name",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Classname",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -192,15 +205,18 @@
           "Options": [
             {
               "Name": "Entity System Input",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Gunfire",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Don\u0027t wait for a cue.",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -213,15 +229,18 @@
           "Options": [
             {
               "Name": "Priority, Closest (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Random",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Priority, Furthest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -234,15 +253,18 @@
           "Options": [
             {
               "Name": "Random (default)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Closest",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Furthest",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

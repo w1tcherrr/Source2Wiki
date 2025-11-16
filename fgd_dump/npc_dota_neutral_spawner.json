@@ -33,19 +33,23 @@
           "Options": [
             {
               "Name": "Easy",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Moderate",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Hard",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Ancient",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []
@@ -58,27 +62,33 @@
           "Options": [
             {
               "Name": "Normal",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Fast",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Slow",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Sorta Fast",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Small Lane Camp",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Just Enough",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             }
           ],
           "Annotations": []
@@ -91,11 +101,13 @@
           "Options": [
             {
               "Name": "Never",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Always",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -108,35 +120,43 @@
           "Options": [
             {
               "Name": "Random (Normal Gamerules)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Kobolds (E), Ogres (M), Centaurs (H), Drakes (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Gnolls (E), Wolves (M), Troll Warlord (H), Rock Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Troll Priest (E), Mud Golems (M), Ursa (H), Lizards (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Trolls \u0026 Kobold (E), Satyrs (M), Satyrs (H), Frostbitten Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ghosts (E), Centaurs (M), Wildkin (H), Prowlers (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Harpies (E), Warpine (H)",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Tadpoles (E), Froglets (M), Grown Frog (H), Ancient Frogs (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -157,31 +177,38 @@
           "Options": [
             {
               "Name": "Kobolds (E), Ogres (M), Centaurs (H), Drakes (A) - (Normal Gamerules)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Gnolls (E), Wolves (M), Troll Warlord (H), Rock Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Troll Priest (E), Mud Golems (M), Ursa (H), Lizards (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Trolls \u0026 Kobold (E), Satyrs (M), Satyrs (H), Frostbitten Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ghosts (E), Centaurs (M), Wildkin (H), Prowlers (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Harpies (E), Warpine (H)",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Tadpoles (E), Froglets (M), Grown Frog (H), Ancient Frogs (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []
@@ -194,31 +221,38 @@
           "Options": [
             {
               "Name": "Kobolds (E), Ogres (M), Centaurs (H), Drakes (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Gnolls (E), Wolves (M), Troll Warlord (H), Rock Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Troll Priest (E), Mud Golems (M), Ursa (H), Lizards (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             },
             {
               "Name": "Trolls \u0026 Kobold (E), Satyrs (M), Satyrs (H), Frostbitten Golems (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Ghosts (E), Centaurs (M), Wildkin (H), Prowlers (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "5"
             },
             {
               "Name": "Harpies (E), Warpine (H)",
-              "Description": ""
+              "Description": "",
+              "Key": "6"
             },
             {
               "Name": "Tadpoles (E), Froglets (M), Grown Frog (H), Ancient Frogs (A)",
-              "Description": ""
+              "Description": "",
+              "Key": "7"
             }
           ],
           "Annotations": []

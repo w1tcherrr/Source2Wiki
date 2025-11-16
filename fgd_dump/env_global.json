@@ -33,15 +33,18 @@
           "Options": [
             {
               "Name": "Off",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Dead",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -62,7 +65,8 @@
           "Options": [
             {
               "Name": "Set Initial State",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -75,43 +79,53 @@
           "Options": [
             {
               "Name": "Gordon pre-criminal",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_precriminal"
             },
             {
               "Name": "Antlions are player allies",
-              "Description": ""
+              "Description": "",
+              "Key": "antlion_allied"
             },
             {
               "Name": "Suit sprint function not yet enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "suit_no_sprint"
             },
             {
               "Name": "Super phys gun is enabled",
-              "Description": ""
+              "Description": "",
+              "Key": "super_phys_gun"
             },
             {
               "Name": "Friendly encounter sequence (lower weapons, etc.)",
-              "Description": ""
+              "Description": "",
+              "Key": "friendly_encounter"
             },
             {
               "Name": "Gordon is invulnerable",
-              "Description": ""
+              "Description": "",
+              "Key": "gordon_invulnerable"
             },
             {
               "Name": "Don\u0027t spawn seagulls on the jeep",
-              "Description": ""
+              "Description": "",
+              "Key": "no_seagulls_on_jeep"
             },
             {
               "Name": "Episode 2: Alyx injured",
-              "Description": ""
+              "Description": "",
+              "Key": "ep2_alyx_injured"
             },
             {
               "Name": "Episodic: Alyx darkness mode",
-              "Description": ""
+              "Description": "",
+              "Key": "ep_alyx_darknessmode"
             },
             {
               "Name": "Ep2 Counter: Hunters to run over before they dodge",
-              "Description": ""
+              "Description": "",
+              "Key": "hunters_to_run_over"
             }
           ],
           "Annotations": []

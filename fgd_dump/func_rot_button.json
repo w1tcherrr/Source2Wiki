@@ -169,39 +169,48 @@
           "Options": [
             {
               "Name": "Not solid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Reverse Dir",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "X Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Y Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Touch Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Damage Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Use Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Starts locked",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []
@@ -556,27 +565,33 @@
           "Options": [
             {
               "Name": "None (Silent)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Squeaky",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Squeaky Pneumatic",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Ratchet Groan",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Clean Ratchet",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Gas Clunk",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             }
           ],
           "Annotations": []
@@ -605,39 +620,48 @@
           "Options": [
             {
               "Name": "Not solid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Reverse Dir",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "X Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Y Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Touch Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Damage Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Use Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Starts locked",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []
@@ -1020,39 +1044,48 @@
           "Options": [
             {
               "Name": "Not solid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Reverse Dir",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "X Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Y Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Touch Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Damage Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Use Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Starts locked",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []
@@ -1407,27 +1440,33 @@
           "Options": [
             {
               "Name": "None (Silent)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Squeaky",
-              "Description": ""
+              "Description": "",
+              "Key": "21"
             },
             {
               "Name": "Squeaky Pneumatic",
-              "Description": ""
+              "Description": "",
+              "Key": "22"
             },
             {
               "Name": "Ratchet Groan",
-              "Description": ""
+              "Description": "",
+              "Key": "23"
             },
             {
               "Name": "Clean Ratchet",
-              "Description": ""
+              "Description": "",
+              "Key": "24"
             },
             {
               "Name": "Gas Clunk",
-              "Description": ""
+              "Description": "",
+              "Key": "25"
             }
           ],
           "Annotations": []
@@ -1456,39 +1495,48 @@
           "Options": [
             {
               "Name": "Not solid",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Reverse Dir",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Toggle",
-              "Description": ""
+              "Description": "",
+              "Key": "32"
             },
             {
               "Name": "X Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "64"
             },
             {
               "Name": "Y Axis",
-              "Description": ""
+              "Description": "",
+              "Key": "128"
             },
             {
               "Name": "Touch Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "256"
             },
             {
               "Name": "Damage Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "512"
             },
             {
               "Name": "Use Activates",
-              "Description": ""
+              "Description": "",
+              "Key": "1024"
             },
             {
               "Name": "Starts locked",
-              "Description": ""
+              "Description": "",
+              "Key": "2048"
             }
           ],
           "Annotations": []

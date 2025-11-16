@@ -161,15 +161,18 @@
           "Options": [
             {
               "Name": "Left",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Right",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -182,15 +185,18 @@
           "Options": [
             {
               "Name": "Bottom",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Top",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -203,15 +209,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face User",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face User Upright",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -618,15 +627,18 @@
           "Options": [
             {
               "Name": "Left",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Right",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -639,15 +651,18 @@
           "Options": [
             {
               "Name": "Bottom",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Top",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -660,15 +675,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face User",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face User Upright",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1059,15 +1077,18 @@
           "Options": [
             {
               "Name": "Left",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Right",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1080,15 +1101,18 @@
           "Options": [
             {
               "Name": "Bottom",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Top",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1101,15 +1125,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face User",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face User Upright",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1516,15 +1543,18 @@
           "Options": [
             {
               "Name": "Left",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Right",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1537,15 +1567,18 @@
           "Options": [
             {
               "Name": "Bottom",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Center",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Top",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -1558,15 +1591,18 @@
           "Options": [
             {
               "Name": "Default",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Face User",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Face User Upright",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

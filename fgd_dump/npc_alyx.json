@@ -105,11 +105,13 @@
           "Options": [
             {
               "Name": "No (Use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yes (Don\u0027t use speech semaphore)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -130,15 +132,18 @@
           "Options": [
             {
               "Name": "Alyx Gun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_alyxgun"
             },
             {
               "Name": "Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_shotgun"
             },
             {
               "Name": "Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             }
           ],
           "Annotations": []

@@ -65,15 +65,18 @@
           "Options": [
             {
               "Name": "Recent Apps",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Friends",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Public Lobbies",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

@@ -25,19 +25,23 @@
           "Options": [
             {
               "Name": "Cilia",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Skin",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Depression",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Flashlight",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

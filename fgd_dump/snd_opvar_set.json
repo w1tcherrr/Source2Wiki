@@ -57,11 +57,13 @@
           "Options": [
             {
               "Name": "Float",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "String",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -314,11 +316,13 @@
           "Options": [
             {
               "Name": "Float",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "String",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -565,11 +569,13 @@
           "Options": [
             {
               "Name": "Float",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "String",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -822,11 +828,13 @@
           "Options": [
             {
               "Name": "Float",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "String",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

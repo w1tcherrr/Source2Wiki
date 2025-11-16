@@ -17,7 +17,8 @@
           "Options": [
             {
               "Name": "Use parent\u0027s orientation",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -86,7 +87,8 @@
           "Options": [
             {
               "Name": "Use parent\u0027s orientation",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

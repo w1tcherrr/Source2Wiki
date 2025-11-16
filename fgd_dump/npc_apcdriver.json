@@ -25,7 +25,8 @@
           "Options": [
             {
               "Name": "Start Inactive",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             }
           ],
           "Annotations": []
@@ -38,11 +39,13 @@
           "Options": [
             {
               "Name": "No Rocket Attacks",
-              "Description": ""
+              "Description": "",
+              "Key": "65536"
             },
             {
               "Name": "No Gun Attacks",
-              "Description": ""
+              "Description": "",
+              "Key": "131072"
             }
           ],
           "Annotations": []

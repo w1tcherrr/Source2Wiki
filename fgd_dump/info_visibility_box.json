@@ -49,11 +49,13 @@
           "Options": [
             {
               "Name": "Hide objects inside",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Hide objects outside",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -230,11 +232,13 @@
           "Options": [
             {
               "Name": "Hide objects inside",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Hide objects outside",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -405,11 +409,13 @@
           "Options": [
             {
               "Name": "Hide objects inside",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Hide objects outside",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -586,11 +592,13 @@
           "Options": [
             {
               "Name": "Hide objects inside",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Hide objects outside",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

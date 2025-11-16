@@ -121,7 +121,8 @@
           "Options": [
             {
               "Name": "Bar Magnet (use axis helper)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -400,7 +401,8 @@
           "Options": [
             {
               "Name": "Bar Magnet (use axis helper)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -667,7 +669,8 @@
           "Options": [
             {
               "Name": "Bar Magnet (use axis helper)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []
@@ -946,7 +949,8 @@
           "Options": [
             {
               "Name": "Bar Magnet (use axis helper)",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

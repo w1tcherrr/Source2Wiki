@@ -89,11 +89,13 @@
           "Options": [
             {
               "Name": "Red (Human)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yellow (Alien)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -114,19 +116,23 @@
           "Options": [
             {
               "Name": "Random Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Blood Stream",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "On Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Spray decals",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -367,11 +373,13 @@
           "Options": [
             {
               "Name": "Red (Human)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yellow (Alien)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -392,19 +400,23 @@
           "Options": [
             {
               "Name": "Random Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Blood Stream",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "On Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Spray decals",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -645,11 +657,13 @@
           "Options": [
             {
               "Name": "Red (Human)",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Yellow (Alien)",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -670,19 +684,23 @@
           "Options": [
             {
               "Name": "Random Direction",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Blood Stream",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "On Player",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Spray decals",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

@@ -17,7 +17,8 @@
           "Options": [
             {
               "Name": "Fade Corpse",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -62,31 +63,38 @@
           "Options": [
             {
               "Name": "Pistol",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_pistol"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_ar2"
             },
             {
               "Name": "Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_shotgun"
             },
             {
               "Name": "SMG1",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_smg1"
             },
             {
               "Name": "Stun Stick",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_stunstick"
             },
             {
               "Name": "Grigori\u0027s Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_annabelle"
             },
             {
               "Name": "Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             }
           ],
           "Annotations": []
@@ -110,7 +118,8 @@
           "Options": [
             {
               "Name": "Fade Corpse",
-              "Description": ""
+              "Description": "",
+              "Key": "16"
             }
           ],
           "Annotations": []
@@ -155,31 +164,38 @@
           "Options": [
             {
               "Name": "Pistol",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_pistol"
             },
             {
               "Name": "AR2",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_ar2"
             },
             {
               "Name": "Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_shotgun"
             },
             {
               "Name": "SMG1",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_smg1"
             },
             {
               "Name": "Stun Stick",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_stunstick"
             },
             {
               "Name": "Grigori\u0027s Shotgun",
-              "Description": ""
+              "Description": "",
+              "Key": "weapon_annabelle"
             },
             {
               "Name": "Nothing",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             }
           ],
           "Annotations": []

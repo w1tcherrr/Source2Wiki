@@ -33,19 +33,23 @@
           "Options": [
             {
               "Name": "Fade From",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Modulate",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triggering player only",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Stay Out",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -238,19 +242,23 @@
           "Options": [
             {
               "Name": "Fade From",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Modulate",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triggering player only",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Stay Out",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -437,19 +445,23 @@
           "Options": [
             {
               "Name": "Fade From",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Modulate",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triggering player only",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Stay Out",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []
@@ -642,19 +654,23 @@
           "Options": [
             {
               "Name": "Fade From",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Modulate",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Triggering player only",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             },
             {
               "Name": "Stay Out",
-              "Description": ""
+              "Description": "",
+              "Key": "8"
             }
           ],
           "Annotations": []

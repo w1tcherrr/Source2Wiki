@@ -81,15 +81,18 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No world collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hinge Object",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -328,15 +331,18 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No world collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hinge Object",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -553,15 +559,18 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No world collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hinge Object",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -800,15 +809,18 @@
           "Options": [
             {
               "Name": "Start On",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "No world collision",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Hinge Object",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []

@@ -33,11 +33,13 @@
           "Options": [
             {
               "Name": "Allow Negative",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Team Points",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             }
           ],
           "Annotations": []

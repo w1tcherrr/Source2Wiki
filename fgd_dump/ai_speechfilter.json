@@ -65,11 +65,13 @@
           "Options": [
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []
@@ -280,11 +282,13 @@
           "Options": [
             {
               "Name": "Yes",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "No",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             }
           ],
           "Annotations": []

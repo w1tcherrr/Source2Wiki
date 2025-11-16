@@ -41,19 +41,23 @@
           "Options": [
             {
               "Name": "Everyone",
-              "Description": ""
+              "Description": "",
+              "Key": "0"
             },
             {
               "Name": "Only Counter-Terrorists",
-              "Description": ""
+              "Description": "",
+              "Key": "1"
             },
             {
               "Name": "Only Terrorists",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Nobody",
-              "Description": ""
+              "Description": "",
+              "Key": "3"
             }
           ],
           "Annotations": []

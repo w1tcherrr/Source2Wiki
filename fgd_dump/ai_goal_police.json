@@ -17,11 +17,13 @@
           "Options": [
             {
               "Name": "Knock-out target past crossing plane",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Do not leave post",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
@@ -104,11 +106,13 @@
           "Options": [
             {
               "Name": "Knock-out target past crossing plane",
-              "Description": ""
+              "Description": "",
+              "Key": "2"
             },
             {
               "Name": "Do not leave post",
-              "Description": ""
+              "Description": "",
+              "Key": "4"
             }
           ],
           "Annotations": []
