@@ -22,7 +22,10 @@ Change the `Direct Lighting` label to be Static (a.k.a. Baked):
 ---
 
 Once you have done this, make a copy of the static `light_environment`. This will be our base for the dynamic `light_environment`, which will add CSM to the level.  
-Change the `Render Specular` label to `off`, `Direct Lighting` to `Per-Pixel`, `Indirect Lighting` to `None`, and disable AO if it is enabled.  
+Change the `Render Specular` label to `off`, `Direct Lighting` to `Per-Pixel`, `Indirect Lighting` to `None`, and disable AO if it is enabled.
+:::note
+<Game name="hla"/> does not support the per-pixel option. To enable dynamic shadows on static props or meshes, select the "Render With Dynamic" option.
+:::
 It should look something like this:  
 ![Dynamic light_environment](./final_light_env_dynamic.png "DynamicLightEnv")
 
