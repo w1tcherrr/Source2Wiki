@@ -31,6 +31,8 @@ There are a few console commands that can help debug the compiled VIS in your ma
 ## VIS in Hammer
 Use the Visibility contributors view to toggle geometry that doesn't contribute to VIS. This view is very helpful for spotting leaks, alongside the "Load Compiled Vis Data" option.
 
+![visibility-contributors-view](./img/vis_contrib_view.png "Visibility Contributors View")
+
 
 :::todo
 * Best practices/common mistakes
