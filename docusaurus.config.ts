@@ -206,6 +206,7 @@ const config: Config = {
       { name: 'description', content: 'A community driven documentation for everything Source2.' },
       { name: 'keywords', content: 'source2, wiki, source2wiki' },
       { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'og:site_name', content: 'Source2 Wiki' },
     ],
   } satisfies Preset.ThemeConfig,
 };
