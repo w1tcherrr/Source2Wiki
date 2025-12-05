@@ -1,0 +1,56 @@
+---
+description: How to create and use overlays in SteamVR.
+title: Creating and using overlays in SteamVR
+---
+
+## Creating the overlay material
+1. Create a new material and set the shader to **VR Standard**.  
+![metovrly1](./metovrly1.png "metovrly1")  
+
+2. Scroll down until you see a check box called **Overlay**, then enable it.  
+![metovrly2](./metovrly2.png "metovrly2")  
+
+
+## Creating the overlay in Hammer
+
+### Method 1
+Unlike <Game name="hla"/> or <Game name="cs2"/>, <Game name="steamvr"/> has no **Overlay** window in the **Hammer Asset Browser**, so you cannot drag and drop the material into the scene.
+
+<details>
+<summary><Game name="steamvr"/> **Hammer Asset Browser**</summary>
+
+![assetbrwserdecalssteamvr](./assetbrwserdecalssteamvr.png "assetbrwserdecalssteamvr")  
+
+</details>
+
+To avoid this, select the material in the **Material** window of the **Hammer Asset Browser** and drag the material from the **Active Material** window.  
+
+:::info
+In case **Hammer** does not show the **Asset Browser**, just change the viewport.
+<details>
+    <div>
+        <video width="100%" controls>
+            <source src="/video/steamvroverlay_assetbsr.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</details>
+:::
+
+<div>
+    <video width="100%" controls>
+        <source src="/video/steamvroverlay.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+---
+
+### Method 2
+1. Create a **Quad** and apply the overlay material.  
+![converttooverlay2](./converttooverlay2.png "converttooverlay2")  
+![converttooverlay3](./converttooverlay3.png "converttooverlay3")  
+
+2. Press **F1**, type **ConvertToStaticOverlay**, and press **Enter**.  
+![converttooverlay1](./converttooverlay1.png "converttooverlay1")  
+![converttooverlay4](./converttooverlay4.png "converttooverlay4")  
