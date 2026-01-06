@@ -78,7 +78,7 @@ const config: Config = {
             return `https://github.com/Source2Wiki/Source2Wiki/blob/master/docs/${docPath}?plain=1`;
           },
           admonitions: {
-            keywords: ['note', 'tip', 'info', 'warning', 'danger', 'legacy', 'nonFGD', 'todo'],
+            keywords: ['note', 'tip', 'info', 'warning', 'danger', 'legacy', 'nonFGD', 'todo', 'bug'],
             extendDefaults: true
           }
         },

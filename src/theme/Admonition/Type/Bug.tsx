@@ -1,15 +1,14 @@
 import React from 'react';
 import clsx from 'clsx';
-import Translate from '@docusaurus/Translate';
-import type { Props } from '@theme/Admonition/Type/Danger';
+import type { Props } from '@theme/Admonition/Type/Tip';
 import AdmonitionLayout from '@theme/Admonition/Layout';
-import ObsoleteIcon from '@site/static/img/annotations/todo.svg';
+import BugIcon from '@site/static/img/annotations/bug.svg';
 
-const infimaClassName = 'alert alert--todo';
+const infimaClassName = 'alert alert--bug';
 
 const defaultProps = {
-    icon: <ObsoleteIcon style={{ color: 'inherit', fill: 'currentColor' }}/>,
-    title: "TODO",
+    icon: <BugIcon style={{ color: 'inherit', fill: 'currentColor' }}/>,
+    title: "BUG",
 };
 
 export default function AdmonitionTypeLegacy(props: Props) {

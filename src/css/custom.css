@@ -141,6 +141,27 @@ html[data-theme='dark'] .alert--todo {
   content: '[NON-FGD]';
 }
 
+/* bug annotation */
+.alert--bug {
+  --ifm-alert-background-color: #ff020238;
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #d13d3d;
+}
+
+html[data-theme='dark'] .alert--bug {
+  --ifm-alert-background-color: #781111;
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(255, 255, 255);
+  --ifm-alert-border-color: #d13d3d;
+}
+
+.bug_item a::before {
+  color: var(--ifm-color-emphasis-300);
+  padding-right: 0.5rem;
+  content: '[BUG]';
+}
+
 @media screen and (max-width: 576px){
   .navbar__title {
     display: none;
