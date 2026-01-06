@@ -150,7 +150,7 @@ html[data-theme='dark'] .alert--todo {
 }
 
 html[data-theme='dark'] .alert--bug {
-  --ifm-alert-background-color: #781111;
+  --ifm-alert-background-color: #601515;
   --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
   --ifm-alert-foreground-color: rgb(255, 255, 255);
   --ifm-alert-border-color: #d13d3d;
