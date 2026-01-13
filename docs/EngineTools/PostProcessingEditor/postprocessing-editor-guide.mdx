@@ -24,7 +24,6 @@ You can also open the Post Processing Editor from the Asset Browser top row.
 
 Using the image above as a legend, the UI is composed of the following:
 
-
 ### 1 - Top Tool Bar
 
 Here you can find the standard menus and actions available in most tools.
@@ -59,7 +58,32 @@ Settings for the currently selected layer. This is where you actually tweak curv
 
 ### 5 - Postprocessing Layers
 
-This is the layer stack for your .vpost. The order matters because layers are applied in stack order (bottom to top -> so bottom layers are applied first), so swapping layers can change the final look. Each layer can also have a mask; masked layers are marked with a small “M” in the list. Masks are explained in the effects page. Furthermore, each layer has a Layer Opacity, which decides how "strongly" the layer is applied. If the Opacity is 100% the layer is applied at full strength.
+This is the layer stack for your `.vpost`.
+
+In general, layer order matters because layers are applied in stack order (bottom --> top). Bottom layers are applied first, so swapping layers can change the final look.
+
+Each layer can also have a mask; masked layers are marked with a small M in the list. Masks are explained in the effects page. Furthermore, each layer has a Layer Opacity, which decides how strongly the layer is applied. If the Opacity is `100%`, the layer is applied at full strength.
+
+:::warning Runtime order + baking of effects
+Not all layers behave like “normal” stack effects.
+
+**At runtime, Source 2 post processing runs in two phases:**
+1) **Tone Mapping + Bloom**
+2) **All other Effects**
+
+### What this means
+- Tone Mapping and Bloom layer order doesn’t matter. They are applied in the dedicated first phase.
+- Only one Tone Mapping layer and one Bloom layer can have an effect.  
+- If you place multiple of either type, the lowest (bottom-most) one wins, and the others are ignored.
+- The order for all other effects does matter and is applied after Tone Mapping + Bloom.
+
+### Why Tone Mapping + Bloom aren’t baked
+Tone Mapping and Bloom depend on the current frame’s brightness (highlights, exposure changes, sky brightness, etc.), so they can't be baked into a static LUT.
+
+### Why you can't recover all settings after compile
+All other layers (Levels / Curves / Color Balance / Hue-Sat / etc.) are effectively baked into a single Color Lookup Table (explained in the Effects section) during build/compile.  
+So after compilation you can only extract the resulting LUT, but you generally cannot reconstruct the original per-layer settings that produced it.
+:::
 
 ## Post Processing Volumes
 
@@ -79,7 +103,7 @@ To apply post-processing to the entire level, create a post-processing volume an
 
 ![master volume](./assets/img/master_volume.jpg)
 
-A master volume can be any shape or size, so many maps place a small cube and use it as a master volume. That way it works similarly to a "global"-affecting entity like the light_environment.
+A master volume can be any shape or size, so many maps place a small cube and use it as a master volume. That way it works similarly to a "global"-affecting entity like the `light_environment`.
 
 The master volume is active by default and remains in effect until the player enters another post-processing volume. When the player leaves that volume, the settings revert back to the master volume.
 

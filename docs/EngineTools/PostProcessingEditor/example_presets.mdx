@@ -8,6 +8,12 @@ sidebar_position: 3
 
 ## Introduction
 
+:::info Disclaimer
+When inspecting Valve’s `.vpost` files, keep in mind that only Bloom and Tone Mapping settings are directly recoverable!  
+All other effects (Levels / Curves / Color Balance / etc.) are baked into a Color Lookup Table (LUT) for efficiency, so you’ll only see the final LUT result rather than the original per-layer settings.  
+(Explained in the Post Processing Editor Guide.)
+:::
+
 ### How to inspect existing `.vpost` files
 
 Use the <Tool name="s2v" link="https://valveresourceformat.github.io/" /> to decompile Valve’s shipped `.vpost` files so you can inspect them (and optionally save them into your addon for editing).
@@ -68,6 +74,8 @@ Uses the **Hable** preset curve.
 
 #### Layer 3: Lookup Table
 
+Baked LUT resulting from all other effects.
+
 ![Layer 3: Lookup Table](assets/img/examples/train_3.jpg)
 
 ---
@@ -108,6 +116,8 @@ Uses the **Hable** preset curve.
 
 #### Layer 3: Lookup Table
 
+Baked LUT resulting from all other effects.
+
 ![Layer 3: Lookup Table](assets/img/examples/inferno_3.jpg)
 
 ---
@@ -147,5 +157,7 @@ Uses the **Hable** preset curve.
 ![Layer 2: Bloom](assets/img/examples/ancient_2.jpg)
 
 #### Layer 3: Lookup Table
+
+Baked LUT resulting from all other effects.
 
 ![Layer 3: Lookup Table](assets/img/examples/ancient_3.jpg)
